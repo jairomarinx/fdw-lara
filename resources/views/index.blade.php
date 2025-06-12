@@ -1251,12 +1251,12 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="d-flex flex-column align-items-center justify-content-center text-center h-100 bg-primary p-5">
-                    <h4 class="text-uppercase text-white mb-4">Our Journal</h4>
-                    <h6 class="text-uppercase text-white">Subscribe to our Journal</h6>
+                    <h4 class="text-uppercase text-white mb-4">Free!</h4>
+                    <h6 class="text-uppercase text-white">Subscribe to our</h6>
                     <p class="text-light"></p>
                     <form action="">
                         <div class="input-group">
-                            <a href="http://fitdonewell.com/contact/" class="btn btn-lg btn-dark">Sign Up</a>
+                            <a href="http://fitdonewell.com/contact/" class="btn btn-lg btn-dark">Life.Reset.Jourmal.</a>
                         </div>
                     </form>
                 </div>

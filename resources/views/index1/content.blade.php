@@ -335,11 +335,28 @@
 
     
 
+<style>
+    .amazon-shop img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        display: block;
+    }
+
+    .amazon-shop .row {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .amazon-shop .col-md-3 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+</style>
 
 
 
-
-    <div class="container-fluid px-0 mt-3 mb-3">
+    <div class="container-fluid px-0 mt-3 mb-3 amazon-shop">
         <div class="mb-5 text-center">
             <h5 class="text-primary text-uppercase fs-2 "><strong>Our Shop in Amazon</strong> </h5>
             <div class="row">
@@ -360,7 +377,7 @@
                 </div>
 
                 <div class="col-md-3">
-                    <a href="https://www.amazon.com/dp/B0DYQRDRYK?ref=cm_sw_r_cso_cp_apin_dp_D2XP34KXT15212N5K7QC&ref_=cm_sw_r_cso_cp_apin_dp_D2XP34KXT15212N5K7QC&social_share=cm_sw_r_cso_cp_apin_dp_D2XP34KXT15212N5K7QC&starsLeft=1">
+                    <a href="https://a.co/d/2suGmx9">
                         <img src="{{ asset('t1/img/amazon8.png?v=2') }}" alt="" class="img-fluid">
                     </a>
                 </div>
@@ -369,6 +386,70 @@
             </div>
         </div>
     </div>
+
+<!-- Nuestros tres pilares de venta   -->
+    <div class="container-fluid p-5" id="id_schedule">
+        <div class="mb-5 text-center">
+            <h5 class="text-primary text-uppercase"></h5>
+            <h1 class="display-3 text-uppercase mb-0">Services.Programs.Products.</h1>
+        </div>
+        <div class="row g-5">
+            <div class="col-lg-4 col-md-6">
+                <div class="team-item position-relative">
+                    <div class="position-relative overflow-hidden rounded">
+                        <img class="img-fluid w-100" src="{{ asset('t1/img/brad-cook.webp') }}" alt="">
+                        <div class="team-overlay">
+                            <div class="d-flex align-items-center justify-content-start">
+                                <a class="btn btn-light btn-square rounded-circle mx-1" href="http://shop.fitdonewell.com"><i class="fas fa-link"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="position-absolute start-0 bottom-0 w-100 rounded-bottom text-center p-4" style="background: rgba(34, 36, 41, .9);">
+                        <a href="http://shop.fitdonewell.com" class="btn btn-primary p-4">Our.Great.Services.</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="team-item position-relative">
+                    <div class="position-relative overflow-hidden rounded">
+                        <img class="img-fluid w-100" src="{{ asset('t1/img/brad-laly.webp') }}" alt="">
+                        <div class="team-overlay">
+                            <div class="d-flex align-items-center justify-content-start">
+                                <a class="btn btn-light btn-square rounded-circle mx-1" href="http://shop.fitdonewell.com"><i class="fas fa-link"></i> </a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="position-absolute start-0 bottom-0 w-100 rounded-bottom text-center p-4" style="background: rgba(34, 36, 41, .9);">
+                        <a href="http://shop.fitdonewell.com" class="btn btn-primary p-4">Our.Awesome.Programs.</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="team-item position-relative">
+                    <div class="position-relative overflow-hidden rounded">
+                        <img class="img-fluid w-100" src="{{ asset('t1/img/laly-band.webp') }}" alt="">
+                        <div class="team-overlay">
+                            <div class="d-flex align-items-center justify-content-start">
+                                <a class="btn btn-light btn-square rounded-circle mx-1" href="http://shop.fitdonewell.com"><i class="fas fa-link"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="position-absolute start-0 bottom-0 w-100 rounded-bottom text-center p-4" style="background: rgba(34, 36, 41, .9);">
+                        <a href="http://shop.fitdonewell.com" class="btn btn-primary p-4">Our.Amazing.Products.</a>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
 
 
 
@@ -596,16 +677,12 @@
                         <img class="img-fluid w-100" src="{{ asset('t1/img/laly-montana.webp') }}" alt="">
                         <div class="team-overlay">
                             <div class="d-flex align-items-center justify-content-start">
-                                <a class="btn btn-light btn-square rounded-circle mx-1" href="tel:+19542264294"><i class="fas fa-phone"></i> </a>
-                                <a class="btn btn-light btn-square rounded-circle mx-1" href="tel:+16025271055"><i class="fas fa-phone"></i> </a>
+                                <a class="btn btn-light btn-square rounded-circle mx-1" href="http://shop.fitdonewell.com"><i class="fas fa-link"></i> </a>
                             </div>
                         </div>
                     </div>
                     <div class="position-absolute start-0 bottom-0 w-100 rounded-bottom text-center p-4" style="background: rgba(34, 36, 41, .9);">
-                        <h5 class="text-uppercase text-primary">Life.Reset.Consultation</h5>
-                        <p class="text-uppercase text-secondary m-0">$199.00</p>
-                        <p class="text-uppercase text-secondary m-0"><i class="fas fa-phone"></i> +1 954-226-4294 +1 602-527-1055</p>
-
+                        <a href="http://shop.fitdonewell.com" class="btn btn-primary p-4">Life.Reset.Consultation</a>
                     </div>
                 </div>
             </div>
@@ -616,34 +693,28 @@
                         <img class="img-fluid w-100" src="{{ asset('t1/img/fitness-consultation.webp') }}" alt="">
                         <div class="team-overlay">
                             <div class="d-flex align-items-center justify-content-start">
-                                <a class="btn btn-light btn-square rounded-circle mx-1" href="tel:+19542264294"><i class="fas fa-phone"></i> </a>
-                                <a class="btn btn-light btn-square rounded-circle mx-1" href="tel:+16025271055"><i class="fas fa-phone"></i> </a>
+                                <a class="btn btn-light btn-square rounded-circle mx-1" href="http://shop.fitdonewell.com"><i class="fas fa-link"></i> </a>
 
                             </div>
                         </div>
                     </div>
                     <div class="position-absolute start-0 bottom-0 w-100 rounded-bottom text-center p-4" style="background: rgba(34, 36, 41, .9);">
-                        <h5 class="text-uppercase text-primary">Fitness.Reset.Consultation.</h5>
-                        <p class="text-uppercase text-secondary m-0">$199.00</p>
-                        <p class="text-uppercase text-secondary m-0"><i class="fas fa-phone"></i> +1 954-226-4294 +1 602-527-1055</p>
+                        <a href="http://shop.fitdonewell.com" class="btn btn-primary p-4">Fitness.Reset.Consultation.</a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="team-item position-relative">
                     <div class="position-relative overflow-hidden rounded">
-                        <img class="img-fluid w-100" src="{{ asset('t1/img/brad-fitness.webp') }}" alt="">
+                        <img class="img-fluid w-100" src="{{ asset('t1/img/brad-cook2.webp') }}" alt="">
                         <div class="team-overlay">
                             <div class="d-flex align-items-center justify-content-start">
-                                <a class="btn btn-light btn-square rounded-circle mx-1" href="tel:+19542264294"><i class="fas fa-phone"></i> </a>
-                                <a class="btn btn-light btn-square rounded-circle mx-1" href="tel:+16025271055"><i class="fas fa-phone"></i> </a>
+                                <a class="btn btn-light btn-square rounded-circle mx-1" href="http://shop.fitdonewell.com"><i class="fas fa-link"></i> </a>
                             </div>
                         </div>
                     </div>
                     <div class="position-absolute start-0 bottom-0 w-100 rounded-bottom text-center p-4" style="background: rgba(34, 36, 41, .9);">
-                        <h5 class="text-uppercase text-primary">Personal.Fitness.Training.</h5>
-                        <p class="text-uppercase text-secondary m-0">$129.00</p>
-                        <p class="text-uppercase text-secondary m-0"><i class="fas fa-phone"></i> +1 954-226-4294 +1 602-527-1055</p>
+                        <a href="http://shop.fitdonewell.com" class="btn btn-primary p-4">NUTRITION.RESET.CONSULTATION.</a>
                     </div>
                 </div>
             </div>
@@ -685,10 +756,8 @@
                             <div class="bg-dark rounded text-center py-3 px-3">
                                 <img src="{{ asset('t1/img/fitness-event.jpg') }}" alt="" class="img-fluid">
                                 <h3 class="text-uppercase text-light mb-3 text-center">
-                                    Mar 15<br>
-                                    Fit4ever Event<br>
-                                    at Glory Gains Gym<br>
-                                    <a href="#" class="btn btn-primary">Sign Up</a>
+                                    
+                                    <a href="http://blog.fitdonewell.com/contact" class="btn btn-primary">Sign Up</a>
                                 </h3>
                                 <p class="text-uppercase text-secondary mb-0"></p>
                             </div>
@@ -700,10 +769,9 @@
                         <div class="col-lg-6 col-md-6 col-sm-12 mx-auto">
                             <div class="bg-dark rounded text-center py-3 px-3">
                                 <img src="{{ asset('t1/img/mindfulness-event.jpg') }}" class="img-fluid" alt="">
-                                <h3 class="text-uppercase text-light mb-3">Mar 09
-                                    <h3 class="text-uppercase text-light">First Tribe Podcast</h3>
-                                    <h3 class="text-uppercase text-light">at Divine Humans Center</h3>
-                                    <h3> <a href="#" class="btn btn-primary">Sign Up</a> </h3>
+                                <h3 class="text-uppercase text-light mb-3">
+                                    <h3 class="text-uppercase text-light"></h3>
+                                    <h3> <a href="http://blog.fitdonewell.com/contact" class="btn btn-primary">Sign Up</a> </h3>
                             </div>
                         </div>
                     </div>
@@ -713,10 +781,8 @@
                         <div class="col-lg-6 col-md-6 col-sm-12 mx-auto">
                             <div class="bg-dark rounded text-center py-3 px-3">
                                 <img src="{{ asset('t1/img/wholeness-event.jpg') }}" class="img-fluid" alt="">
-                                <h3 class="text-uppercase text-light mb-3">April 4 - 5</h3>
-                                <h3 class="text-uppercase text-light "> Revive & Thrive with the Tribe Camping</h3>
-                                <h3 class="text-uppercase text-light "> at Divine Humans Center</h3>
-                                <h3> <a href="#" class="btn btn-primary">Sign Up</a> </h3>
+                                <h3 class="text-uppercase text-light mb-3"></h3>
+                                <h3> <a href="http://blog.fitdonewell.com/contact" class="btn btn-primary">Sign Up</a> </h3>
 
 
                                 <p class="text-uppercase text-secondary mb-0"></p>
@@ -978,6 +1044,7 @@
         </div>
         <div class="row g-5">
             <div class="col-lg-4">
+                <a href="http://blog.fitdonewell.com">
                 <div class="blog-item">
                     <div class="position-relative overflow-hidden rounded-top">
                         <img class="img-fluid" src="{{ asset('t1/img/blog1.webp') }}" alt="">
@@ -991,8 +1058,10 @@
                         <a class="h5 text-uppercase text-light" href="http://blog.fitdonewell.com">Ready for our <span class="text-primary"> Fit.Reset.Secrets.</span>?</h4></a>
                     </div>
                 </div>
+                </a>
             </div>
             <div class="col-lg-4">
+                <a href="http://blog.fitdonewell.com">
                 <div class="blog-item">
                     <div class="position-relative overflow-hidden rounded-top">
                         <img class="img-fluid" src="{{ asset('t1/img/blog2.webp') }}" alt="">
@@ -1006,8 +1075,10 @@
                         <a class="h5 text-uppercase text-light" href="http://blog.fitdonewell.com">Ready for a our <span class="text-primary">Mind.Reset.Secrets.</span>?</h4></a>
                     </div>
                 </div>
+                </a>
             </div>
             <div class="col-lg-4">
+                <a href="http://blog.fitdonewell.com">
                 <div class="blog-item">
                     <div class="position-relative overflow-hidden rounded-top">
                         <img class="img-fluid" src="{{ asset('t1/img/blog3.webp') }}" alt="">
@@ -1021,6 +1092,7 @@
                         <a class="h5 text-uppercase text-light" href="http://blog.fitdonewell.com">Ready for a our <span class="text-primary">Life.Reset.Secrets.?</span></h4></a>
                     </div>
                 </div>
+                </a>
             </div>
         </div>
     </div>

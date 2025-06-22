@@ -9,16 +9,16 @@
 
                     <span class="text-justify">This personalized consultation is designed for those ready to take control of their health with a clear and sustainable approach. Whether you prefer to meet in person at our Scottsdale facility or connect over FaceTime, we’ll explore your lifestyle, energy levels, and goals to build a plan that works for you. We focus on realistic changes that make a real difference over time, helping you feel stronger, healthier, and more balanced. One of our coaches will get in touch within 24 hours to schedule the best time for your consultation</span></span></p>
                     <a class="text-uppercase" href="javascript:void(0);" OnClick="read_more(1)" id="id_read1">Read More <i class="bi bi-arrow-right"></i></a>
-                    <a href="http://shop.fitdonewell.com" class="btn btn-warning d-block text-center mx-auto mt-4">Buy $129.00</a>
+                    <a href="{{ route('checkout-fit-reset-consultation')  }}" class="btn btn-warning d-block text-center mx-auto mt-4">Buy $129.00</a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-justify p-5">
                     <img src="{{ asset('t1/img/services/service-pillar2.webp') }}" class="img-fluid">
-                    <h3 class="text-uppercase my-4 fs-1 text-center">Open Minds</h3>
-                    <p class="text-center text-uppercase"><strong> Nurture Your Mind for Clarity and Growth</strong><br><br></p>
+                    <h3 class="text-uppercase my-4 fs-1 text-center">Personal.Fitness.Training</h3>
+                    <p class="text-center text-uppercase"><strong> Face Time or Scottsdale Facility</strong><br><br></p>
 
-                    <span class="text-justify">At Fit.Done.Well., we understand that a strong mind is the foundation of true wellness. Our programs focus on mental clarity, resilience, and mindfulness to help you navigate life's challenges with confidence. <span class="d-none" id="id_c2">By integrating mental exercises, journaling, and mindful habits into your routine, we empower you to stay focused, positive, and centered. Embrace the power of your mind to unlock endless possibilities for personal growth, and discover how mental strength can elevate your overall well-being. With us, your mind becomes a source of strength, peace, and limitless potential.</span></span><br><br></p>
+                    <span class="text-justify">This is your personalized one-on-one training experience, designed to fit your current level and future goals. Whether we meet over FaceTime or in person at our Scottsdale facility, you’ll receive a custom plan that respects your pace and challenges your limits. We focus on strength, mobility, endurance, and long-term sustainability. Every session is crafted to meet both your physical and mental needs. One of our coaches will reach out within 24 hours to schedule your ideal training time.</span></span><br><br></p>
                     <a class="text-uppercase" href="javascript:void(0);" OnClick="read_more(2)" id="id_read2">Read More <i class="bi bi-arrow-right"></i></a>
                     <a href="http://shop.fitdonewell.com" class="btn btn-warning d-block text-center mx-auto mt-4">MIND.RESET.PROGRAMS.</a>
 

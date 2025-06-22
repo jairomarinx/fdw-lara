@@ -16,7 +16,7 @@ Route::prefix('services')->group(function(){
     Route::get('/',[FitController::class, "index"]);
 });
 
-Route::get('/checkout', [CheckoutController::class, 'show'])->name('checkout');
+Route::get('/checkout-fit-reset-consultation', [CheckoutController::class, 'show'])->name('checkout-fit-reset-consultation');
 Route::post('/checkout/pay', [CheckoutController::class, 'pay'])->name('checkout.pay');
 
 Route::get('/checkout/success', fn() => 'Payment successful!');

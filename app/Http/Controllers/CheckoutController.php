@@ -10,7 +10,7 @@ class CheckoutController extends Controller
 {
      public function show()
     {
-        $amount = 12000; // en centavos (120.00 USD)
+        $amount = 12900; // en centavos (120.00 USD)
         return view('checkout', compact('amount'));
     }
 

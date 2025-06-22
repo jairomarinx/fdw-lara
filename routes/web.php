@@ -17,6 +17,10 @@ Route::prefix('services')->group(function(){
 });
 
 Route::get('/checkout-fit-reset-consultation', [CheckoutController::class, 'show'])->name('checkout-fit-reset-consultation');
+Route::get('/checkout-personal-fitness-training', [CheckoutController::class, 'checkout_personal_fitness_training'])->name('checkout-personal-fitness-training');
+
+
+
 Route::post('/checkout/pay', [CheckoutController::class, 'pay'])->name('checkout.pay');
 
 Route::get('/checkout/success', fn() => 'Payment successful!');

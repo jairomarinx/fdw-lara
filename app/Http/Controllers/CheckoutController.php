@@ -14,6 +14,12 @@ class CheckoutController extends Controller
         return view('checkout', compact('amount'));
     }
 
+    public function checkout_personal_fitness_training()
+    {
+        $amount = 12900; // en centavos (120.00 USD)
+        return view('checkout', compact('amount'));
+    }
+
     public function pay(Request $request)
     {
         $amount = $request->amount;

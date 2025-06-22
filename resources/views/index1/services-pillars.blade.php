@@ -2,7 +2,7 @@
     <div class="container-fluid programe position-relative px-5 mt-5" style="margin-bottom: 135px;">
         <div class="row g-5 gb-5">
             <div class="col-lg-4 col-md-6">
-                <div class="bg-light rounded text-justify p-5">
+                <div class="bg-light rounded text-justify p-5" style="min-height: 1300px;">
                     <img src="{{ asset('t1/img/services/service-pillar1.webp') }}" alt="body" class="img-fluid">
                     <h3 class="text-uppercase my-4 fs-1 text-center">Fit.Reset.Consultation</h3>
                     <p class="text-center text-uppercase"><strong> Face Time or Scottsdale Facility</strong><br><br></p>
@@ -13,26 +13,34 @@
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
-                <div class="bg-light rounded text-justify p-5">
+                <div class="bg-light rounded text-justify p-5" style="min-height: 1300px;">
                     <img src="{{ asset('t1/img/services/service-pillar2.webp') }}" class="img-fluid">
                     <h3 class="text-uppercase my-4 fs-1 text-center">Personal.Fitness.Training</h3>
                     <p class="text-center text-uppercase"><strong> Face Time or Scottsdale Facility</strong><br><br></p>
 
                     <span class="text-justify">This is your personalized one-on-one training experience, designed to fit your current level and future goals. Whether we meet over FaceTime or in person at our Scottsdale facility, you’ll receive a custom plan that respects your pace and challenges your limits. We focus on strength, mobility, endurance, and long-term sustainability. Every session is crafted to meet both your physical and mental needs. One of our coaches will reach out within 24 hours to schedule your ideal training time.</span></span><br><br></p>
                     <a class="text-uppercase" href="javascript:void(0);" OnClick="read_more(2)" id="id_read2">Read More <i class="bi bi-arrow-right"></i></a>
-                    <a href="http://shop.fitdonewell.com" class="btn btn-warning d-block text-center mx-auto mt-4">MIND.RESET.PROGRAMS.</a>
+                       <a href="{{ route('checkout-fit-reset-consultation')  }}" class="btn btn-warning d-block text-center mx-auto mt-4">Buy 1 Session $129.00</a>
+                       <a href="{{ route('checkout-fit-reset-consultation')  }}" class="btn btn-warning d-block text-center mx-auto mt-4">Buy 4 Session $396.00</a>
+
 
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
-                <div class="bg-light rounded text-justify p-5">
+                <div class="bg-light rounded text-justify p-5" style="min-height: 1300px;">
                     <img src="{{ asset('t1/img/services/services-pillar3.webp') }}" class="img-fluid" alt="">
-                    <h3 class="text-uppercase my-4 fs-1 text-center">Kind Hearts</h3>
-                    <p class="text-center text-uppercase"><strong>Elevate Your Spirit with Peace and Purpose</strong> <br><br></p>
+                    <h3 class="text-uppercase my-4 fs-1 text-center">Group.Fitness.Training.</h3>
+                    <p class="text-center text-uppercase"><strong>Scottsdale Facility Mon/Wed/Fri at 9:00 am</strong> <br><br></p>
 
-                    <span class="text-justify">At Fit.Done.Well., we believe that nurturing your spirit is key to a fulfilling life. Our programs focus on fostering inner peace, mindfulness, and a deeper connection to yourself.<br> <span class="d-none" id="id_c3"> Through mindful activities, meditation, and holistic practices, we guide you on a journey to rediscover balance and purpose. By embracing your spirit, you open the door to greater emotional resilience, compassion, and a sense of fulfillment. Let your spirit soar, and experience the transformative power of a connected and grounded self<br><br></span></span><br> </p>
+                    <span class="text-justify">Our small group classes are designed to give you focused coaching in a motivating environment
+We combine strength, mobility, and functional training with real attention to form
+Classes are held at our Scottsdale facility every Monday, Wednesday, and Friday at 9:00 am
+Group sizes stay small so you get personal guidance without the pressure
+All fitness levels are welcome and adjustments are always available
+A coach will contact you within 24 hours to schedule your first session</span></span><br> </p>
                     <a class="text-uppercase" href="javascript:void(0);" OnClick="read_more(3)" id="id_read3">Read More <i class="bi bi-arrow-right"></i></a>
-                    <a href="http://shop.fitdonewell.com" class="btn btn-warning d-block text-center mx-auto mt-4">LIFE.RESET.PROGRAMS.</a>
+                                   <a href="{{ route('checkout-fit-reset-consultation')  }}" class="btn btn-warning d-block text-center mx-auto mt-4">1 month $507.00</a>
+
 
                 </div>
             </div>

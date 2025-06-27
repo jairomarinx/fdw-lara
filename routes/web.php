@@ -25,3 +25,9 @@ Route::post('/checkout/pay', [CheckoutController::class, 'pay'])->name('checkout
 
 Route::get('/checkout/success', fn() => 'Payment successful!');
 Route::get('/checkout/cancel', fn() => 'Payment canceled.');
+
+Route::prefix('programs')->group(function(){
+    Route::get("/mind-program", function (){
+        return view('index1.programs');
+    });
+});

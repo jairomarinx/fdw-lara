@@ -1,0 +1,184 @@
+@php
+    $services = [
+        'OUR.FITNESS.SERVICES.' => [
+            [
+                'title' => 'Fit.Reset.Consultation.',
+                'tag' => 'strong bodies',
+                'subtitle' => 'Face Time or Scottsdale Facility',
+                'description' => 'Celebrate your body… This personalized consultation is designed for those ready to take control of their health with a clear and sustainable approach. One of our coaches will connect with you within 24 hours to define the best schedule.',
+                'prices' => [['label' => 'Pay $129.00', 'route' => 'checkout-fit-reset-consultation']],
+                'image' => 't1/img/services/service-pillar1.webp'
+            ],
+            [
+                'title' => 'Personal.Fitness.Training.',
+                'tag' => 'open minds',
+                'subtitle' => 'Face Time or Scottsdale Facility',
+                'description' => 'Nurture your mind… Fully personalized one-hour session either from the comfort of your home (FaceTime) or at our Scottsdale gym. One of our coaches will contact you within 24 hours to set the best schedule.',
+                'prices' => [
+                    ['label' => '1 Session $129.00', 'route' => 'checkout-personal-fitness-training'],
+                    ['label' => '4 Sessions $396.00', 'route' => 'checkout-personal-fitness-training'],
+                    ['label' => '8 Sessions $792.00', 'route' => 'checkout-personal-fitness-training']
+                ],
+                'image' => 't1/img/services/service-pillar2.webp'
+            ],
+            [
+                'title' => 'Group.Fitness.Training.',
+                'tag' => 'kind hearts',
+                'subtitle' => 'Scottsdale Facility (Mon/Wed/Fri at 9:00 am)',
+                'description' => 'Elevate your… Our small group classes are designed to give you focused coaching in a motivating environment.',
+                'prices' => [['label' => '1 Month $507.00', 'route' => 'checkout-fit-reset-consultation']],
+                'image' => 't1/img/services/services-pillar3.webp'
+            ]
+        ],
+        'OUR.NUTRITIONAL.SERVICES.' => [
+            [
+                'title' => 'Nutrition.Reset.Consultation.',
+                'tag' => 'strong bodies',
+                'subtitle' => 'Face Time or Scottsdale Facility',
+                'description' => 'Celebrate your body… Designed for those ready to reset their nutrition. One of our coaches will connect within 24 hours to define the best schedule.',
+                'prices' => [['label' => 'Pay $129.00', 'route' => 'checkout-fit-reset-consultation']],
+                'image' => 't1/img/services/nu1.webp'
+            ],
+            [
+                'title' => 'Grocery.Reset.Tour.',
+                'tag' => 'open minds',
+                'subtitle' => 'Scottsdale & Phoenix',
+                'description' => 'Nurture your mind… A guided supermarket tour to reset your eating habits and learn to eat with purpose. One of our coaches will contact you within 24 hours.',
+                'prices' => [['label' => 'Pay $199.00', 'route' => 'checkout-fit-reset-consultation']],
+                'image' => 't1/img/services/n2.webp'
+            ],
+            [
+                'title' => 'Weekly.Meal.Prepping.',
+                'tag' => 'kind hearts',
+                'subtitle' => 'Scottsdale & Phoenix',
+                'description' => 'Elevate your… Our meal preps indulge your palate while helping you get in shape.',
+                'prices' => [
+                    ['label' => '5 Meals $60.00', 'route' => 'checkout-fit-reset-consultation'],
+                    ['label' => '10 Meals $100.00', 'route' => 'checkout-fit-reset-consultation'],
+                    ['label' => '15 Meals $120.00', 'route' => 'checkout-fit-reset-consultation']
+                ],
+                'image' => 't1/img/services/n3.webp'
+            ]
+        ],
+        'OUR.MINDFUL.SERVICES.' => [
+            [
+                'title' => 'Life.Reset.Consultation.',
+                'tag' => 'strong bodies',
+                'subtitle' => 'Face Time or Scottsdale Facility',
+                'description' => 'Celebrate your body… A consultation for life clarity and focus. One of our coaches will contact you within 24 hours.',
+                'prices' => [['label' => 'Pay $129.00', 'route' => 'checkout-fit-reset-consultation']],
+                'image' => 't1/img/services/mi1.webp'
+            ],
+            [
+                'title' => 'Sunrise.Life.Reset.',
+                'tag' => 'open minds',
+                'subtitle' => 'Scottsdale Facility',
+                'description' => 'Nurture your mind… Sacred space to heal, design your manifestation map, build habits, and rebirth your best self. Coach will contact you in 24h.',
+                'prices' => [['label' => 'Pay $199.00', 'route' => 'checkout-fit-reset-consultation']],
+                'image' => 't1/img/services/mi2.webp'
+            ],
+            [
+                'title' => 'Life.Reset.Retreats.',
+                'tag' => 'kind hearts',
+                'subtitle' => 'Sedona & Colombia',
+                'description' => 'Elevate your spirit… Multi-day retreats with full-body reset experiences. Coach will confirm dates after payment. Plain tickets not included.',
+                'prices' => [
+                    ['label' => '2 days Sedona $1,200.00', 'route' => 'checkout-fit-reset-consultation'],
+                    ['label' => '5 days Medellin $2,900.00', 'route' => 'checkout-fit-reset-consultation']
+                ],
+                'image' => 't1/img/services/mi3.webp'
+            ]
+        ]
+    ];
+@endphp
+
+@foreach ($services as $sectionTitle => $items)
+    <div class="container-fluid px-5 py-5" style="background-color: #F4F5F8;">
+        <div class="text-center mb-4">
+            <h1 class="display-4 text-uppercase">{{ $sectionTitle }}</h1>
+        </div>
+        <div class="row g-5">
+            @foreach ($items as $item)
+                <div class="col-lg-4 col-md-6">
+                    <div class="bg-white rounded p-4 h-100 d-flex flex-column justify-content-between">
+                        <img src="{{ asset($item['image']) }}" class="img-fluid mb-3" alt="">
+                        <h3 class="text-uppercase text-center fs-3">{{ $item['title'] }}</h3>
+                        <h5 class="text-center text-muted mb-3">{{ $item['tag'] }}</h5>
+                        <p class="text-center fw-bold">{{ $item['subtitle'] }}</p>
+                        <p class="text-justify flex-grow-1">{{ $item['description'] }}</p>
+                        <div class="text-center mt-3">
+                            <a href="#" class="btn btn-outline-dark mb-2">Learn More</a>
+                            @foreach ($item['prices'] as $price)
+                                <a href="{{ route($price['route']) }}" class="btn btn-warning d-block mt-2">{{ $price['label'] }}</a>
+                            @endforeach
+                        </div>
+                    </div>
+                </div>
+            @endforeach
+        </div>
+    </div>
+    <div style="height: 50px; background-color: #222429;"></div>
+@endforeach
+
+<!-- LIFE.RESET.EVENTS -->
+<div class="container-fluid px-5 py-5" style="background-color: #F4F5F8;">
+    <div class="text-center mb-5">
+        <h1 class="display-4 text-uppercase">LIFE.RESET.EVENTS.</h1>
+        <p class="fs-5 text-muted">Unique experiences to reset your Body.Mind.Spirit.</p>
+    </div>
+    <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+            <div class="bg-white rounded h-100 p-4 d-flex flex-column">
+                <img src="{{ asset('t1/img/services/ev1.webp') }}" class="img-fluid mb-3" alt="">
+                <h4 class="text-uppercase">Saturday.Booty.Camp.</h4>
+                <p class="text-muted">Scottsdale</p>
+                <p class="text-justify flex-grow-1">A fun and dynamic class focused on legs, glutes, and abs. Come sweat, laugh, and shape your body with us. Dates TBD based on demand.</p>
+                <a href="#" class="btn btn-outline-dark mb-2">Learn More</a>
+                <a href="{{ route('checkout-fit-reset-consultation') }}" class="btn btn-warning">Pay $29.00</a>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+            <div class="bg-white rounded h-100 p-4 d-flex flex-column">
+                <img src="{{ asset('t1/img/services/ev2.webp') }}" class="img-fluid mb-3" alt="">
+                <h4 class="text-uppercase">Sunrise.Life.Reset.</h4>
+                <p class="text-muted">Scottsdale</p>
+                <p class="text-justify flex-grow-1">Sacred sunrise experience: heal what no longer serves you, design your manifestation map, create habits and discover your balance. Dates TBD.</p>
+                <a href="#" class="btn btn-outline-dark mb-2">Learn More</a>
+                <a href="{{ route('checkout-fit-reset-consultation') }}" class="btn btn-warning">Pay $29.00</a>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+            <div class="bg-white rounded h-100 p-4 d-flex flex-column">
+                <img src="{{ asset('t1/img/services/ev3.webp') }}" class="img-fluid mb-3" alt="">
+                <h4 class="text-uppercase">Kayak.with.Us.</h4>
+                <p class="text-muted">Salt River, Arizona</p>
+                <p class="text-justify flex-grow-1">Kayaking trip through the scenic Salt River! Paddle among wildlife and desert cliffs. Scenic float with sections of swift water. Breakfast picnic included. Dates TBD.</p>
+                <a href="#" class="btn btn-outline-dark mb-2">Learn More</a>
+                <a href="{{ route('checkout-fit-reset-consultation') }}" class="btn btn-warning">Pay $129.00</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div style="height: 50px; background-color: #222429;"></div>
+
+<style>
+    .text-justify {
+        text-align: justify;
+    }
+    .btn-warning {
+        background-color: #FCD804;
+        color: black;
+        border: none;
+    }
+    .btn-outline-dark {
+        border-color: #222429;
+        color: #222429;
+    }
+    .btn-outline-dark:hover {
+        background-color: #222429;
+        color: white;
+    }
+</style>
+

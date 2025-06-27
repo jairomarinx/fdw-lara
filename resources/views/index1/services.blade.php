@@ -30,7 +30,7 @@
 <body>
 @include('index1.header')
 @include('index1.carrousel-services')
-@include('index1.services-pillars')
+@include('index1.services-content')
 @include('index1.footer')
 </body>
 </html>

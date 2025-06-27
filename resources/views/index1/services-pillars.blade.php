@@ -45,6 +45,26 @@ A coach will contact you within 24 hours to schedule your first session</span></
                 </div>
             </div>
 
+            <div class="col-lg-4 col-md-6">
+                <div class="bg-light rounded text-justify p-5" style="min-height: 1300px;">
+                    <img src="{{ asset('t1/img/services/services-pillar3.webp') }}" class="img-fluid" alt="">
+                    <h3 class="text-uppercase my-4 fs-1 text-center">Group.Fitness.Training.</h3>
+                    <p class="text-center text-uppercase"><strong>Scottsdale Facility Mon/Wed/Fri at 9:00 am</strong> <br><br></p>
+
+                    <span class="text-justify">Our small group classes are designed to give you focused coaching in a motivating environment
+We combine strength, mobility, and functional training with real attention to form
+Classes are held at our Scottsdale facility every Monday, Wednesday, and Friday at 9:00 am
+Group sizes stay small so you get personal guidance without the pressure
+All fitness levels are welcome and adjustments are always available
+A coach will contact you within 24 hours to schedule your first session</span></span><br> </p>
+                    <a class="text-uppercase" href="javascript:void(0);" OnClick="read_more(3)" id="id_read3">Read More <i class="bi bi-arrow-right"></i></a>
+                                   <a href="{{ route('checkout-fit-reset-consultation')  }}" class="btn btn-warning d-block text-center mx-auto mt-4">1 month $507.00</a>
+
+
+                </div>
+            </div>
+
+
             <style>
                 .marquee-container {
                     overflow: hidden;

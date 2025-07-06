@@ -5,15 +5,18 @@ use App\Http\Controllers\FitController;
 use App\Http\Controllers\CheckoutController;
 
 Route::get('/', function () {
-    return view('index1.app');
+    return view('index1.home');
 });
 
 Route::get("/services", function (){
     return view('index1.services');
-});
+})->name('route-services');
 
 Route::prefix('services')->group(function(){
     Route::get('/',[FitController::class, "index"]);
+    Route::get('/fitness-reset-consultation-old',[FitController::class,"fitness_reset_consultation"])->name('fitness-reset-consultation');
+    Route::get('/fitness-reset-consultation',[FitController::class, "frc"])->name('frc');
+
 });
 
 Route::get('/checkout-fit-reset-consultation', [CheckoutController::class, 'show'])->name('checkout-fit-reset-consultation');

@@ -29,7 +29,7 @@
 
 <body>
 @include('index1.header')
-@include('index1.content')
+@yield('index1.content')
 @include('index1.footer')
 </body>
 </html>

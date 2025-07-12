@@ -17,4 +17,5 @@
 @include('index1.blog')
 @include('index1.team')
 
+
 @endsection

@@ -21,7 +21,7 @@
                     ['label' => '8 Sessions $792.00', 'route' => 'checkout-personal-fitness-training']
                 ],
                 'image' => 't1/img/services/service-pillar2.webp',
-                'link'  => 'fitness-reset-consultation'
+                'link'  => 'personal-fitness-training'
             ],
             [
                 'title' => 'Group.Fitness.Training.',

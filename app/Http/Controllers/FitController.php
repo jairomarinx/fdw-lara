@@ -31,4 +31,9 @@ class FitController extends Controller
         return view('index1.services.group-fitness-training');
     }
 
+    public function nutrition_reset_consultation(Request $request)
+    {
+        return view('index1.services.nutrition-reset-consultation');
+    }
+
 }

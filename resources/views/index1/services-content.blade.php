@@ -45,7 +45,7 @@ Train hard, feel good, and grow stronger together.',
                 'description' => 'Celebrate your body… Designed for those ready to reset their nutrition. One of our coaches will connect within 24 hours to define the best schedule.',
                 'prices' => [['label' => 'Pay $129.00', 'route' => 'checkout-fit-reset-consultation']],
                 'image' => 't1/img/services/nu1.webp',
-                'link'  => 'fitness-reset-consultation'
+                'link'  => 'nutrition-reset-consultation'
 
             ],
             [

@@ -16,6 +16,7 @@ Route::prefix('services')->group(function(){
     Route::get('/',[FitController::class, "index"]);
     Route::get('/fit-reset-consultation',[FitController::class, "frc"])->name('fitness-reset-consultation');
     Route::get('/personal-fitness-training',[FitController::class,"personal_fitness_training"])->name('personal-fitness-training');
+    Route::get('/group-fitness-training',[FitController::class,"group_fitness_training"])->name('group-fitness-training');
 
 });
 

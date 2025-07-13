@@ -26,4 +26,9 @@ class FitController extends Controller
 
     }
 
+    public function group_fitness_training(Request $request)
+    {
+        return view('index1.services.group-fitness-training');
+    }
+
 }

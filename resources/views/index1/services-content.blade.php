@@ -7,12 +7,12 @@
                 'subtitle' => 'Face Time or Scottsdale Facility',
                 'description' => 'Celebrate your body… This personalized consultation is designed for those ready to take control of their health with a clear and sustainable approach. One of our coaches will connect with you within 24 hours to define the best schedule.',
                 'prices' => [['label' => 'Pay $129.00', 'route' => 'checkout-fit-reset-consultation']],
-                'image' => 't1/img/services/service-pillar1.webp',
+                'image' => 't1/img/services/brad-corey.webp',
                 'link'  => 'fitness-reset-consultation'
             ],
             [
                 'title' => 'Personal.Fitness.Training.',
-                'tag' => 'open minds',
+                'tag' => 'strong bodies',
                 'subtitle' => 'Face Time or Scottsdale Facility',
                 'description' => 'Nurture your mind… Fully personalized one-hour session either from the comfort of your home (FaceTime) or at our Scottsdale gym. One of our coaches will contact you within 24 hours to set the best schedule.',
                 'prices' => [
@@ -25,12 +25,15 @@
             ],
             [
                 'title' => 'Group.Fitness.Training.',
-                'tag' => 'kind hearts',
+                'tag' => 'strong bodies',
                 'subtitle' => 'Scottsdale Facility (Mon/Wed/Fri at 9:00 am)',
-                'description' => 'Elevate your… Our small group classes are designed to give you focused coaching in a motivating environment.',
+                'description' => 'Build strength, confidence, and consistency with expert-led group sessions.
+Enjoy personalized attention without the pressure of going solo.
+Each class blends challenge, support, and real community energy.
+Train hard, feel good, and grow stronger together.',
                 'prices' => [['label' => '1 Month $507.00', 'route' => 'checkout-fit-reset-consultation']],
-                'image' => 't1/img/services/services-pillar3.webp',
-                'link'  => 'fitness-reset-consultation'
+                'image' => 't1/img/services/corey-laly.webp',
+                'link'  => 'group-fitness-training'
 
             ]
         ],

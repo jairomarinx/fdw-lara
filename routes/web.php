@@ -14,8 +14,8 @@ Route::get("/services", function (){
 
 Route::prefix('services')->group(function(){
     Route::get('/',[FitController::class, "index"]);
-    Route::get('/fitness-reset-consultation-old',[FitController::class,"fitness_reset_consultation"])->name('fitness-reset-consultation');
-    Route::get('/fitness-reset-consultation',[FitController::class, "frc"])->name('frc');
+    Route::get('/fit-reset-consultation',[FitController::class, "frc"])->name('fitness-reset-consultation');
+    Route::get('personal-fitness-training',[FitController::class,"personal_fitness_training"])->name('personal-fitness-training');
 
 });
 

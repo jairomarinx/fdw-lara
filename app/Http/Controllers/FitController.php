@@ -20,4 +20,10 @@ class FitController extends Controller
         return view('index1.services.frc');
     }
 
+    public function personal_fitness_training(Request $request)
+    {
+        return view('index1.services.personal-fitness-training');
+
+    }
+
 }

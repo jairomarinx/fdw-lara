@@ -4,18 +4,19 @@
 
 @section('index1.content')
 
-@include('index1.services.hero-services')
+    @include('index1.services.hero-services')
 
-    <div class="mb-5 text-center">
+    <div class="mb-5 text-center mt-5">
         <h5 class="text-primary text-uppercase fs-3"><strong></strong></h5>
         <h1 class="display-3 text-uppercase mb-0">Fit.Reset.Consultation</h1>
-        <h4 class="text-body mb-4">Celebrate Your Body with a 1:1 Fitness Consultation  FaceTime or In Person in Scottsdale</h4>
+        <h4 class="text-body mb-4">Celebrate Your Body with a 1:1 Fitness Consultation FaceTime or In Person in Scottsdale
+        </h4>
 
-        <h5 class="text-gray fs-2"><span class="text-primary"> What you get</span> </h5>
+        <h5 class="text-gray fs-1"><span class="text-primary"> WHAT YOU GET</span> </h5>
 
     </div>
 
-    
+
     <!-- Programe Start -->
     <div class="container-fluid programe position-relative px-5 mt-5" style="margin-bottom: 135px;">
         <div class="row g-5 gb-5">
@@ -23,22 +24,32 @@
                 <div class="bg-light rounded text-justify p-5">
                     <img src="{{ asset('t1/img/services/brad.webp') }}" alt="body" class="img-fluid">
                     <h3 class="text-uppercase my-4 fs-1 text-center">Custom Plan</h3>
-                    <p class="text-center text-uppercase"><strong> A full-body & lifestyle reset plan built just for you</strong><br><br></p>
+                    <p class="text-center text-uppercase"><strong> A full-body & lifestyle reset plan built just for
+                            you</strong><br><br></p>
 
-                    <span class="text-justify">At Fit.Done.Well., we believe your body is a powerful tool that deserves celebration. Our body-focused programs are designed to help you build strength, increase endurance, and achieve your fitness goals in a way that honors your unique capabilities. <span class="d-none" id="id_c1">Whether you're engaging in full-body workouts, leg sessions, or core-focused exercises, every movement is a step toward a healthier, stronger you. With personalized routines, live sessions, and expert guidance, we empower you to embrace your body's potential and unlock its true power. Celebrate your health with every workout and transform your body into a source of confidence and vitality.</span></span></p>
-                    <a class="text-uppercase" href="javascript:void(0);" OnClick="read_more(1)" id="id_read1">Read More <i class="bi bi-arrow-right"></i></a>
-                    <a href="http://shop.fitdonewell.com" class="btn btn-warning d-block text-center mx-auto mt-4">FIT.RESET.PROGRAMS.</a>
+                    <span class="text-justify">Unlock a personalized roadmap that fits your unique goals, lifestyle, and schedule.
+We evaluate your current habits, fitness level, and barriers, and craft a realistic, empowering plan.
+No fluff. No one size fits all. Just a blueprint tailored to help you thrive.
+Start strong with structure that supports your long-term success.</span>
+
+                    <a href="{{ route('checkout-fit-reset-consultation') }}"
+                        class="btn btn-warning d-block text-center mx-auto mt-4">Book your consultation!</a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-justify p-5">
                     <img src="{{ asset('t1/img/brad-mind.jpg') }}" class="img-fluid">
                     <h3 class="text-uppercase my-4 fs-1 text-center">Action Steps</h3>
-                    <p class="text-center text-uppercase"><strong> Clear, motivating steps to restart your fitness journey</strong><br><br></p>
+                    <p class="text-center text-uppercase"><strong> Clear, motivating steps to restart your fitness
+                            journey</strong><br><br></p>
 
-                    <span class="text-justify">At Fit.Done.Well., we understand that a strong mind is the foundation of true wellness. Our programs focus on mental clarity, resilience, and mindfulness to help you navigate life's challenges with confidence. <span class="d-none" id="id_c2">By integrating mental exercises, journaling, and mindful habits into your routine, we empower you to stay focused, positive, and centered. Embrace the power of your mind to unlock endless possibilities for personal growth, and discover how mental strength can elevate your overall well-being. With us, your mind becomes a source of strength, peace, and limitless potential.</span></span><br><br></p>
-                    <a class="text-uppercase" href="javascript:void(0);" OnClick="read_more(2)" id="id_read2">Read More <i class="bi bi-arrow-right"></i></a>
-                    <a href="http://shop.fitdonewell.com" class="btn btn-warning d-block text-center mx-auto mt-4">MIND.RESET.PROGRAMS.</a>
+                    <span class="text-justify">Get easy-to-follow, bite-sized steps you can start today with no guesswork.
+We break down your reset into manageable actions that build momentum.
+Every step is designed to spark motivation, discipline, and daily wins.
+You’ll leave with a clear sense of direction and a plan you’ll actually follow.</span><br><br></p>
+
+                    <a href="{{ route('checkout-fit-reset-consultation') }}"
+                        class="btn btn-warning d-block text-center mx-auto mt-4">Book your consultation!</a>
 
                 </div>
             </div>
@@ -46,11 +57,16 @@
                 <div class="bg-light rounded text-justify p-5">
                     <img src="{{ asset('t1/img/spirit.jpg') }}" class="img-fluid" alt="">
                     <h3 class="text-uppercase my-4 fs-1 text-center">Mind Shift</h3>
-                    <p class="text-center text-uppercase"><strong>A renewed mindset to finally prioritize your health</strong> <br><br></p>
+                    <p class="text-center text-uppercase"><strong>A renewed mindset to finally prioritize your
+                            health</strong> <br><br></p>
 
-                    <span class="text-justify">At Fit.Done.Well., we believe that nurturing your spirit is key to a fulfilling life. Our programs focus on fostering inner peace, mindfulness, and a deeper connection to yourself.<br> <span class="d-none" id="id_c3"> Through mindful activities, meditation, and holistic practices, we guide you on a journey to rediscover balance and purpose. By embracing your spirit, you open the door to greater emotional resilience, compassion, and a sense of fulfillment. Let your spirit soar, and experience the transformative power of a connected and grounded self<br><br></span></span><br> </p>
-                    <a class="text-uppercase" href="javascript:void(0);" OnClick="read_more(3)" id="id_read3">Read More <i class="bi bi-arrow-right"></i></a>
-                    <a href="http://shop.fitdonewell.com" class="btn btn-warning d-block text-center mx-auto mt-4">LIFE.RESET.PROGRAMS.</a>
+                    <span class="text-justify">This isn’t just about workouts. It’s about how you see your health.
+We help you reframe old habits, release guilt, and embrace self-respect.
+Expect honest conversation, mindset tools, and support to stay on track.<br>
+You’ll walk away ready to put your wellness first, without apology.</span><br><br> 
+
+                    <a href="{{ route('checkout-fit-reset-consultation') }}"
+                        class="btn btn-warning d-block text-center mx-auto mt-4">Book your consultation!</a>
 
                 </div>
             </div>
@@ -97,5 +113,21 @@
     </div>
     <!-- Programe Start -->
 
+@include('index1.testimonials')
+
+
+<div class="text-center" style="background-color: #FDD709; padding: 4rem 2rem; border-radius: 2rem; box-shadow: 0 0 30px rgba(0,0,0,0.2); margin-top: 4rem;">
+  <h2 class="fw-bold mb-3 text-black display-5">Ready for Your Fitness Reset?</h2>
+  <p class="fs-4 mb-5 text-dark">
+    Book your 1:1 Fitness Consultation for only <strong class="text-primary">$129</strong><br>
+    <span class="fw-semibold">Only 10 spots available per week</span>
+  </p>
+  <a href="/checkout-fit-reset-consultation"
+     class="btn fw-bold"
+     style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.2rem 3rem; border-radius: 2rem;">
+    Book Now for $129
+  </a>
+</div>
+</div>
 
 @endsection

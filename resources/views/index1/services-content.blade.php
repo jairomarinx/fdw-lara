@@ -44,23 +44,23 @@ Train hard, feel good, and grow stronger together.',
                 'subtitle' => 'Face Time or Scottsdale Facility',
                 'description' => 'Celebrate your body… Designed for those ready to reset their nutrition. One of our coaches will connect within 24 hours to define the best schedule.',
                 'prices' => [['label' => 'Pay $129.00', 'route' => 'checkout-fit-reset-consultation']],
-                'image' => 't1/img/services/nu1.webp',
+                'image' => 't1/img/services/brad-recipe2.webp',
                 'link'  => 'nutrition-reset-consultation'
 
             ],
             [
                 'title' => 'Grocery.Reset.Tour.',
-                'tag' => 'open minds',
+                'tag' => 'strong bodies',
                 'subtitle' => 'Scottsdale & Phoenix',
                 'description' => 'Nurture your mind… A guided supermarket tour to reset your eating habits and learn to eat with purpose. One of our coaches will contact you within 24 hours.',
                 'prices' => [['label' => 'Pay $199.00', 'route' => 'checkout-fit-reset-consultation']],
-                'image' => 't1/img/services/n2.webp',
-                'link'  => 'fitness-reset-consultation'
+                'image' => 't1/img/services/grocery1.webp',
+                'link'  => 'grocery-reset-tour'
 
             ],
             [
                 'title' => 'Weekly.Meal.Prepping.',
-                'tag' => 'kind hearts',
+                'tag' => 'strong bodies',
                 'subtitle' => 'Scottsdale & Phoenix',
                 'description' => 'Elevate your… Our meal preps indulge your palate while helping you get in shape.',
                 'prices' => [
@@ -69,19 +69,19 @@ Train hard, feel good, and grow stronger together.',
                     ['label' => '15 Meals $120.00', 'route' => 'checkout-fit-reset-consultation']
                 ],
                 'image' => 't1/img/services/n3.webp',
-                'link'  => 'fitness-reset-consultation'
+                'link'  => 'weekly-meal-prepping'
 
             ]
         ],
         'OUR.MINDFUL.SERVICES.' => [
             [
                 'title' => 'Life.Reset.Consultation.',
-                'tag' => 'strong bodies',
+                'tag' => 'Open Minds',
                 'subtitle' => 'Face Time or Scottsdale Facility',
                 'description' => 'Celebrate your body… A consultation for life clarity and focus. One of our coaches will contact you within 24 hours.',
                 'prices' => [['label' => 'Pay $129.00', 'route' => 'checkout-fit-reset-consultation']],
-                'image' => 't1/img/services/mi1.webp',
-                'link'  => 'fitness-reset-consultation'
+                'image' => 't1/img/services/m2.webp',
+                'link'  => 'life-reset-consultation'
 
             ],
             [

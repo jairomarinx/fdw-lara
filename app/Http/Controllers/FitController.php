@@ -36,4 +36,21 @@ class FitController extends Controller
         return view('index1.services.nutrition-reset-consultation');
     }
 
+    public function grocery_reset_tour()
+    {
+        return view('index1.services.grocery-reset-tour');
+
+    }
+
+    public function weekly_meal_prepping()
+    {
+        return view('index1.services.weekly-meal-prepping');
+    }
+
+    public function life_reset_consultation()
+    {
+        return view('index1.services.life-reset-consultation');
+
+    }
+
 }

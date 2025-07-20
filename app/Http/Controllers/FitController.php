@@ -53,4 +53,27 @@ class FitController extends Controller
 
     }
 
+    public function sunrise_life_reset()
+    {
+        return view('index1.services.sunrise-life-reset');
+    }
+
+    public function life_reset_retreats()
+    {
+        return view('index1.services.life-reset-retreats');
+    }
+
+    public function saturday_booty_camp()
+    {
+        return view('index1.services.saturday-booty-camp');
+    }
+
+    public function kayak_with_us()
+    {
+        return view('index1.services.kayak-with-us');
+
+    }
+
+
+
 }

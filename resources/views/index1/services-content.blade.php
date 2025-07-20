@@ -91,7 +91,7 @@ Train hard, feel good, and grow stronger together.',
                 'description' => 'Nurture your mind… Sacred space to heal, design your manifestation map, build habits, and rebirth your best self. Coach will contact you in 24h.',
                 'prices' => [['label' => 'Pay $199.00', 'route' => 'checkout-fit-reset-consultation']],
                 'image' => 't1/img/services/mi2.webp',
-                'link'  => 'fitness-reset-consultation'
+                'link'  => 'sunrise-life-reset'
 
             ],
             [
@@ -104,7 +104,7 @@ Train hard, feel good, and grow stronger together.',
                     ['label' => '5 days Medellin $2,900.00', 'route' => 'checkout-fit-reset-consultation']
                 ],
                 'image' => 't1/img/services/mi3.webp',
-                'link'  => 'fitness-reset-consultation'
+                'link'  => 'life-reset-retreats'
 
             ]
         ]
@@ -152,7 +152,7 @@ Train hard, feel good, and grow stronger together.',
                 <h4 class="text-uppercase">Saturday.Booty.Camp.</h4>
                 <p class="text-muted">Scottsdale</p>
                 <p class="text-justify flex-grow-1">A fun and dynamic class focused on legs, glutes, and abs. Come sweat, laugh, and shape your body with us. Dates TBD based on demand.</p>
-                <a href="#" class="btn btn-outline-dark mb-2">Learn More</a>
+                <a href="{{ route('saturday-booty-camp') }}" class="btn btn-outline-dark mb-2">Learn More</a>
                 <a href="{{ route('checkout-fit-reset-consultation') }}" class="btn btn-warning">Pay $29.00</a>
             </div>
         </div>
@@ -163,8 +163,8 @@ Train hard, feel good, and grow stronger together.',
                 <h4 class="text-uppercase">Sunrise.Life.Reset.</h4>
                 <p class="text-muted">Scottsdale</p>
                 <p class="text-justify flex-grow-1">Sacred sunrise experience: heal what no longer serves you, design your manifestation map, create habits and discover your balance. Dates TBD.</p>
-                <a href="#" class="btn btn-outline-dark mb-2">Learn More</a>
-                <a href="{{ route('checkout-fit-reset-consultation') }}" class="btn btn-warning">Pay $29.00</a>
+                <a href="{{ route('sunrise-life-reset') }}" class="btn btn-outline-dark mb-2">Learn More</a>
+                <a href="{{ route('checkout-fit-reset-consultation') }}" class="btn btn-warning">Pay $129.00</a>
             </div>
         </div>
 
@@ -174,7 +174,7 @@ Train hard, feel good, and grow stronger together.',
                 <h4 class="text-uppercase">Kayak.with.Us.</h4>
                 <p class="text-muted">Salt River, Arizona</p>
                 <p class="text-justify flex-grow-1">Kayaking trip through the scenic Salt River! Paddle among wildlife and desert cliffs. Scenic float with sections of swift water. Breakfast picnic included. Dates TBD.</p>
-                <a href="#" class="btn btn-outline-dark mb-2">Learn More</a>
+                <a href="{{ route('kayak-with-us') }}" class="btn btn-outline-dark mb-2">Learn More</a>
                 <a href="{{ route('checkout-fit-reset-consultation') }}" class="btn btn-warning">Pay $129.00</a>
             </div>
         </div>

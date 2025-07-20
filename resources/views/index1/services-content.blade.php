@@ -90,7 +90,7 @@ Train hard, feel good, and grow stronger together.',
                 'subtitle' => 'Scottsdale Facility',
                 'description' => 'Nurture your mind… Sacred space to heal, design your manifestation map, build habits, and rebirth your best self. Coach will contact you in 24h.',
                 'prices' => [['label' => 'Pay $199.00', 'route' => 'checkout-fit-reset-consultation']],
-                'image' => 't1/img/services/mi2.webp',
+                'image' => 't1/img/services/sunrise1.webp',
                 'link'  => 'sunrise-life-reset'
 
             ],
@@ -103,7 +103,7 @@ Train hard, feel good, and grow stronger together.',
                     ['label' => '2 days Sedona $1,200.00', 'route' => 'checkout-fit-reset-consultation'],
                     ['label' => '5 days Medellin $2,900.00', 'route' => 'checkout-fit-reset-consultation']
                 ],
-                'image' => 't1/img/services/mi3.webp',
+                'image' => 't1/img/services/sedona.webp',
                 'link'  => 'life-reset-retreats'
 
             ]

@@ -5,7 +5,7 @@
 @section('index1.content')
 
     @include('index1.services.hero-services', [
-        'hero_image'=>'t1/img/services/brad-recipe3.webp',
+        'hero_image'=>'t1/img/services/lalym2.webp',
         'h1_title' => 'Life.Reset.Consultation',
         'h2_subtitle' => 'Open Minds. Clear Path. Better Priorities.'
     ])
@@ -22,7 +22,7 @@
         <div class="row g-5 gb-5">
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-justify p-5">
-                    <img src="{{ asset('t1/img/services/w1.webp') }}" alt="plan" class="img-fluid">
+                    <img src="{{ asset('t1/img/services/lalycorey2.webp') }}" alt="plan" class="img-fluid">
                     <h3 class="text-uppercase my-4 fs-1 text-center">Personal Insight</h3>
                     <p class="text-center text-uppercase"><strong>Step back, reflect, and reconnect with what matters</strong><br><br></p>
                     <span class="text-justify">
@@ -37,7 +37,7 @@ This is a starting point for realignment and progress.
 
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-justify p-5">
-                    <img src="{{ asset('t1/img/services/w2.webp')  }}" class="img-fluid">
+                    <img src="{{ asset('t1/img/services/brad-sun.webp')  }}" class="img-fluid">
                     <h3 class="text-uppercase my-4 fs-1 text-center">Focused Tools</h3>
                     <p class="text-center text-uppercase"><strong>Gain structure and guidance for your next steps</strong><br><br></p>
                     <span class="text-justify">
@@ -52,7 +52,7 @@ Nothing overwhelming, just what moves you forward.
 
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-justify p-5">
-                    <img src="{{ asset('t1/img/services/w3.webp')  }}" class="img-fluid" alt="">
+                    <img src="{{ asset('t1/img/services/laly3.webp')  }}" class="img-fluid" alt="">
                     <h3 class="text-uppercase my-4 fs-1 text-center">Mental Clarity</h3>
                     <p class="text-center text-uppercase"><strong>Feel grounded, clear, and empowered to move forward</strong><br><br></p>
                     <span class="text-justify">

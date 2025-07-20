@@ -5,7 +5,7 @@
 @section('index1.content')
 
     @include('index1.services.hero-services', [
-        'hero_image'=>'t1/img/services/brad-recipe3.webp',
+        'hero_image'=>'t1/img/services/kayakhoriz.webp',
         'h1_title' => 'Kayak.with.Us.',
         'h2_subtitle' => 'Kind Hearts. River Flow. Nature Energy.'
     ])
@@ -22,7 +22,7 @@
         <div class="row g-5 gb-5">
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-justify p-5">
-                    <img src="{{ asset('t1/img/services/w1.webp') }}" alt="plan" class="img-fluid">
+                    <img src="{{ asset('t1/img/services/kayak3.webp') }}" alt="plan" class="img-fluid">
                     <h3 class="text-uppercase my-4 fs-1 text-center">River Adventure</h3>
                     <p class="text-center text-uppercase"><strong>Paddle, float, and reconnect with nature</strong><br><br></p>
                     <span class="text-justify">
@@ -37,7 +37,7 @@ Let nature reset your energy.
 
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-justify p-5">
-                    <img src="{{ asset('t1/img/services/w2.webp')  }}" class="img-fluid">
+                    <img src="{{ asset('t1/img/services/k3.webp')  }}" class="img-fluid">
                     <h3 class="text-uppercase my-4 fs-1 text-center">Scenic Beauty</h3>
                     <p class="text-center text-uppercase"><strong>Wildlife, landscapes, and peaceful movement</strong><br><br></p>
                     <span class="text-justify">
@@ -52,7 +52,7 @@ You will not forget this view or this feeling.
 
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-justify p-5">
-                    <img src="{{ asset('t1/img/services/w3.webp')  }}" class="img-fluid" alt="">
+                    <img src="{{ asset('t1/img/services/kayak4.webp')  }}" class="img-fluid" alt="">
                     <h3 class="text-uppercase my-4 fs-1 text-center">Breakfast Picnic</h3>
                     <p class="text-center text-uppercase"><strong>Fuel up with good food and great company</strong><br><br></p>
                     <span class="text-justify">

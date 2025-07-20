@@ -5,7 +5,7 @@
 @section('index1.content')
 
     @include('index1.services.hero-services', [
-        'hero_image'=>'t1/img/services/brad-recipe3.webp',
+        'hero_image'=>'t1/img/services/r1.webp',
         'h1_title' => 'Life.Reset.Retreats',
         'h2_subtitle' => 'Kind Hearts. Deep Reset. Lasting Change.'
     ])
@@ -22,7 +22,7 @@
         <div class="row g-5 gb-5">
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-justify p-5">
-                    <img src="{{ asset('t1/img/services/w1.webp') }}" alt="plan" class="img-fluid">
+                    <img src="{{ asset('t1/img/services/r2.webp') }}" alt="plan" class="img-fluid">
                     <h3 class="text-uppercase my-4 fs-1 text-center">Immersive Setting</h3>
                     <p class="text-center text-uppercase"><strong>Step away from routine and into transformation</strong><br><br></p>
                     <span class="text-justify">
@@ -37,7 +37,7 @@ This is your space to reset fully.
 
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-justify p-5">
-                    <img src="{{ asset('t1/img/services/w2.webp')  }}" class="img-fluid">
+                    <img src="{{ asset('t1/img/services/s1.webp')  }}" class="img-fluid">
                     <h3 class="text-uppercase my-4 fs-1 text-center">Transformative Practices</h3>
                     <p class="text-center text-uppercase"><strong>Mindful tools and movement to awaken your energy</strong><br><br></p>
                     <span class="text-justify">
@@ -52,7 +52,7 @@ This is change you can feel.
 
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-justify p-5">
-                    <img src="{{ asset('t1/img/services/w3.webp')  }}" class="img-fluid" alt="">
+                    <img src="{{ asset('t1/img/services/s4.webp')  }}" class="img-fluid" alt="">
                     <h3 class="text-uppercase my-4 fs-1 text-center">Lasting Impact</h3>
                     <p class="text-center text-uppercase"><strong>Return home renewed, grounded, and connected</strong><br><br></p>
                     <span class="text-justify">

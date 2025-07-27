@@ -98,7 +98,7 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <div class="d-flex  flex-column flex-lg-row align-items-center">
-                <ul class="navbar-nav  ">
+                <ul class="navbar-nav  d-none">
                   <li class="nav-item active">
                     <a class="nav-link" href="http://fitdonewell.com">Home <span class="sr-only">(current)</span></a>
                   </li>
@@ -259,7 +259,7 @@ Mindfulness.Morning.Habits. is a habit-based path toward emotional clarity and i
 
   <!-- service section -->
 
-  <section class="service_section layout_padding">
+  <section class="service_section layout_padding d-none">
     <div class="container">
       <div class="heading_container">
         <h2>

@@ -9,7 +9,7 @@
                             <div class="cuadro-laly">
                                 <h5 class="text-white text-uppercase">Fit.Done.Well.</h5>
                                 <h1 class="display-2 text-white mb-md-4 fs-1 text-uppercase">Fitness - MindFulNess - Wholeness</h1>
-                                <a href="https://blog.fitdonewell.com/contact" class="btn btn-primary bg-white py-md-3 px-md-5 me-3">Join Us</a>
+                                <a href="https://blog.fitdonewell.com/contact" class="btn btn-primary bg-primary py-md-3 px-md-5 me-3" style="font-size: 20px;" >Join Us</a>
                             </div>
                         </div>
                     </div>
@@ -21,7 +21,7 @@
                             <div class="cuadro-laly">
                                 <h5 class="text-white text-uppercase">Fitness</h5>
                                 <h1 class="display-2 text-white text-uppercase mb-md-4 fs-1 d-none">Fit.Reset.Program.</h1>
-                                <a href="https://shop.fitdonewell.com/" class="btn btn-primary py-md-3 px-md-5 me-3">Fit.Reset.Program.</a>
+                                <a href="https://shop.fitdonewell.com/" class="btn btn-primary py-md-3 px-md-5 me-3" style="font-size: 20px;">Fit.Reset.Program.</a>
                             </div>
                         </div>
                     </div>
@@ -33,7 +33,7 @@
                             <div class="cuadro-laly">
                                 <h5 class="text-white text-uppercase">MindFulness</h5>
                                 <h1 class="display-2 text-white text-uppercase mb-md-4 fs-1 d-none">Mind.Reset.Program.</h1>
-                                <a href="https://shop.fitdonewell.com/contact" class="btn btn-primary py-md-3 px-md-5 me-3">Mind.Reset.Program.</a>
+                                <a href="https://shop.fitdonewell.com/contact" class="btn btn-primary py-md-3 px-md-5 me-3" style="font-size: 20px;">Mind.Reset.Program.</a>
                             </div>
                         </div>
                     </div>

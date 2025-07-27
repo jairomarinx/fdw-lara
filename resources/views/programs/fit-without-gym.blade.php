@@ -804,9 +804,9 @@
 
       // 2) Definimos aquí los tres fondos que quieres para cada slide (ajusta rutas si es necesario)
       var backgrounds = [
-        'url(http://fitdonewell.lara/fitwithoutgym/images/m1.webp)',
-        'url(http://fitdonewell.lara/fitwithoutgym/images/m2.webp)',
-        'url(http://fitdonewell.lara/fitwithoutgym/images/m3.png)'
+        'url(http://fitdonewell.com/fitwithoutgym/images/m1.webp)',
+        'url(http://fitdonewell.com/fitwithoutgym/images/m2.webp)',
+        'url(http://fitdonewell.com/fitwithoutgym/images/m3.png)'
       ];
 
       // 3) Asignamos el fondo inicial (índice 0)

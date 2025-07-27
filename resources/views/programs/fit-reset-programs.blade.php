@@ -341,10 +341,10 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-6">
                     <div class="trainer-item">
                         <div class="image-thumb">
-                            <img src="assets/images/first-trainer.jpg" alt="">
+                            <a href="{{ route('fit-without-gym') }}"><img src="{{ asset('fitwithoutgym/images/j2.webp') }}" alt=""></a>
                         </div>
                         <div class="down-content">
                             <h4>Fit.Without.Gym.</h4>
@@ -379,7 +379,7 @@
                 <div class="col-lg-4">
                     <div class="trainer-item d-none">
                         <div class="image-thumb">
-                            <img src="assets/images/third-trainer.jpg" alt="">
+                            <img src="{{ asset('fitwithoutgym/images/j2.webp') }}" alt="">
                         </div>
                         <div class="down-content d-none">
                             <span>Mindfulness Coach</span>
@@ -400,7 +400,7 @@
     <!-- ***** Trainers Ends ***** -->
     
     <!-- ***** Contact Us Area Starts ***** -->
-    <section class="section" id="contact-us">
+    <section class="section d-none" id="contact-us">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-xs-12">

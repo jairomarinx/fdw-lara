@@ -6,7 +6,7 @@ use App\Http\Controllers\CheckoutController;
 
 Route::get('/', function () {
     return view('index1.home');
-});
+})->name('root');
 
 Route::get("/services", function (){
     return view('index1.services');
@@ -26,6 +26,11 @@ Route::prefix('services')->group(function(){
     Route::get('/saturday-booty-camp',[FitController::class,"saturday_booty_camp"])->name('saturday-booty-camp');
     Route::get('/kayak-with-us',[FitController::class,"kayak_with_us"])->name('kayak-with-us');
 });
+
+Route::prefix('programs')->group(function(){
+    Route::get('/fit-without-gym',[FitController::class, "fit_without_gym"])->name('fit-without-gym');
+});
+
 
 Route::get('/checkout-fit-reset-consultation', [CheckoutController::class, 'show'])->name('checkout-fit-reset-consultation');
 Route::get('/checkout-personal-fitness-training', [CheckoutController::class, 'checkout_personal_fitness_training'])->name('checkout-personal-fitness-training');

@@ -74,6 +74,11 @@ class FitController extends Controller
 
     }
 
+    public function fit_without_gym()
+    {
+        return view('programs.fit-without-gym');
+    }
+
 
 
 }

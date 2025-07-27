@@ -79,6 +79,12 @@ class FitController extends Controller
         return view('programs.fit-without-gym');
     }
 
+    public function mindfulness_morning_habits()
+    {
+        return view('programs.mindfulness-morning-habits');
+
+    }
+
 
 
 }

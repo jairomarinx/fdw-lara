@@ -127,13 +127,13 @@
                   <div class="col-lg-6 col-md-7 offset-md-6 offset-md-5">
                     <div class="detail-box jcaption">
                       <h2 style="white-space:nowrap;">
-                        Fit.Without.gym.
+                        Mind.Your.Mind.
                       </h2>
                       <h1 style="white-space:nowrap;">
-                        Fit.without.gym.
+                        Mindfulness.Morning.Habits.
                       </h1>
                       <p>
-                        Stronger, leaner, fitter.<br> All from the comfort of your home.
+                        Do you crave transformation? Start your mornings grounded in purpose, gratitude, and joy.
                       </p>
                       <a href="http://shop.fitdonewell.com" class="btn btn-warning px-4 py-2 text-white">Shop Now</a>
                     </div>
@@ -153,8 +153,7 @@
                         Fit.Without.Gym
                       </h1>
                       <p>
-                        Fit without stepping outside.<br>
-                        Train smart, move better, feel amazing.
+                       Learn to Embrace the Now and Manage Your Mind Each Morning
 
 
                       </p>
@@ -171,14 +170,13 @@
                   <div class="col-lg-6 col-md-7 offset-md-6 offset-md-5">
                     <div class="detail-box">
                       <h2>
-                        No Gym Needed
+                        Mind.Your.Mind.
                       </h2>
                       <h1 style="white-space:nowrap;">
-                        Fit.Without.Gym
+                        Mindfulness.Morning.Habits.
                       </h1>
                       <p>
-                        Stronger at home.<br>
-                        No gym memberships, no stress, just pure progress.
+                        Do you crave transformation? Start your mornings grounded in purpose, gratitude, and joy.
                       </p>
                       <a href="shop.fitdonewell.com" class="btn btn-warning px-4 py-2 text-white">Shop Now</a>
 
@@ -201,7 +199,7 @@
     <div class="container">
       <div class="heading_container">
         <h2>
-          About Fit.Without.Gym.
+          About Mindfulness.Morning.Habits.
         </h2>
       </div>
       <div class="box">
@@ -209,65 +207,44 @@
           <img src="images/fwg.png" alt="">
         </div>
         <div class="detail-box">
-          <h2 class="text-center text-bold">Discover Fit.Without.Gym:<br>Your New Way to Transform<br>Your Body from
-            Home</h2>
+          <h2 class="text-center text-bold">Learn to Embrace the Now and Manage Your Mind Each Morning</h2>
           <p></p>
           <p class="text-justify">
-            Imagine getting in shape, feeling energized, and looking amazing, <strong> all without ever stepping into a
-              gym!<br><br></strong>
-            It is not just possible, it is simple, fun, and completely within your reach.<br><br>
-            <span class="text-warning">Fit.Without.Gym</span> is the breakthrough program designed for real people with
-            real lives. No expensive machines, no crowded gyms, no confusing routines.
-            With over <span class="font-weight-bold"> 12 full guided workout videos</span>, expert motivation, and
-            easy-to-follow plans, you will have <span class="font-weight-bold"> everything you need </span> to start
-            your transformation today, right from the comfort of your home.<br><br>
+            Mindfulness is the greatest tool to consciously manage balance and happiness.
 
-            Whether you are just starting your fitness journey or looking to reignite your passion for movement,
-            Fit.Without.Gym adapts to your needs, your pace, and your space.
+This program is designed to guide you into presence, kindness, and daily gratitude. Not by effort, but by awareness.
+
+Mindfulness.Morning.Habits. is a habit-based path toward emotional clarity and inner joy.
+
           </p>
 
-          <p class="text-left font-weight-bold">✨ Here is what you will get inside Fit.Without.Gym:</p>
+          <p class="text-left font-weight-bold">✨ What you will get</p>
           <ul class="text-left list-unstyled pl-5">
-            <li>🎥 7 Guided Workout Videos for each day of the week, that are clear, energetic, and designed to keep you
-              moving at your best.</li>
-            <li>😋5 Easy, Healthy and Delicious recipes for lunch & dinner of week days, to enjoy while learning about
-              Clean and Nutritional Habits.</li>
-            <li>🔥 Free access to our Life.Reset.Journal. to keep you informed, motivated and consistent, building
-              unstoppable wellness habits.</li>
-            <li>🤑20% off on all our.amazing.products. that will help you add resistance to your Home Workouts.</li>
-            <li>🏡 Home-Friendly Routines that require no special equipment, just your willpower.🕒 Flexible Scheduling
-              so you can train on your time and around your life with short yet effective sessions.</li>
-            <li>💪 Strength, Stamina, and Balance Focus to deliver a complete and sustainable body transformation.</li>
-            <li>😃 Real Happiness and Confidence as you feel better inside and out while achieving each new goal</li>
+            <li>7 short video practices to guide your mornings with calm presence.</li>
+            <li>Reflections and quotes to inspire gratitude and clarity.</li>
+            <li>Free access to the Life.Reset.Journal to support consistency and self-awareness.</li>
+            <li>Visuals and sounds of nature to elevate your state of mind.</li>
+            <li>Practical tools to integrate mindfulness into your daily routine.</li>
           </ul>
           <p></p>
-          <p class="text-left font-weight-bold">✨ Why Fit.Without.Gym?</p><br>
+          <p class="text-left font-weight-bold">✨ Why Mindfulness?</p><br>
           <p class="text-justify">
-            Fit.Without.Gym is not just a workout program, it is your chance to take control of your health, your
-            energy, and your happiness with no limits. Every video, every session, and every small step are designed to
-            move you closer to a stronger body, a sharper mind, and a lighter, happier life.
+            Because being productive is not the same as being joyful. We've been trained to achieve, not to feel. This is your reset.
+
           </p>
           <p class="text-left">
           <ul class="text-left">
-            <li>You do not need to be "fit enough" to start.</li>
-            <li>You do not need fancy equipment.</li>
-            <li>You do not even need hours of free time.</li>
+            <li>No need for prior meditation experience.</li>
+            <li>No need for extra time—just intention.</li>
+            <li>Just an open mind and repetition.</li>
           </ul>
           </p>
           <h5 class="text-left"> <strong> Program Recommendations:</strong></h5>
           <p class="text-left">
           <ul class="text-left">
-            <li>Practice our program consistently for three months to achieve Transformation. </li>
-            <li>Keep the order of each day for better muscle distribution.</li>
-            <li>Exercises Routines should be done with the same pattern of 3 Sets of 12 Repetitions per Exercise,
-              resting less than one minute in between.</li>
-            <li>Exercises that are challenging can be skipped until they are doable with confidence.
-            </li>
-            <li>Always be aware of the correct form, keeping the basics in mind: back straight, chest up, pressure on
-              the heels never on the balls of the feet, and extension of the joints without locking them.
-            </li>
-            <li>The recipes are designed for weekday lunches and dinners. Moderate freedom with balanced nutrition on
-              the weekends and breakfast. </li>
+            <li>Practice every morning for a week, then repeat. </li>
+            <li>Pair it with journaling, outdoor walking or silence.</li>
+            <li>Let the habit shape your mornings and mindset. </li>
           </ul>
           </p>
 
@@ -804,9 +781,9 @@
 
       // 2) Definimos aquí los tres fondos que quieres para cada slide (ajusta rutas si es necesario)
       var backgrounds = [
-        'url(http://fitdonewell.com/fitwithoutgym/images/m1.webp)',
-        'url(http://fitdonewell.com/fitwithoutgym/images/m2.webp)',
-        'url(http://fitdonewell.com/fitwithoutgym/images/m3.png)'
+        'url(http://fitdonewell.com/fitwithoutgym/images/IMG_5549.JPG)',
+        'url(http://fitdonewell.com/fitwithoutgym/images/IMG_5550.JPG)',
+        'url(http://fitdonewell.com/fitwithoutgym/images/IMG_5549.JPG)'
       ];
 
       // 3) Asignamos el fondo inicial (índice 0)

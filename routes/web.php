@@ -29,6 +29,7 @@ Route::prefix('services')->group(function(){
 
 Route::prefix('programs')->group(function(){
     Route::get('/fit-without-gym',[FitController::class, "fit_without_gym"])->name('fit-without-gym');
+    Route::get('/mindfulness-morning-habits',[FitController::class,"mindfulness_morning_habits"])->name('mindfulness-morning-habits');
 });
 
 

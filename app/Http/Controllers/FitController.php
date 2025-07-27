@@ -85,6 +85,11 @@ class FitController extends Controller
 
     }
 
+    public function fit_reset_programs()
+    {
+        return view('programs.fit-reset-programs');
+    }
+
 
 
 }

@@ -32,6 +32,12 @@ Route::prefix('programs')->group(function(){
     Route::get('/mindfulness-morning-habits',[FitController::class,"mindfulness_morning_habits"])->name('mindfulness-morning-habits');
 });
 
+Route::prefix('/programs/fit-reset-programs')->group(function (){
+    Route::get('/',[FitController::class, "fit_reset_programs"])->name('fit-reset-programs');
+});
+
+
+
 
 Route::get('/checkout-fit-reset-consultation', [CheckoutController::class, 'show'])->name('checkout-fit-reset-consultation');
 Route::get('/checkout-personal-fitness-training', [CheckoutController::class, 'checkout_personal_fitness_training'])->name('checkout-personal-fitness-training');

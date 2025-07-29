@@ -20,7 +20,7 @@
                         <div class="p-3" style="max-width: 900px;">
                             <div class="cuadro-laly">
                                 <h5 class="text-white text-uppercase">Fit.Done.Well.</h5>
-                                <h1 class="display-2 text-white mb-md-4 fs-1 text-uppercase px-4">Fit.Reset.Programs</h1>
+                                <h1 class="display-2 text-white mb-md-4 fs-1 text-uppercase">Fit.Reset.Programs.</h1>
                                 <a href="{{ route('fit-reset-programs') }}" class="btn btn-primary bg-primary py-md-3 px-md-5 me-3" style="font-size: 20px;" >Learn more</a>
                             </div>
                         </div>
@@ -31,9 +31,9 @@
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
                             <div class="cuadro-laly">
-                                <h5 class="text-white text-uppercase">MindFulness</h5>
-                                <h1 class="display-2 text-white text-uppercase mb-md-4 fs-1 d-none">Mind.Reset.Program.</h1>
-                                <a href="https://shop.fitdonewell.com/contact" class="btn btn-primary py-md-3 px-md-5 me-3" style="font-size: 20px;">Mind.Reset.Program.</a>
+                                <h5 class="text-white text-uppercase">Fit.Done.Well.</h5>
+                                <h1 class="display-2 text-white mb-md-4 fs-1 text-uppercase">Mind.Reset.Programs.</h1>
+                                <a href="{{ route('mind-reset-programs') }}" class="btn btn-primary bg-primary py-md-3 px-md-5 me-3" style="font-size: 20px;" >Learn more</a>
                             </div>
                         </div>
                     </div>
@@ -43,9 +43,9 @@
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
                             <div class="cuadro-laly">
-                                <h5 class="text-white text-uppercase">Wholeness</h5>
-                                <h1 class="display-2 text-white text-uppercase mb-md-4 fs-1 d-none">Life.Reset.Program.</h1>
-                                <a href="https://shop.fitdonewell.com/contact" class="btn btn-primary py-md-3 px-md-5 me-3">Life.Reset.Program.</a>
+                                <h5 class="text-white text-uppercase">Fit.Done.Well.</h5>
+                                <h1 class="display-2 text-white mb-md-4 fs-1 text-uppercase">Life.Reset.Programs.</h1>
+                                <a href="{{ route('life-reset-programs') }}" class="btn btn-primary bg-primary py-md-3 px-md-5 me-3" style="font-size: 20px;" >Learn more</a>
                             </div>
                         </div>
                     </div>

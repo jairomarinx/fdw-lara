@@ -36,6 +36,16 @@ Route::prefix('/programs/fit-reset-programs')->group(function (){
     Route::get('/',[FitController::class, "fit_reset_programs"])->name('fit-reset-programs');
 });
 
+Route::prefix('/programs/mind-reset-programs')->group(function (){
+    Route::get('/',[FitController::class, "mind_reset_programs"])->name('mind-reset-programs');
+});
+
+
+Route::prefix('/programs/life-reset-programs')->group(function (){
+    Route::get('/',[FitController::class, "life_reset_programs"])->name('life-reset-programs');
+});
+
+
 
 
 

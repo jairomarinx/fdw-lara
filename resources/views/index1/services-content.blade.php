@@ -140,7 +140,7 @@ Train hard, feel good, and grow stronger together.',
 @endforeach
 
 <!-- LIFE.RESET.EVENTS -->
-<div class="container-fluid px-5 py-5" style="background-color: #F4F5F8;">
+<div class="container-fluid px-5 py-5 d-none" style="background-color: #F4F5F8;">
     <div class="text-center mb-5">
         <h1 class="display-4 text-uppercase">LIFE.RESET.EVENTS.</h1>
         <p class="fs-5 text-muted">Unique experiences to reset your Body.Mind.Spirit.</p>

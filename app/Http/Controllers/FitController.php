@@ -100,6 +100,11 @@ class FitController extends Controller
         return view('programs.life-reset-programs');
     }
 
+    public function events()
+    {
+        return view('events.index');        
+    }
+
 
 
 }

@@ -45,6 +45,10 @@ Route::prefix('/programs/life-reset-programs')->group(function (){
     Route::get('/',[FitController::class, "life_reset_programs"])->name('life-reset-programs');
 });
 
+Route::prefix('events')->group(function () {
+    Route::get('/',[FitController::class, "events"])->name('main-events');
+});
+
 
 
 

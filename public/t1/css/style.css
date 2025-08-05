@@ -300,3 +300,53 @@ h6,
     padding: 10px;
     
 }
+
+/* Estilos propios de Celular   */
+
+
+@media (max-width: 576px) 
+{
+    /* Force 16:9 look for carousel */
+    #header-carousel .carousel-item img {
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+        height: auto;
+    }
+
+    /* Reduce top text */
+    .cuadro-laly h5 {
+        font-size: 12px !important;
+        font-weight: 400 !important;
+        opacity: 0.8;
+    }
+
+    /* Highlight main title */
+    .cuadro-laly h1 {
+        font-size: clamp(20px, 5vw, 28px) !important;
+        font-weight: 700 !important;
+        line-height: 1.2;
+    }
+
+    /* Shrink yellow button */
+    .cuadro-laly .btn {
+        transform: scale(0.65);
+        font-size: 14px !important;
+        padding: 8px 16px !important;
+    }
+
+    /* Perfect centering of content */
+    .carousel-caption .p-3 {
+        margin: 0 auto;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        text-align: center;
+    }
+
+    /* Adjust cuadro-laly background for better look */
+    .cuadro-laly {
+        background-color: rgba(0, 0, 0, 0.45) !important;
+        padding: 15px;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+}

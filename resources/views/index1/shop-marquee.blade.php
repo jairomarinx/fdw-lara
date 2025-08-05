@@ -44,7 +44,7 @@
         <div class="container text-center mt-4 mb-4">
             <div class="row">
                 <div class="col-lg-12 col-md-12 text-center">
-                    <h1 class="display-3 text-uppercase mb-2">Visit Our Shop.</h1>
+                    <h1 class="display-3 text-uppercase mb-2">Visit Our Shop</h1>
                 </div>
             </div>
         </div>

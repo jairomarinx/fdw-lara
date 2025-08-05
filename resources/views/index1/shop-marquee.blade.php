@@ -106,17 +106,17 @@
             <h5 class="text-primary text-uppercase fs-2 "><strong>Our Shop in Amazon</strong> </h5>
             <div class="row">
                 <div class="col-md-3">
-                    <a href="https://www.amazon.com/dp/B0DWD4HJHW?ref=cm_sw_r_cso_cp_apin_dp_9QEGMNZJJGAYAZ2GXD2H_1&ref_=cm_sw_r_cso_cp_apin_dp_9QEGMNZJJGAYAZ2GXD2H_1&social_share=cm_sw_r_cso_cp_apin_dp_9QEGMNZJJGAYAZ2GXD2H_1&starsLeft=1&th=1">
+                    <a href="https://www.amazon.com/s?me=A3ICCKPR3TSRVY&ref=sf_seller_app_share_new">
                         <img src="{{ asset('t1/img/amazon1.png') }}" alt="" class="img-fluid">
                     </a>
                 </div>
                 <div class="col-md-3">
-                    <a href="https://www.amazon.com/dp/B0DYQHZ5XF?ref=cm_sw_r_cso_cp_apin_dp_XMXPSFNATSTK190DG725&ref_=cm_sw_r_cso_cp_apin_dp_XMXPSFNATSTK190DG725&social_share=cm_sw_r_cso_cp_apin_dp_XMXPSFNATSTK190DG725&starsLeft=1">
+                    <a href="https://www.amazon.com/s?me=A3ICCKPR3TSRVY&ref=sf_seller_app_share_new">
                         <img src="{{ asset('t1/img/amazon2.png') }}" alt="" class="img-fluid">
                     </a>
                 </div>
                 <div class="col-md-3">
-                    <a href="https://www.amazon.com/dp/B0DYQRDRYK?ref=cm_sw_r_cso_cp_apin_dp_D2XP34KXT15212N5K7QC&ref_=cm_sw_r_cso_cp_apin_dp_D2XP34KXT15212N5K7QC&social_share=cm_sw_r_cso_cp_apin_dp_D2XP34KXT15212N5K7QC&starsLeft=1">
+                    <a href="https://www.amazon.com/s?me=A3ICCKPR3TSRVY&ref=sf_seller_app_share_new">
                         <img src="{{ asset('t1/img/amazon3.png') }}" alt="" class="img-fluid">
                     </a>
                 </div>

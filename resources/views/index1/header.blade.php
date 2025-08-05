@@ -23,7 +23,7 @@
                             <a href="http://shop.fitdonewell.com" class="nav-item nav-link">Shop</a>
                             <a href="{{ url('#id_testimonials') }}" class="nav-item nav-link">Testimonials</a>
                             <a href="{{ url('#real_schedule') }}" class="nav-item nav-link">Schedule</a>
-                            <a href="{{ url('#id_events') }}" class="nav-item nav-link">Events</a>
+                            <a href="{{ route('main-events') }}" class="nav-item nav-link">Events</a>
                             <a href="{{ url('#id_coaches') }}" class="nav-item nav-link">Coaches</a>
 
                             <div class="nav-item dropdown">

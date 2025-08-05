@@ -18,13 +18,13 @@
                     </button>
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto py-0">
-                            <a href="http://fitdonewell.com" class="nav-item nav-link active">Home</a>
-                            <a href="http://fitdonewell.com#id_about" class="nav-item nav-link">About</a>
+                            <a href="{{ url('/') }}" class="nav-item nav-link active">Home</a>
+                            <a href="{{ url('#id_about') }}" class="nav-item nav-link">About</a>
                             <a href="http://shop.fitdonewell.com" class="nav-item nav-link">Shop</a>
-                            <a href="http://fitdonewell.com#id_testimonials" class="nav-item nav-link">Testimonials</a>
-                            <a href="http://fitdonewell.com#id_schedule" class="nav-item nav-link">Schedule</a>
-                            <a href="http://fitdonewell.com#id_events" class="nav-item nav-link">Events</a>
-                            <a href="http://fitdonewell.com#id_coaches" class="nav-item nav-link">Coaches</a>
+                            <a href="{{ url('#id_testimonials') }}" class="nav-item nav-link">Testimonials</a>
+                            <a href="{{ url('#real_schedule') }}" class="nav-item nav-link">Schedule</a>
+                            <a href="{{ url('#id_events') }}" class="nav-item nav-link">Events</a>
+                            <a href="{{ url('#id_coaches') }}" class="nav-item nav-link">Coaches</a>
 
                             <div class="nav-item dropdown">
                                 <a href="http://blog.fitdonewell.com" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Blog</a>

@@ -5,46 +5,58 @@
             <h1 class="display-3 text-uppercase mb-0"></h1>
         </div>
         <div class="row g-5">
-<div class="col-lg-4 col-md-6">
-    <div class="team-item position-relative">
-        <div class="position-relative overflow-hidden rounded">
-            <img class="img-fluid w-100" src="{{ asset('t1/img/brad-cook.webp') }}" alt="">
-            <div class="custom-overlay d-flex flex-column justify-content-center align-items-center">
-                <span class="fw-bold text-white" style="font-size: 18px; letter-spacing: 2px;">FIT.DONE.WELL.</span>
-                <span class="text-white fw-bold" style="font-size: clamp(26px, 32px, 36px);; line-height: 1.1;">LIFE.RESET.PROGRAMS.</span>
-                <a href="http://fitdonewell.com/services" class="btn  mt-3 px-4 fw-bold" style="font-size: 18px; background: #39FF14; color: #111; border: none;">Start Your Reset</a>
+            <div class="col-lg-4 col-md-6">
+                <div class="team-item position-relative">
+                    <div class="position-relative overflow-hidden rounded">
+                        <img class="img-fluid w-100" src="{{ asset('t1/img/brad-cook.webp') }}" alt="">
+                        <div class="team-overlay">
+                            <div class="d-flex align-items-center justify-content-start">
+                                <a class="btn btn-light btn-square rounded-circle mx-1" href="{{ url('/services') }}"><i class="fas fa-link"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                        
+                    <div class="position-absolute start-0 bottom-0 w-100 rounded-bottom text-center p-4" style="background: rgba(34, 36, 41, .9);">
+                        <a href="{{ url('/services') }}" class="btn  p-4" style="font-size: 18px; font-weight:800; background: #39FF14; color: #fff; border: none; width: 250px;">Services</a>
+                    </div>
+                    
+                </div>
             </div>
-        </div>
-    </div>
-</div>
 
+            <div class="col-lg-4 col-md-6">
+                <div class="team-item position-relative">
+                    <div class="position-relative overflow-hidden rounded">
+                        <img class="img-fluid w-100" src="{{ asset('t1/img/brad-laly.webp') }}" alt="">
+                        <div class="team-overlay">
+                            <div class="d-flex align-items-center justify-content-start">
+                                <a class="btn btn-light btn-square rounded-circle mx-1" href="{{ route('fit-reset-programs') }}"><i class="fas fa-link"></i> </a>
 
-<div class="col-lg-4 col-md-6">
-    <div class="team-item position-relative">
-        <div class="position-relative overflow-hidden rounded">
-            <img class="img-fluid w-100" src="{{ asset('t1/img/brad-laly.webp') }}" alt="">
-            <div class="custom-overlay d-flex flex-column justify-content-center align-items-center">
-                <span class="fw-bold text-white" style="font-size: 18px; letter-spacing: 2px;">FIT.DONE.WELL.</span>
-                <span class="text-white fw-bold" style="font-size: clamp(26px, 32px, 36px); line-height: 1.1;">OUR.AWESOME.PROGRAMS.</span>
-                <a href="http://fitdonewell.com/programs" class="btn  mt-3 px-4 fw-bold" style="font-size: 18px; background: #39FF14; color: #111; border: none;">Unlock Your Potential</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="position-absolute start-0 bottom-0 w-100 rounded-bottom text-center p-4" style="background: rgba(34, 36, 41, .9);">
+                        <a href="{{ route('fit-reset-programs') }}" class="btn btn-primary p-4" style="font-size: 18px; font-weight:800; background: #39FF14; color: #fff; border: none; width: 250px;">Programs</a>
+
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-</div>
+            <div class="col-lg-4 col-md-6">
+                <div class="team-item position-relative">
+                    <div class="position-relative overflow-hidden rounded">
+                        <img class="img-fluid w-100" src="{{ asset('t1/img/laly-band.webp') }}" alt="">
+                        <div class="team-overlay">
+                            <div class="d-flex align-items-center justify-content-start">
+                                <a class="btn btn-light btn-square rounded-circle mx-1" href="https://www.amazon.com/s?me=A3ICCKPR3TSRVY&ref=sf_seller_app_share_new"><i class="fas fa-link"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="position-absolute start-0 bottom-0 w-100 rounded-bottom text-center p-4" style="background: rgba(34, 36, 41, .9);">
+                        <a href="https://www.amazon.com/s?me=A3ICCKPR3TSRVY&ref=sf_seller_app_share_new" class="btn btn-primary p-4" style="font-size: 18px; font-weight:800; background: #39FF14; color: #fff; border: none; width: 250px;"  >Products</a>
 
-<div class="col-lg-4 col-md-6">
-    <div class="team-item position-relative">
-        <div class="position-relative overflow-hidden rounded">
-            <img class="img-fluid w-100" src="{{ asset('t1/img/laly-band.webp') }}" alt="">
-            <div class="custom-overlay d-flex flex-column justify-content-center align-items-center">
-                <span class="fw-bold text-white" style="font-size: 18px; letter-spacing: 2px;">FIT.DONE.WELL.</span>
-                <span class="text-white fw-bold" style="font-size: clamp(26px, 32px, 36px); line-height: 1.1;">OUR.AMAZING.PRODUCTS.</span>
-                <a href="http://shop.fitdonewell.com" class="btn  mt-3 px-4 fw-bold" style="font-size: 18px; background: #39FF14; color: #111; border: none;">Get Started</a>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-</div>
-
 
 
 

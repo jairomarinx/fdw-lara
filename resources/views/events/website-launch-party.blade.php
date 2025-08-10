@@ -163,6 +163,16 @@
     </div>
   </div>
 </section>
+
+<div class="container">
+  <div class="row text-center">
+    <div class="col-12">
+      <img src="{{ asset('qrlaunch.png')  }}" alt="" class="img-fluid">
+    </div>
+  </div>
+</div>
+
+
         
 
         </div>

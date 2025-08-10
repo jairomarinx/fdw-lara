@@ -47,7 +47,12 @@ Route::prefix('/programs/life-reset-programs')->group(function (){
 
 Route::prefix('events')->group(function () {
     Route::get('/',[FitController::class, "events"])->name('main-events');
+    Route::get('/website-launch-party',[FitController::class,"website_launch_party"])->name('website-launch-party');
+
 });
+
+
+Route::post('/save-contact',[FitController::class,"save_contact"])->name('save-contact');
 
 
 

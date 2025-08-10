@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Contact;
 
 class FitController extends Controller
 {
@@ -103,6 +104,28 @@ class FitController extends Controller
     public function events()
     {
         return view('events.index');        
+    }
+
+    public function website_launch_party()
+    {
+        return view('events.website-launch-party');
+    }
+
+    public function save_contact(Request $request)
+    {
+        $contact = new Contact();
+        $contact->name = $request->name;
+        $contact->email = $request->email;
+        $contact->phone = $request->phone;
+        $contact->interests = $request->strong_bodies.' '.$request->open_minds.' '.$request->kind_hearts;
+        $contact->city = $request->city;
+        $contact->state = $request->state;
+        $contact->country = $request->country;
+        $contact->save();
+
+        return response()->redirectToRoute('website-launch-party',['thankyou'=>true]);
+        
+        
     }
 
 

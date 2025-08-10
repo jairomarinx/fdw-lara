@@ -18,7 +18,8 @@
                     
                         
                     <div class="position-absolute start-0 bottom-0 w-100 rounded-bottom text-center p-4" style="background: rgba(34, 36, 41, .9);">
-                        <a href="{{ url('/services') }}" class="btn  p-4" style="font-size: 18px; font-weight:800; background: #39FF14; color: #fff; border: none; width: 250px;">Services</a>
+                        <span><h1 class="text-white">Services</h1>  </span>
+                        <a href="{{ url('/services') }}" class="btn btn-primary  p-4" style="font-size: 18px; font-weight:800; color: #fff; border: none; ">Services</a>
                     </div>
                     
                 </div>

@@ -43,7 +43,8 @@
 
   <div class="main-banner" id="top">
     <video autoplay muted loop id="bg-video" playsinline>
-      <source src="{{ asset('video-party-2.mp4') }}" type="video/mp4" />
+      <source src="{{ asset('video-party-2.mp4') }}" type="video/mp4" media="(min-width: 600px)" />
+      <source src="{{ asset('video-party-vertical.mp4') }}" type="video/mp4" media="(max-width: 599px)" />
     </video>
     <div class="video-overlay-website header-text">
       <div class="caption">

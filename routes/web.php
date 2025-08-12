@@ -73,3 +73,5 @@ Route::prefix('programs')->group(function(){
         return view('index1.programs');
     });
 });
+
+Route::get('/contacts', [FitController::class,"contacts"])->name('contacts');

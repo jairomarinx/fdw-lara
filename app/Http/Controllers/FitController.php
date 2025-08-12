@@ -128,6 +128,13 @@ class FitController extends Controller
         
     }
 
+    public function contacts(Request $request)
+    {
+        $contacts = Contact::get();
+
+        return view('contacts')->with('contacts',$contacts);
+    }
+
 
 
 }

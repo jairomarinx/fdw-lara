@@ -27,7 +27,7 @@
       <div class="row">
         <div class="col-12">
           <nav class="main-nav">
-            <a href="{{ route('root') }}" class="logo">Fit.Done.<em>Well</em></a>
+            <a href="{{ route('root') }}" class="logo">Fit.Done.<em>Well.</em></a>
             <ul class="nav">
               <li><a href="{{ route('root') }}">Home</a></li>
               <li><a href="{{ route('root') . '/services' }}">Services</a></li>
@@ -62,9 +62,9 @@
         <div class="col-lg-6 offset-lg-3">
           <div class="section-heading">
             @if(request()->has('thankyou'))
-              <h2 style="font-size: clamp(30px, 85px, 200px);"  >Thanks for signing up, we look forward  <em>to seeing you</em></h2>
+              <h2 style="font-size: clamp(30px, 15vw, 200px);"  >Thanks for signing up, we look forward  <em>to seeing you</em></h2>
             @else
-              <h2 style="font-size: clamp(30px, 85px, 200px);"  >Website Launch <em>Party</em></h2>
+              <h2 style="font-size: clamp(30px, 15vw, 200px);"  >Website Launch <em>Party</em></h2>
             @endif
             
             <img src="{{ asset('programs/assets/images/line-dec.png') }}" alt="divider">            
@@ -184,7 +184,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <p>&copy; 2025 Fit Done Well Events — All rights reserved</p>
+          <p>&copy; 2025 Fit.Done.Well. Events — All rights reserved</p>
         </div>
       </div>
     </div>

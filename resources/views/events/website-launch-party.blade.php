@@ -42,10 +42,32 @@
   </header>
 
   <div class="main-banner" id="top">
-    <video autoplay muted loop id="bg-video" playsinline>
-      <source src="{{ asset('video-party-2.mp4') }}" type="video/mp4" media="(min-width: 600px)" />
-      <source src="{{ asset('video-party-vertical-web.mp4') }}" type="video/mp4" media="(max-width: 599px)" />
-    </video>
+<video autoplay muted loop playsinline webkit-playsinline id="bg-video"
+       style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 1;"
+       poster="{{ asset('poster-vertical.jpg') }}">
+</video>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const v = document.getElementById('bg-video');
+    const isMobile = window.matchMedia('(max-width: 599px)').matches;
+
+    v.muted = true;
+    v.setAttribute('muted', '');
+    v.setAttribute('playsinline', '');
+    v.setAttribute('webkit-playsinline', '');
+
+    v.src = isMobile
+      ? "{{ asset('video-party-vertical-web.mp4') }}"
+      : "{{ asset('video-party-2.mp4') }}";
+
+    v.load();
+    v.play().catch(err => {
+      console.warn('Autoplay falló o fue bloqueado:', err);
+    });
+  });
+</script>
+
     <div class="video-overlay-website header-text">
       <div class="caption">
         <h6></h6>

@@ -1257,3 +1257,9 @@ responsive
     margin-left: 130px;
   }
 }
+
+.main-banner {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}

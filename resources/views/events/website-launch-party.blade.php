@@ -10,7 +10,8 @@
 
   <link rel="stylesheet" type="text/css" href="{{ asset('programs/assets/css/bootstrap.min.css') }}">
   <link rel="stylesheet" type="text/css" href="{{ asset('programs/assets/css/font-awesome.css') }}">
-  <link rel="stylesheet" href="{{ asset('programs/assets/css/templatemo-training-studio.css') }}">
+  <link rel="stylesheet" href="{{ asset('programs/assets/css/templatemo-training-studio.css') . '?v=' . rand(1, 10000) }}">
+
 </head>
 
 <body>
@@ -40,6 +41,7 @@
       </div>
     </div>
   </header>
+ 
 
   <div class="main-banner" id="top">
 <video autoplay muted loop playsinline webkit-playsinline id="bg-video"

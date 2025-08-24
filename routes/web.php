@@ -65,7 +65,9 @@ Route::get('/checkout-personal-fitness-training', [CheckoutController::class, 'c
 
 Route::post('/checkout/pay', [CheckoutController::class, 'pay'])->name('checkout.pay');
 
-Route::get('/checkout/success', fn() => 'Payment successful!');
+Route::get('/checkout/success', function(){
+    return view('success');
+});
 Route::get('/checkout/cancel', fn() => 'Payment canceled.');
 
 Route::prefix('programs')->group(function(){

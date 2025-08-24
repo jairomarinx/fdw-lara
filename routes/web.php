@@ -75,3 +75,4 @@ Route::prefix('programs')->group(function(){
 });
 
 Route::get('/contacts', [FitController::class,"contacts"])->name('contacts');
+Route::get('/donate',[FitController::class,"donate"]);

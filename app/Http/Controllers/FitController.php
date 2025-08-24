@@ -135,6 +135,11 @@ class FitController extends Controller
         return view('contacts')->with('contacts',$contacts);
     }
 
+    public function donate()
+    {
+        return view('donation');
+    }
+
 
 
 }

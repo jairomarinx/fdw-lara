@@ -22,19 +22,23 @@ class CheckoutController extends Controller
 
     public function pay(Request $request)
     {
-        $amount = $request->amount;
+        $request->validate([
+                'amount' => 'required|numeric|min:1.0',
+            ]);
+
+        $amountInCents = intval(round($request->amount * 100));
 
         Stripe::setApiKey(env('STRIPE_SECRET'));
 
         $session = Session::create([
-            'payment_method_types' => ['card'],
+            
             'line_items' => [[
                 'price_data' => [
                     'currency' => 'usd',
                     'product_data' => [
                         'name' => 'Fit.Reset.Consultation',
                     ],
-                    'unit_amount' => $amount,
+                    'unit_amount' => $amountInCents,
                 ],
                 'quantity' => 1,
             ]],

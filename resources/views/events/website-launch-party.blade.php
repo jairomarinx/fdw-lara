@@ -189,9 +189,10 @@
   </div>
 </section>
 
-<div class="container">
+<div class="container mt-3 mb-3">
   <div class="row text-center">
     <div class="col-12">
+      <h2 class="py-3">Qr code to this page</h2>
       <img src="{{ asset('qrlaunch.png')  }}" alt="" class="img-fluid">
     </div>
   </div>
@@ -203,6 +204,36 @@
         </div>
     </div>
 </div>
+<div class="container-fluid text-center mt-4" style="background-color: #222; padding: 60px 20px;">
+ <h1 style="color: white; font-size: 36px; font-weight: bold;">Be Part of Our Dream. Help Build a Better World:</h1>
+
+  <a href="{{ url('/donate') }}" class="mt-3"   style="
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 22px 40px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    background: #FFD700;
+    border-radius: 16px;
+    text-decoration: none;
+    box-shadow: 0 8px 20px rgba(255, 215, 0, 0.4);
+    text-align: center;
+    gap: 14px;
+  ">
+    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="#f00" viewBox="0 0 24 24">
+      <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5
+      2 5.42 4.42 3 7.5 3c1.74 0 3.41 0.81 4.5 2.09
+      C13.09 3.81 14.76 3 16.5 3
+      19.58 3 22 5.42 22 8.5
+      c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+    </svg>
+    Donate
+  </a>
+</div>
+
+
 
   <footer>
     <div class="container">

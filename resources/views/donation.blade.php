@@ -15,7 +15,7 @@
     <style>
         .hero-donation {
             position: relative;
-            background: url('http://fitdonewell.lara/t1/img/laly-band.webp') no-repeat top center;
+            background: url("{{ asset('t1/img/laly-band.webp') }}") no-repeat top center;
             background-size: cover;
             height: 80vh;
             display: flex;

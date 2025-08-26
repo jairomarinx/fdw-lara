@@ -86,7 +86,7 @@
     <!-- Botones de pasarela -->
     <div class="d-grid gap-3 mb-4">
       <button type="button" class="btn btn-stripe py-3 fw-bold pay-btn" data-target="stripeForm" aria-controls="stripeForm">
-        <i class="fa-brands fa-cc-stripe me-2"></i> Pay with Stripe
+        <i class="fa-brands fa-cc-stripe me-2"></i> Pay with Credit Card
       </button>
 
       <button type="button" class="btn btn-zelle py-3 fw-bold text-white pay-btn" data-target="zelleForm" aria-controls="zelleForm">

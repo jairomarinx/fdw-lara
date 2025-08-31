@@ -1,5 +1,56 @@
+    <div class="container-fluid p-5">
+        <div class="row g-5">
+            <div class="col-lg-4">
+                <a href="http://blog.fitdonewell.com">
+                <div class="blog-item">
+                    <div class="position-relative overflow-hidden rounded-top">
+                        <img class="img-fluid" src="{{ asset('servicios.webp') }}" alt="">
+                    </div>
+                    <div class="bg-dark d-flex align-items-center rounded-bottom p-4">
+                        <div class="flex-shrink-0 text-center text-secondary border-end border-secondary pe-3 me-3">
+                           <img src="{{ asset('logo-fdw.png') }}" alt="" class="img-fluid" style="max-width: clamp(40px, 10vw, 100px);">
+                        </div>
+                        <a class="h5 text-uppercase text-light" href="{{ url('/services') }}">Our Services <br><span class="text-primary"> Start your journey</span></h4></a>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <div class="col-lg-4">
+                <a href="http://blog.fitdonewell.com">
+                <div class="blog-item">
+                    <div class="position-relative overflow-hidden rounded-top">
+                        <img class="img-fluid" src="{{ asset('programs.webp') }}" alt="">
+                    </div>
+                    <div class="bg-dark d-flex align-items-center rounded-bottom p-4">
+                        <div class="flex-shrink-0 text-center text-secondary border-end border-secondary pe-3 me-3">
+                            <img src="{{ asset('logo-fdw.png') }}" alt="" class="img-fluid" style="max-width: clamp(40px, 10vw, 100px);">                        </div>
+                        <a class="h5 text-uppercase text-light" href="{{ url('/our-programs') }}">Our programs <br><span class="text-primary">Power Your Life</span></h4></a>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <div class="col-lg-4">
+                <a href="http://blog.fitdonewell.com">
+                <div class="blog-item">
+                    <div class="position-relative overflow-hidden rounded-top">
+                        <img class="img-fluid" src="{{ asset('products.webp') }}" alt="">
+                    </div>
+                    <div class="bg-dark d-flex align-items-center rounded-bottom p-4">
+                        <div class="flex-shrink-0 text-center text-secondary border-end border-secondary pe-3 me-3">
+                            <img src="{{ asset('logo-fdw.png') }}" alt="" class="img-fluid" style="max-width: clamp(40px, 10vw, 100px);">                        </div>
+                        <a class="h5 text-uppercase text-light" href="https://www.amazon.com/s?me=A3ICCKPR3TSRVY&ref=sf_seller_app_share_new">Our Products <br><span class="text-primary">Stronger Every Day</span></h4></a>
+                    </div>
+                </div>
+                </a>
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+
 <!-- Nuestros tres pilares de venta   -->
-    <div class="container-fluid p-5" id="id_schedule">
+    <div class="container-fluid p-5 d-none" id="id_schedule">
         <div class="mb-5 text-center">
             <h5 class="text-primary text-uppercase"></h5>
             <h1 class="display-3 text-uppercase mb-0"></h1>

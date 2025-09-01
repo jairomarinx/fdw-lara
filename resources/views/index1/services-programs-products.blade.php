@@ -1,7 +1,7 @@
     <div class="container-fluid p-5">
         <div class="row g-5">
             <div class="col-lg-4">
-                <a href="http://blog.fitdonewell.com">
+                <a href="{{ url('/services') }}">
                 <div class="blog-item">
                     <div class="position-relative overflow-hidden rounded-top">
                         <img class="img-fluid" src="{{ asset('servicios.webp') }}" alt="">
@@ -16,7 +16,7 @@
                 </a>
             </div>
             <div class="col-lg-4">
-                <a href="http://blog.fitdonewell.com">
+                <a href="{{ url('/our-programs') }}">
                 <div class="blog-item">
                     <div class="position-relative overflow-hidden rounded-top">
                         <img class="img-fluid" src="{{ asset('programs.webp') }}" alt="">
@@ -30,7 +30,7 @@
                 </a>
             </div>
             <div class="col-lg-4">
-                <a href="http://blog.fitdonewell.com">
+                <a href="https://www.amazon.com/s?me=A3ICCKPR3TSRVY&ref=sf_seller_app_share_new">
                 <div class="blog-item">
                     <div class="position-relative overflow-hidden rounded-top">
                         <img class="img-fluid" src="{{ asset('products.webp') }}" alt="">

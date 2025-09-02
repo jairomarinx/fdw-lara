@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>FDW Viewport Deep Probe</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <style>
+    :root {
+      --bg: #0b0b0b;
+      --panel: #111;
+      --ink: #0f0;
+      --muted: #7f7;
+      --warn: #ff6;
+      --err: #f66;
+      --outline: rgba(255,0,0,.06);
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+      line-height: 1.4;
+    }
+    .wrap {
+      min-height: 100svh;
+      padding: 16px;
+      display: grid;
+      gap: 12px;
+    }
+    .card {
+      background: var(--panel);
+      border-radius: 10px;
+      padding: 14px 16px;
+      box-shadow: 0 0 0 1px rgba(255,255,255,.06) inset, 0 8px 20px rgba(0,0,0,.35);
+    }
+    h2 { margin: 0 0 8px 0; font-size: 16px; color: var(--muted); }
+    pre, code { white-space: pre-wrap; word-break: break-word; }
+    .grid { display: grid; gap: 10px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+    .kv { display: grid; grid-template-columns: 180px 1fr; gap: 6px 10px; }
+    .kv div.key { color: var(--warn); }
+    .btns { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 8px; }
+    button {
+      background: #1a1a1a; color: #fff; border: 1px solid rgba(255,255,255,.15);
+      border-radius: 8px; padding: 8px 12px; cursor: pointer;
+    }
+    button:hover { background: #222; }
+    .vhtest { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+    .vhbox { background: #151515; border: 1px solid rgba(255,255,255,.12); border-radius: 8px; padding: 8px; }
+    .vhbar { height: 6px; border-radius: 4px; background: #2a2a2a; margin-top: 6px; position: relative; overflow: hidden; }
+    .vhfill { position: absolute; left: 0; top: 0; bottom: 0; background: #3fa34d; }
+    .muted { color: #9f9; opacity: .8; }
+    .warn { color: var(--warn); }
+    .err { color: var(--err); }
+    .foot { color: #9f9; opacity: .6; font-size: 12px; }
+    .outline-on * { outline: 1px solid var(--outline); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <div class="btns">
+        <button id="btnCopy">Copy JSON</button>
+        <button id="btnOutline">Toggle outline</button>
+        <button id="btnReload">Hard reload</button>
+        <button id="btnScroll">Nudge scroll</button>
+      </div>
+      <div id="summary" class="kv"></div>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h2>Viewport and Screen</h2>
+        <div id="vp" class="kv"></div>
+      </div>
+
+      <div class="card">
+        <h2>Environment</h2>
+        <div id="env" class="kv"></div>
+      </div>
+
+      <div class="card">
+        <h2>Safe Areas</h2>
+        <div id="safe" class="kv"></div>
+      </div>
+
+      <div class="card">
+        <h2>VH Units Probe</h2>
+        <div class="vhtest">
+          <div class="vhbox">
+            <div class="muted">100vh measured</div>
+            <div id="vh100px"></div>
+            <div class="vhbar"><div id="vh100fill" class="vhfill"></div></div>
+          </div>
+          <div class="vhbox">
+            <div class="muted">100svh measured</div>
+            <div id="svh100px"></div>
+            <div class="vhbar"><div id="svh100fill" class="vhfill"></div></div>
+          </div>
+          <div class="vhbox">
+            <div class="muted">100dvh measured</div>
+            <div id="dvh100px"></div>
+            <div class="vhbar"><div id="dvh100fill" class="vhfill"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Meta and UA</h2>
+        <div id="meta" class="kv"></div>
+        <pre id="ua"></pre>
+      </div>
+
+      <div class="card">
+        <h2>Live JSON</h2>
+        <pre id="json"></pre>
+      </div>
+    </div>
+
+    <div class="foot card">
+      Open this page on the iPad. Take a screenshot and send it. Values update on resize and rotate.
+    </div>
+  </div>
+
+  <script>
+    // Helpers
+    function kv(container, data) {
+      const el = document.getElementById(container);
+      el.innerHTML = "";
+      for (const [k, v] of Object.entries(data)) {
+        const kd = document.createElement("div"); kd.className = "key"; kd.textContent = k;
+        const vd = document.createElement("div"); vd.textContent = String(v);
+        el.appendChild(kd); el.appendChild(vd);
+      }
+    }
+    function px(n) { return typeof n === "number" ? Math.round(n) + " px" : String(n); }
+    function yes(b) { return b ? "yes" : "no"; }
+
+    // Read CSS env safe area by measuring computed padding
+    function readSafeAreas() {
+      const probe = document.createElement("div");
+      probe.style.cssText =
+        "position:fixed;inset:0;padding-top:env(safe-area-inset-top);padding-right:env(safe-area-inset-right);padding-bottom:env(safe-area-inset-bottom);padding-left:env(safe-area-inset-left);visibility:hidden;";
+      document.body.appendChild(probe);
+      const cs = getComputedStyle(probe);
+      const vals = {
+        top: cs.paddingTop,
+        right: cs.paddingRight,
+        bottom: cs.paddingBottom,
+        left: cs.paddingLeft
+      };
+      probe.remove();
+      return vals;
+    }
+
+    function metaViewportContent() {
+      const meta = document.querySelector('meta[name="viewport"]');
+      return meta ? meta.getAttribute("content") : "none";
+    }
+
+    function vhMeasure() {
+      // build three boxes sized with CSS to measure actual pixels
+      const makeBox = (unit) => {
+        const d = document.createElement("div");
+        d.style.cssText = "position:fixed;left:-9999px;top:-9999px;width:1px;height:calc(100" + unit + ");";
+        document.body.appendChild(d);
+        const h = d.getBoundingClientRect().height;
+        d.remove();
+        return h;
+      };
+      return {
+        "100vh": Math.round(makeBox("vh")),
+        "100svh": Math.round(makeBox("svh")),
+        "100dvh": Math.round(makeBox("dvh"))
+      };
+    }
+
+    function colorGamut() {
+      const opts = ["rec2020","p3","srgb"];
+      for (const o of opts) if (matchMedia("(color-gamut: " + o + ")").matches) return o;
+      return "unknown";
+    }
+
+    function buildState() {
+      const vv = window.visualViewport;
+      const safe = readSafeAreas();
+      const vh = vhMeasure();
+      return {
+        now_iso: new Date().toISOString(),
+        tz_offset_min: new Date().getTimezoneOffset(),
+        inner: { w: window.innerWidth, h: window.innerHeight },
+        outer: { w: window.outerWidth, h: window.outerHeight },
+        visual: vv ? { w: Math.round(vv.width), h: Math.round(vv.height), scale: vv.scale, offsetLeft: Math.round(vv.offsetLeft), offsetTop: Math.round(vv.offsetTop) } : null,
+        screen: { w: window.screen.width, h: window.screen.height, availW: window.screen.availWidth, availH: window.screen.availHeight, orientation: (screen.orientation && screen.orientation.type) || "n.a" },
+        dpr: window.devicePixelRatio || 1,
+        colorDepth: screen.colorDepth,
+        touchPoints: navigator.maxTouchPoints || 0,
+        platform: navigator.platform,
+        vendor: navigator.vendor,
+        ua: navigator.userAgent,
+        hardwareConcurrency: navigator.hardwareConcurrency || null,
+        deviceMemory: navigator.deviceMemory || null,
+        prefersReducedMotion: matchMedia("(prefers-reduced-motion: reduce)").matches,
+        colorGamut: colorGamut(),
+        metaViewport: metaViewportContent(),
+        scroll: { x: Math.round(window.scrollX), y: Math.round(window.scrollY) },
+        overflowX: document.documentElement.scrollWidth > document.documentElement.clientWidth,
+        safeAreas: safe,
+        vhProbe: vh
+      };
+    }
+
+    function render(state) {
+      kv("summary", {
+        Inner: state.inner.w + " x " + state.inner.h,
+        Visual: state.visual ? state.visual.w + " x " + state.visual.h : "n.a",
+        DPR: state.dpr,
+        Screen: state.screen.w + " x " + state.screen.h,
+        Orientation: state.screen.orientation,
+        OverflowX: state.overflowX ? "yes" : "no"
+      });
+
+      kv("vp", {
+        innerWidth: px(state.inner.w),
+        innerHeight: px(state.inner.h),
+        outerWidth: px(state.outer.w),
+        outerHeight: px(state.outer.h),
+        visualWidth: state.visual ? px(state.visual.w) : "n.a",
+        visualHeight: state.visual ? px(state.visual.h) : "n.a",
+        visualScale: state.visual ? state.visual.scale : "n.a",
+        visualOffsetLeft: state.visual ? px(state.visual.offsetLeft) : "n.a",
+        visualOffsetTop: state.visual ? px(state.visual.offsetTop) : "n.a",
+        screenWidth: px(state.screen.w),
+        screenHeight: px(state.screen.h),
+        screenAvailWidth: px(state.screen.availW),
+        screenAvailHeight: px(state.screen.availH),
+        orientation: state.screen.orientation,
+        scrollX: px(state.scroll.x),
+        scrollY: px(state.scroll.y)
+      });
+
+      kv("env", {
+        dpr: state.dpr,
+        colorDepth: state.colorDepth,
+        touchPoints: state.touchPoints,
+        platform: state.platform,
+        vendor: state.vendor,
+        hardwareConcurrency: state.hardwareConcurrency ?? "n.a",
+        deviceMemory: state.deviceMemory ?? "n.a",
+        reducedMotion: yes(state.prefersReducedMotion),
+        colorGamut: state.colorGamut,
+        tzOffsetMin: state.tz_offset_min
+      });
+
+      kv("safe", {
+        top: state.safeAreas.top,
+        right: state.safeAreas.right,
+        bottom: state.safeAreas.bottom,
+        left: state.safeAreas.left
+      });
+
+      document.getElementById("ua").textContent = state.ua;
+      document.getElementById("json").textContent = JSON.stringify(state, null, 2);
+
+      // VH bars
+      const ih = state.inner.h || 1;
+      document.getElementById("vh100px").textContent = state.vhProbe["100vh"] + " px";
+      document.getElementById("svh100px").textContent = state.vhProbe["100svh"] + " px";
+      document.getElementById("dvh100px").textContent = state.vhProbe["100dvh"] + " px";
+      document.getElementById("vh100fill").style.width = Math.min(100, (state.vhProbe["100vh"] / ih) * 100) + "%";
+      document.getElementById("svh100fill").style.width = Math.min(100, (state.vhProbe["100svh"] / ih) * 100) + "%";
+      document.getElementById("dvh100fill").style.width = Math.min(100, (state.vhProbe["100dvh"] / ih) * 100) + "%";
+    }
+
+    // Buttons
+    document.getElementById("btnCopy").addEventListener("click", () => {
+      const s = document.getElementById("json").textContent;
+      navigator.clipboard.writeText(s).then(()=>alert("Copied JSON")).catch(()=>alert("Copy failed"));
+    });
+    document.getElementById("btnOutline").addEventListener("click", () => {
+      document.documentElement.classList.toggle("outline-on");
+    });
+    document.getElementById("btnReload").addEventListener("click", () => {
+      // bypass cache best effort
+      const url = new URL(location.href);
+      url.searchParams.set("_t", String(Date.now()));
+      location.replace(url.toString());
+    });
+    document.getElementById("btnScroll").addEventListener("click", () => {
+      const y = window.scrollY;
+      window.scrollTo(0, y + 1);
+      setTimeout(()=>window.scrollTo(0, y), 50);
+    });
+
+    // Live updates
+    function tick() {
+      render(buildState());
+    }
+    tick();
+    addEventListener("resize", tick);
+    addEventListener("orientationchange", tick);
+    if (window.visualViewport) {
+      visualViewport.addEventListener("resize", tick);
+      visualViewport.addEventListener("scroll", tick);
+    }
+  </script>
+</body>
+</html>

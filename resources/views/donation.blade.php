@@ -14,6 +14,9 @@
     <link href="{{ asset('t1/css/style.css') }}?ver={{ rand(1,10000) }}" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
+    <script src="https://www.paypal.com/sdk/js?client-id=AaW0kJLzX6W6vHgAWU1h4gB84lxEmUXFXBw1rdA5oLcODu8XJLmb7cq8PGYhW4JT9enpNbu3CzCHl7-o&currency=USD"></script>
+
+
     <style>
         .hero-donation {
             position: relative;
@@ -117,7 +120,7 @@
     </form>
 
     <!-- Zelle -->
-    <form id="zelleForm" method="POST" action="#" class="d-none border rounded p-3">
+    <form id="zelleForm" method="POST" action="{{ route('zelle-checkout') }}" class="d-none border rounded p-3">
       @csrf
       <h5 class="mb-3">Zelle</h5>
       <div class="mb-3">
@@ -126,9 +129,25 @@
       </div>
       <div class="mb-3">
         <label for="zelle_email" class="form-label">Your email</label>
-        <input type="email" name="zelle_email" id="zelle_email" class="form-control" placeholder="you@example.com">
+        <input type="email" name="zelle_email" id="zelle_email" class="form-control" required placeholder="you@example.com">
       </div>
-      <!-- TODO: define action y manejo real de Zelle -->
+      <div class="mb-3">
+        <label for="zelle_name" class="form-label">Your name</label>
+        <input type="name" name="zelle_name" id="zelle_name" required class="form-control" placeholder="">
+      </div>
+
+      <div class="mb-3">
+        <label for="zelle_phone" class="form-label">Your phone number</label>
+        <input type="tel" name="zelle_phone" id="zelle_phone" required class="form-control" placeholder="">
+      </div>
+
+      <input type="hidden" 
+         name="zelle_product" 
+         id="zelle_product"          
+         placeholder="+1 (555) 555-5555" 
+         pattern="^\+1\s?\(?[2-9][0-9]{2}\)?[-.\s]?[0-9]{3}[-.\s]?[0-9]{4}$" 
+         required value = "donation" >
+      
       <button type="submit" class="btn btn-zelle text-white fw-bold">
         <i class="fa-solid fa-bolt me-2"></i> Confirm Zelle Instructions
       </button>
@@ -154,22 +173,22 @@
     </form>
 
     <!-- PayPal -->
-    <form id="paypalForm" method="POST" action="#" class="d-none border rounded p-3">
-      @csrf
+    <div id="paypalForm" class="d-none border rounded p-3">
       <h5 class="mb-3">PayPal</h5>
+
       <div class="mb-3">
         <label for="amount_paypal" class="form-label">Donation Amount (USD)</label>
-        <input type="number" name="amount" id="amount_paypal" min="1" step="0.01" required class="form-control">
+        <input type="number" id="amount_paypal" min="1" step="0.01" required class="form-control">
       </div>
+
       <div class="mb-3">
         <label for="paypal_email" class="form-label">Your PayPal email</label>
-        <input type="email" name="paypal_email" id="paypal_email" class="form-control" placeholder="you@paypal.com">
+        <input type="email" id="paypal_email" class="form-control" placeholder="you@paypal.com">
       </div>
-      <!-- TODO: define action real de PayPal -->
-      <button type="submit" class="btn btn-paypal text-white fw-bold">
-        <i class="fa-brands fa-paypal me-2"></i> Continue with PayPal
-      </button>
-    </form>
+
+      <div id="paypal-button-container" class="mt-3"></div>
+    </div>
+
 
     <div class="mt-4">
       <p class="text-center fw-bold">Fit.Done.Well. is more than fitness, it is a philosophy.</p>
@@ -217,5 +236,35 @@
 
 
 @include('index1.footer')
+
+<script>
+  let paypalRendered = false;
+
+  document.querySelector('.btn-paypal').addEventListener('click', () => {
+    if (paypalRendered) return;
+
+    paypal.Buttons({
+      createOrder: function(data, actions) {
+        const amount = document.getElementById('amount_paypal').value || '5.00';
+        return actions.order.create({
+          purchase_units: [{
+            amount: {
+              value: amount
+            }
+          }]
+        });
+      },
+      onApprove: function(data, actions) {
+        return actions.order.capture().then(function(details) {
+          alert('Thank you, ' + details.payer.name.given_name + '! Your donation was successful.');
+          // Aquí puedes enviar a tu backend si deseas guardar datos
+        });
+      }
+    }).render('#paypal-button-container');
+
+    paypalRendered = true;
+  });
+</script>
+
 </body>
 </html>

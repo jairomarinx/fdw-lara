@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FitController;
 use App\Http\Controllers\CheckoutController;
+use App\Http\Controllers\ZelleController;
 
 // Home
 Route::get('/', fn() => view('index1.home'))->name('root');
@@ -59,6 +60,8 @@ Route::get('/checkout-personal-fitness-training', [CheckoutController::class, 'c
 Route::post('/checkout/pay', [CheckoutController::class, 'pay'])->name('checkout.pay');
 Route::get('/checkout/success', fn() => view('success'));
 Route::get('/checkout/cancel', fn() => 'Payment canceled.');
+
+Route::post('/zelle-checkout',[ZelleController::class,"zelle_checkout"])->name('zelle-checkout');
 
 Route::get('/our-programs', fn() => view('programs.main'));
 

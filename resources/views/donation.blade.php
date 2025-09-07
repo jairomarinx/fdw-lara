@@ -96,11 +96,11 @@
         <i class="fa-solid fa-bolt me-2"></i> Pay with Zelle
       </button>
 
-      <button type="button" class="btn btn-venmo py-3 fw-bold text-white pay-btn" data-target="venmoForm" aria-controls="venmoForm">
+      <button type="button" class="btn btn-venmo py-3 fw-bold text-white pay-btn d-none" data-target="venmoForm" aria-controls="venmoForm">
         <i class="fa-brands fa-venmo me-2"></i> Pay with Venmo
       </button>
 
-      <button type="button" class="btn btn-paypal py-3 fw-bold text-white pay-btn" data-target="paypalForm" aria-controls="paypalForm">
+      <button type="button" class="btn btn-paypal py-3 fw-bold text-white pay-btn d-none" data-target="paypalForm" aria-controls="paypalForm">
         <i class="fa-brands fa-paypal me-2"></i> Pay with PayPal
       </button>
     </div>
@@ -173,21 +173,21 @@
     </form>
 
     <!-- PayPal -->
-    <div id="paypalForm" class="d-none border rounded p-3">
-      <h5 class="mb-3">PayPal</h5>
+<div id="paypalForm" class="d-none border rounded p-3">
+  <h5 class="mb-3">PayPal</h5>
 
-      <div class="mb-3">
-        <label for="amount_paypal" class="form-label">Donation Amount (USD)</label>
-        <input type="number" id="amount_paypal" min="1" step="0.01" required class="form-control">
-      </div>
+  <div class="mb-3">
+    <label for="amount_paypal" class="form-label">Donation Amount (USD)</label>
+    <input type="number" id="amount_paypal" min="1" step="0.01" required class="form-control">
+  </div>
 
-      <div class="mb-3">
-        <label for="paypal_email" class="form-label">Your PayPal email</label>
-        <input type="email" id="paypal_email" class="form-control" placeholder="you@paypal.com">
-      </div>
+  <div class="mb-3">
+    <label for="paypal_email" class="form-label">Your PayPal email</label>
+    <input type="email" id="paypal_email" class="form-control" placeholder="you@paypal.com">
+  </div>
 
-      <div id="paypal-button-container" class="mt-3"></div>
-    </div>
+  <div id="paypal-button-container" class="mt-3"></div>
+</div>
 
 
     <div class="mt-4">
@@ -236,35 +236,5 @@
 
 
 @include('index1.footer')
-
-<script>
-  let paypalRendered = false;
-
-  document.querySelector('.btn-paypal').addEventListener('click', () => {
-    if (paypalRendered) return;
-
-    paypal.Buttons({
-      createOrder: function(data, actions) {
-        const amount = document.getElementById('amount_paypal').value || '5.00';
-        return actions.order.create({
-          purchase_units: [{
-            amount: {
-              value: amount
-            }
-          }]
-        });
-      },
-      onApprove: function(data, actions) {
-        return actions.order.capture().then(function(details) {
-          alert('Thank you, ' + details.payer.name.given_name + '! Your donation was successful.');
-          // Aquí puedes enviar a tu backend si deseas guardar datos
-        });
-      }
-    }).render('#paypal-button-container');
-
-    paypalRendered = true;
-  });
-</script>
-
 </body>
 </html>

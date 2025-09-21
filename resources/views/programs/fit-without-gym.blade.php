@@ -314,7 +314,7 @@
             </h6>
           </div>
         </div>
-        <div class="box">
+        <div class="box d-none">
           <img src="{{ asset('fitwithoutgym/images/j3.webp') }}}" alt="">
           <h6 class="visible_heading">
             DYNAMIC STRENGTH TRAINING

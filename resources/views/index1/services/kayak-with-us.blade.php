@@ -31,7 +31,7 @@ Cruise through slow and swift waters.
 Surround yourself with desert cliffs and wildlife.  
 Let nature reset your energy.
                     </span>
-                    <a href="{{ route('checkout-fit-reset-consultation') }}" class="btn btn-warning d-block text-center mx-auto mt-4">Book Your Spot</a>
+                    <a href="{{ route('general-checkout', ['product' => 'kayak-with-us']) }}" class="btn btn-warning d-block text-center mx-auto mt-4">Book Your Spot</a>
                 </div>
             </div>
 
@@ -46,7 +46,7 @@ Watch wild horses and birds in their natural home.
 This trip is both peaceful and energizing.  
 You will not forget this view or this feeling.
                     </span>
-                    <a href="{{ route('checkout-fit-reset-consultation') }}" class="btn btn-warning d-block text-center mx-auto mt-4">Reserve Your Kayak</a>
+                    <a href="{{ route('general-checkout', ['product' => 'kayak-with-us']) }}" class="btn btn-warning d-block text-center mx-auto mt-4">Reserve Your Kayak</a>
                 </div>
             </div>
 
@@ -61,7 +61,7 @@ Nourish your body before you hit the water.
 Simple food, mindful pace, and relaxed connection.  
 This is movement with meaning.
                     </span>
-                    <a href="{{ route('checkout-fit-reset-consultation') }}" class="btn btn-warning d-block text-center mx-auto mt-4">Join the Trip</a>
+                    <a href="{{ route('general-checkout', ['product' => 'kayak-with-us']) }}" class="btn btn-warning d-block text-center mx-auto mt-4">Join the Trip</a>
                 </div>
             </div>
         </div>
@@ -73,7 +73,7 @@ This is movement with meaning.
         Scenic paddle through desert cliffs and wild beauty<br>
         <span class="fw-semibold">Only $129. Includes breakfast. Dates will be confirmed.</span>
       </p>
-      <a href="/checkout-fit-reset-consultation" class="btn fw-bold" style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.4rem 4rem; border-radius: 2rem;">
+      <a href="{{ route('general-checkout', ['product' => 'kayak-with-us']) }}" class="btn fw-bold" style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.4rem 4rem; border-radius: 2rem;">
         Book Now
       </a>
     </div>

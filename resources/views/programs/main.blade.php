@@ -124,6 +124,41 @@
     </section>
     <!-- ***** What You Get End ***** -->
 
+    <section class="section" id="features">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 offset-lg-3">
+            <div class="section-heading">
+              <h2>Fit<em> Without Gym </em></h2>
+              <img src="{{ asset('programs/assets/images/line-dec.png') }}" alt="divider">
+              <h1>No Gym. No Excuses. Just Results.</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <a href="{{ route('fit-without-gym') }}">
+            <div class="feature-item">
+              <div class="left-icon">
+                <img src="{{ asset('fwg.jpg') }}" alt="icon" class="img-fluid">
+              </div>
+              <div class="right-content p-2">
+                <h4>Fit.Without.Gym.</h4>
+                <p>Discover Fit.Without.Gym:
+Your New Way to Transform
+Your Body from Home
+Imagine getting in shape, feeling energized, and looking amazing, all without ever stepping into a gym!
+
+It is not just possible, it is simple, fun, and completely within your reach.</p>
+              </div>
+            </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
     <!-- ***** Call to Action Start ***** -->
     <section class="section" id="call-to-action">
         <div class="container">

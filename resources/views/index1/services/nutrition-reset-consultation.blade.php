@@ -31,7 +31,7 @@ You receive structure that matches your needs and daily rhythm.
 Nothing extreme, just smart adjustments you can maintain.
 This is sustainable nutrition that works for real life.
                     </span>
-                    <a href="{{ route('checkout-fit-reset-consultation') }}" class="btn btn-warning d-block text-center mx-auto mt-4">Get Your Custom Plan</a>
+                    <a href="{{ route('general-checkout',['product' => 'nutrition-reset-consultation']) }}" class="btn btn-warning d-block text-center mx-auto mt-4">Get Your Custom Plan</a>
                 </div>
             </div>
 
@@ -46,7 +46,7 @@ No confusion or overwhelm, just clear direction.
 You know what to eat, when, and why.
 This is how real change starts, one habit at a time.
                     </span>
-                    <a href="{{ route('checkout-fit-reset-consultation') }}" class="btn btn-warning d-block text-center mx-auto mt-4">Start Your Reset</a>
+                    <a href="{{ route('general-checkout',['product' => 'nutrition-reset-consultation']) }}" class="btn btn-warning d-block text-center mx-auto mt-4">Start Your Reset</a>
                 </div>
             </div>
 
@@ -61,7 +61,7 @@ We help you rethink your relationship with food in a healthy, kind way.
 No more guilt. No more all or nothing.
 You leave with clarity, peace, and a plan that respects your body.
                     </span>
-                    <a href="{{ route('checkout-fit-reset-consultation') }}" class="btn btn-warning d-block text-center mx-auto mt-4">Make the Shift</a>
+                    <a href="{{ route('general-checkout',['product' => 'nutrition-reset-consultation']) }}" class="btn btn-warning d-block text-center mx-auto mt-4">Make the Shift</a>
                 </div>
             </div>
         </div>
@@ -74,7 +74,7 @@ You leave with clarity, peace, and a plan that respects your body.
         One-on-one consultation to help you reset, rebuild, and feel your best<br>
         <span class="fw-semibold">Only 10 sessions offered each week</span>
       </p>
-      <a href="/checkout-fit-reset-consultation" class="btn fw-bold" style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.4rem 4rem; border-radius: 2rem;">
+      <a href="{{ route('general-checkout',['product' => 'nutrition-reset-consultation']) }}" class="btn fw-bold" style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.4rem 4rem; border-radius: 2rem;">
         Book Now for $129
       </a>
     </div>

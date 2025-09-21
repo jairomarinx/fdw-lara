@@ -466,7 +466,7 @@
         </h2>
       </div>
       <div class="text-center">
-        <a href="" class="btn btn-primary btn-lg" style="width: 400px; padding: 20px;"> Buy Now! </a>
+        <a href="{{ route('general-checkout',['product' => 'fit-without-gym']) }}" class="btn btn-primary btn-lg" style="width: 400px; padding: 20px;"> Buy Now! </a>
       </div>
     </div>
   </section>

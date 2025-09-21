@@ -65,3 +65,5 @@ Route::post('/zelle-checkout',[ZelleController::class,"zelle_checkout"])->name('
 
 Route::get('/our-programs', fn() => view('programs.main'));
 
+Route::get('/general-checkout/{product}',[CheckoutController::class,'general_checkout'])->name('general-checkout');
+

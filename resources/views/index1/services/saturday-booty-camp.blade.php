@@ -5,7 +5,7 @@
 @section('index1.content')
 
     @include('index1.services.hero-services', [
-        'hero_image'=>'t1/img/services/brad-recipe3.webp',
+        'hero_image'=>'hero-booty.png',
         'h1_title' => 'Saturday.Booty.Camp',
         'h2_subtitle' => 'Strong Bodies. Fun Energy. Real Results.'
     ])
@@ -22,7 +22,7 @@
         <div class="row g-5 gb-5">
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-justify p-5">
-                    <img src="{{ asset('t1/img/services/w1.webp') }}" alt="plan" class="img-fluid">
+                    <img src="{{ asset('booty1.webp') }}" alt="plan" class="img-fluid">
                     <h3 class="text-uppercase my-4 fs-1 text-center">Targeted Training</h3>
                     <p class="text-center text-uppercase"><strong>Legs, glutes, and abs done the right way</strong><br><br></p>
                     <span class="text-justify">
@@ -31,13 +31,13 @@ Expect focused circuits that sculpt and strengthen key areas.
 You will feel the burn and leave with confidence.  
 Progress comes from smart movement and good energy.
                     </span>
-                    <a href="{{ route('checkout-fit-reset-consultation') }}" class="btn btn-warning d-block text-center mx-auto mt-4">Save Your Spot</a>
+                    <a href="{{ route('general-checkout',['product' => 'saturday-booty-camp']) }}" class="btn btn-warning d-block text-center mx-auto mt-4">Save Your Spot</a>
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-justify p-5">
-                    <img src="{{ asset('t1/img/services/w2.webp')  }}" class="img-fluid">
+                    <img src="{{ asset('booty2.webp')  }}" class="img-fluid">
                     <h3 class="text-uppercase my-4 fs-1 text-center">Group Energy</h3>
                     <p class="text-center text-uppercase"><strong>Sweat together, stay motivated, and have fun</strong><br><br></p>
                     <span class="text-justify">
@@ -46,13 +46,13 @@ We build community through movement and laughter.
 Everyone is welcome. Everyone leaves stronger.  
 Let your weekend start with sweat and smiles.
                     </span>
-                    <a href="{{ route('checkout-fit-reset-consultation') }}" class="btn btn-warning d-block text-center mx-auto mt-4">Join the Camp</a>
+                    <a href="{{ route('general-checkout',['product' => 'saturday-booty-camp']) }}" class="btn btn-warning d-block text-center mx-auto mt-4">Join the Camp</a>
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-justify p-5">
-                    <img src="{{ asset('t1/img/services/w3.webp')  }}" class="img-fluid" alt="">
+                    <img src="{{ asset('booty3.webp')  }}" class="img-fluid" alt="">
                     <h3 class="text-uppercase my-4 fs-1 text-center">Body Confidence</h3>
                     <p class="text-center text-uppercase"><strong>Move with strength, celebrate your shape, and feel amazing</strong><br><br></p>
                     <span class="text-justify">
@@ -61,7 +61,7 @@ We train with purpose and intention, not pressure.
 Every squat, lunge, and crunch is a step toward strength.  
 You bring the attitude, we bring the plan.
                     </span>
-                    <a href="{{ route('checkout-fit-reset-consultation') }}" class="btn btn-warning d-block text-center mx-auto mt-4">Make the Shift</a>
+                    <a href="{{ route('general-checkout',['product' => 'saturday-booty-camp']) }}" class="btn btn-warning d-block text-center mx-auto mt-4">Make the Shift</a>
                 </div>
             </div>
         </div>
@@ -73,7 +73,7 @@ You bring the attitude, we bring the plan.
         Legs, glutes, and abs in a fun, sweaty group setting<br>
         <span class="fw-semibold">$29 per class. Dates will be confirmed based on demand.</span>
       </p>
-      <a href="/checkout-fit-reset-consultation" class="btn fw-bold" style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.4rem 4rem; border-radius: 2rem;">
+      <a href="{{ route('general-checkout',['product' => 'saturday-booty-camp']) }}" class="btn fw-bold" style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.4rem 4rem; border-radius: 2rem;">
         Sign Up
       </a>
     </div>

@@ -31,7 +31,7 @@ Explore what is working, what is not, and what you truly need.
 Clarity begins with intention and space to reflect.  
 This is a starting point for realignment and progress.
                     </span>
-                    <a href="{{ route('checkout-fit-reset-consultation') }}" class="btn btn-warning d-block text-center mx-auto mt-4">Book Your Session</a>
+                    <a href="{{ route('general-checkout',['product' => 'life-reset-consultation']) }}" class="btn btn-warning d-block text-center mx-auto mt-4">Book Your Session</a>
                 </div>
             </div>
 
@@ -46,7 +46,7 @@ We help you clarify priorities and take action with intention.
 You receive simple tools that fit into your life.  
 Nothing overwhelming, just what moves you forward.
                     </span>
-                    <a href="{{ route('checkout-fit-reset-consultation') }}" class="btn btn-warning d-block text-center mx-auto mt-4">Start Your Reset</a>
+                    <a href="{{ route('general-checkout',['product' => 'life-reset-consultation']) }}" class="btn btn-warning d-block text-center mx-auto mt-4">Start Your Reset</a>
                 </div>
             </div>
 
@@ -61,7 +61,7 @@ Walk away with renewed energy and mental calm.
 You are not stuck. You are just one conversation away from direction.  
 Strong body. Open mind. Kind heart.
                     </span>
-                    <a href="{{ route('checkout-fit-reset-consultation') }}" class="btn btn-warning d-block text-center mx-auto mt-4">Make the Shift</a>
+                    <a href="{{ route('general-checkout',['product' => 'life-reset-consultation']) }}" class="btn btn-warning d-block text-center mx-auto mt-4">Make the Shift</a>
                 </div>
             </div>
         </div>
@@ -73,7 +73,7 @@ Strong body. Open mind. Kind heart.
         One-on-one session for reflection, clarity, and direction<br>
         <span class="fw-semibold">Just $129. One conversation can shift everything.</span>
       </p>
-      <a href="/checkout-fit-reset-consultation" class="btn fw-bold" style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.4rem 4rem; border-radius: 2rem;">
+      <a href="{{ route('general-checkout',['product' => 'life-reset-consultation']) }}" class="btn fw-bold" style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.4rem 4rem; border-radius: 2rem;">
         Book Now
       </a>
     </div>

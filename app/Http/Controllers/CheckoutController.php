@@ -5,19 +5,41 @@ use Illuminate\Http\Request;
 use Stripe\Stripe;
 use Stripe\Checkout\Session;
 
+use function PHPUnit\Framework\returnSelf;
 
 class CheckoutController extends Controller
 {
+
+    public function general_checkout(Request $request,  string $product)    
+    {
+        $productDict = config("products.$product");
+        $productPrice = $productDict['price'];
+        $productName = $productDict['name'];
+        $productDesc = $productDict['desc'];
+
+        $amount = $productPrice * 100;
+
+        return view('checkout')->with('amount', $amount)
+                                ->with('productName',$productName)
+                                ->with('desc',$productDesc);
+
+
+    }
+
      public function show()
     {
         $amount = 12900; // en centavos (120.00 USD)
-        return view('checkout', compact('amount'));
+        $productName = "Fit.Reset.Consultation";
+        return view('checkout')->with('amount', $amount)
+                                      ->with('product_name',$productName);
     }
 
     public function checkout_personal_fitness_training()
     {
         $amount = 12900; // en centavos (120.00 USD)
-        return view('checkout', compact('amount'));
+        $productName = "Fit.Reset.Consultation";
+        return view('checkout')->with('amount',$amount)
+                                        ->with('productName',$productName);
     }
 
     public function pay(Request $request)

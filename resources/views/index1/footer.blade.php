@@ -46,7 +46,7 @@
                     <p class="text-light"></p>
                     <form action="">
                         <div class="input-group">
-                            <a href="http://fitdonewell.com/contact/" class="btn btn-lg btn-dark">Life.Reset.Jourmal.</a>
+                            <a href="http://blog.fitdonewell.com/contact/" class="btn btn-lg btn-dark">Life.Reset.Jourmal.</a>
                         </div>
                     </form>
                 </div>

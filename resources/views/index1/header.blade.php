@@ -19,12 +19,13 @@
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto py-0">
                             <a href="{{ url('/') }}" class="nav-item nav-link active">Home</a>
-                            <a href="{{ url('#id_about') }}" class="nav-item nav-link">About</a>
-                            <a href="http://shop.fitdonewell.com" class="nav-item nav-link">Shop</a>
-                            <a href="{{ url('#id_testimonials') }}" class="nav-item nav-link">Testimonials</a>
-                            <a href="{{ url('#real_schedule') }}" class="nav-item nav-link">Schedule</a>
+                            <a href="{{ url('/services') }}" class="nav-item nav-link">Services</a>
+                            <a href="{{ url('/our-programs') }}" class="nav-item nav-link">Programs</a>
+                            <a href="https://www.amazon.com/s?me=A3ICCKPR3TSRVY&ref=sf_seller_app_share_new" class="nav-item nav-link">Products</a>
                             <a href="{{ route('main-events') }}" class="nav-item nav-link">Events</a>
-                            <a href="{{ url('#id_coaches') }}" class="nav-item nav-link">Coaches</a>
+                            <a href="{{ url('#real_schedule') }}" class="nav-item nav-link">Consultations</a>
+                            <a href="{{ url('#id_testimonials') }}" class="nav-item nav-link">Testimonials</a>
+
 
                             <div class="nav-item dropdown">
                                 <a href="http://blog.fitdonewell.com" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Blog</a>
@@ -34,9 +35,8 @@
                                     <a href="http://blog.fitdonewell.com" class="dropdown-item">Kind Hearts - Blog</a>
                                 </div>
                             </div>
-                            <a href="http://blog.fitdonewell.com/contact" class="nav-item nav-link">Contact</a>
                         </div>
-                        <a href="http://blog.fitdonewell.com/contact" class="btn btn-primary py-md-3 px-md-5 d-none d-lg-block">Join Our Tribe</a>
+                        <a href="http://blog.fitdonewell.com/contact" class="btn btn-primary py-md-3 px-md-5 d-none d-lg-block">Contact</a>
                     </div>
                 </nav>
             </div>

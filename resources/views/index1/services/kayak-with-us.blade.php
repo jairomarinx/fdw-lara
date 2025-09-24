@@ -37,7 +37,7 @@ Let nature reset your energy.
 
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-justify p-5">
-                    <img src="{{ asset('river2.webp')  }}" class="img-fluid">
+                    <img src="{{ asset('river3.webp')  }}" class="img-fluid">
                     <h3 class="text-uppercase my-4 fs-1 text-center">Scenic Beauty</h3>
                     <p class="text-center text-uppercase"><strong>Wildlife, landscapes, and peaceful movement</strong><br><br></p>
                     <span class="text-justify">
@@ -52,7 +52,7 @@ You will not forget this view or this feeling.
 
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-justify p-5">
-                    <img src="{{ asset('river3.webp')  }}" class="img-fluid" alt="">
+                    <img src="{{ asset('river-breakfast.webp')  }}" class="img-fluid" alt="">
                     <h3 class="text-uppercase my-4 fs-1 text-center">Breakfast Picnic</h3>
                     <p class="text-center text-uppercase"><strong>Fuel up with good food and great company</strong><br><br></p>
                     <span class="text-justify">

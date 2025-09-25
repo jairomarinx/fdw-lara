@@ -64,9 +64,8 @@ Train hard, feel good, and grow stronger together.',
                 'subtitle' => 'Scottsdale & Phoenix',
                 'description' => 'Elevate your… Our meal preps indulge your palate while helping you get in shape.',
                 'prices' => [
-                    ['label' => '5 Meals $60.00', 'route' => 'general-checkout', 'product' => 'weekly.meal.prepping5' ],
-                    ['label' => '10 Meals $100.00', 'route' => 'general-checkout', 'product'=> 'weekly.meal.prepping10'],
-                    ['label' => '15 Meals $120.00', 'route' => 'general-checkout', 'product'=> 'weekly.meal.prepping15']
+                    ['label' => '5 Meals $70.00', 'route' => 'general-checkout', 'product' => 'weekly-meal-prepping5' ],
+                    ['label' => '10 Meals $120.00', 'route' => 'general-checkout', 'product'=> 'weekly-meal-prepping10'],                    
                 ],
                 'image' => 't1/img/services/n3.webp',
                 'link'  => 'weekly-meal-prepping'
@@ -89,7 +88,7 @@ Train hard, feel good, and grow stronger together.',
                 'tag' => 'open minds',
                 'subtitle' => 'Scottsdale Facility',
                 'description' => 'Nurture your mind… Sacred space to heal, design your manifestation map, build habits, and rebirth your best self. Coach will contact you in 24h.',
-                'prices' => [['label' => 'Pay $199.00', 'route' => 'general-checkout', 'product'=> 'sunrise-life-reset']],
+                'prices' => [['label' => 'Pay $199.00', 'route' => 'general-checkout', 'product'=> 'sunrise-life-reset-service']],
                 'image' => 't1/img/services/sunrise1.webp',
                 'link'  => 'sunrise-life-reset'
 

@@ -12,11 +12,14 @@ return [
     'personal-fitness-training8' => [ 'name' => 'Personal-fitness-training8', 'price' => 792, 'desc' => ''],
     'group-fitness-training' => [ 'name' => 'Group-fitness-training', 'price' => 507, 'desc' => ''],
     'grocery-reset-tour' => [ 'name' => 'Grocery-Reset-Tour', 'price' => 199, 'desc' => ''],
-    'weekly.meal.prepping5' => [ 'name' => 'Weekly.Meal.Prepping5', 'price' => 60, 'desc' => ''],
-    'weekly.meal.prepping10' => [ 'name' => 'Weekly.Meal.Prepping10', 'price' => 100, 'desc' => ''],
-    'weekly.meal.prepping15' => [ 'name' => 'Weekly.Meal.Prepping15', 'price' => 120, 'desc' => ''],
+
+    'weekly-meal-prepping5' => [ 'name' => 'weekly.meal.prepping5', 'price' => 70, 'desc' => ''],
+    'weekly-meal-prepping10' => [ 'name' => 'weekly.meal.prepping10', 'price' => 120, 'desc' => ''],    
+
+    
     'life-reset-retreat2' => [ 'name' => 'life-reset-retreat2', 'price' => 1200, 'desc' => ''],
     'life-reset-retreat5' => [ 'name' => 'life-reset-retreat5', 'price' => 2900, 'desc' => ''],
+    'sunrise-life-reset-service' => [ 'name' => 'Sunrise.Life.Reset', 'price' => 199, 'desc' => ''],
 
 
 

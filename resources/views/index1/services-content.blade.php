@@ -2,7 +2,7 @@
     $services = [
         'OUR.FITNESS.SERVICES.' => [
             [
-                'title' => 'Fit.Reset.Consultation.',
+                'title' => 'Fit Reset Consultation.',
                 'tag' => 'strong bodies',
                 'subtitle' => 'Face Time or Scottsdale Facility',
                 'description' => 'Celebrate your body… This personalized consultation is designed for those ready to take control of their health with a clear and sustainable approach. One of our coaches will connect with you within 24 hours to define the best schedule.',
@@ -11,7 +11,7 @@
                 'link'  => 'fitness-reset-consultation'
             ],
             [
-                'title' => 'Personal.Fitness.Training.',
+                'title' => 'Personal Fitness Training.',
                 'tag' => 'strong bodies',
                 'subtitle' => 'Face Time or Scottsdale Facility',
                 'description' => 'Nurture your mind… Fully personalized one-hour session either from the comfort of your home (FaceTime) or at our Scottsdale gym. One of our coaches will contact you within 24 hours to set the best schedule.',
@@ -24,7 +24,7 @@
                 'link'  => 'personal-fitness-training'
             ],
             [
-                'title' => 'Group.Fitness.Training.',
+                'title' => 'Group Fitness Training.',
                 'tag' => 'strong bodies',
                 'subtitle' => 'Scottsdale Facility (Mon/Wed/Fri at 9:00 am)',
                 'description' => 'Build strength, confidence, and consistency with expert-led group sessions.
@@ -39,7 +39,7 @@ Train hard, feel good, and grow stronger together.',
         ],
         'OUR.NUTRITIONAL.SERVICES.' => [
             [
-                'title' => 'Nutrition.Reset.Consultation.',
+                'title' => 'Nutrition Reset Consultation.',
                 'tag' => 'strong bodies',
                 'subtitle' => 'Face Time or Scottsdale Facility',
                 'description' => 'Celebrate your body… Designed for those ready to reset their nutrition. One of our coaches will connect within 24 hours to define the best schedule.',
@@ -49,7 +49,7 @@ Train hard, feel good, and grow stronger together.',
 
             ],
             [
-                'title' => 'Grocery.Reset.Tour.',
+                'title' => 'Grocery Reset Tour.',
                 'tag' => 'strong bodies',
                 'subtitle' => 'Scottsdale & Phoenix',
                 'description' => 'Nurture your mind… A guided supermarket tour to reset your eating habits and learn to eat with purpose. One of our coaches will contact you within 24 hours.',
@@ -59,7 +59,7 @@ Train hard, feel good, and grow stronger together.',
 
             ],
             [
-                'title' => 'Weekly.Meal.Prepping.',
+                'title' => 'Weekly Meal Prepping.',
                 'tag' => 'strong bodies',
                 'subtitle' => 'Scottsdale & Phoenix',
                 'description' => 'Elevate your… Our meal preps indulge your palate while helping you get in shape.',
@@ -75,7 +75,7 @@ Train hard, feel good, and grow stronger together.',
         ],
         'OUR.MINDFUL.SERVICES.' => [
             [
-                'title' => 'Life.Reset.Consultation.',
+                'title' => 'Life Reset Consultation.',
                 'tag' => 'Open Minds',
                 'subtitle' => 'Face Time or Scottsdale Facility',
                 'description' => 'Celebrate your body… A consultation for life clarity and focus. One of our coaches will contact you within 24 hours.',
@@ -85,7 +85,7 @@ Train hard, feel good, and grow stronger together.',
 
             ],
             [
-                'title' => 'Sunrise.Life.Reset.',
+                'title' => 'Sunrise Life Reset',
                 'tag' => 'open minds',
                 'subtitle' => 'Scottsdale Facility',
                 'description' => 'Nurture your mind… Sacred space to heal, design your manifestation map, build habits, and rebirth your best self. Coach will contact you in 24h.',
@@ -95,7 +95,7 @@ Train hard, feel good, and grow stronger together.',
 
             ],
             [
-                'title' => 'Life.Reset.Retreats.',
+                'title' => 'Life Reset Retreats.',
                 'tag' => 'kind hearts',
                 'subtitle' => 'Sedona & Colombia',
                 'description' => 'Elevate your spirit… Multi-day retreats with full-body reset experiences. Coach will confirm dates after payment. Plain tickets not included.',
@@ -122,7 +122,7 @@ Train hard, feel good, and grow stronger together.',
                     <div class="bg-white rounded p-4 h-100 d-flex flex-column justify-content-between">
                         <img src="{{ asset($item['image']) }}" class="img-fluid mb-3" alt="">
                         <h3 class="text-uppercase text-center fs-3">{{ $item['title'] }}</h3>
-                        <h5 class="text-center text-muted mb-3">{{ $item['tag'] }}</h5>
+                        
                         <p class="text-center fw-bold">{{ $item['subtitle'] }}</p>
                         <p class="text-justify flex-grow-1">{{ $item['description'] }}</p>
                         <div class="text-center mt-3">

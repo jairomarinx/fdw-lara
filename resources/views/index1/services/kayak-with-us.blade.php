@@ -70,13 +70,12 @@ This is movement with meaning.
       <h2 class="fw-bold mb-4 text-black display-5">Kayak with Us on the Salt River</h2>
       <p class="fs-4 mb-5 text-dark">
         Scenic paddle through desert cliffs and wild beauty<br>
-        Sunrise Mindful Activity, Picnic Breakfast, Guided Kayak Tour and Snacks are included.<br><br><br>
-        <span class="fw-semibold mt-3"> <span style="background-color: rgb(0,230,0); color: white; weight: 600; padding: 10px; "> Only $129.</span> </span>
-        <h2 style="color: #28A745; weight: 800; ">Saturday, October 18 6:00 am to 11:00 am</h2>
+        Sunrise Mindful Activity, Picnic Breakfast, Guided Kayak Tour and Snacks are included.
+        <h2 style="">Saturday, October 18 6:00 am to 11:00 am</h2>
         <h3 class="text-black">Location: Saguaro Lake Guest Ranch 13020 N. Bush Hwy Mesa, AZ 85215</h3>
       </p>
-      <a href="{{ route('general-checkout', ['product' => 'kayak-with-us']) }}" class="btn fw-bold" style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.4rem 4rem; border-radius: 2rem;">
-        Book Now
+      <a href="{{ route('general-checkout', ['product' => 'kayak-with-us']) }}" class="btn fw-bold mt-4" style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.4rem 4rem; border-radius: 2rem;">
+        Book Now - Only $129 USD
       </a>
     </div>
 

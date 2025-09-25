@@ -6,7 +6,7 @@
                 'tag' => 'strong bodies',
                 'subtitle' => 'Face Time or Scottsdale Facility',
                 'description' => 'Celebrate your body… This personalized consultation is designed for those ready to take control of their health with a clear and sustainable approach. One of our coaches will connect with you within 24 hours to define the best schedule.',
-                'prices' => [['label' => 'Pay $129.00', 'route' => 'checkout-fit-reset-consultation']],
+                'prices' => [['label' => 'Pay $129.00', 'route' => 'general-checkout', 'product'=>'fit-reset-consultation']],
                 'image' => 't1/img/services/brad-corey.webp',
                 'link'  => 'fitness-reset-consultation'
             ],
@@ -16,9 +16,9 @@
                 'subtitle' => 'Face Time or Scottsdale Facility',
                 'description' => 'Nurture your mind… Fully personalized one-hour session either from the comfort of your home (FaceTime) or at our Scottsdale gym. One of our coaches will contact you within 24 hours to set the best schedule.',
                 'prices' => [
-                    ['label' => '1 Session $129.00', 'route' => 'checkout-personal-fitness-training'],
-                    ['label' => '4 Sessions $396.00', 'route' => 'checkout-personal-fitness-training'],
-                    ['label' => '8 Sessions $792.00', 'route' => 'checkout-personal-fitness-training']
+                    ['label' => '1 Session $129.00', 'route' => 'general-checkout', 'product' => 'personal-fitness-training1' ],
+                    ['label' => '4 Sessions $396.00', 'route' => 'general-checkout', 'product' => 'personal-fitness-training4'],
+                    ['label' => '8 Sessions $792.00', 'route' => 'general-checkout', 'product' => 'personal-fitness-training8']
                 ],
                 'image' => 't1/img/services/service-pillar2.webp',
                 'link'  => 'personal-fitness-training'
@@ -31,7 +31,7 @@
 Enjoy personalized attention without the pressure of going solo.
 Each class blends challenge, support, and real community energy.
 Train hard, feel good, and grow stronger together.',
-                'prices' => [['label' => '1 Month $507.00', 'route' => 'checkout-fit-reset-consultation']],
+                'prices' => [['label' => '1 Month $507.00', 'route' => 'general-checkout', 'product' => 'group-fitness-training']],
                 'image' => 't1/img/services/corey-laly.webp',
                 'link'  => 'group-fitness-training'
 
@@ -43,7 +43,7 @@ Train hard, feel good, and grow stronger together.',
                 'tag' => 'strong bodies',
                 'subtitle' => 'Face Time or Scottsdale Facility',
                 'description' => 'Celebrate your body… Designed for those ready to reset their nutrition. One of our coaches will connect within 24 hours to define the best schedule.',
-                'prices' => [['label' => 'Pay $129.00', 'route' => 'checkout-fit-reset-consultation']],
+                'prices' => [['label' => 'Pay $129.00', 'route' => 'general-checkout', 'product' => 'nutrition-reset-consultation' ]],
                 'image' => 't1/img/services/brad-recipe2.webp',
                 'link'  => 'nutrition-reset-consultation'
 
@@ -53,7 +53,7 @@ Train hard, feel good, and grow stronger together.',
                 'tag' => 'strong bodies',
                 'subtitle' => 'Scottsdale & Phoenix',
                 'description' => 'Nurture your mind… A guided supermarket tour to reset your eating habits and learn to eat with purpose. One of our coaches will contact you within 24 hours.',
-                'prices' => [['label' => 'Pay $199.00', 'route' => 'checkout-fit-reset-consultation']],
+                'prices' => [['label' => 'Pay $199.00', 'route' => 'general-checkout', 'product' => 'grocery-reset-tour']],
                 'image' => 't1/img/services/grocery1.webp',
                 'link'  => 'grocery-reset-tour'
 
@@ -64,9 +64,9 @@ Train hard, feel good, and grow stronger together.',
                 'subtitle' => 'Scottsdale & Phoenix',
                 'description' => 'Elevate your… Our meal preps indulge your palate while helping you get in shape.',
                 'prices' => [
-                    ['label' => '5 Meals $60.00', 'route' => 'checkout-fit-reset-consultation'],
-                    ['label' => '10 Meals $100.00', 'route' => 'checkout-fit-reset-consultation'],
-                    ['label' => '15 Meals $120.00', 'route' => 'checkout-fit-reset-consultation']
+                    ['label' => '5 Meals $60.00', 'route' => 'general-checkout', 'product' => 'weekly.meal.prepping5' ],
+                    ['label' => '10 Meals $100.00', 'route' => 'general-checkout', 'product'=> 'weekly.meal.prepping10'],
+                    ['label' => '15 Meals $120.00', 'route' => 'general-checkout', 'product'=> 'weekly.meal.prepping15']
                 ],
                 'image' => 't1/img/services/n3.webp',
                 'link'  => 'weekly-meal-prepping'
@@ -79,17 +79,17 @@ Train hard, feel good, and grow stronger together.',
                 'tag' => 'Open Minds',
                 'subtitle' => 'Face Time or Scottsdale Facility',
                 'description' => 'Celebrate your body… A consultation for life clarity and focus. One of our coaches will contact you within 24 hours.',
-                'prices' => [['label' => 'Pay $129.00', 'route' => 'checkout-fit-reset-consultation']],
+                'prices' => [['label' => 'Pay $129.00', 'route' => 'general-checkout', 'product' => 'life-reset-consultation']],
                 'image' => 't1/img/services/m2.webp',
                 'link'  => 'life-reset-consultation'
 
             ],
             [
-                'title' => 'Sunrise Life Reset',
+                'title' => 'Sunrise Life Reset.',
                 'tag' => 'open minds',
                 'subtitle' => 'Scottsdale Facility',
                 'description' => 'Nurture your mind… Sacred space to heal, design your manifestation map, build habits, and rebirth your best self. Coach will contact you in 24h.',
-                'prices' => [['label' => 'Pay $199.00', 'route' => 'checkout-fit-reset-consultation']],
+                'prices' => [['label' => 'Pay $199.00', 'route' => 'general-checkout', 'product'=> 'sunrise-life-reset']],
                 'image' => 't1/img/services/sunrise1.webp',
                 'link'  => 'sunrise-life-reset'
 
@@ -100,8 +100,8 @@ Train hard, feel good, and grow stronger together.',
                 'subtitle' => 'Sedona & Colombia',
                 'description' => 'Elevate your spirit… Multi-day retreats with full-body reset experiences. Coach will confirm dates after payment. Plain tickets not included.',
                 'prices' => [
-                    ['label' => '2 days Sedona $1,200.00', 'route' => 'checkout-fit-reset-consultation'],
-                    ['label' => '5 days Medellin $2,900.00', 'route' => 'checkout-fit-reset-consultation']
+                    ['label' => '2 days Sedona $1,200.00', 'route' => 'general-checkout', 'product' => 'life-reset-retreat2'],
+                    ['label' => '5 days Medellin $2,900.00', 'route' => 'general-checkout', 'product'=> 'life-reset-retreat5']
                 ],
                 'image' => 't1/img/services/sedona.webp',
                 'link'  => 'life-reset-retreats'
@@ -128,7 +128,7 @@ Train hard, feel good, and grow stronger together.',
                         <div class="text-center mt-3">
                             <a href="{{ route($item['link']) }}" class="btn btn-outline-dark mb-2">Learn More</a>
                             @foreach ($item['prices'] as $price)
-                                <a href="{{ route($price['route']) }}" class="btn btn-warning d-block mt-2">{{ $price['label'] }}</a>
+                                <a href="{{ route($price['route'], ['product' => $price['product'] ]) }}" class="btn btn-warning d-block mt-2">{{ $price['label'] }}</a>
                             @endforeach
                         </div>
                     </div>

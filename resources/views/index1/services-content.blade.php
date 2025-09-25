@@ -113,7 +113,7 @@ Train hard, feel good, and grow stronger together.',
 @foreach ($services as $sectionTitle => $items)
     <div class="container-fluid px-5 py-5" style="background-color: #F4F5F8;">
         <div class="text-center mb-4">
-            <h1 class="display-4 text-uppercase">{{ $sectionTitle }}</h1>
+            <h1 class="display-4 text-uppercase" style="font-size: clamp(16px, 30px, 30px);">{{ $sectionTitle }}</h1>
         </div>
         <div class="row g-5">
             @foreach ($items as $item)

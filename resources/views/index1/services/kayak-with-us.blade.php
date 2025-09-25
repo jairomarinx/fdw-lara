@@ -75,7 +75,7 @@ This is movement with meaning.
         <h3 class="text-black">Location: Saguaro Lake Guest Ranch 13020 N. Bush Hwy Mesa, AZ 85215</h3>
       </p>
       <a href="{{ route('general-checkout', ['product' => 'kayak-with-us']) }}" class="btn fw-bold mt-4" style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.4rem 4rem; border-radius: 2rem;">
-        Book Now - Only $129 USD
+        Only $129 USD
       </a>
     </div>
 

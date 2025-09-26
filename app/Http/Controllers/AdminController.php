@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Artisan;
 
 class AdminController extends Controller
 {
@@ -16,7 +17,7 @@ class AdminController extends Controller
             abort(403, 'Unauthorized');
         }
 
-        echo "Hola, estoy haciendo un deploy";
-
+        Artisan::call("app:deploy-command");
+        return response("Deploy Completed",200);
     }
 }

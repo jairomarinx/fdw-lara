@@ -44,7 +44,7 @@ Train hard, feel good, and grow stronger together.',
                 'subtitle' => 'Face Time or Scottsdale Facility',
                 'description' => 'Celebrate your body… Designed for those ready to reset their nutrition. One of our coaches will connect within 24 hours to define the best schedule.',
                 'prices' => [['label' => 'Pay $129.00', 'route' => 'general-checkout', 'product' => 'nutrition-reset-consultation' ]],
-                'image' => 't1/img/services/brad-recipe2.webp',
+                'image' => 'gro2.webp',
                 'link'  => 'nutrition-reset-consultation'
 
             ],
@@ -54,7 +54,7 @@ Train hard, feel good, and grow stronger together.',
                 'subtitle' => 'Scottsdale & Phoenix',
                 'description' => 'Nurture your mind… A guided supermarket tour to reset your eating habits and learn to eat with purpose. One of our coaches will contact you within 24 hours.',
                 'prices' => [['label' => 'Pay $199.00', 'route' => 'general-checkout', 'product' => 'grocery-reset-tour']],
-                'image' => 't1/img/services/grocery1.webp',
+                'image' => 'gro.webp',
                 'link'  => 'grocery-reset-tour'
 
             ],

@@ -41,7 +41,7 @@ class DeployCommand extends Command
         $basePath = '/var/www/html/fdw-lara';         
         $this->info("Running: $command");
         $fullCommand = "cd $basePath && $command";
-        $output = shell_exec($command . ' 2>&1');
+        $output = shell_exec($fullCommand . ' 2>&1');
         $this->line($output);
     }
 

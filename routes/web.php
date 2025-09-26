@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FitController;
 use App\Http\Controllers\CheckoutController;
 use App\Http\Controllers\ZelleController;
+use App\Http\Controllers\AdminController;
 
 // Home
 Route::get('/', fn() => view('index1.home'))->name('root');
@@ -66,4 +67,6 @@ Route::post('/zelle-checkout',[ZelleController::class,"zelle_checkout"])->name('
 Route::get('/our-programs', fn() => view('programs.main'));
 
 Route::get('/general-checkout/{product}',[CheckoutController::class,'general_checkout'])->name('general-checkout');
+
+Route::get('/admin/deploy',[AdminController::class, "deploy"]);
 

@@ -42,7 +42,7 @@ class DeployCommand extends Command
         $this->info("Running: $command");
         $fullCommand = "cd $basePath && $command";
         $output = shell_exec($fullCommand . ' 2>&1');
-        $this->line($output);
+        $this->line($output ?? '[No output]');
     }
 
 }

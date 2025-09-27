@@ -33,7 +33,7 @@
                     <div class="bg-dark d-flex align-items-center rounded-bottom p-4">
                         <div class="flex-shrink-0 text-center text-secondary border-end border-secondary pe-3 me-3">
                             <img src="{{ asset('logo-fdw.png') }}" alt="" class="img-fluid" style="max-width: clamp(40px, 10vw, 100px);">                        </div>
-                        <a class="h5 text-uppercase text-light" href="{{ route('fitness-reset-consultation') }}">Fitness. <br><span class="text-primary">Reset.Consultation</span></h4></a>
+                        <a class="h5 text-uppercase text-light" href="{{ route('fitness-reset-consultation') }}">Fitness. <br><span class="text-primary">Reset.<br>Consultation</span></h4></a>
                     </div>
                 </div>
                 </a>
@@ -47,7 +47,7 @@
                     <div class="bg-dark d-flex align-items-center rounded-bottom p-4">
                         <div class="flex-shrink-0 text-center text-secondary border-end border-secondary pe-3 me-3">
                             <img src="{{ asset('logo-fdw.png') }}" alt="" class="img-fluid" style="max-width: clamp(40px, 10vw, 100px);">                        </div>
-                        <a class="h5 text-uppercase text-light" href="{{ route('nutrition-reset-consultation') }}">Nutrition. <br><span class="text-primary">Reset.Consultation.</span></h4></a>
+                        <a class="h5 text-uppercase text-light" href="{{ route('nutrition-reset-consultation') }}">Nutrition. <br><span class="text-primary">Reset.<br>Consultation.</span></h4></a>
                     </div>
                 </div>
                 </a>

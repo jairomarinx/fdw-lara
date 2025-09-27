@@ -44,7 +44,6 @@
         <div class="container text-center mt-4 mb-4">
             <div class="row">
                 <div class="col-lg-12 col-md-12 text-center">
-                    <h1 class="display-3 text-uppercase mb-2">Visit Our Shop</h1>
                 </div>
             </div>
         </div>
@@ -96,9 +95,7 @@
 
 
 <div class="cta-overlay-wrapper">
-    <a href="http://shop.fitdonewell.com" class="cta-overlay-button">
-        👆 Click Here
-    </a>
+    
 </div>
 
     <div class="container-fluid px-0 mt-3 mb-3 amazon-shop">

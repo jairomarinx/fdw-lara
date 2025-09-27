@@ -17,6 +17,7 @@ class AdminController extends Controller
         }
 
         Artisan::call("app:deploy-command");
-        return response("Deploy Completed",200);
+        $output = Artisan::output();
+        return response()->json(['Msg'=> 'Deploy Successfull', 'details'=>$output?? 'Error, returned null the artisan command'],200);
     }
 }

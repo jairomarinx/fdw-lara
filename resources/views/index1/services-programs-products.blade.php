@@ -10,7 +10,7 @@
                         <div class="flex-shrink-0 text-center text-secondary border-end border-secondary pe-3 me-3">
                            <img src="{{ asset('logo-fdw.png') }}" alt="" class="img-fluid" style="max-width: clamp(40px, 10vw, 100px);">
                         </div>
-                        <a class="h5 text-uppercase text-light" href="{{ url('/services') }}">Our Services <br><span class="text-primary"> Start your journey</span></h4></a>
+                        <a class="h3 text-uppercase text-light" href="{{ url('/services') }}">Our Services <br><span class="text-primary h5"> Start your journey</span></h4></a>
                     </div>
                 </div>
                 </a>
@@ -24,7 +24,7 @@
                     <div class="bg-dark d-flex align-items-center rounded-bottom p-4">
                         <div class="flex-shrink-0 text-center text-secondary border-end border-secondary pe-3 me-3">
                             <img src="{{ asset('logo-fdw.png') }}" alt="" class="img-fluid" style="max-width: clamp(40px, 10vw, 100px);">                        </div>
-                        <a class="h5 text-uppercase text-light" href="{{ url('/our-programs') }}">Our programs <br><span class="text-primary">Power Your Life</span></h4></a>
+                        <a class="h3 text-uppercase text-light" href="{{ url('/our-programs') }}">Our programs <br><span class="text-primary h5">Power Your Life</span></h4></a>
                     </div>
                 </div>
                 </a>
@@ -38,7 +38,7 @@
                     <div class="bg-dark d-flex align-items-center rounded-bottom p-4">
                         <div class="flex-shrink-0 text-center text-secondary border-end border-secondary pe-3 me-3">
                             <img src="{{ asset('logo-fdw.png') }}" alt="" class="img-fluid" style="max-width: clamp(40px, 10vw, 100px);">                        </div>
-                        <a class="h5 text-uppercase text-light" href="https://www.amazon.com/s?me=A3ICCKPR3TSRVY&ref=sf_seller_app_share_new">Our Products <br><span class="text-primary">Stronger Every Day</span></h4></a>
+                        <a class="h3 text-uppercase text-light" href="https://www.amazon.com/s?me=A3ICCKPR3TSRVY&ref=sf_seller_app_share_new">Our Products <br><span class="text-primary h5">Stronger Every Day</span></h4></a>
                     </div>
                 </div>
                 </a>

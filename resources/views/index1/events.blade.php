@@ -36,7 +36,7 @@
                     <div class="row g-5">
                         <div class="col-lg-6 col-md-6 col-sm-12 mx-auto">
                             <div class="bg-dark rounded text-center py-3 px-3">
-                                <a href="{{ route('main-events') }}"><img src="{{ asset('t1/img/mindfulness-event.jpg') }}" class="img-fluid" alt=""></a>
+                                <a href="{{ route('main-events') }}"><img src="{{ asset('kayak.jpg') }}" class="img-fluid" alt=""></a>
                                 <h3 class="text-uppercase text-light mb-3">
                                     <h3 class="text-uppercase text-light"></h3>
                                     <h3> <a href="http://blog.fitdonewell.com/contact" class="btn btn-primary">Sign Up</a> </h3>
@@ -48,7 +48,7 @@
                     <div class="row g-5">
                         <div class="col-lg-6 col-md-6 col-sm-12 mx-auto">
                             <div class="bg-dark rounded text-center py-3 px-3">
-                                <a href="{{ route('main-events') }}"><img src="{{ asset('t1/img/wholeness-event.jpg') }}" class="img-fluid" alt=""></a>
+                                <a href="{{ route('main-events') }}"><img src="{{ asset('ninas.jpg') }}" class="img-fluid" alt=""></a>
                                 <h3 class="text-uppercase text-light mb-3"></h3>
                                 <h3> <a href="http://blog.fitdonewell.com/contact" class="btn btn-primary">Sign Up</a> </h3>
 

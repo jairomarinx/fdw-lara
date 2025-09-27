@@ -13,7 +13,7 @@ class AdminController extends Controller
         $signature = 'sha256=' . hash_hmac('sha256', $request->getContent(), $deploy_pass);
 
         if (!hash_equals($signature, $request->header('X-Hub-Signature-256'))) {
-            abort(403, 'Invalid signature');
+        return response()->json(['Msg'=> 'Error', 'headers'=>$request->header('X-Hub-Signature-256'), 'FullContent' => $request->getContent() ],403);
         }
 
         Artisan::call("app:deploy-command");

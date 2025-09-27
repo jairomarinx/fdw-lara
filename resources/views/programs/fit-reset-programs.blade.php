@@ -54,7 +54,7 @@
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
                             <li class="scroll-to-section"><a href="{{ route('root')  }}">Home</a></li>
-                            <li class="scroll-to-section"><a href="{{ route('root')."/services" }}">Services</a></li>
+                            <li class="scroll-to-section"><a href="{{ route('root') . "/services" }}">Services</a></li>
                             <li class="scroll-to-section"><a href="http://blog.fitdonewell.com/contact">Contact Us</a></li> 
                             <li class="main-button d-none"><a href="#">Join Now</a></li>
                         </ul>        
@@ -82,9 +82,9 @@
         <div class="video-overlay header-text">
             <div class="caption">
                 <h6>reset your habits, renew your life</h6>
-                <h2>transform with our <em>programs</em></h2>
+                <h2>transform with our<br><em>Fit Reset programs</em></h2>
                 <div class="main-button scroll-to-section">
-                    <a href="#features">Explore Programs</a>
+                    <a href="{{ route('general-checkout', ['product' => 'fit-without-gym']) }}">Start Now!</a>
                 </div>
             </div>
         </div>
@@ -118,17 +118,14 @@
             </div>
           </div>
           <!-- Feature 2 -->
-          <div class="col-lg-4">
-            <div class="feature-item">
-              <div class="left-icon">
-                <img src="{{ asset('t1/img/services/n3.webp') }}" alt="icon" class="img-fluid">
-              </div>
-              <div class="right-content p-2">
-                <h4>Personalized Nutrition Plans</h4>
-                <p>Custom meal strategies crafted by our nutrition experts to fuel your workouts, boost energy, and support healthy habit formation</p>
-              </div>
-            </div>
-          </div>
+
+
+
+
+
+
+
+
           <!-- Feature 3 -->
           <div class="col-lg-4">
             <div class="feature-item">
@@ -154,29 +151,9 @@
             </div>
           </div>
           <!-- Feature 5 -->
-          <div class="col-lg-4">
-            <div class="feature-item">
-              <div class="left-icon">
-                <img src="{{ asset('t1/img/services/brad-recipe2.webp') }}" alt="icon" class="img-fluid">
-              </div>
-              <div class="right-content p-2">
-                <h4>Supplement & Resource Guides</h4>
-                <p>Clear supplementation protocols and video tutorials that show you exactly how to optimize recovery and performance</p>
-              </div>
-            </div>
-          </div>
+
           <!-- Feature 6 -->
-          <div class="col-lg-4">
-            <div class="feature-item">
-              <div class="left-icon">
-                <img src="{{ asset('t1/img/laly-fuerte2.jpg') }}" alt="icon" class="img-fluid">
-              </div>
-              <div class="right-content p-2">
-                <h4>Progress Tracking & Reviews</h4>
-                <p>Weekly assessments and data-driven feedback to refine your plan, overcome plateaus, and keep accelerating toward your goals</p>
-              </div>
-            </div>
-          </div>
+
         </div>
       </div>
     </section>
@@ -193,7 +170,7 @@
                         <h2>Don’t <em>delay</em>, reset <em>now</em>!</h2>
                         <p>Join our Fit Reset Programs today to revitalize your body, mind, and spirit with expert coaching and a vibrant community</p>
                         <div class="main-button scroll-to-section">
-                            <a href="#our-classes">Reset Today</a>
+                            <a href="{{ route('general-checkout', ['product' => 'fit-without-gym']) }}">Reset Today</a>
                         </div>
                     </div>
                 </div>
@@ -340,15 +317,20 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-6">
+            <div class="row ">
+                <div class="col-lg-6 offset-lg-3 ">
                     <div class="trainer-item">
                         <div class="image-thumb">
                             <a href="{{ route('fit-without-gym') }}"><img src="{{ asset('fitwithoutgym/images/j2.webp') }}" alt=""></a>
                         </div>
-                        <div class="down-content">
+                        <div class="down-content text-center">
                             <h4>Fit.Without.Gym.</h4>
-                            <p class="p-2">Imagine getting in shape, feeling energized, and looking amazing, all without ever stepping into a gym. Fit.Without.Gym gives you over 12 guided workout videos, home-friendly routines, expert motivation and more. Start your transformation from the comfort of your home — no machines, no excuses.</p>
+                            <p class="p-2 text-justify">Imagine getting in shape, feeling energized, and looking amazing, all without ever stepping into a gym.
+                              Fit.Without.Gym gives you over 12 guided workout videos, home-friendly routines, expert motivation and more. Start
+                              your transformation from the comfort of your home — no machines, no excuses.</p>
+                            <div class="main-button scroll-to-section">
+                              <a href="{{ route('general-checkout', ['product' => 'fit-without-gym']) }}">Reset Today</a>
+                            </div>
                             <ul class="social-icons d-none">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>

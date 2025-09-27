@@ -22,6 +22,12 @@ return [
     'sunrise-life-reset-service' => [ 'name' => 'Sunrise.Life.Reset', 'price' => 199, 'desc' => ''],
 
     'wrist-straps' => [ 'name' => 'WRIST STRAPS', 'price' => 10, 'desc' => 'Lifting Wrist Straps for Weightlifting, Bodybuilding, Powerlifting, Strength Training.'],
+    'sliders' => [ 'name' => 'EXERCISE SLIDERS', 'price' => 8, 'desc' => 'Exercise Sliders for Working Out, Fitness Disc for Women and Men, 2 pack'],
+    'booty-bands' => [ 'name' => 'BOOTY BANDS', 'price' => 15, 'desc' => 'Booty exercise bands for women and men, glute, hip and thigh resistance bands with carrying bag'],
+    'ancle-straps' => [ 'name' => 'ANCLE STRAPS', 'price' => 19, 'desc' => 'Ankle straps for cable machine kickbacks, glute workouts, lower body exercises.'],
+
+
+
 
 
 

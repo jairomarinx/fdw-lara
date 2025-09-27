@@ -10,11 +10,10 @@ class AdminController extends Controller
     public function deploy(Request $request)
     {
         $deploy_pass = env('DEPLOY_PASS');
-        $pass= $request->input('pass'); 
+        $signature = 'sha256=' . hash_hmac('sha256', $request->getContent(), $deploy_pass);
 
-        if ($pass != $deploy_pass)
-        {
-            abort(403, 'Unauthorized');
+        if (!hash_equals($signature, $request->header('X-Hub-Signature-256'))) {
+            abort(403, 'Invalid signature');
         }
 
         Artisan::call("app:deploy-command");

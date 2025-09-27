@@ -9,7 +9,7 @@
                             <div class="cuadro-laly">
                                 <h5 class="text-white text-uppercase">Fit.Done.Well.</h5>
                                 <h1 class="display-2 text-white mb-md-4 fs-1 text-uppercase">Fitness - MindFulNess - Wholeness</h1>
-                                <a href="https://blog.fitdonewell.com/contact" class="btn btn-primary bg-primary py-md-3 px-md-5 me-3" style="font-size: 20px;" >Reset your life</a>
+                                <a href="{{ url('our-programs') }}" class="btn btn-primary bg-primary py-md-3 px-md-5 me-3" style="font-size: 20px;" >Reset your life</a>
                             </div>
                         </div>
                     </div>

@@ -2,6 +2,8 @@
 
 if (!isset($productName)) { $productName =  'Donation'; }
 if (!isset($amount)) { $amount = 100; }
+if (!isset($desc)) { $desc = "Donation for Fit.Done.Well"; }
+
 
 ?>
 <!DOCTYPE html>
@@ -18,7 +20,7 @@ if (!isset($amount)) { $amount = 100; }
     <div class="bg-white rounded-2xl shadow-2xl max-w-lg w-full p-8 sm:p-10">
         <div class="mb-6 text-center">
             <h1 class="text-3xl font-extrabold text-gray-800 mb-2">{{ $productName }}</h1>
-            <p class="text-sm text-gray-500">Secure payment to confirm your session</p>
+            <p class="text-sm text-gray-500">Secure payment to confirm your session.<br><br><span style="color: blue; font-weight: 700;"> {{ $desc }}</span></p>
         </div>
 
         <div class="mb-6 bg-gray-50 border border-gray-200 rounded-lg p-5 text-center">

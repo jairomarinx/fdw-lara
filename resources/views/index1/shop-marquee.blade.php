@@ -40,7 +40,6 @@
     </script>
 
 
-    <a href="http://shop.fitdonewell.com" class="text-decoration-none">
         <div class="container text-center mt-4 mb-4">
             <div class="row">
                 <div class="col-lg-12 col-md-12 text-center">
@@ -67,7 +66,6 @@
                 <img src="{{ asset('t1/img/marquee/c7.webp') }}" alt="Shop Image">
             </div>
         </div>
-    </a>
 
 <style>
     .cta-overlay-wrapper {

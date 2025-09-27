@@ -68,5 +68,5 @@ Route::get('/our-programs', fn() => view('programs.main'));
 
 Route::get('/general-checkout/{product}',[CheckoutController::class,'general_checkout'])->name('general-checkout');
 
-Route::get('/admin/deploy',[AdminController::class, "deploy"]);
+Route::post('/admin/deploy',[AdminController::class, "deploy"]);
 

@@ -21,7 +21,7 @@ return [
     'life-reset-retreat5' => [ 'name' => 'life-reset-retreat5', 'price' => 2900, 'desc' => ''],
     'sunrise-life-reset-service' => [ 'name' => 'Sunrise.Life.Reset', 'price' => 199, 'desc' => ''],
 
-    'wrist-straps' => [ 'name' => 'Wrist-straps', 'price' => 10, 'desc' => 'Lifting Wrist Straps for Weightlifting, Bodybuilding, Powerlifting, Strength Training.'],
+    'wrist-straps' => [ 'name' => 'WRIST STRAPS', 'price' => 10, 'desc' => 'Lifting Wrist Straps for Weightlifting, Bodybuilding, Powerlifting, Strength Training.'],
 
 
 

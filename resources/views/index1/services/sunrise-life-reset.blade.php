@@ -31,7 +31,7 @@ We hold space for emotions, dreams, and clarity to emerge.
 The energy of sunrise supports intention and renewal.  
 This is a calm and powerful container to begin again.
                     </span>
-                    <a href="{{ route('general-checkout',['product' => 'sunrise-life-reset']) }}" class="btn btn-warning d-block text-center mx-auto mt-4">Book Your Session</a>
+                    <a href="{{ route('general-checkout',['product' => 'sunrise-life-reset-service']) }}" class="btn btn-warning d-block text-center mx-auto mt-4">Book Your Session</a>
                 </div>
             </div>
 
@@ -46,7 +46,7 @@ Define what you truly value and how to move toward it.
 This is your moment to shift from dreaming to creating.  
 Your new chapter begins with your next step.
                     </span>
-                    <a href="{{ route('general-checkout',['product' => 'sunrise-life-reset']) }}" class="btn btn-warning d-block text-center mx-auto mt-4">Start Your Reset</a>
+                    <a href="{{ route('general-checkout',['product' => 'sunrise-life-reset-service']) }}" class="btn btn-warning d-block text-center mx-auto mt-4">Start Your Reset</a>
                 </div>
             </div>
 
@@ -61,7 +61,7 @@ We help you create a clear energetic shift supported by practice.
 You leave feeling lighter, grounded, and realigned.  
 This is a sunrise for your soul.
                     </span>
-                    <a href="{{ route('general-checkout',['product' => 'sunrise-life-reset']) }}" class="btn btn-warning d-block text-center mx-auto mt-4">Make the Shift</a>
+                    <a href="{{ route('general-checkout',['product' => 'sunrise-life-reset-service']) }}" class="btn btn-warning d-block text-center mx-auto mt-4">Make the Shift</a>
                 </div>
             </div>
         </div>
@@ -73,7 +73,7 @@ This is a sunrise for your soul.
         Sacred 1:1 session to heal, align, and manifest your best self<br>
         <span class="fw-semibold">Only $129. A coach will contact you within 24 hours.</span>
       </p>
-      <a href="{{ route('general-checkout',['product' => 'sunrise-life-reset']) }}" class="btn fw-bold" style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.4rem 4rem; border-radius: 2rem;">
+      <a href="{{ route('general-checkout',['product' => 'sunrise-life-reset-service']) }}" class="btn fw-bold" style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.4rem 4rem; border-radius: 2rem;">
         Book Now
       </a>
     </div>

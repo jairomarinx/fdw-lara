@@ -22,7 +22,7 @@
                     <div class="row g-5">
                         <div class="col-lg-6 col-md-6 col-sm-12 mx-auto">
                             <div class="bg-dark rounded text-center py-3 px-3">
-                                <a href="{{ route('main-events') }}"><img src="{{ asset('t1/img/fitness-event.jpg') }}" alt="" class="img-fluid"></a>
+                                <a href="{{ route('main-events') }}"><img src="{{ asset('sept281.webp') }}" alt="" class="img-fluid"></a>
                                 <h3 class="text-uppercase text-light mb-3 text-center">
                                     
                                     <a href="{{ route('main-events') }}" class="btn btn-primary">Sign Up</a>

@@ -9,7 +9,7 @@
             </a> 
         </div>
         <div class="row g-5">
-            <div class="col-lg-12 col-md-12">
+            <div class="col-lg-12 col-md-12 text-center">
                 <div class="team-item position-relative">
                     <div class="container my-5">
                         <div class="ratio ratio-16x9">
@@ -18,7 +18,10 @@
                         </div>
                     </div>
                 </div>
+                <a href="https://www.youtube.com/watch?v=HY_7_Im71jY&list=PLzODLNgtVAKGdcknx6jqi34CDxmi92uZi&index=12" class="btn btn-primary bg-primary py-md-3 px-md-5 me-3" style="font-size: 20px; width: 250px;">More episodes</a>
+
             </div>
+
     
     
     

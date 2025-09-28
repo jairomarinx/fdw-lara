@@ -29,7 +29,7 @@
         <div class="row g-5 gb-5">
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-justify p-5">
-                    <img src="{{ asset('gr1b.webp') }}" alt="body" class="img-fluid">
+                    <img src="{{ asset('gr1c.webp') }}" alt="body" class="img-fluid">
                     <h3 class="text-uppercase my-4 fs-1 text-center">Group Energy</h3>
                     <p class="text-center text-uppercase"><strong> Feel the power of training with others</strong><br><br></p>
 

@@ -29,7 +29,7 @@
         <div class="row g-5 gb-5">
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-justify p-5">
-                    <img src="{{ asset('t1/img/services/corey-focus.webp') }}" alt="body" class="img-fluid">
+                    <img src="{{ asset('gr1b.webp') }}" alt="body" class="img-fluid">
                     <h3 class="text-uppercase my-4 fs-1 text-center">Group Energy</h3>
                     <p class="text-center text-uppercase"><strong> Feel the power of training with others</strong><br><br></p>
 
@@ -44,7 +44,7 @@ This is fitness that feels alive, not like a chore.</span>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-justify p-5">
-                    <img src="{{ asset('t1/img/services/brad-corey.webp') }}" class="img-fluid">
+                    <img src="{{ asset('gr2.webp') }}" class="img-fluid">
                     <h3 class="text-uppercase my-4 fs-1 text-center">Expert Coaching</h3>
                     <p class="text-center text-uppercase"><strong> Real trainers who actually pay attention</strong><br><br></p>
 
@@ -60,7 +60,7 @@ You get the benefit of personal coaching, with community all around.</span><br><
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-justify p-5">
-                    <img src="{{ asset('t1/img/services/laly-strong.webp') }}" class="img-fluid" alt="">
+                    <img src="{{ asset('gr3.webp') }}" class="img-fluid" alt="">
                     <h3 class="text-uppercase my-4 fs-1 text-center">Supportive Vibes</h3>
                     <p class="text-center text-uppercase"><strong>Everyone’s here to get better, not to judge</strong> <br><br></p>
 

@@ -52,7 +52,7 @@ Nothing overwhelming, just what moves you forward.
 
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-justify p-5">
-                    <img src="{{ asset('t1/img/services/laly3.webp')  }}" class="img-fluid" alt="">
+                    <img src="{{ asset('a1.webp')  }}" class="img-fluid" alt="">
                     <h3 class="text-uppercase my-4 fs-1 text-center">Mental Clarity</h3>
                     <p class="text-center text-uppercase"><strong>Feel grounded, clear, and empowered to move forward</strong><br><br></p>
                     <span class="text-justify">

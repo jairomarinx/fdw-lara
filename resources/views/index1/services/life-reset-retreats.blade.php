@@ -31,7 +31,6 @@ Disconnect from distraction and connect with your purpose.
 Every detail is designed for peace, reflection, and transformation.  
 This is your space to reset fully.
                     </span>
-                    <a href="{{ route('checkout-fit-reset-consultation') }}" class="btn btn-warning d-block text-center mx-auto mt-4">Book Your Spot</a>
                 </div>
             </div>
 
@@ -46,7 +45,6 @@ We help you build habits that last long after the retreat ends.
 Each day brings clarity and renewed vitality.  
 This is change you can feel.
                     </span>
-                    <a href="{{ route('checkout-fit-reset-consultation') }}" class="btn btn-warning d-block text-center mx-auto mt-4">Start Your Reset</a>
                 </div>
             </div>
 
@@ -61,7 +59,6 @@ You leave with tools, insights, and community support.
 Our retreats awaken your heart and strengthen your path.  
 Transformation begins here.
                     </span>
-                    <a href="{{ route('checkout-fit-reset-consultation') }}" class="btn btn-warning d-block text-center mx-auto mt-4">Make the Shift</a>
                 </div>
             </div>
         </div>
@@ -73,9 +70,10 @@ Transformation begins here.
         Multi-day full-body reset experiences in Sedona and Colombia<br>
         <span class="fw-semibold">Coach will confirm dates after payment. Flights not included.</span>
       </p>
-      <a href="/checkout-fit-reset-consultation" class="btn fw-bold" style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.4rem 4rem; border-radius: 2rem;">
-        Reserve Now
-      </a>
+      <a href="{{ url('general-checkout/life-reset-retreat2') }}" class="btn fw-bold" style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.4rem 4rem; border-radius: 2rem;">
+        2 Days Sedona $1200 Usd
+      </a> <br><br>
+      <a href="{{ url('general-checkout/life-reset-retreat5') }}" class="btn fw-bold" style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.4rem 4rem; border-radius: 2rem;">5 Days Medellin $2900 Usd</a>
     </div>
 
 @endsection

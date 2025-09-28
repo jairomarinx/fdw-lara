@@ -79,7 +79,7 @@ Train hard, feel good, and grow stronger together.',
                 'subtitle' => 'Face Time or Scottsdale Facility',
                 'description' => 'Celebrate your body… A consultation for life clarity and focus. One of our coaches will contact you within 24 hours.',
                 'prices' => [['label' => 'Pay $129.00', 'route' => 'general-checkout', 'product' => 'life-reset-consultation']],
-                'image' => 't1/img/services/m2.webp',
+                'image' => 'a1.webp',
                 'link'  => 'life-reset-consultation'
 
             ],
@@ -89,7 +89,7 @@ Train hard, feel good, and grow stronger together.',
                 'subtitle' => 'Scottsdale Facility',
                 'description' => 'Nurture your mind… Sacred space to heal, design your manifestation map, build habits, and rebirth your best self. Coach will contact you in 24h.',
                 'prices' => [['label' => 'Pay $199.00', 'route' => 'general-checkout', 'product'=> 'sunrise-life-reset-service']],
-                'image' => 't1/img/services/sunrise1.webp',
+                'image' => 'a2.webp',
                 'link'  => 'sunrise-life-reset'
 
             ],
@@ -102,7 +102,7 @@ Train hard, feel good, and grow stronger together.',
                     ['label' => '2 days Sedona $1,200.00', 'route' => 'general-checkout', 'product' => 'life-reset-retreat2'],
                     ['label' => '5 days Medellin $2,900.00', 'route' => 'general-checkout', 'product'=> 'life-reset-retreat5']
                 ],
-                'image' => 't1/img/services/sedona.webp',
+                'image' => 'a4.webp',
                 'link'  => 'life-reset-retreats'
 
             ]

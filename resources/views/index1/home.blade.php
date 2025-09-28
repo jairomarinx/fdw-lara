@@ -18,6 +18,8 @@
 
 @include('index1.blog')
 @include('index1.team')
+@include('index1.podcast')
+
 
 
 @endsection

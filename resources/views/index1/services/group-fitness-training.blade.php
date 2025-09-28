@@ -53,7 +53,7 @@ Our coaches correct your form, guide your pace, and cheer you on.
 Every move is intentional and supported.
 You get the benefit of personal coaching, with community all around.</span><br><br></p>
 
-                    <a href="{{ url('/general-checkout/group-fitness-training') }}') }}"
+                    <a href="{{ url('/general-checkout/group-fitness-training') }}'"
                         class="btn btn-warning d-block text-center mx-auto mt-4">Choose This Plan!</a>
 
                 </div>

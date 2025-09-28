@@ -4,7 +4,7 @@
             <h5 class="text-primary text-uppercase"></h5>
             <a href="https://www.youtube.com/watch?v=HY_7_Im71jY&list=PLzODLNgtVAKGdcknx6jqi34CDxmi92uZi&index=12" >
                 <h1 class="display-3 text-uppercase mb-0">Our Podcast</h1>
-                <h2>Our Patio Conversations</h2>
+                <h2 class="text-primary">Our Patio Conversations</h2>
                 <h4 class="class="text-primary""> 📻 This is our real us</h4>
             </a> 
         </div>

@@ -31,7 +31,7 @@ You get a plan that matches your lifestyle and supports long-term health.
 No extremes, just practical steps that make sense.  
 Fuel your body with intention, not confusion.
                     </span>
-                    <a href="{{ route('checkout-fit-reset-consultation') }}" class="btn btn-warning d-block text-center mx-auto mt-4">Get Your Custom Plan</a>
+                    <a href="{{ url('/general-checkout/grocery-reset-tour') }}" class="btn btn-warning d-block text-center mx-auto mt-4">Get Your Custom Plan</a>
                 </div>
             </div>
 
@@ -46,7 +46,7 @@ You learn how to read labels, build better meals, and avoid common traps.
 No guesswork, no gimmicks. Just practical tools for everyday decisions.  
 Change starts in your cart.
                     </span>
-                    <a href="{{ route('checkout-fit-reset-consultation') }}" class="btn btn-warning d-block text-center mx-auto mt-4">Start Your Reset</a>
+                    <a href="{{ url('/general-checkout/grocery-reset-tour') }}" class="btn btn-warning d-block text-center mx-auto mt-4">Start Your Reset</a>
                 </div>
             </div>
 
@@ -61,7 +61,7 @@ We help you reconnect with food in a way that is kind and empowering.
 You stop fearing food and start using it as a tool for wellness.  
 Confidence, peace, and clarity—one grocery trip at a time.
                     </span>
-                    <a href="{{ route('checkout-fit-reset-consultation') }}" class="btn btn-warning d-block text-center mx-auto mt-4">Make the Shift</a>
+                    <a href="{{ url('/general-checkout/grocery-reset-tour') }}" class="btn btn-warning d-block text-center mx-auto mt-4">Make the Shift</a>
                 </div>
             </div>
         </div>
@@ -73,7 +73,7 @@ Confidence, peace, and clarity—one grocery trip at a time.
         One-on-one supermarket tour to help you shop smarter, eat better, and feel amazing<br>
         <span class="fw-semibold">Only 10 sessions offered each week</span>
       </p>
-      <a href="/checkout-fit-reset-consultation" class="btn fw-bold" style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.4rem 4rem; border-radius: 2rem;">
+      <a href="{{ url('/general-checkout/grocery-reset-tour') }}" class="btn fw-bold" style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.4rem 4rem; border-radius: 2rem;">
         Book Now for $199
       </a>
     </div>

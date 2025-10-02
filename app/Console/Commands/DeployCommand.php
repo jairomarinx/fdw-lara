@@ -31,9 +31,15 @@ class DeployCommand extends Command
         $this->runCmd('git reset --hard origin/main');
         $this->runCmd('composer install --no-interaction --prefer-dist --optimize-autoloader');
         $this->runCmd('php artisan migrate --force');
-        $this->runCmd('php artisan config:cache');
-        $this->runCmd('php artisan route:cache');
-        $this->runCmd('php artisan view:cache');
+
+        $this->runCmd('php artisan config:clear');
+        $this->runCmd('php artisan cache:clear');
+        $this->runCmd('php artisan route:clear');
+        $this->runCmd('php artisan view:clear');
+        $this->runCmd('php artisan optimize:clear');
+
+
+
     }
 
     protected function runCmd(string $command)

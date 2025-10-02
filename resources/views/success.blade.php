@@ -73,7 +73,7 @@
 <div class="container">
     <div class="thankyou-msg">
         <h2>✅ Payment Successful!</h2>
-        <p>We're deeply grateful for your donation. Your support helps us continue building stronger bodies, open minds, and kind hearts across communities.</p>
+        <p>We're deeply grateful for your payment. Your support helps us continue building stronger bodies, open minds, and kind hearts across communities.</p>
         <p>Welcome to the Fit.Done.Well. movement!</p>
         <a href="{{ url('/') }}" class="btn btn-success mt-4 px-4 py-2">Back to Home</a>
     </div>

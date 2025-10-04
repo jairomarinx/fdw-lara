@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Contact;
+use App\Models\Presale;
 
 class FitController extends Controller
 {
@@ -131,8 +132,11 @@ class FitController extends Controller
     public function contacts(Request $request)
     {
         $contacts = Contact::get();
+        $presales = Presale::get();
 
-        return view('contacts')->with('contacts',$contacts);
+        return view('contacts')
+                ->with('contacts',$contacts)
+                ->with('presales',$presales);
     }
 
     public function donate()

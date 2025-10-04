@@ -1,3 +1,9 @@
+<?php
+$emailList = "";
+$emailList = $contacts->pluck('email')->implode(',');
+$emailList = $emailList. "," .$presales->pluck('email')->implode(',');
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -54,6 +60,53 @@
     </table>
   </div>
 </div>
+
+<div class="container my-5">
+  <h2 class="text-center mb-4">Pre Sales</h2>
+  <div class="table-responsive">
+    <table class="table table-striped table-bordered table-hover align-middle text-center">
+      <thead class="table-dark">
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Phone</th>
+          <th>Product</th>
+          <th>Product Name</th>
+          <th>Amount</th>
+          <th>Date</th>
+        </tr>
+      </thead>
+      <tbody>
+            @foreach ($presales as $presale)
+                <tr>
+                    <td>{{ $presale->name }}</td>
+                    <td>{{ $presale->email }}</td>
+                    <td>{{ $presale->phone }}</td>
+                    <td>{{ $presale->product }}</td>
+                    <td>{{ $presale->product_name }}</td>
+                    <td>{{ $presale->amount }}</td>
+                    <td>{{ $presale->created_at }}</td>
+                </tr>
+            @endforeach
+
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+<div class="container my-5">
+  <h2 class="text-center mb-4">Emails to Send</h2>
+    <div>
+      <div class="container mt-4">
+          <label for="emailList" class="form-label">Email list</label>
+          <textarea id="emailList" class="form-control" rows="5" >{{ $emailList }}</textarea>
+      </div>      
+    </div>
+  </div>
+</div>
+
+
 
 
 

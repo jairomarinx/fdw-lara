@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Stripe\Stripe;
 use Stripe\Checkout\Session;
+use App\Models\Presale;
 
 use function PHPUnit\Framework\returnSelf;
 
@@ -21,7 +22,8 @@ class CheckoutController extends Controller
 
         return view('checkout')->with('amount', $amount)
                                 ->with('productName',$productName)
-                                ->with('desc',$productDesc);
+                                ->with('desc',$productDesc)
+                                ->with('product',$product);
 
 
     }
@@ -44,6 +46,21 @@ class CheckoutController extends Controller
 
     public function pay(Request $request)
     {
+        if (isset($request->name_complete))
+        {
+            return "Spam detected";
+        }
+
+        $presale = new Presale();
+        $presale->name = $request->name;
+        $presale->email = $request->email;
+        $presale->phone = $request->phone;
+        $presale->amount = $request->amount;
+        $presale->product = $request->product;
+        $presale->product_name = $request->product_name;
+        $presale->save();
+
+
         $request->validate([
                 'amount' => 'required|numeric|min:1.0',
             ]);

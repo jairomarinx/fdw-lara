@@ -84,7 +84,7 @@ Train hard, feel good, and grow stronger together.',
 
             ],
             [
-                'title' => 'Sunrise Life Reset',
+                'title' => 'Life Reset Consultation',
                 'tag' => 'open minds',
                 'subtitle' => 'Scottsdale Facility',
                 'description' => 'Sacred space to heal, design your manifestation map, build habits, and rebirth your best self. Coach will contact you in 24h.',

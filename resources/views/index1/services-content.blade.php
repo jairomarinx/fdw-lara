@@ -1,8 +1,8 @@
 @php
     $services = [
-        'OUR.FITNESS.SERVICES.' => [
+        'OUR FITNESS SERVICES' => [
             [
-                'title' => 'Fit Reset Consultation.',
+                'title' => 'Fit Reset Consultation',
                 'tag' => 'strong bodies',
                 'subtitle' => 'Face Time or Scottsdale Facility',
                 'description' => 'This personalized consultation is designed for those ready to take control of their health with a clear and sustainable approach. One of our coaches will connect with you within 24 hours to define the best schedule.',
@@ -11,7 +11,7 @@
                 'link'  => 'fitness-reset-consultation'
             ],
             [
-                'title' => 'Personal Fitness Training.',
+                'title' => 'Personal Fitness Training',
                 'tag' => 'strong bodies',
                 'subtitle' => 'Face Time or Scottsdale Facility',
                 'description' => 'Fully personalized one-hour session either from the comfort of your home (FaceTime) or at our Scottsdale gym. One of our coaches will contact you within 24 hours to set the best schedule.',
@@ -24,7 +24,7 @@
                 'link'  => 'personal-fitness-training'
             ],
             [
-                'title' => 'Group Fitness Training.',
+                'title' => 'Group Fitness Training',
                 'tag' => 'strong bodies',
                 'subtitle' => 'Scottsdale Facility (Mon/Wed/Fri at 9:00 am)',
                 'description' => 'Build strength, confidence, and consistency with expert-led group sessions.
@@ -37,9 +37,9 @@ Train hard, feel good, and grow stronger together.',
 
             ]
         ],
-        'OUR.NUTRITIONAL.SERVICES.' => [
+        'OUR NUTRITIONAL SERVICES' => [
             [
-                'title' => 'Nutrition Reset Consultation.',
+                'title' => 'Nutrition Reset Consultation',
                 'tag' => 'strong bodies',
                 'subtitle' => 'Face Time or Scottsdale Facility',
                 'description' => 'Designed for those ready to reset their nutrition. One of our coaches will connect within 24 hours to define the best schedule.',
@@ -49,7 +49,7 @@ Train hard, feel good, and grow stronger together.',
 
             ],
             [
-                'title' => 'Grocery Reset Tour.',
+                'title' => 'Grocery Reset Tour',
                 'tag' => 'strong bodies',
                 'subtitle' => 'Scottsdale & Phoenix',
                 'description' => 'A guided supermarket tour to reset your eating habits and learn to eat with purpose. One of our coaches will contact you within 24 hours.',
@@ -59,7 +59,7 @@ Train hard, feel good, and grow stronger together.',
 
             ],
             [
-                'title' => 'Weekly Meal Prepping.',
+                'title' => 'Weekly Meal Prepping',
                 'tag' => 'strong bodies',
                 'subtitle' => 'Scottsdale & Phoenix',
                 'description' => 'Our meal preps indulge your palate while helping you get in shape.',
@@ -72,9 +72,9 @@ Train hard, feel good, and grow stronger together.',
 
             ]
         ],
-        'OUR.MINDFUL.SERVICES.' => [
+        'OUR MINDFUL SERVICES' => [
             [
-                'title' => 'Life Reset Consultation.',
+                'title' => 'Life Reset Consultation',
                 'tag' => 'Open Minds',
                 'subtitle' => 'Face Time or Scottsdale Facility',
                 'description' => 'A consultation for life clarity and focus. One of our coaches will contact you within 24 hours.',
@@ -84,7 +84,7 @@ Train hard, feel good, and grow stronger together.',
 
             ],
             [
-                'title' => 'Sunrise Life Reset.',
+                'title' => 'Sunrise Life Reset',
                 'tag' => 'open minds',
                 'subtitle' => 'Scottsdale Facility',
                 'description' => 'Sacred space to heal, design your manifestation map, build habits, and rebirth your best self. Coach will contact you in 24h.',
@@ -94,7 +94,7 @@ Train hard, feel good, and grow stronger together.',
 
             ],
             [
-                'title' => 'Life Reset Retreats.',
+                'title' => 'Life Reset Retreats',
                 'tag' => 'kind hearts',
                 'subtitle' => 'Sedona & Colombia',
                 'description' => 'Multi-day retreats with full-body reset experiences. Coach will confirm dates after payment. Plain tickets not included.',
@@ -141,14 +141,14 @@ Train hard, feel good, and grow stronger together.',
 <!-- LIFE.RESET.EVENTS -->
 <div class="container-fluid px-5 py-5 d-none" style="background-color: #F4F5F8;">
     <div class="text-center mb-5">
-        <h1 class="display-4 text-uppercase">LIFE.RESET.EVENTS.</h1>
+        <h1 class="display-4 text-uppercase">LIFE RESET EVENTS.</h1>
         <p class="fs-5 text-muted">Unique experiences to reset your Body.Mind.Spirit.</p>
     </div>
     <div class="row g-4">
         <div class="col-lg-4 col-md-6">
             <div class="bg-white rounded h-100 p-4 d-flex flex-column">
                 <img src="{{ asset('t1/img/services/ev1.webp') }}" class="img-fluid mb-3" alt="">
-                <h4 class="text-uppercase">Saturday.Booty.Camp.</h4>
+                <h4 class="text-uppercase">Saturday Booty Camp.</h4>
                 <p class="text-muted">Scottsdale</p>
                 <p class="text-justify flex-grow-1">A fun and dynamic class focused on legs, glutes, and abs. Come sweat, laugh, and shape your body with us. Dates TBD based on demand.</p>
                 <a href="{{ route('saturday-booty-camp') }}" class="btn btn-outline-dark mb-2">Learn More</a>
@@ -159,7 +159,7 @@ Train hard, feel good, and grow stronger together.',
         <div class="col-lg-4 col-md-6">
             <div class="bg-white rounded h-100 p-4 d-flex flex-column">
                 <img src="{{ asset('t1/img/services/ev2.webp') }}" class="img-fluid mb-3" alt="">
-                <h4 class="text-uppercase">Sunrise.Life.Reset.</h4>
+                <h4 class="text-uppercase">Sunrise Life Reset.</h4>
                 <p class="text-muted">Scottsdale</p>
                 <p class="text-justify flex-grow-1">Sacred sunrise experience: heal what no longer serves you, design your manifestation map, create habits and discover your balance. Dates TBD.</p>
                 <a href="{{ route('sunrise-life-reset') }}" class="btn btn-outline-dark mb-2">Learn More</a>
@@ -170,7 +170,7 @@ Train hard, feel good, and grow stronger together.',
         <div class="col-lg-4 col-md-6">
             <div class="bg-white rounded h-100 p-4 d-flex flex-column">
                 <img src="{{ asset('t1/img/services/ev3.webp') }}" class="img-fluid mb-3" alt="">
-                <h4 class="text-uppercase">Kayak.with.Us.</h4>
+                <h4 class="text-uppercase">Kayak with Us</h4>
                 <p class="text-muted">Salt River, Arizona</p>
                 <p class="text-justify flex-grow-1">Kayaking trip through the scenic Salt River! Paddle among wildlife and desert cliffs. Scenic float with sections of swift water. Breakfast picnic included. Dates TBD.</p>
                 <a href="{{ route('kayak-with-us') }}" class="btn btn-outline-dark mb-2">Learn More</a>

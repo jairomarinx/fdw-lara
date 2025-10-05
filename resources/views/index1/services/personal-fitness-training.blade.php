@@ -14,7 +14,7 @@
 
     <div class="mb-5 text-center mt-5">
         <h5 class="text-primary text-uppercase fs-3"><strong></strong></h5>
-        <h1 class="display-3 text-uppercase mb-0">Personal.Fitness.Training</h1>
+        <h1 class="display-3 text-uppercase mb-0">Personal Fitness Training</h1>
         <h4 class="text-body mb-4">Train Smarter. Get Stronger. Stay Consistent.
         </h4>
 

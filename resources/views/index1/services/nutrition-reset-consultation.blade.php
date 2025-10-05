@@ -11,7 +11,7 @@
     ])
 
     <div class="mb-5 text-center mt-5">
-        <h1 class="display-3 text-uppercase mb-0">Nutrition.Reset.Consultation</h1>
+        <h1 class="display-3 text-uppercase mb-0">Nutrition Reset Consultation</h1>
         <h4 class="text-body mb-4">Get clarity, structure, and expert support to reset your eating habits</h4>
 
         <h5 class="text-gray fs-1"><span class="text-primary"> WHAT YOU GET</span></h5>

@@ -49,6 +49,7 @@ Route::prefix('events')->group(function () {
 
 // Contacts
 Route::get('/contacts', [FitController::class, "contacts"])->name('contacts');
+Route::get('/contact-us',[FitController::class,"contact_us"])->name('contact-us');
 Route::post('/save-contact', [FitController::class, "save_contact"])->name('save-contact');
 
 // Donations

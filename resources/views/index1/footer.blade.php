@@ -22,7 +22,7 @@
                             <p class="mb-0">+1 602-527-1055</p>
                         </div>
                         <div class="d-flex mt-4">
-                            <a class="btn btn-primary   me-2" href="http://blog.fitdonewell.com/contact">Contact us</a>
+                            <a class="btn btn-primary   me-2" href="{{ route('contact-us') }}">Contact us</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
@@ -46,7 +46,7 @@
                     <p class="text-light"></p>
                     <form action="">
                         <div class="input-group">
-                            <a href="http://blog.fitdonewell.com/contact/" class="btn btn-lg btn-dark">Life.Reset.Jourmal.</a>
+                            <a href="{{ route('contact-us') }}" class="btn btn-lg btn-dark">Life.Reset.Jourmal.</a>
                         </div>
                     </form>
                 </div>

@@ -39,7 +39,7 @@
                                 <a href="{{ route('kayak-with-us') }}"><img src="{{ asset('kayak.jpg') }}" class="img-fluid" alt=""></a>
                                 <h3 class="text-uppercase text-light mb-3">
                                     <h3 class="text-uppercase text-light"></h3>
-                                    <h3> <a href="http://blog.fitdonewell.com/contact" class="btn btn-primary">Sign Up</a> </h3>
+                                    <h3> <a href="{{ route('contact-us') }}" class="btn btn-primary">Sign Up</a> </h3>
                             </div>
                         </div>
                     </div>
@@ -50,7 +50,7 @@
                             <div class="bg-dark rounded text-center py-3 px-3">
                                 <a href="{{ route('main-events') }}"><img src="{{ asset('ninas.jpg') }}" class="img-fluid" alt=""></a>
                                 <h3 class="text-uppercase text-light mb-3"></h3>
-                                <h3> <a href="http://blog.fitdonewell.com/contact" class="btn btn-primary">Sign Up</a> </h3>
+                                <h3> <a href="{{ route('contact-us') }}" class="btn btn-primary">Sign Up</a> </h3>
 
 
                                 <p class="text-uppercase text-secondary mb-0"></p>

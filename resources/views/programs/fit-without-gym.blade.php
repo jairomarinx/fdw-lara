@@ -103,7 +103,7 @@
                     <a class="nav-link" href="http://fitdonewell.com">Home <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="http://blog.fitdonewell.com/contact">Contact Us</a>
+                    <a class="nav-link" href="{{ route('contact-us') }}">Contact Us</a>
                   </li>
 
                 </ul>

@@ -2,7 +2,7 @@
     <div class="container-fluid bg-dark px-0">
         <div class="row gx-0">
             <div class="col-lg-3 bg-dark d-none d-lg-block">
-                <a href="" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
+                <a href="{{ route('root') }}" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
                     <h1 class="m-0  fit-font">Fit.Done.Well.</h1>
                 </a>
             </div>
@@ -36,7 +36,7 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="http://blog.fitdonewell.com/contact" class="btn btn-primary py-md-3 px-md-5 d-none d-lg-block">Contact</a>
+                        <a href="{{ route('contact-us') }}" class="btn btn-primary py-md-3 px-md-5 d-none d-lg-block">Contact</a>
                     </div>
                 </nav>
             </div>

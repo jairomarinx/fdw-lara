@@ -31,7 +31,7 @@
             <ul class="nav">
               <li><a href="{{ route('root') }}">Home</a></li>
               <li><a href="{{ route('root') . '/services' }}">Services</a></li>
-              <li><a href="http://blog.fitdonewell.com/contact">Contact Us</a></li>
+              <li><a href="{{ route('contact-us') }}">Contact Us</a></li>
               <li class="main-button d-none"><a href="#">Join Now</a></li>
             </ul>
             <a class="menu-trigger"><span>Menu</span></a>

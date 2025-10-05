@@ -124,7 +124,7 @@ class FitController extends Controller
         $contact->country = $request->country;
         $contact->save();
 
-        return response()->redirectToRoute('website-launch-party',['thankyou'=>true]);
+        return response()->redirectToRoute('root');
         
         
     }
@@ -137,6 +137,11 @@ class FitController extends Controller
         return view('contacts')
                 ->with('contacts',$contacts)
                 ->with('presales',$presales);
+    }
+
+    public function contact_us(Request $request)
+    {
+        return view('contact-us');
     }
 
     public function donate()

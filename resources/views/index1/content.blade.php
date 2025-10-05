@@ -9,7 +9,7 @@
                             <div class="cuadro-laly">
                                 <h5 class="text-white text-uppercase">Fit.Done.Well.</h5>
                                 <h1 class="display-2 text-white mb-md-4 fs-1 text-uppercase">Fitness - MindFulNess - Wholeness</h1>
-                                <a href="https://blog.fitdonewell.com/contact" class="btn btn-primary bg-white py-md-3 px-md-5 me-3">Join Us</a>
+                                <a href="{{ route('contact-us') }}" class="btn btn-primary bg-white py-md-3 px-md-5 me-3">Join Us</a>
                             </div>
                         </div>
                     </div>
@@ -757,7 +757,7 @@
                                 <img src="{{ asset('t1/img/fitness-event.jpg') }}" alt="" class="img-fluid">
                                 <h3 class="text-uppercase text-light mb-3 text-center">
                                     
-                                    <a href="http://blog.fitdonewell.com/contact" class="btn btn-primary">Sign Up</a>
+                                    <a href="{{ route('contact-us') }}" class="btn btn-primary">Sign Up</a>
                                 </h3>
                                 <p class="text-uppercase text-secondary mb-0"></p>
                             </div>
@@ -771,7 +771,7 @@
                                 <img src="{{ asset('t1/img/mindfulness-event.jpg') }}" class="img-fluid" alt="">
                                 <h3 class="text-uppercase text-light mb-3">
                                     <h3 class="text-uppercase text-light"></h3>
-                                    <h3> <a href="http://blog.fitdonewell.com/contact" class="btn btn-primary">Sign Up</a> </h3>
+                                    <h3> <a href="{{ route('contact-us') }}" class="btn btn-primary">Sign Up</a> </h3>
                             </div>
                         </div>
                     </div>
@@ -782,7 +782,7 @@
                             <div class="bg-dark rounded text-center py-3 px-3">
                                 <img src="{{ asset('t1/img/wholeness-event.jpg') }}" class="img-fluid" alt="">
                                 <h3 class="text-uppercase text-light mb-3"></h3>
-                                <h3> <a href="http://blog.fitdonewell.com/contact" class="btn btn-primary">Sign Up</a> </h3>
+                                <h3> <a href="{{ route('contact-us') }}" class="btn btn-primary">Sign Up</a> </h3>
 
 
                                 <p class="text-uppercase text-secondary mb-0"></p>

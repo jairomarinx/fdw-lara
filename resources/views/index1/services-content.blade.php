@@ -84,7 +84,7 @@ Train hard, feel good, and grow stronger together.',
 
             ],
             [
-                'title' => 'Life Reset Consultation',
+                'title' => 'Life Reset Coaching',
                 'tag' => 'open minds',
                 'subtitle' => 'Scottsdale Facility',
                 'description' => 'Sacred space to heal, design your manifestation map, build habits, and rebirth your best self. Coach will contact you in 24h.',

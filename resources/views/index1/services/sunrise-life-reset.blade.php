@@ -5,8 +5,8 @@
 @section('index1.content')
 
     @include('index1.services.hero-services', [
-        'hero_image'=>'t1/img/services/396b86d0-08d8-4d0b-afd7-40a95b4dc9dc.png',
-        'h1_title' => 'Sunrise.Life.Reset',
+        'hero_image'=>'IMG_8056.JPG',
+        'h1_title' => 'Life Reseat Coaching',
         'h2_subtitle' => 'Open Minds. Sacred Space. Personal Rebirth.'
     ])
 
@@ -31,7 +31,7 @@ We hold space for emotions, dreams, and clarity to emerge.
 The energy of sunrise supports intention and renewal.  
 This is a calm and powerful container to begin again.
                     </span>
-                    <a href="{{ route('general-checkout',['product' => 'sunrise-life-reset-service']) }}" class="btn btn-warning d-block text-center mx-auto mt-4">Book Your Session</a>
+                    <a href="{{ route('general-checkout',['product' => 'life-reset-coaching1']) }}" class="btn btn-warning d-block text-center mx-auto mt-4">1 Session 199 USD</a>
                 </div>
             </div>
 
@@ -46,7 +46,7 @@ Define what you truly value and how to move toward it.
 This is your moment to shift from dreaming to creating.  
 Your new chapter begins with your next step.
                     </span>
-                    <a href="{{ route('general-checkout',['product' => 'sunrise-life-reset-service']) }}" class="btn btn-warning d-block text-center mx-auto mt-4">Start Your Reset</a>
+                    <a href="{{ route('general-checkout',['product' => 'life-reset-coaching4']) }}" class="btn btn-warning d-block text-center mx-auto mt-4">4 Sessions 749 USD</a>
                 </div>
             </div>
 
@@ -71,11 +71,26 @@ This is a sunrise for your soul.
       <h2 class="fw-bold mb-4 text-black display-5">Book Your Sunrise Reset</h2>
       <p class="fs-4 mb-5 text-dark">
         Sacred 1:1 session to heal, align, and manifest your best self<br>
-        <span class="fw-semibold">Only $129. A coach will contact you within 24 hours.</span>
+        <span class="fw-semibold">From $199. A coach will contact you within 24 hours.</span>
       </p>
-      <a href="{{ route('general-checkout',['product' => 'sunrise-life-reset-service']) }}" class="btn fw-bold" style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.4rem 4rem; border-radius: 2rem;">
-        Book Now
-      </a>
+      <a href="{{ route('general-checkout',['product' => 'life-reset-coaching1']) }}" class="btn fw-bold" style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.4rem 4rem; border-radius: 2rem;">
+        1 Session 199 USD
+      </a><br><br>
+
+      <a href="{{ route('general-checkout',['product' => 'life-reset-coaching4']) }}" class="btn fw-bold" style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.4rem 4rem; border-radius: 2rem;">
+        4 Sessions 749 USD
+      </a><br><br>
+
+      <a href="{{ route('general-checkout',['product' => 'life-reset-coaching4']) }}" class="btn fw-bold" style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.4rem 4rem; border-radius: 2rem;">
+        8 Sessions 1490 USD
+      </a><br><br>
+
+
+
+      
+      
+
+
     </div>
 
 @endsection

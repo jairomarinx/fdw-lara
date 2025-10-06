@@ -15,36 +15,36 @@
         <h4 class="text-body mb-4">Multi-day experiences to restore your body, mind, and spirit</h4>
 
         <h5 class="text-gray fs-1"><span class="text-primary"> WHAT YOU GET</span></h5>
-        <h6 class="text-gray fs-3">(Sedona & Colombia)</h6>
+        <h6 class="text-gray fs-3">(Phoenix, Sedona & Colombia)</h6>
     </div>
 
     <div class="container-fluid programe position-relative px-5 mt-5" style="margin-bottom: 135px;">
         <div class="row g-5 gb-5">
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-justify p-5">
-                    <img src="{{ asset('t1/img/services/r2.webp') }}" alt="plan" class="img-fluid">
-                    <h3 class="text-uppercase my-4 fs-1 text-center">Immersive Setting</h3>
+                    <img src="{{ asset('phoenix.webp') }}" alt="plan" class="img-fluid">
+                    <h3 class="text-uppercase my-4 fs-1 text-center">Phoenix</h3>
                     <p class="text-center text-uppercase"><strong>Step away from routine and into transformation</strong><br><br></p>
                     <span class="text-justify">
-Our retreats are held in sacred natural environments that inspire healing.  
-Disconnect from distraction and connect with your purpose.  
-Every detail is designed for peace, reflection, and transformation.  
-This is your space to reset fully.
+A one-day urban wellness immersion to recharge your body and reset your mindset.
+Experience a full day of guided movement, mindful nutrition, and conscious connection designed to help you pause, breathe, and realign.
                     </span>
+                    <a href="{{ url('general-checkout/life-reset-retreat1') }}" class="btn btn-warning d-block mt-2" style="">1 Day Phoenix $490 Usd</a>
+
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-justify p-5">
                     <img src="{{ asset('t1/img/services/s1.webp')  }}" class="img-fluid">
-                    <h3 class="text-uppercase my-4 fs-1 text-center">Transformative Practices</h3>
+                    <h3 class="text-uppercase my-4 fs-1 text-center">Sedona</h3>
                     <p class="text-center text-uppercase"><strong>Mindful tools and movement to awaken your energy</strong><br><br></p>
                     <span class="text-justify">
-You will experience breathwork, movement, meditation, and guided journaling.  
-We help you build habits that last long after the retreat ends.  
-Each day brings clarity and renewed vitality.  
-This is change you can feel.
+A two-day deep reconnection experience in the sacred red rocks of Sedona.
+Reset your body, clear your mind, and open your heart through movement, meditation, and nature’s healing energy.
                     </span>
+                    <br>
+                    <a href="{{ url('general-checkout/life-reset-retreat2') }}" class="btn btn-warning d-block mt-2" style="">2 Days Sedona $1200 Usd</a>
                 </div>
             </div>
 
@@ -57,6 +57,8 @@ This is change you can feel.
 Reconnect with your essence in the vibrant mountains of Medellín.
 A 5-day immersive experience designed to reset your body, mind, and heart through mindful movement, conscious nutrition, music medicine, and deep rest.
                     </span>
+                    <br><br>
+                    <a href="{{ url('general-checkout/life-reset-retreat5') }}" class="btn btn-warning d-block mt-2" style="">5 Days Medellin $2900 Usd</a>
                 </div>
             </div>
         </div>

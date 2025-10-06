@@ -22,7 +22,7 @@
         <div class="row g-5 gb-5">
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-justify p-5">
-                    <img src="{{ asset('t1/img/services/brad.webp') }}" alt="body" class="img-fluid">
+                    <img src="{{ asset('frc1.webp') }}" alt="body" class="img-fluid">
                     <h3 class="text-uppercase my-4 fs-1 text-center">Custom Plan</h3>
                     <p class="text-center text-uppercase"><strong> A full-body & lifestyle reset plan built just for
                             you</strong><br><br></p>
@@ -38,7 +38,7 @@ Start strong with structure that supports your long-term success.</span>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-justify p-5">
-                    <img src="{{ asset('t1/img/brad-mind.jpg') }}" class="img-fluid">
+                    <img src="{{ asset('frc2.webp') }}" class="img-fluid">
                     <h3 class="text-uppercase my-4 fs-1 text-center">Action Steps</h3>
                     <p class="text-center text-uppercase"><strong> Clear, motivating steps to restart your fitness
                             journey</strong><br><br></p>
@@ -55,7 +55,7 @@ You’ll leave with a clear sense of direction and a plan you’ll actually foll
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-justify p-5">
-                    <img src="{{ asset('t1/img/spirit.jpg') }}" class="img-fluid" alt="">
+                    <img src="{{ asset('frc3.webp') }}" class="img-fluid" alt="">
                     <h3 class="text-uppercase my-4 fs-1 text-center">Mind Shift</h3>
                     <p class="text-center text-uppercase"><strong>A renewed mindset to finally prioritize your
                             health</strong> <br><br></p>

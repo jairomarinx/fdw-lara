@@ -97,7 +97,8 @@ Train hard, feel good, and grow stronger together.',
                 'title' => 'Life Reset Retreats',
                 'tag' => 'kind hearts',
                 'subtitle' => 'Sedona & Colombia',
-                'description' => 'Multi-day retreats with full-body reset experiences. Coach will confirm dates after payment. Plain tickets not included.',
+                'description' => 'Transform your body, mind, and energy in immersive wellness retreats designed to help you reset, reconnect, and realign with your best self. Sedona (2 days): Deep reconnection with nature, silence, and inner balance. 
+                    Medellin (4 days): Full-body & mind renewal with movement, music, and mindful nutrition. Phoenix (1 day): A powerful urban reset to recharge your purpose and vitality. Coach will confirm dates after payment. Plain tickets not included.',
                 'prices' => [
                     ['label' => '2 days Sedona $1,200.00', 'route' => 'general-checkout', 'product' => 'life-reset-retreat2'],
                     ['label' => '5 days Medellin $2,900.00', 'route' => 'general-checkout', 'product'=> 'life-reset-retreat5']

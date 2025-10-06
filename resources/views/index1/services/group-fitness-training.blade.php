@@ -68,7 +68,9 @@ You get the benefit of personal coaching, with community all around.</span><br><
                         This isn’t a gym full of mirrors and pressure.
 It’s a space to show up, sweat, and support each other.
 Our members lift more than weights, they lift each other.
-Come as you are and grow from there.
+Come as you are and grow from there.<br>
+
+
                     </span><br><br> 
 
                     <a href="{{ url('/general-checkout/group-fitness-training') }}"
@@ -106,8 +108,10 @@ Come as you are and grow from there.
   <h2 class="fw-bold mb-4 text-black display-5">Join Our Group Fitness Training</h2>
   <p class="fs-4 mb-5 text-dark">
     Monthly membership for small group coaching sessions<br>
-    <span class="fw-semibold">Limited spots to keep the experience personal</span>
+    <span class="fw-semibold">Limited spots to keep the experience personal</span><br>
+    <strong> Scottsdale Facility. Mon/Wed/Fri 6:00 AM & 9:00 AM</strong>
   </p>
+  
 
   <a href="{{ url('/general-checkout/group-fitness-training') }}"
      class="btn fw-bold"

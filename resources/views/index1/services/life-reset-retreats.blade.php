@@ -50,14 +50,12 @@ This is change you can feel.
 
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-justify p-5">
-                    <img src="{{ asset('t1/img/services/s4.webp')  }}" class="img-fluid" alt="">
-                    <h3 class="text-uppercase my-4 fs-1 text-center">Lasting Impact</h3>
+                    <img src="{{ asset('medellin.webp')  }}" class="img-fluid" alt="">
+                    <h3 class="text-uppercase my-4 fs-1 text-center">Medellin</h3>
                     <p class="text-center text-uppercase"><strong>Return home renewed, grounded, and connected</strong><br><br></p>
                     <span class="text-justify">
-This is not just a break. It is a rebirth.  
-You leave with tools, insights, and community support.  
-Our retreats awaken your heart and strengthen your path.  
-Transformation begins here.
+Reconnect with your essence in the vibrant mountains of Medellín.
+A 5-day immersive experience designed to reset your body, mind, and heart through mindful movement, conscious nutrition, music medicine, and deep rest.
                     </span>
                 </div>
             </div>
@@ -70,6 +68,9 @@ Transformation begins here.
         Multi-day full-body reset experiences in Sedona and Colombia<br>
         <span class="fw-semibold">Coach will confirm dates after payment. Flights not included.</span>
       </p>
+      <a href="{{ url('general-checkout/life-reset-retreat1') }}" class="btn fw-bold" style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.4rem 4rem; border-radius: 2rem;">
+        1 Day Phoenix $490 Usd
+      </a> <br><br>      
       <a href="{{ url('general-checkout/life-reset-retreat2') }}" class="btn fw-bold" style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.4rem 4rem; border-radius: 2rem;">
         2 Days Sedona $1200 Usd
       </a> <br><br>

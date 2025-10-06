@@ -68,7 +68,7 @@ This is a sunrise for your soul.
     </div>
 
     <div class="text-center" style="background-color: #FDD709; padding: 4rem 2rem; border-radius: 2rem; box-shadow: 0 0 30px rgba(0,0,0,0.2); margin-top: 4rem;">
-      <h2 class="fw-bold mb-4 text-black display-5">Book Your Sunrise Reset</h2>
+      <h2 class="fw-bold mb-4 text-black display-5">Book Your Life Reseat Coaching</h2>
       <p class="fs-4 mb-5 text-dark">
         Sacred 1:1 session to heal, align, and manifest your best self<br>
         <span class="fw-semibold">From $199. A coach will contact you within 24 hours.</span>

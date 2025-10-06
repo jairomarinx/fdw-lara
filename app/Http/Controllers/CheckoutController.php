@@ -75,7 +75,7 @@ class CheckoutController extends Controller
                 'price_data' => [
                     'currency' => 'usd',
                     'product_data' => [
-                        'name' => 'Fit.Reset.Consultation',
+                        'name' => "$request->product",
                     ],
                     'unit_amount' => $amountInCents,
                 ],

@@ -17,6 +17,7 @@ return [
     'weekly-meal-prepping10' => [ 'name' => 'weekly.meal.prepping10', 'price' => 120, 'desc' => ''],    
 
     
+    'life-reset-retreat1' => [ 'name' => 'Life Reset Retreat1', 'price' => 490, 'desc' => ''],
     'life-reset-retreat2' => [ 'name' => 'life-reset-retreat2', 'price' => 1200, 'desc' => ''],
     'life-reset-retreat5' => [ 'name' => 'life-reset-retreat5', 'price' => 2900, 'desc' => ''],
     'sunrise-life-reset-service' => [ 'name' => 'Sunrise.Life.Reset', 'price' => 199, 'desc' => ''],

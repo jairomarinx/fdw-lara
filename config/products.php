@@ -20,7 +20,7 @@ return [
     'life-reset-retreat1' => [ 'name' => 'Life Reset Retreat1', 'price' => 490, 'desc' => ''],
     'life-reset-retreat2' => [ 'name' => 'life-reset-retreat2', 'price' => 1200, 'desc' => ''],
     'life-reset-retreat5' => [ 'name' => 'life-reset-retreat5', 'price' => 2900, 'desc' => ''],
-    'sunrise-life-reset-service' => [ 'name' => 'Sunrise.Life.Reset', 'price' => 199, 'desc' => ''],
+    'sunrise-life-reset-service' => [ 'name' => 'Life Reset Coaching 1', 'price' => 199, 'desc' => ''],
     'life-reset-coaching1' => [ 'name' => 'Life Reset Coaching 1', 'price' => 199, 'desc' => ''],
     'life-reset-coaching4' => [ 'name' => 'Life Reset Coaching 4', 'price' => 749, 'desc' => ''],
     'life-reset-coaching8' => [ 'name' => 'Life Reset Coaching 8', 'price' => 1490, 'desc' => ''],

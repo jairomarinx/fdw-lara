@@ -61,7 +61,7 @@ We help you create a clear energetic shift supported by practice.
 You leave feeling lighter, grounded, and realigned.  
 This is a sunrise for your soul.
                     </span>
-                    <a href="{{ route('general-checkout',['product' => 'sunrise-life-reset-service']) }}" class="btn btn-warning d-block text-center mx-auto mt-4">Make the Shift</a>
+                    <a href="{{ route('general-checkout',['product' => 'life-reset-coaching8']) }}" class="btn btn-warning d-block text-center mx-auto mt-4">8 SESSIONS 1490 usd</a>
                 </div>
             </div>
         </div>

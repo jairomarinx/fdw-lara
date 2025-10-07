@@ -37,6 +37,8 @@
 We adjust pace, intensity, and exercises to fit your real life.
 This is personal training that actually feels personal.
 No distractions. No comparison. Just progress.</span>
+                    
+                    <a href="{{ route('general-checkout',['product' => 'personal-fitness-training1']) }}" class="btn btn-warning d-block text-center mx-auto mt-4">1 Session 129 USD</a>
 
                 </div>
             </div>
@@ -52,6 +54,8 @@ We build strength, mobility, and consistency week after week.
 Say goodbye to on-and-off training cycles.
 We’re in this to help you stay fit for good.
                     </span><br><br> 
+                    <a href="{{ route('general-checkout',['product' => 'personal-fitness-training4']) }}" class="btn btn-warning d-block text-center mx-auto mt-4">4 Sessions 396 USD</a>
+
 
 
                 </div>
@@ -66,6 +70,8 @@ We’re in this to help you stay fit for good.
 Expect smart corrections, clear explanations, and proven strategies.
 You're not left to figure it out alone.
 Every movement counts, and we make sure it's done right.</span><br><br></p>
+                    <a href="{{ route('general-checkout',['product' => 'personal-fitness-training8']) }}" class="btn btn-warning d-block text-center mx-auto mt-4">8 Sessions 792 USD</a>
+
 
 
                 </div>

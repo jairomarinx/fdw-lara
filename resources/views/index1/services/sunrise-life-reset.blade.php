@@ -81,7 +81,7 @@ This is a sunrise for your soul.
         4 Sessions 749 USD
       </a><br><br>
 
-      <a href="{{ route('general-checkout',['product' => 'life-reset-coaching4']) }}" class="btn fw-bold" style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.4rem 4rem; border-radius: 2rem;">
+      <a href="{{ route('general-checkout',['product' => 'life-reset-coaching8']) }}" class="btn fw-bold" style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.4rem 4rem; border-radius: 2rem;">
         8 Sessions 1490 USD
       </a><br><br>
 

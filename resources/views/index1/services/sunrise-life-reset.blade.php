@@ -37,7 +37,7 @@ This is a calm and powerful container to begin again.
 
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-justify p-5">
-                    <img src="{{ asset('t1/img/services/sunrise4.webp')  }}" class="img-fluid">
+                    <img src="{{ asset('map.webp')  }}" class="img-fluid">
                     <h3 class="text-uppercase my-4 fs-1 text-center">Manifestation Map</h3>
                     <p class="text-center text-uppercase"><strong>Design your vision with grounded steps and spiritual flow</strong><br><br></p>
                     <span class="text-justify">

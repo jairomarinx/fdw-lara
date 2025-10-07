@@ -18,7 +18,9 @@
                         </div>
                     </div>
                 </div>
-                <a href="https://www.youtube.com/watch?v=HY_7_Im71jY&list=PLzODLNgtVAKGdcknx6jqi34CDxmi92uZi&index=12" class="btn btn-primary bg-primary py-md-3 px-md-5 me-3" style="font-size: 20px; width: 250px;">More episodes</a>
+                <a href="https://www.youtube.com/watch?v=HY_7_Im71jY&list=PLzODLNgtVAKGdcknx6jqi34CDxmi92uZi&index=12" class="btn btn-primary bg-primary py-md-3 px-md-5 me-3 mb-4" style="font-size: 20px; width: 250px;">More episodes</a><br><br>
+                <h3>Help us change the World</h3>
+                <a href="{{ url("donate") }}" class="btn btn-primary bg-primary py-md-3 px-md-5 me-3" style="font-size: 20px; width: 250px;"> <strong> Donate</strong></a>
 
             </div>
 

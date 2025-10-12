@@ -93,6 +93,7 @@ Train hard, feel good, and grow stronger together.',
                 'link'  => 'sunrise-life-reset'
 
             ],
+            /*
             [
                 'title' => 'Life Reset Retreats',
                 'tag' => 'kind hearts',
@@ -107,6 +108,7 @@ Train hard, feel good, and grow stronger together.',
                 'link'  => 'life-reset-retreats'
 
             ]
+            */
         ]
     ];
 @endphp

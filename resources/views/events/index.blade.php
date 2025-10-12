@@ -73,6 +73,8 @@
             ['route' =>'saturday-booty-camp', 'img' => 't1/img/services/ev1.webp', 'title' => 'Saturday.Booty.Camp.', 'desc' => 'A fun and dynamic class focused on legs, glutes, and abs. Come sweat, laugh, and shape your body with us. Dates TBD based on demand.(Scottsdale) '],
             ['route' =>'sunrise-life-reset','img' => 't1/img/services/ev2.webp', 'title' => 'Sunrise.Life.Reset.', 'desc' => 'Sacred sunrise experience: heal what no longer serves you, design your manifestation map, create habits and discover your balance. Dates TBD. (Scottsdale) '],
             ['route' =>'kayak-with-us','img' => 't1/img/services/ev3.webp', 'title' => 'Kayak.with.Us.', 'desc' => 'Kayaking trip through the scenic Salt River! Paddle among wildlife and desert cliffs. Scenic float with sections of swift water. Breakfast picnic included. Dates TBD. (Salt River, Arizona) '],            
+            ['route' =>'life-reset-retreats','img' => 'a4.webp', 'title' => 'Life Reset Retreats', 'desc' => 'Transform your body, mind, and energy in immersive wellness retreats designed to help you reset, reconnect, and realign with your best self. '],            
+
           ];
         @endphp
         @foreach ($events as $e)

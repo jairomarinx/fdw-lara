@@ -6,7 +6,7 @@
 
 @include('index1.carousel')
 @include('index1.gray-social')
-@include('index1.about2')
+@include('index1.about')
 @include('index1.pillars')
 @include('index1.services-programs-products')
 @include('index1.events')

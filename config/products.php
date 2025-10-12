@@ -31,6 +31,9 @@ return [
     'booty-bands' => [ 'name' => 'BOOTY BANDS', 'price' => 15, 'desc' => 'Booty exercise bands for women and men, glute, hip and thigh resistance bands with carrying bag'],
     'ankle-straps' => [ 'name' => 'ANKLE STRAPS', 'price' => 19, 'desc' => 'Ankle straps for cable machine kickbacks, glute workouts, lower body exercises.'],
 
+    'intentional-make-over' => [ 'name' => 'INTENTIONAL MAKE OVER', 'price' => 129, 'desc' => 'Redesign your home, office, or online presence with purpose. Our Intentional Makeover service helps you refresh rooms, kitchens, or even your Instagram, aligning beauty, function, and energy to reflect your best self.'],
+
+
 
 
 

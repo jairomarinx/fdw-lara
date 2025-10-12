@@ -149,6 +149,11 @@ class FitController extends Controller
         return view('donation');
     }
 
+    public function intentional_make_over(Request $request)
+    {
+        return view('index1.services.intentional-make-over');
+    }
+
 
 
 }

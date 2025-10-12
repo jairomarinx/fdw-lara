@@ -26,6 +26,7 @@ Route::prefix('services')->group(function () {
     Route::get('/life-reset-retreats', [FitController::class, "life_reset_retreats"])->name('life-reset-retreats');
     Route::get('/saturday-booty-camp', [FitController::class, "saturday_booty_camp"])->name('saturday-booty-camp');
     Route::get('/kayak-with-us', [FitController::class, "kayak_with_us"])->name('kayak-with-us');
+    Route::get('/intentional-make-over',[FitController::class,"intentional_make_over"])->name('intentional-make-over');
 });
 
 // Programs (agrupado y consolidado)

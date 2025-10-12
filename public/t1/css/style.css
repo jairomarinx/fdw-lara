@@ -386,3 +386,24 @@ h6,
         object-fit: cover;
     }
 }
+
+/* Fix: iOS Safari not showing the 'laly-fuerte2.jpg' image */
+#img_laly_fuerte,
+#img_brad_fuerte {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+    backface-visibility: hidden; /* Safari fix */
+    -webkit-transform: translateZ(0); /* Force layer repaint */
+}
+
+@supports (-webkit-touch-callout: none) {
+    /* Only affects iOS Safari */
+    .position-relative.h-100 {
+        min-height: 500px !important;
+        overflow: hidden;
+    }
+}

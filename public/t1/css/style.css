@@ -407,3 +407,84 @@ h6,
         overflow: hidden;
     }
 }
+
+
+@media (max-width: 768px) {
+
+    /* Ajusta el alto total para que se vea la foto completa */
+    #id_testimonials .col-lg-6:first-child {
+        min-height: 320px !important;
+    }
+
+    #id_testimonials .position-relative img {
+        object-fit: cover;
+        object-position: top center;
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    /* Reduce márgenes para aprovechar la pantalla */
+    #id_testimonials .container {
+        padding: 0 !important;
+        margin-top: 2rem !important;
+        margin-bottom: 2rem !important;
+    }
+
+    /* Mejora la visibilidad del texto y el layout */
+    #id_testimonials .bg-dark {
+        padding: 1.5rem !important;
+        text-align: center;
+    }
+
+    #id_testimonials h1.display-3 {
+        font-size: clamp(24px, 6vw, 32px);
+        margin-bottom: 1rem;
+    }
+
+    /* Testimonios más legibles y compactos */
+    .testimonial-item p {
+        font-size: 16px !important;
+        line-height: 1.4;
+    }
+
+    .testimonial-item img {
+        width: 70px !important;
+        height: 70px !important;
+        border-radius: 8px !important;
+        object-fit: cover;
+    }
+
+    .testimonial-item h5 {
+        font-size: 16px !important;
+        margin-bottom: 0.25rem;
+    }
+
+    .testimonial-item span {
+        font-size: 13px !important;
+    }
+
+    /* Ajusta el carrusel para que se vea fluido y centrado */
+    .testimonial-carousel .owl-stage-outer {
+        padding: 10px 0;
+    }
+
+    .testimonial-carousel .owl-item {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Hace que la sección completa quepa en una pantalla móvil */
+    #id_testimonials {
+        overflow: hidden;
+    }
+
+    /* Suaviza la transición visual */
+    .testimonial-carousel .owl-item img {
+        transition: transform 0.4s ease-in-out;
+    }
+
+    .testimonial-carousel .owl-item.active img {
+        transform: scale(1.03);
+    }
+}

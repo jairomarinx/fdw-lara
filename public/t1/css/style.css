@@ -366,3 +366,14 @@ h6,
     color: black !important;
 }
 
+.red-border
+{
+    border-style: solid;
+    border-color: red;
+}
+
+.laly-a a:hover {
+    color: #ffe032 !important;
+    font-weight: bold;
+}
+

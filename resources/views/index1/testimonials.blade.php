@@ -1,5 +1,6 @@
     <!-- Testimonial Start -->
-    <div class="container-fluid p-0 my-5" id="id_testimonials">
+<div class="container-fluid" style="background-color: #222429;">    
+    <div class="container p-0 my-5" id="id_testimonials">
         <div class="row g-0">
             <div class="col-md-12 col-lg-6" style="min-height: 500px;">
                 <div class="position-relative h-100">
@@ -152,3 +153,4 @@
             </div>
         </div>
     </div>
+</div>

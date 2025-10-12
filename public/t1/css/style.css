@@ -377,3 +377,12 @@ h6,
     font-weight: bold;
 }
 
+
+
+@media (max-width: 768px) {
+    .testimonial-carousel .owl-item img {
+        width: 100% !important;
+        height: auto !important;
+        object-fit: cover;
+    }
+}

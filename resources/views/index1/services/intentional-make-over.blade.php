@@ -105,7 +105,7 @@
   <a href="{{ url('/general-checkout/intentional-make-over') }}"
      class="btn fw-bold"
      style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.4rem 4rem; border-radius: 2rem;">
-    Book your Intentional Makeover today 129 USD
+    Evaluation 129 USD
   </a>
 </div>
 

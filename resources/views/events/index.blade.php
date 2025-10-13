@@ -61,7 +61,7 @@
       <div class="row">
         <div class="col-lg-6 offset-lg-3">
           <div class="section-heading">
-            <h2>What <em>To Expect</em></h2>
+            <h2 style="font-size: 50px;">Next <em>Events</em></h2>
             <img src="{{ asset('programs/assets/images/line-dec.png') }}" alt="divider">
             <p>Every Fit Done Well event blends movement, music, mindfulness, and joy. These are real-life gatherings for real transformation.</p>
           </div>

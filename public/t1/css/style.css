@@ -488,3 +488,57 @@ h6,
         transform: scale(1.03);
     }
 }
+
+/* === About Section Fix for Safari & Responsive Symmetry === */
+#id_about .row {
+    display: flex;
+    align-items: stretch;
+}
+
+#id_about .col-lg-5,
+#id_about .col-lg-7 {
+    display: flex;
+    flex-direction: column;
+}
+
+#id_about .position-relative {
+    flex: 1;
+    min-height: 500px;
+    overflow: hidden;
+    position: relative;
+    background-color: #000;
+}
+
+/* make image visible on Safari and equal height */
+#id_about .position-relative img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+    backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+}
+
+/* For mobile: stack properly and keep photo visible */
+@media (max-width: 992px) {
+    #id_about .row {
+        flex-direction: column;
+    }
+
+    #id_about .col-lg-5,
+    #id_about .col-lg-7 {
+        width: 100%;
+    }
+
+    #id_about .position-relative {
+        min-height: 380px !important;
+    }
+
+    #id_about .bg-dark.p-5 {
+        padding: 2rem 1.25rem !important;
+    }
+}
+

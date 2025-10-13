@@ -100,23 +100,23 @@
         <div class="mb-5 text-center">
             <h5 class="text-primary text-uppercase fs-2 "><strong>Our Shop in Amazon</strong> </h5>
             <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="col-3">
                     <a href="https://www.amazon.com/s?me=A3ICCKPR3TSRVY&ref=sf_seller_app_share_new">
                         <img src="{{ asset('t1/img/amazon1.png') }}" alt="" class="img-fluid">
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="col-3">
                     <a href="https://www.amazon.com/s?me=A3ICCKPR3TSRVY&ref=sf_seller_app_share_new">
                         <img src="{{ asset('t1/img/amazon2.png') }}" alt="" class="img-fluid">
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="col-3">
                     <a href="https://www.amazon.com/s?me=A3ICCKPR3TSRVY&ref=sf_seller_app_share_new">
                         <img src="{{ asset('t1/img/amazon3.png') }}" alt="" class="img-fluid">
                     </a>
                 </div>
 
-                <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="col-3">
                     <a href="https://a.co/d/2suGmx9">
                         <img src="{{ asset('t1/img/amazon8.png?v=2') }}" alt="" class="img-fluid">
                     </a>

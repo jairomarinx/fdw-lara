@@ -115,7 +115,7 @@ Train hard, feel good, and grow stronger together.',
                 'subtitle' => 'Scottsdale',
                 'description' => 'Redesign your home, office, or online presence with purpose. Our Intentional Makeover service helps you refresh rooms, kitchens, or even your Instagram, aligning beauty, function, and energy to reflect your best self.',
                 'prices' => [
-                    ['label' => '1 evaluation $129', 'route' => 'general-checkout', 'product' => 'intentional-make-over'],
+                    ['label' => 'evaluation $129', 'route' => 'general-checkout', 'product' => 'intentional-make-over'],
                 ],
                 'image' => 'intentional1.webp',
                 'link'  => 'intentional-make-over'

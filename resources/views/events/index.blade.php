@@ -27,7 +27,7 @@
       <div class="row">
         <div class="col-12">
           <nav class="main-nav">
-            <a href="{{ route('root') }}" class="logo">Fit.Done.<em>Well</em></a>
+            <a href="{{ route('root') }}" class="logo">Fit.<em>Done.Well</em></a>
             <ul class="nav">
               <li><a href="{{ route('root') }}">Home</a></li>
               <li><a href="{{ route('root') . '/services' }}">Services</a></li>

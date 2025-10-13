@@ -12,7 +12,7 @@
         <div class="row g-5 gb-5">
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-justify p-5">
-                    <img src="{{ asset('t1/img/laly-body.jpg') }}" alt="body" class="img-fluid">
+                    <img src="{{ asset('strong-bodies.webp') }}" alt="body" class="img-fluid">
                     <h3 class="text-uppercase my-4 fs-1 text-center">Strong Bodies</h3>
                     <p class="text-center text-uppercase"><strong> Celebrate Your Body with Strength and Vitality</strong><br><br></p>
 
@@ -23,7 +23,7 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-justify p-5">
-                    <img src="{{ asset('t1/img/brad-mind.jpg') }}" class="img-fluid">
+                    <img src="{{ asset('open-minds.webp') }}" class="img-fluid">
                     <h3 class="text-uppercase my-4 fs-1 text-center">Open Minds</h3>
                     <p class="text-center text-uppercase"><strong> Nurture Your Mind for Clarity and Growth</strong><br><br></p>
 
@@ -35,7 +35,7 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-justify p-5">
-                    <img src="{{ asset('t1/img/spirit.jpg') }}" class="img-fluid" alt="">
+                    <img src="{{ asset('kind-hearts.webp') }}" class="img-fluid" alt="">
                     <h3 class="text-uppercase my-4 fs-1 text-center">Kind Hearts</h3>
                     <p class="text-center text-uppercase"><strong>Elevate Your Spirit with Peace and Purpose</strong> <br><br></p>
 

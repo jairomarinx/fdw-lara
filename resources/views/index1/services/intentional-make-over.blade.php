@@ -6,20 +6,19 @@
 
     @include('index1.services.hero-services',
       [
-                'hero_image'=>'t1/img/services/group.webp',
-                'h1_title' => 'Group.Fitness.Training',
-                'h2_subtitle' => 'Train Together. Grow Stronger.',
+                'hero_image'=>'t1/img/services/hero-intentional.webp',
+                'h1_title' => 'Intentional Home Makeover',
+                'h2_subtitle' => 'Transform Any Room into a Space that Reflects You',
             ]
     )
 
     <div class="mb-5 text-center mt-5">
         <h5 class="text-primary text-uppercase fs-3"><strong></strong></h5>
-        <h1 class="display-3 text-uppercase mb-0">Group Fitness Training</h1>
-        <h4 class="text-body mb-4">Small Groups. Big Results.
-        </h4>
+        <h1 class="display-3 text-uppercase mb-0">Intentional Home Makeover</h1>
+        <h4 class="text-body mb-4">         </h4>
 
         <h5 class="text-gray fs-1"><span class="text-primary"> WHAT YOU GET</span> </h5>
-        <h6 class="text-gray fs-3">(Scottsdale Facility)</h6>
+        <h6 class="text-gray fs-3">(Scottsdale or Remote)</h6>
 
     </div>
 
@@ -30,13 +29,10 @@
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-justify p-5">
                     <img src="{{ asset('gr1c.webp') }}" alt="body" class="img-fluid">
-                    <h3 class="text-uppercase my-4 fs-1 text-center">Group Energy</h3>
-                    <p class="text-center text-uppercase"><strong> Feel the power of training with others</strong><br><br></p>
+                    <h3 class="text-uppercase my-4 fs-1 text-center">Intentional Kitchen Makeover</h3>
+                    <p class="text-center text-uppercase"><strong> Reimagine Your Kitchen as the Heart of Wellbeing</strong><br><br></p>
 
-                    <span class="text-justify">Move with motivation and momentum in every session.
-The energy of the group keeps you going, even on slow days.
-You’ll push further and have more fun doing it.
-This is fitness that feels alive, not like a chore.</span>
+                    <span class="text-justify">Turn your kitchen into a space that inspires connection and nourishment. From smart layouts to mindful aesthetics, we design with purpose so cooking and gathering feel effortless and joyful.</span>
 
                     <a href="{{ url('/general-checkout/group-fitness-training') }}"
                         class="btn btn-warning d-block text-center mx-auto mt-4">Start Training Now!</a>
@@ -45,13 +41,10 @@ This is fitness that feels alive, not like a chore.</span>
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-justify p-5">
                     <img src="{{ asset('gr2.webp') }}" class="img-fluid">
-                    <h3 class="text-uppercase my-4 fs-1 text-center">Expert Coaching</h3>
-                    <p class="text-center text-uppercase"><strong> Real trainers who actually pay attention</strong><br><br></p>
+                    <h3 class="text-uppercase my-4 fs-1 text-center">Intentional Media Makeover</h3>
+                    <p class="text-center text-uppercase"><strong> Elevate Your Online Presence with Purpose and Authenticity</strong><br><br></p>
 
-                    <span class="text-justify">Even in a group, you’re never lost in the crowd.
-Our coaches correct your form, guide your pace, and cheer you on.
-Every move is intentional and supported.
-You get the benefit of personal coaching, with community all around.</span><br><br></p>
+                    <span class="text-justify">Refine your Instagram or business profile into a clear, aligned reflection of your vision. We optimize visuals, tone, and storytelling — turning your digital space into a cohesive, inspiring brand experience.</span><br><br></p>
 
                     <a href="{{ url('/general-checkout/group-fitness-training') }}"
                         class="btn btn-warning d-block text-center mx-auto mt-4">Choose This Plan!</a>

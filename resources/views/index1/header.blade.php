@@ -18,13 +18,12 @@
                     </button>
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto py-0">
-                            <a href="{{ url('/') }}" class="nav-item nav-link active">Home</a>
+                            <a href="{{ url('/') }}" class="nav-item nav-link ">Home</a>
                             <a href="{{ url('/services') }}" class="nav-item nav-link">Services</a>
                             <a href="{{ url('/our-programs') }}" class="nav-item nav-link">Programs</a>
                             <a href="https://www.amazon.com/s?me=A3ICCKPR3TSRVY&ref=sf_seller_app_share_new" class="nav-item nav-link">Products</a>
                             <a href="{{ route('main-events') }}" class="nav-item nav-link">Events</a>
                             <a href="{{ url('#real_schedule') }}" class="nav-item nav-link">Consultations</a>
-                            <a href="{{ url('#id_testimonials') }}" class="nav-item nav-link">Testimonials</a>
 
 
                             <div class="nav-item dropdown">
@@ -35,8 +34,9 @@
                                     <a href="http://blog.fitdonewell.com" class="dropdown-item">Kind Hearts - Blog</a>
                                 </div>
                             </div>
+                            <a href="{{ route('contact-us') }}" class="nav-item nav-link active">Contact</a>
+
                         </div>
-                        <a href="{{ route('contact-us') }}" class="btn btn-primary py-md-3 px-md-5 d-none d-lg-block">Contact</a>
                     </div>
                 </nav>
             </div>

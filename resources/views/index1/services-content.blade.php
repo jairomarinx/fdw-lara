@@ -110,15 +110,15 @@ Train hard, feel good, and grow stronger together.',
             ],
             */
             [
-                'title' => 'Intentional Make Over',
+                'title' => 'Intentional Home Makeover',
                 'tag' => 'kind hearts',
                 'subtitle' => 'Scottsdale & Remote',
                 'description' => 'Redesign your home, office, or online presence with purpose. Our Intentional Makeover service helps you refresh rooms, kitchens, or even your Instagram, aligning beauty, function, and energy to reflect your best self.',
                 'prices' => [
-                    ['label' => '1 evaluation $129', 'route' => 'general-checkout', 'product' => 'life-reset-retreat1'],
+                    ['label' => '1 evaluation $129', 'route' => 'general-checkout', 'product' => 'intentional-make-over'],
                 ],
-                'image' => 'a4.webp',
-                'link'  => 'life-reset-retreats'
+                'image' => 'intentional1.webp',
+                'link'  => 'intentional-make-over'
             ],
         ]
     ];

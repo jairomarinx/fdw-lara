@@ -28,7 +28,7 @@
         <div class="row g-5 gb-5">
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-justify p-5">
-                    <img src="{{ asset('gr1c.webp') }}" alt="body" class="img-fluid">
+                    <img src="{{ asset('cocina.webp') }}" alt="body" class="img-fluid">
                     <h3 class="text-uppercase my-4 fs-1 text-center">Intentional Kitchen Makeover</h3>
                     <p class="text-center text-uppercase"><strong> Reimagine Your Kitchen as the Heart of Wellbeing</strong><br><br></p>
 
@@ -40,7 +40,7 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-justify p-5">
-                    <img src="{{ asset('gr2.webp') }}" class="img-fluid">
+                    <img src="{{ asset('media.webp') }}" class="img-fluid">
                     <h3 class="text-uppercase my-4 fs-1 text-center">Intentional Media Makeover</h3>
                     <p class="text-center text-uppercase"><strong> Elevate Your Online Presence with Purpose and Authenticity</strong><br><br></p>
 

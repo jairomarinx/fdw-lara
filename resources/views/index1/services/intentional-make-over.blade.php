@@ -34,8 +34,8 @@
 
                     <span class="text-justify">Turn your kitchen into a space that inspires connection and nourishment. From smart layouts to mindful aesthetics, we design with purpose so cooking and gathering feel effortless and joyful.</span>
 
-                    <a href="{{ url('/general-checkout/group-fitness-training') }}"
-                        class="btn btn-warning d-block text-center mx-auto mt-4">Start Training Now!</a>
+                    <a href="{{ url('/general-checkout/intentional-make-over') }}"
+                        class="btn btn-warning d-block text-center mx-auto mt-4">Start Now!</a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
@@ -46,29 +46,25 @@
 
                     <span class="text-justify">Refine your Instagram or business profile into a clear, aligned reflection of your vision. We optimize visuals, tone, and storytelling — turning your digital space into a cohesive, inspiring brand experience.</span><br><br></p>
 
-                    <a href="{{ url('/general-checkout/group-fitness-training') }}"
+                    <a href="{{ url('/general-checkout/intentional-make-over') }}"
                         class="btn btn-warning d-block text-center mx-auto mt-4">Choose This Plan!</a>
 
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-justify p-5">
-                    <img src="{{ asset('gr3.webp') }}" class="img-fluid" alt="">
-                    <h3 class="text-uppercase my-4 fs-1 text-center">Supportive Vibes</h3>
-                    <p class="text-center text-uppercase"><strong>Everyone’s here to get better, not to judge</strong> <br><br></p>
+                    <img src="{{ asset('room.webp') }}" class="img-fluid" alt="">
+                    <h3 class="text-uppercase my-4 fs-1 text-center">Intentional Room Makeover</h3>
+                    <p class="text-center text-uppercase"><strong>Transform Any Room into a Space that Reflects You</strong> <br><br></p>
 
                     <span class="text-justify">
-                        This isn’t a gym full of mirrors and pressure.
-It’s a space to show up, sweat, and support each other.
-Our members lift more than weights, they lift each other.
-Come as you are and grow from there.<br>
+                        Redesign your room or office with purpose and harmony. Every color, object, and layout decision is made intentionally, creating a balanced environment that supports focus, peace, and authentic self expression.
 
 
                     </span><br><br> 
 
-                    <a href="{{ url('/general-checkout/group-fitness-training') }}"
-                        class="btn btn-warning d-block text-center mx-auto mt-4">Get One-on-One Coaching!</a>
-
+                    <a href="{{ url('/general-checkout/intentional-make-over') }}"
+                        class="btn btn-warning d-block text-center mx-auto mt-4">Start Now!</a>
                 </div>
             </div>
 
@@ -94,22 +90,22 @@ Come as you are and grow from there.<br>
 
 
 
-@include('index1.testimonials')
 
 
 <div class="text-center" style="background-color: #FDD709; padding: 4rem 2rem; border-radius: 2rem; box-shadow: 0 0 30px rgba(0,0,0,0.2); margin-top: 4rem;">
-  <h2 class="fw-bold mb-4 text-black display-5">Join Our Group Fitness Training</h2>
+  <h2 class="fw-bold mb-4 text-black display-5">Intentional Home Makeover</h2>
   <p class="fs-4 mb-5 text-dark">
-    Monthly membership for small group coaching sessions<br>
-    <span class="fw-semibold">Limited spots to keep the experience personal</span><br>
-    <strong> Scottsdale Facility. Mon/Wed/Fri 6:00 AM & 9:00 AM</strong>
+    our home is more than a place, it is an extension of your energy. When every corner reflects clarity and intention, daily life feels lighter, more inspired, and deeply aligned with who you are.
+  </p>
+  <p class="fs-4 mb-5 text-dark">
+    Ready to reimagine your space with purpose?
   </p>
   
 
-  <a href="{{ url('/general-checkout/group-fitness-training') }}"
+  <a href="{{ url('/general-checkout/intentional-make-over') }}"
      class="btn fw-bold"
      style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.4rem 4rem; border-radius: 2rem;">
-    Join Now for $507 per Month
+    Book your Intentional Makeover today 129 USD
   </a>
 </div>
 

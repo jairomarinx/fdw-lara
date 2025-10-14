@@ -81,67 +81,47 @@
           </div>
         </div>
       </div>
-      <div class="row" style="background-color: #222429; padding: 30px;">
-        @php
-          $events = [
-            ['route' =>'kayak-with-us','img' => 't1/img/services/ev3.webp', 'title' => 'Kayak.with.Us.', 'desc' => 'Kayaking trip through the scenic Salt River! Paddle among wildlife and desert cliffs. Scenic float with sections of swift water. Breakfast picnic included. Dates TBD. (Salt River, Arizona) ','product'=> 'kayak-with-us' ],            
-            ['route' =>'life-reset-retreats','img' => 'a4.webp', 'title' => 'Life Reset Retreats', 'desc' => 'Transform your body, mind, and energy in immersive wellness retreats designed to help you reset, reconnect, and realign with your best self. ','product'=> '' ],            
-//            ['route' =>'sunrise-life-reset','img' => 't1/img/services/ev2.webp', 'title' => 'Sunrise.Life.Reset.', 'desc' => 'Sacred sunrise experience: heal what no longer serves you, design your manifestation map, create habits and discover your balance. Dates TBD. (Scottsdale) '],
-            ['route' =>'saturday-booty-camp', 'img' => 'booty.webp', 'title' => 'Saturday.Booty.Camp.', 'desc' => 'A fun and dynamic class focused on legs, glutes, and abs. Come sweat, laugh, and shape your body with us. Dates TBD based on demand.(Scottsdale) '],
+<div class="row" style="background-color:#222429;padding-top:40px;display:flex;flex-wrap:wrap;align-items:stretch;">
+  @php
+    $events = [
+      ['route'=>'kayak-with-us','img'=>'t1/img/services/ev3.webp','title'=>'Kayak.with.Us.','desc'=>'Kayaking trip through the scenic Salt River! Paddle among wildlife and desert cliffs. Scenic float with sections of swift water. Breakfast picnic included. Dates TBD. (Salt River, Arizona)','product'=>'kayak-with-us'],            
+      ['route'=>'life-reset-retreats','img'=>'a4.webp','title'=>'Life Reset Retreats','desc'=>'Transform your body, mind, and energy in immersive wellness retreats designed to help you reset, reconnect, and realign with your best self.','product'=>''],            
+      ['route'=>'saturday-booty-camp','img'=>'booty.webp','title'=>'Saturday.Booty.Camp.','desc'=>'A fun and dynamic class focused on legs, glutes, and abs. Come sweat, laugh, and shape your body with us. Dates TBD based on demand.(Scottsdale)','product'=>''],
+    ];
+  @endphp
 
-          ];
-        @endphp
-
-@foreach ($events as $e)
-<div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-  <div class="feature-item" style="display:flex;flex-direction:column;align-items:center; background-color: white; padding: 20px;">
-    <a href="{{ route($e['route']) }}">
-      <img src="{{ asset($e['img']) }}" alt="icon" class="img-fluid mb-3" style="max-width:100%;height:auto;">
-    </a>
-
-    <div class="right-content p-2" style="text-align:justify;max-width:90%;">
+  @foreach ($events as $e)
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-4" style="display:flex;flex:1;">
+    <div class="feature-item" style="display:flex;flex-direction:column;align-items:center;background-color:white;padding:20px;width:100%;">
       <a href="{{ route($e['route']) }}">
-        <h4 style="font-weight:bold;text-align:center;margin-bottom:0.5rem;">{{ $e['title'] }}</h4>
+        <img src="{{ asset($e['img']) }}" alt="icon" class="img-fluid mb-3" style="max-width:100%;height:auto;">
       </a>
-      <p style="margin:0 0 1rem 0;">{{ $e['desc'] }}</p>
 
-      <div style="text-align:center;margin-top:1rem;">
-        <a href="{{ route($e['route']) }}"
-           style="display:inline-block;
-                  background-color:transparent;
-                  color:#000;
-                  border:1px solid #000;
-                  padding:0.3rem 1.5rem;
-                  border-radius:6px;
-                  text-decoration:none;
-                  font-weight:600;
-                  letter-spacing:1px;">
-          LEARN MORE
+      <div class="right-content p-2" style="text-align:justify;max-width:90%;">
+        <a href="{{ route($e['route']) }}">
+          <h4 style="font-weight:bold;text-align:center;margin-bottom:0.5rem;">{{ $e['title'] }}</h4>
         </a>
-      </div>
+        <p style="margin:0 0 1rem 0;">{{ $e['desc'] }}</p>
 
-      <div style="text-align:center;margin-top:1.5rem;">
-        <a href="#"
-           style="display:inline-block;
-                  background-color:#FEF600;
-                  color:#000;
-                  padding:0.6rem 4.5rem;
-                  border-radius:6px;
-                  text-decoration:none;
-                  font-weight:600;
-                  letter-spacing:1px;">
-          BUY NOW
-        </a>
+        <div style="text-align:center;margin-top:1rem;">
+          <a href="{{ route($e['route']) }}"
+             style="display:inline-block;background-color:transparent;color:#000;border:1px solid #000;padding:0.3rem 1.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">
+            LEARN MORE
+          </a>
+        </div>
+
+        <div style="text-align:center;margin-top:1.5rem;">
+          <a href="#"
+             style="display:inline-block;background-color:#FEF600;color:#000;padding:0.6rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">
+            BUY NOW
+          </a>
+        </div>
       </div>
     </div>
   </div>
+  @endforeach
 </div>
-@endforeach
 
-
-
-
-      </div>
     </div>
   </section>
 

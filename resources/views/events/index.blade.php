@@ -66,7 +66,7 @@
             <p>Every Fit Done Well event blends movement, music, mindfulness, and joy. These are real-life gatherings for real transformation.</p>
 
             @if (now()->lt(\Carbon\Carbon::create(2025, 10, 18)))                 
-                <div style="text-align:center;font-size:20px;font-weight:bold;padding:1rem;color:#0a1d3a;">
+                <div style="text-align:center;font-size:20px;font-weight:bold;padding:1rem;color:#0a1d3a; background-color: white; padding: 20px;">
                   Kayak with Us on the Salt River<Br>                    
                       Saturday, October 18<br>
                     <span style="font-size: 14px;">
@@ -81,7 +81,7 @@
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row" style="background-color: #222429; padding: 30px;">
         @php
           $events = [
             ['route' =>'kayak-with-us','img' => 't1/img/services/ev3.webp', 'title' => 'Kayak.with.Us.', 'desc' => 'Kayaking trip through the scenic Salt River! Paddle among wildlife and desert cliffs. Scenic float with sections of swift water. Breakfast picnic included. Dates TBD. (Salt River, Arizona) ','product'=> 'kayak-with-us' ],            
@@ -94,7 +94,7 @@
 
 @foreach ($events as $e)
 <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-  <div class="feature-item" style="display:flex;flex-direction:column;align-items:center;">
+  <div class="feature-item" style="display:flex;flex-direction:column;align-items:center; background-color: white; padding: 20px;">
     <a href="{{ route($e['route']) }}">
       <img src="{{ asset($e['img']) }}" alt="icon" class="img-fluid mb-3" style="max-width:100%;height:auto;">
     </a>

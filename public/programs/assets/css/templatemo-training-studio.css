@@ -1263,3 +1263,9 @@ responsive
   height: 100vh;
   overflow: hidden;
 }
+
+.red-border
+{
+  border-style: solid;
+  border-color: red;
+}

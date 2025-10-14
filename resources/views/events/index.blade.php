@@ -84,9 +84,10 @@
 <div class="row" style="background-color:#222429;padding-top:40px;display:flex;flex-wrap:wrap;align-items:stretch;">
   @php
     $events = [
-      ['route'=>'kayak-with-us','img'=>'t1/img/services/ev3.webp','title'=>'Kayak.with.Us.','desc'=>'Kayaking trip through the scenic Salt River! Paddle among wildlife and desert cliffs. Scenic float with sections of swift water. Breakfast picnic included. Dates TBD. (Salt River, Arizona)','product'=>'kayak-with-us'],            
+      ['route'=>'saturday-booty-camp','img'=>'booty.webp','title'=>'Fit Reset Camp','desc'=>'A fun and dynamic class focused on legs, glutes, and abs. Come sweat, laugh, and shape your body with us. Dates TBD based on demand.(Scottsdale)','product'=>''],
+
+    ['route'=>'kayak-with-us','img'=>'t1/img/services/ev3.webp','title'=>'Adventure with Us','desc'=>'Kayaking trip through the scenic Salt River! Paddle among wildlife and desert cliffs. Scenic float with sections of swift water. Breakfast picnic included. Dates TBD. (Salt River, Arizona)','product'=>'kayak-with-us'],            
       ['route'=>'life-reset-retreats','img'=>'a4.webp','title'=>'Life Reset Retreats','desc'=>'Transform your body, mind, and energy in immersive wellness retreats designed to help you reset, reconnect, and realign with your best self.','product'=>''],            
-      ['route'=>'saturday-booty-camp','img'=>'booty.webp','title'=>'Saturday.Booty.Camp.','desc'=>'A fun and dynamic class focused on legs, glutes, and abs. Come sweat, laugh, and shape your body with us. Dates TBD based on demand.(Scottsdale)','product'=>''],
     ];
   @endphp
 

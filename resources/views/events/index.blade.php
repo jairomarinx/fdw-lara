@@ -78,7 +78,19 @@
                     </span>
                 </div>
             @endif
-            
+            <div>
+            <div style="text-align:center;font-size:20px;font-weight:bold;padding:1rem;color:#0a1d3a; background-color: white; padding: 20px;">
+
+🔥Life.Reset.Retreat.
+Phoenix.  
+Coming up Feb 2026<br>
+<br>
+Sedona Coming up Apr 2026<br>
+
+Colombia br
+Coming up Jul 202<>
+                </div>
+            </div>
 
           </div>
         </div>

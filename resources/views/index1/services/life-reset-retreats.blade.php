@@ -15,7 +15,7 @@
         <h4 class="text-body mb-4">Multi-day experiences to restore your body, mind, and spirit</h4>
 
         <h5 class="text-gray fs-1"><span class="text-primary"> WHAT YOU GET</span></h5>
-        <h6 class="text-gray fs-3">(Phoenix, Sedona & Colombia)</h6>
+        <h6 class="text-gray fs-3">(Scottsdale, Sedona & Colombia)</h6>
     </div>
 
     <div class="container-fluid programe position-relative px-5 mt-5" style="margin-bottom: 135px;">
@@ -23,13 +23,13 @@
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-justify p-5">
                     <img src="{{ asset('phoenix.webp') }}" alt="plan" class="img-fluid">
-                    <h3 class="text-uppercase my-4 fs-1 text-center">Phoenix</h3>
+                    <h3 class="text-uppercase my-4 fs-1 text-center">Scottsdale</h3>
                     <p class="text-center text-uppercase"><strong>Step away from routine and into transformation</strong><br><br></p>
                     <span class="text-justify">
 A one-day urban wellness immersion to recharge your body and reset your mindset.
 Experience a full day of guided movement, mindful nutrition, and conscious connection designed to help you pause, breathe, and realign.
                     </span>
-                    <a href="{{ url('general-checkout/life-reset-retreat1') }}" class="btn btn-warning d-block mt-2" style="">1 Day Phoenix $490 Usd</a>
+                    <a href="{{ url('general-checkout/life-reset-retreat1') }}" class="btn btn-warning d-block mt-2" style="">1 Day Scottsdale $490 Usd</a>
 
                 </div>
             </div>
@@ -71,7 +71,7 @@ A 5-day immersive experience designed to reset your body, mind, and heart throug
         <span class="fw-semibold">Coach will confirm dates after payment. Flights not included.</span>
       </p>
       <a href="{{ url('general-checkout/life-reset-retreat1') }}" class="btn fw-bold" style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.4rem 4rem; border-radius: 2rem;">
-        1 Day Phoenix $490 Usd
+        1 Day Scottsdale $490 Usd
       </a> <br><br>      
       <a href="{{ url('general-checkout/life-reset-retreat2') }}" class="btn fw-bold" style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.4rem 4rem; border-radius: 2rem;">
         2 Days Sedona $1200 Usd

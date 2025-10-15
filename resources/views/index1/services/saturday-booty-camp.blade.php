@@ -14,7 +14,7 @@
         <h1 class="display-3 text-uppercase mb-0">Saturday.Booty.Camp</h1>
         <h4 class="text-body mb-4">A high-energy group class focused on legs, glutes, and abs</h4>
 
-        <h5 class="text-gray fs-1"><span class="text-primary"> WHAT YOU GET</span></h5>
+        <h5 class="text-gray fs-1"><span class="text-primary">Next: Jan 10/2026</span></h5>
         <h6 class="text-gray fs-3">(Scottsdale)</h6>
     </div>
 

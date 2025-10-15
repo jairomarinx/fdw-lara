@@ -51,7 +51,7 @@ Train hard, feel good, and grow stronger together.',
             [
                 'title' => 'Grocery Reset Tour',
                 'tag' => 'strong bodies',
-                'subtitle' => 'Scottsdale & Phoenix',
+                'subtitle' => 'Scottsdale',
                 'description' => 'A guided supermarket tour to reset your eating habits and learn to eat with purpose. One of our coaches will contact you within 24 hours.',
                 'prices' => [['label' => 'Pay $199.00', 'route' => 'general-checkout', 'product' => 'grocery-reset-tour']],
                 'image' => 'gro.webp',
@@ -61,7 +61,7 @@ Train hard, feel good, and grow stronger together.',
             [
                 'title' => 'Weekly Meal Prepping',
                 'tag' => 'strong bodies',
-                'subtitle' => 'Scottsdale & Phoenix',
+                'subtitle' => 'Scottsdale',
                 'description' => 'Our meal preps indulge your palate while helping you get in shape.',
                 'prices' => [
                     ['label' => '5 Meals $70.00', 'route' => 'general-checkout', 'product' => 'weekly-meal-prepping5' ],

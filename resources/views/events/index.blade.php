@@ -87,7 +87,7 @@ Coming up Feb 2026<br>
 <br>
 Sedona Coming up Apr 2026<br>
 
-Colombia br
+Colombia 
 Coming up Jul 202<>
                 </div>
             </div>

@@ -78,19 +78,83 @@
                     </span>
                 </div>
             @endif
-            <div>
-            <div style="text-align:center;font-size:20px;font-weight:bold;padding:1rem;color:#0a1d3a; background-color: white; padding: 20px;">
 
-🔥Life.Reset.Retreat.
-Phoenix.  
-Coming up Feb 2026<br>
-<br>
-Sedona Coming up Apr 2026<br>
+ <style>
+        .schedule-card {
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 0.75rem;
+            overflow: hidden;
+            background-color: #fff;
+        }
+        .table-header {
+            background-color: #222429; /* Azul primario de Bootstrap */
+            color: white;
+            border-top-left-radius: 0.75rem;
+            border-top-right-radius: 0.75rem;
+            padding: 1.5rem;
+            text-align: center;
+        }
+        .table-striped > tbody > tr:nth-of-type(odd) > * {
+            background-color: #f8f9fa; /* Gris claro */
+        }
+        .table-hover > tbody > tr:hover > * {
+            background-color: #e2e6ea; /* Un gris un poco más oscuro al pasar el ratón */
+        }
+    </style>
 
-Colombia 
-Coming up Jul 202<>
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            
+            <div class="schedule-card">
+                <div class="table-header">
+                    <h2 class="mb-0 fw-bold text-white">Upcoming Events & Retreats</h2>
+                    <p class="lead">Plan your transformation and wellness journey</p>
+                </div>
+
+                <div class="p-4">
+                    <table class="table table-striped table-hover align-middle">
+                        <thead>
+                            <tr>
+                                <th scope="col">Event</th>
+                                <th scope="col">Location</th>
+                                <th scope="col">Date / Month</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="table-highlight">
+                                <td>Saturday Booty Camp</td>
+                                <td>Scottsdale</td>
+                                <td>Saturday, Jan 10, 2026</td>
+                            </tr>
+                            
+                            <tr>
+                                <td>Life Reset Retreat</td>
+                                <td>Scottsdale</td>
+                                <td>Coming up Feb 2026</td>
+                            </tr>
+                            
+                            <tr>
+                                <td>Life Reset Retreat</td>
+                                <td>Sedona</td>
+                                <td>Coming up Apr 2026</td>
+                            </tr>
+                            
+                            <tr>
+                                <td>Life Reset Retreat</td>
+                                <td>Colombia</td>
+                                <td>Coming up Jul 2026</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
+
+        </div>
+    </div>
+</div>    
+
+
 
           </div>
         </div>

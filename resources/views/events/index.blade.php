@@ -32,7 +32,6 @@
               <li><a href="{{ route('root') }}">Home</a></li>
               <li><a href="{{ route('root') . '/services' }}">Services</a></li>
               <li><a href="{{ route('root') . '/our-programs' }}">Programs</a></li>
-              
               <li><a href="{{ route('contact-us') }}">Contact Us</a></li>
               <li class="main-button d-none"><a href="#">Join Now</a></li>
             </ul>
@@ -69,7 +68,7 @@
 
             @if (now()->lt(\Carbon\Carbon::create(2025, 10, 18)))                 
                 <div style="text-align:center;font-size:40px;font-weight:bold;padding:1rem;color:#0a1d3a; background-color: white; padding: 20px;">
-                  Kayak with Us on the Salt River<Br>                    
+                  Kayak with Us on the Salt River<br>                    
                       Saturday, October 18<br>
                     <span style="font-size: 14px;">
                       6:00 am to 11:00 am<br>
@@ -87,7 +86,7 @@
             background-color: #fff;
         }
         .table-header {
-            background-color: #222429; /* Azul primario de Bootstrap */
+            background-color: #222429;
             color: white;
             border-top-left-radius: 0.75rem;
             border-top-right-radius: 0.75rem;
@@ -95,17 +94,16 @@
             text-align: center;
         }
         .table-striped > tbody > tr:nth-of-type(odd) > * {
-            background-color: #f8f9fa; /* Gris claro */
+            background-color: #f8f9fa;
         }
         .table-hover > tbody > tr:hover > * {
-            background-color: #e2e6ea; /* Un gris un poco más oscuro al pasar el ratón */
+            background-color: #e2e6ea;
         }
     </style>
 
 <div class="container my-5">
     <div class="row justify-content-center">
         <div class="col-lg-10">
-            
             <div class="schedule-card">
                 <div class="table-header">
                     <h2 class="mb-0 fw-bold text-white">Upcoming Events & Retreats</h2>
@@ -149,48 +147,90 @@
                     </table>
                 </div>
             </div>
-
         </div>
     </div>
 </div>    
 
-
-
           </div>
         </div>
       </div>
+
 <div class="row" style="background-color:#222429;padding-top:40px;display:flex;flex-wrap:wrap;align-items:stretch;">
-  @php
-    $events = [
-      ['route'=>'saturday-booty-camp','img'=>'booty.webp','title'=>'Saturday Booty Camp','desc'=>'A fun and dynamic class focused on legs, glutes, and abs. Come sweat, laugh, and shape your body with us. Dates TBD based on demand.(Scottsdale)','product'=>'saturday-booty-camp'],
 
-    ['route'=>'kayak-with-us','img'=>'t1/img/services/ev3.webp','title'=>'Adventure with Us','desc'=>'Kayaking trip through the scenic Salt River! Paddle among wildlife and desert cliffs. Scenic float with sections of swift water. Breakfast picnic included. Dates TBD. (Salt River, Arizona)','product'=>'kayak-with-us'],            
-      ['route'=>'life-reset-retreats','img'=>'a4.webp','title'=>'Life Reset Retreats','desc'=>'Transform your body, mind, and energy in immersive wellness retreats designed to help you reset, reconnect, and realign with your best self.','product'=>'life-reset-retreat5'],            
-    ];
-  @endphp
-
-  @foreach ($events as $e)
+  <!-- Saturday Booty Camp -->
   <div class="col-lg-4 col-md-6 col-sm-12 mb-4" style="display:flex;flex:1;">
     <div class="feature-item" style="display:flex;flex-direction:column;align-items:center;background-color:white;padding:20px;width:100%;">
-      <a href="{{ route($e['route']) }}">
-        <img src="{{ asset($e['img']) }}" alt="icon" class="img-fluid mb-3" style="max-width:100%;height:auto;">
+      <a href="{{ route('saturday-booty-camp') }}">
+        <img src="{{ asset('booty.webp') }}" alt="icon" class="img-fluid mb-3" style="max-width:100%;height:auto;">
       </a>
-
       <div class="right-content p-2" style="text-align:justify;max-width:90%;">
-        <a href="{{ route($e['route']) }}">
-          <h4 style="font-weight:bold;text-align:center;margin-bottom:0.5rem;">{{ $e['title'] }}</h4>
+        <a href="{{ route('saturday-booty-camp') }}">
+          <h4 style="font-weight:bold;text-align:center;margin-bottom:0.5rem;">Saturday Booty Camp</h4>
         </a>
-        <p style="margin:0 0 1rem 0;">{{ $e['desc'] }}</p>
-
+        <p style="margin:0 0 1rem 0;">
+          A fun and dynamic class focused on legs, glutes, and abs. Come sweat, laugh, and shape your body with us.
+          Dates TBD based on demand. (Scottsdale)
+        </p>
         <div style="text-align:center;margin-top:1rem;">
-          <a href="{{ route($e['route']) }}"
+
+          <div class="mb-4 border" style="border-style: dashed; border-color:black; padding: 5px 10px; background-color: #222429; color: white;">
+            Next event: Jan 10, 2026
+          </div>
+
+          <a href="{{ route('saturday-booty-camp') }}"
              style="display:inline-block;background-color:transparent;color:#000;border:1px solid #000;padding:0.3rem 1.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">
             LEARN MORE
           </a>
         </div>
 
+
+
         <div style="text-align:center;margin-top:1.5rem;">
-          <a href="{{ url("general-checkout/".$e['product']) }}"
+
+
+
+
+          <a href="{{ url('general-checkout/saturday-booty-camp') }}"
+             style="display:inline-block;background-color:#FFCB2A;color:#000;padding:0.6rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">
+            Sign Up
+          </a>
+
+
+
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Kayak with Us -->
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-4" style="display:flex;flex:1;">
+    <div class="feature-item" style="display:flex;flex-direction:column;align-items:center;background-color:white;padding:20px;width:100%;">
+      <a href="{{ route('kayak-with-us') }}">
+        <img src="{{ asset('t1/img/services/ev3.webp') }}" alt="icon" class="img-fluid mb-3" style="max-width:100%;height:auto;">
+      </a>
+      <div class="right-content p-2" style="text-align:justify;max-width:90%;">
+        <a href="{{ route('kayak-with-us') }}">
+          <h4 style="font-weight:bold;text-align:center;margin-bottom:0.5rem;">Adventure with Us</h4>
+        </a>
+        <p style="margin:0 0 1rem 0;">
+          Kayaking trip through the scenic Salt River! Paddle among wildlife and desert cliffs.
+          Scenic float with sections of swift water. Breakfast picnic included. Dates TBD. (Salt River, Arizona)
+        </p>
+        <div style="text-align:center;margin-top:1rem;">
+
+          <div class="mb-4 border" style="border-style: dashed; border-color:black; padding: 5px 10px; background-color: #222429; color: white;">
+            Next event: Oct 18, 2025
+          </div>
+
+
+          <a href="{{ route('kayak-with-us') }}"
+             style="display:inline-block;background-color:transparent;color:#000;border:1px solid #000;padding:0.3rem 1.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">
+            LEARN MORE
+          </a>
+        </div>
+        <div style="text-align:center;margin-top:1.5rem;">
+          <a href="{{ url('general-checkout/kayak-with-us') }}"
              style="display:inline-block;background-color:#FFCB2A;color:#000;padding:0.6rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">
             Sign Up
           </a>
@@ -198,7 +238,42 @@
       </div>
     </div>
   </div>
-  @endforeach
+
+  <!-- Life Reset Retreats -->
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-4" style="display:flex;flex:1;">
+    <div class="feature-item" style="display:flex;flex-direction:column;align-items:center;background-color:white;padding:20px;width:100%;">
+      <a href="{{ route('life-reset-retreats') }}">
+        <img src="{{ asset('a4.webp') }}" alt="icon" class="img-fluid mb-3" style="max-width:100%;height:auto;">
+      </a>
+      <div class="right-content p-2" style="text-align:justify;max-width:90%;">
+        <a href="{{ route('life-reset-retreats') }}">
+          <h4 style="font-weight:bold;text-align:center;margin-bottom:0.5rem;">Life Reset Retreats</h4>
+        </a>
+        <p style="margin:0 0 1rem 0;">
+          Transform your body, mind, and energy in immersive wellness retreats designed to help you reset, reconnect, and realign with your best self.
+        </p>
+        <div style="text-align:center;margin-top:1rem;">
+
+          <div class="mb-4 border" style="border-style: dashed; border-color:black; padding: 5px 10px; background-color: #222429; color: white;">
+            Next event: Scottsdale Feb, 2026
+          </div>
+
+
+          <a href="{{ route('life-reset-retreats') }}"
+             style="display:inline-block;background-color:transparent;color:#000;border:1px solid #000;padding:0.3rem 1.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">
+            LEARN MORE
+          </a>
+        </div>
+        <div style="text-align:center;margin-top:1.5rem;">
+          <a href="{{ url('general-checkout/life-reset-retreat5') }}"
+             style="display:inline-block;background-color:#FFCB2A;color:#000;padding:0.6rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">
+            Sign Up
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </div>
 
     </div>
@@ -210,10 +285,6 @@
         <div class="col-lg-10 offset-lg-1">
           <div class="cta-content">
             <h2>Live with <em>intention</em>, grow with <em>us</em></h2>
-            <p class="d-none">Check out upcoming events and save your spot. These gatherings will reset your rhythm and expand your heart.</p>
-            <div class="main-button scroll-to-section d-none">
-              <a href="http://blog.fitdonewell.com/events-schedule/">See Full Schedule</a>
-            </div>
           </div>
         </div>
       </div>

@@ -73,7 +73,7 @@ You bring the attitude, we bring the plan.
         Legs, glutes, and abs in a fun, sweaty group setting<br>
         <span class="fw-semibold">$29 per class.</span>
       </p>
-            @if (now()->lt(\Carbon\Carbon::create(2025, 10, 18)))              
+            @if (now()->lt(\Carbon\Carbon::create(2026, 01, 10)))              
                 <div style="width: 400px; padding: 10px 15px; border-style: dashed; border-color: black;" class="mx-auto mb-4 pb-0"  id="tal">
                     <p class="fw-semibold fs-2 text-green" style="color: black; font-weight: 800;     ">Next: Jan 10/2026</p>
                 </div>

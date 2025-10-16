@@ -211,7 +211,7 @@
       </a>
       <div class="right-content p-2" style="text-align:justify;max-width:90%;">
         <a href="{{ route('kayak-with-us') }}">
-          <h4 style="font-weight:bold;text-align:center;margin-bottom:0.5rem;">Adventure with Us</h4>
+          <h4 style="font-weight:bold;text-align:center;margin-bottom:0.5rem;">Kayak with Us</h4>
         </a>
         <p style="margin:0 0 1rem 0;">
           Kayaking trip through the scenic Salt River! Paddle among wildlife and desert cliffs.

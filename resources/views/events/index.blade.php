@@ -68,7 +68,7 @@
             <p>Every Fit Done Well event blends movement, music, mindfulness, and joy. These are real-life gatherings for real transformation.</p>
 
             @if (now()->lt(\Carbon\Carbon::create(2025, 10, 18)))                 
-                <div style="text-align:center;font-size:20px;font-weight:bold;padding:1rem;color:#0a1d3a; background-color: white; padding: 20px;">
+                <div style="text-align:center;font-size:40px;font-weight:bold;padding:1rem;color:#0a1d3a; background-color: white; padding: 20px;">
                   Kayak with Us on the Salt River<Br>                    
                       Saturday, October 18<br>
                     <span style="font-size: 14px;">

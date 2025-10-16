@@ -71,8 +71,13 @@ You bring the attitude, we bring the plan.
       <h2 class="fw-bold mb-4 text-black display-5">Join Saturday Booty Camp</h2>
       <p class="fs-4 mb-5 text-dark">
         Legs, glutes, and abs in a fun, sweaty group setting<br>
-        <span class="fw-semibold">$29 per class. Dates will be confirmed based on demand.</span>
+        <span class="fw-semibold">$29 per class.</span>
       </p>
+            @if (now()->lt(\Carbon\Carbon::create(2025, 10, 18)))              
+                <div style="width: 400px; padding: 10px 15px; border-style: dashed; border-color: black;" class="mx-auto mb-4 pb-0"  id="tal">
+                    <p class="fw-semibold fs-2 text-green" style="color: black; font-weight: 800;     ">Next: Jan 10/2026</p>
+                </div>
+            @endif
       <a href="{{ route('general-checkout',['product' => 'saturday-booty-camp']) }}" class="btn fw-bold" style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.4rem 4rem; border-radius: 2rem;">
         Sign Up
       </a>

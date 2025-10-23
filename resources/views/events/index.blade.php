@@ -27,7 +27,7 @@
       <div class="row">
         <div class="col-12">
           <nav class="main-nav">
-            <a href="{{ route('root') }}" class="logo">Fit.<em>Done.Well</em></a>
+            <a href="{{ route('root') }}" class="logo">Fit.<em>Done.Well.</em></a>
             <ul class="nav">
               <li><a href="{{ route('root') }}">Home</a></li>
               <li><a href="{{ route('root') . '/services' }}">Services</a></li>
@@ -63,7 +63,6 @@
         <div class="col-lg-6 offset-lg-3">
           <div class="section-heading">
             <h2 style="font-size: 50px;">Next <em>Events</em></h2>
-            <img src="{{ asset('programs/assets/images/line-dec.png') }}" alt="divider">
             <p>Every Fit Done Well event blends movement, music, mindfulness, and joy. These are real-life gatherings for real transformation.</p>
 
             @if (now()->lt(\Carbon\Carbon::create(2025, 10, 18)))                 
@@ -157,7 +156,46 @@
 
 <div class="row" style="background-color:#222429;padding-top:40px;display:flex;flex-wrap:wrap;align-items:stretch;">
 
-  <!-- Saturday Booty Camp -->
+
+
+
+
+  <!-- Life Reset Retreats -->
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-4" style="display:flex;flex:1;">
+    <div class="feature-item" style="display:flex;flex-direction:column;align-items:center;background-color:white;padding:20px;width:100%;">
+      <a href="{{ route('life-reset-retreats') }}">
+        <img src="{{ asset('a4.webp') }}" alt="icon" class="img-fluid mb-3" style="max-width:100%;height:auto;">
+      </a>
+      <div class="right-content p-2" style="text-align:justify;max-width:90%;">
+        <a href="{{ route('life-reset-retreats') }}">
+          <h4 style="font-weight:bold;text-align:center;margin-bottom:0.5rem;">Life Reset Retreats</h4>
+        </a>
+        <p style="margin:0 0 1rem 0;">
+          Transform your body, mind, and energy in immersive wellness retreats designed to help you reset, reconnect, and realign with your best self.
+        </p>
+        <div style="text-align:center;margin-top:1rem;">
+
+          <div class="mb-4 border" style="border-style: dashed; border-color:black; padding: 5px 10px; background-color: #222429; color: white;">
+            Feb, Apr, Jul 2026
+          </div>
+
+
+          <a href="{{ route('life-reset-retreats') }}"
+             style="display:inline-block;background-color:transparent;color:#000;border:1px solid #000;padding:0.3rem 1.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">
+            LEARN MORE
+          </a>
+        </div>
+        <div style="text-align:center;margin-top:1.5rem;">
+          <a href="{{ url('general-checkout/life-reset-retreat5') }}"
+             style="display:inline-block;background-color:#FFCB2A;color:#000;padding:0.6rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">
+            Sign Up
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Saturday Booty Camp -->
   <div class="col-lg-4 col-md-6 col-sm-12 mb-4" style="display:flex;flex:1;">
     <div class="feature-item" style="display:flex;flex-direction:column;align-items:center;background-color:white;padding:20px;width:100%;">
       <a href="{{ route('saturday-booty-camp') }}">
@@ -174,7 +212,7 @@
         <div style="text-align:center;margin-top:1rem;">
 
           <div class="mb-4 border" style="border-style: dashed; border-color:black; padding: 5px 10px; background-color: #222429; color: white;">
-            Next event: Jan 10, 2026
+            Jan 10, 2026
           </div>
 
           <a href="{{ route('saturday-booty-camp') }}"
@@ -203,7 +241,7 @@
     </div>
   </div>
 
-  <!-- Kayak with Us -->
+    <!-- Kayak with Us -->
   <div class="col-lg-4 col-md-6 col-sm-12 mb-4" style="display:flex;flex:1;">
     <div class="feature-item" style="display:flex;flex-direction:column;align-items:center;background-color:white;padding:20px;width:100%;">
       <a href="{{ route('kayak-with-us') }}">
@@ -220,7 +258,7 @@
         <div style="text-align:center;margin-top:1rem;">
 
           <div class="mb-4 border" style="border-style: dashed; border-color:black; padding: 5px 10px; background-color: #222429; color: white;">
-            Next event: Oct 18, 2025
+             Oct 18, 2025
           </div>
 
 
@@ -231,41 +269,6 @@
         </div>
         <div style="text-align:center;margin-top:1.5rem;">
           <a href="{{ url('general-checkout/kayak-with-us') }}"
-             style="display:inline-block;background-color:#FFCB2A;color:#000;padding:0.6rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">
-            Sign Up
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Life Reset Retreats -->
-  <div class="col-lg-4 col-md-6 col-sm-12 mb-4" style="display:flex;flex:1;">
-    <div class="feature-item" style="display:flex;flex-direction:column;align-items:center;background-color:white;padding:20px;width:100%;">
-      <a href="{{ route('life-reset-retreats') }}">
-        <img src="{{ asset('a4.webp') }}" alt="icon" class="img-fluid mb-3" style="max-width:100%;height:auto;">
-      </a>
-      <div class="right-content p-2" style="text-align:justify;max-width:90%;">
-        <a href="{{ route('life-reset-retreats') }}">
-          <h4 style="font-weight:bold;text-align:center;margin-bottom:0.5rem;">Life Reset Retreats</h4>
-        </a>
-        <p style="margin:0 0 1rem 0;">
-          Transform your body, mind, and energy in immersive wellness retreats designed to help you reset, reconnect, and realign with your best self.
-        </p>
-        <div style="text-align:center;margin-top:1rem;">
-
-          <div class="mb-4 border" style="border-style: dashed; border-color:black; padding: 5px 10px; background-color: #222429; color: white;">
-            Next event: Scottsdale Feb, 2026
-          </div>
-
-
-          <a href="{{ route('life-reset-retreats') }}"
-             style="display:inline-block;background-color:transparent;color:#000;border:1px solid #000;padding:0.3rem 1.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">
-            LEARN MORE
-          </a>
-        </div>
-        <div style="text-align:center;margin-top:1.5rem;">
-          <a href="{{ url('general-checkout/life-reset-retreat5') }}"
              style="display:inline-block;background-color:#FFCB2A;color:#000;padding:0.6rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">
             Sign Up
           </a>

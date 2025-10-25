@@ -38,12 +38,13 @@
             <div class="row">
                 <div class="col-12">
                     <nav class="main-nav">
-                        <a href="{{ route('root') }}" class="logo">Fit.Done.<em>Well</em></a>
+                        <a href="{{ route('root') }}" class="logo">Fit.<em>Done.Well.</em></a>
                         <ul class="nav">
-                            <li class="scroll-to-section"><a href="{{ route('root')  }}">Home</a></li>
-                            <li class="scroll-to-section"><a href="{{ route('root')."/services" }}">Services</a></li>
-                            <li class="scroll-to-section"><a href="{{ route('contact-us') }}">Contact Us</a></li> 
-                            <li class="main-button d-none"><a href="#">Join Now</a></li>
+                            <li><a href="{{ route('root') }}">Home</a></li>
+                            <li><a href="{{ route('root') . '/services' }}">Services</a></li>
+                            <li><a href="{{ route('root') . '/our-programs' }}">Programs</a></li>
+                            <li><a href="{{ route('root') . '/events' }}">Events</a></li>
+                            <li><a href="{{ route('contact-us') }}">Contact Us</a></li>
                         </ul>        
                         <a class='menu-trigger'>
                             <span>Menu</span>

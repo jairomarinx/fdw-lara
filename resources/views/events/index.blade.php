@@ -154,6 +154,8 @@
         </div>
       </div>
 
+      <br><br><br><br>
+
 <div class="row" style="background-color:#222429;padding-top:40px;display:flex;flex-wrap:wrap;align-items:stretch;">
 
 
@@ -162,7 +164,7 @@
 
   <!-- Life Reset Retreats -->
   <div class="col-lg-4 col-md-6 col-sm-12 mb-4" style="display:flex;flex:1;">
-    <div class="feature-item" style="display:flex;flex-direction:column;align-items:center;background-color:white;padding:20px;width:100%;">
+    <div class="feature-item" style="display:flex;flex-direction:column;align-items:center;background-color:#F4F5F8;padding:40px 15px;width:100%;">
       <a href="{{ route('life-reset-retreats') }}">
         <img src="{{ asset('a4.webp') }}" alt="icon" class="img-fluid mb-3" style="max-width:100%;height:auto;">
       </a>
@@ -197,7 +199,7 @@
 
     <!-- Saturday Booty Camp -->
   <div class="col-lg-4 col-md-6 col-sm-12 mb-4" style="display:flex;flex:1;">
-    <div class="feature-item" style="display:flex;flex-direction:column;align-items:center;background-color:white;padding:20px;width:100%;">
+    <div class="feature-item" style="display:flex;flex-direction:column;align-items:center;background-color:#F4F5F8;padding:40px 15px;width:100%;">
       <a href="{{ route('saturday-booty-camp') }}">
         <img src="{{ asset('booty.webp') }}" alt="icon" class="img-fluid mb-3" style="max-width:100%;height:auto;">
       </a>
@@ -242,8 +244,8 @@
   </div>
 
     <!-- Kayak with Us -->
-  <div class="col-lg-4 col-md-6 col-sm-12 mb-4" style="display:flex;flex:1;">
-    <div class="feature-item" style="display:flex;flex-direction:column;align-items:center;background-color:white;padding:20px;width:100%;">
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-4 " style="display:flex;flex:1;">
+    <div class="feature-item" style="display:flex;flex-direction:column;align-items:center;background-color:#F4F5F8;padding:40px 15px;width:100%;">
       <a href="{{ route('kayak-with-us') }}">
         <img src="{{ asset('t1/img/services/ev3.webp') }}" alt="icon" class="img-fluid mb-3" style="max-width:100%;height:auto;">
       </a>
@@ -281,6 +283,40 @@
 
     </div>
   </section>
+
+  <style>
+/* --- Corrige la superposición y hace que las cards sobresalgan --- */
+#features .row {
+  position: relative;
+  z-index: 1;
+}
+
+/* Cada card sobresale hacia arriba del fondo oscuro */
+.feature-item {
+  position: relative;
+  z-index: 2;
+  margin-top: -120px; /* la eleva */
+  transition: transform 0.3s ease;
+}
+
+/* Efecto sutil al pasar el mouse */
+.feature-item:hover {
+  transform: translateY(-10px);
+}
+
+/* Asegura que el fondo oscuro no tape las cards */
+#features {
+  overflow: visible;
+}
+
+/* En pantallas pequeñas, elimina la elevación */
+@media (max-width: 768px) {
+  .feature-item {
+    margin-top: 0;
+  }
+}
+</style>
+
 
   <section class="section" id="call-to-action">
     <div class="container">

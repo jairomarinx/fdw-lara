@@ -170,7 +170,7 @@
       </a>
       <div class="right-content p-2" style="text-align:justify;max-width:90%;">
         <a href="{{ route('life-reset-retreats') }}">
-          <h4 style="font-weight:bold;text-align:center;margin-bottom:0.5rem;">Life Reset Retreats</h4>
+          <h4 style="font-weight:bold;text-align:center;margin-bottom:0.5rem; font-size: 35px;" >Life Reset Retreats</h4>
         </a>
         <p style="margin:0 0 1rem 0;">
           Transform your body, mind, and energy in immersive wellness retreats designed to help you reset, reconnect, and realign with your best self.
@@ -205,7 +205,7 @@
       </a>
       <div class="right-content p-2" style="text-align:justify;max-width:90%;">
         <a href="{{ route('saturday-booty-camp') }}">
-          <h4 style="font-weight:bold;text-align:center;margin-bottom:0.5rem;">Saturday Booty Camp</h4>
+          <h4 style="font-weight:bold;text-align:center;margin-bottom:0.5rem;font-size: 35px;">Saturday Booty Camp</h4>
         </a>
         <p style="margin:0 0 1rem 0;">
           A fun and dynamic class focused on legs, glutes, and abs. Come sweat, laugh, and shape your body with us.
@@ -251,7 +251,7 @@
       </a>
       <div class="right-content p-2" style="text-align:justify;max-width:90%;">
         <a href="{{ route('kayak-with-us') }}">
-          <h4 style="font-weight:bold;text-align:center;margin-bottom:0.5rem;">Kayak with Us</h4>
+          <h4 style="font-weight:bold;text-align:center;margin-bottom:0.5rem;font-size: 35px;">Kayak with Us</h4>
         </a>
         <p style="margin:0 0 1rem 0;">
           Kayaking trip through the scenic Salt River! Paddle among wildlife and desert cliffs.

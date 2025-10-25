@@ -81,7 +81,7 @@
           <div class="col-lg-6 offset-lg-3">
             <div class="section-heading">
               <h2>What Your<em> Heart Deserves </em></h2>
-              <img src="{{ asset('programs/assets/images/line-dec.png') }}" alt="divider">
+              <br><br>
               <p>At Fit.Done.Well., our programs are designed to support your full transformation—physically, mentally, and emotionally. Whether you seek to reset your habits, strengthen your body, or deepen your mindfulness, we offer guided paths that meet you where you are and take you where you want to go.</p>
             </div>
           </div>

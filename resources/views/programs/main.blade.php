@@ -252,7 +252,6 @@ It is not just possible, it is simple, fun, and completely within your reach.</p
                         <h2>Meet Your  <em>Life Guides</em>,  <em></em>!</h2>
                         <p>Discover the path that fits you best,whether it’s daily habits, spiritual reset, or personalized training. Let us walk with you.</p>
                         <div class="main-button scroll-to-section">
-                            <a href="#our-classes">Reset Today</a>
                         </div>
                     </div>
                 </div>

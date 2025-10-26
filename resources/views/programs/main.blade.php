@@ -67,7 +67,7 @@
                 <h6>total wellness, inside and out</h6>
                 <h2>programs that align your <em>whole life</em></h2>
                 <div class="main-button scroll-to-section">
-                    <a href="#features">Explore Programs</a>
+                    <a href="#fwg1">Explore Programs</a>
                 </div>
             </div>
         </div>
@@ -202,7 +202,7 @@ Gentle routines to reconnect with your body, express emotions, and boost your vi
     <!-- ***** What You Get End ***** -->
     
     <div>
-      <div class="row">
+      <div class="row" id="fwg1">
         <div class="col-12 text-center">
           <h1 style="font-weight: 800;">Fit <span style="color: #FCD804;">Without </span> Gym</h1>
         </div>

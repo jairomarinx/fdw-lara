@@ -33,6 +33,7 @@ return [
 
     'intentional-make-over' => [ 'name' => 'INTENTIONAL MAKE OVER (Evaluation)', 'price' => 129, 'desc' => 'Redesign your home, office, or online presence with purpose. Our Intentional Makeover service helps you refresh rooms, kitchens, or even your Instagram, aligning beauty, function, and energy to reflect your best self. Evaluation for 129 USD.'],
 
+    'mind-reset-program' => [ 'name' => 'Mind Reset Program', 'price' => 199, 'desc' => ''],
 
 
 

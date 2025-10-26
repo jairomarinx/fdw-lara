@@ -49,14 +49,15 @@
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
-                        <a href="{{ route('root') }}" class="logo">Fit.Done.<em>Well</em></a>
+                        <a href="{{ route('root') }}" class="logo">Fit.<em>Done.Well.</em></a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <li class="scroll-to-section"><a href="{{ route('root')  }}">Home</a></li>
-                            <li class="scroll-to-section"><a href="{{ route('root')."/services" }}">Services</a></li>
-                            <li class="scroll-to-section"><a href="{{ route('contact-us') }}">Contact Us</a></li> 
-                            <li class="main-button d-none"><a href="#">Join Now</a></li>
+                            <li><a href="{{ route('root') }}">Home</a></li>
+                            <li><a href="{{ route('root') . '/services' }}">Services</a></li>
+                            <li><a href="{{ route('root') . '/our-programs' }}">Programs</a></li>
+                            <li><a href="{{ route('root') . '/events' }}">Events</a></li>
+                            <li><a href="{{ route('contact-us') }}">Contact Us</a></li>
                         </ul>        
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -84,70 +85,113 @@
                 <h6>reset your habits, renew your life</h6>
                 <h2>grow stronger with <em>mind reset programs</em></h2>
                 <div class="main-button scroll-to-section">
-                    <a href="#features">Explore Programs</a>
+                    <a href="#mrp">Explore Programs</a>
                 </div>
             </div>
         </div>
     </div>
     <!-- ***** Main Banner Area End ***** -->
 
-    <!-- ***** Features Item Start ***** -->
     <!-- ***** What You Get Start ***** -->
     <section class="section" id="features">
-      <div class="container">
+
+      <div class="container-fluid ">
         <div class="row">
           <div class="col-lg-6 offset-lg-3">
             <div class="section-heading">
-              <h2>What your <em>Mind Deserves</em></h2>
-              <img src="assets/images/line-dec.png" alt="divider">
-              <p>At Fit.Done.Well., we understand that a strong mind is the foundation of true wellness. Our Mind Reset Programs are built to help you develop resilience, emotional clarity, and mental calm, so you can thrive through any season of life.</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <!-- Feature 1 -->
-          <div class="col-lg-4">
-            <div class="feature-item">
-              <div class="left-icon">
-                <img src="{{ asset('programs/assets/images/mind1.webp') }}" alt="icon" class="img-fluid">
-              </div>
-              <div class="right-content p-2">
-                <h4>Mental Fitness Coaching</h4>
-                <p>One-on-one sessions with mindset mentors to build resilience, focus, and emotional intelligence.</p>
-              </div>
-            </div>
-          </div>
-          <!-- Feature 2 -->
-          <div class="col-lg-4">
-            <div class="feature-item">
-              <div class="left-icon">
-                <img src="{{ asset('programs/assets/images/mind2.webp') }}" alt="icon" class="img-fluid">
-              </div>
-              <div class="right-content p-2">
-                <h4>Cognitive Clarity Practices</h4>
-                <p>Guided techniques and journaling prompts to help declutter thoughts and strengthen decision-making.</p>
-              </div>
-            </div>
-          </div>
-          <!-- Feature 3 -->
-          <div class="col-lg-4">
-            <div class="feature-item">
-              <div class="left-icon">
-                <img src="{{ asset('programs/assets/images/mind3.webp') }}" alt="icon" class="img-fluid">
-              </div>
-              <div class="right-content p-2">
-                <h4>Mindful Movement & Breathwork</h4>
-                <p>Simple, effective routines to relieve stress, boost energy, and regulate your nervous system.</p>
-              </div>
-            </div>
-          </div>
+              <h2 style="font-size: 40px;">What Your<em> Mind Deserves </em></h2>
+              <br>
+              <p>At Fit.Done.Well., our programs are designed to support your full transformation physically, mentally, and emotionally. Whether you seek to reset your habits, strengthen your body, or deepen your mindfulness, we offer guided paths that meet you where you are and take you where you want to go.</p>
 
+            </div>
+          </div>
         </div>
+        <br><br><br>
+
+<div class="row" style="background-color:#222429;padding-top:40px;display:flex;flex-wrap:wrap;align-items:stretch;">
+
+  <!-- Life Reset Retreats -->
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-4" style="display:flex;flex:1;">
+    <div class="feature-item" style="display:flex;flex-direction:column;align-items:center;background-color:#F4F5F8;padding:40px 15px;width:100%;">
+      <a href="{{ route('fit-reset-programs') }}">
+        <img src="{{ asset('programs/assets/images/mind1.webp') }}" alt="icon" class="img-fluid mb-3" style="max-width:100%;height:auto;">
+      </a>
+      <div class="right-content p-2" style="text-align:justify;max-width:90%;">
+        <a href="{{ route('fit-reset-programs') }}">
+          <h4 style="font-weight:bold;text-align:center;margin-bottom:0.5rem; font-size: 35px;" >Mental Fitness Coaching</h4>
+        </a>
+        <p style="margin:0 0 1rem 0;">
+          One-on-one sessions with mindset mentors to build resilience, focus, and emotional intelligence.
+        </p>
+
+                <br>
+                            <div class="main-button scroll-to-section text-center">
+                              <a href="{{ route('general-checkout', ['product' => 'mind-reset-program']) }}" style="color: black; font-size: larger; font-weight: 600;" >Sign Up $199 USD</a>
+                            </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Saturday Booty Camp -->
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-4" style="display:flex;flex:1;">
+    <div class="feature-item" style="display:flex;flex-direction:column;align-items:center;background-color:#F4F5F8;padding:40px 15px;width:100%;">
+      <a href="{{ route('mind-reset-programs') }}">
+        <img src="{{ asset('programs/assets/images/mind2.webp') }}" alt="icon" class="img-fluid mb-3" style="max-width:100%;height:auto;">
+      </a>
+      <div class="right-content p-2" style="text-align:justify;max-width:90%;">
+        <a href="{{ route('mind-reset-programs') }}">
+          <h4 style="font-weight:bold;text-align:center;margin-bottom:0.5rem;font-size: 35px;">Cognitive Clarity Practices</h4>
+        </a>
+        <p style="margin:0 0 1rem 0;">
+Guided techniques and journaling prompts to help declutter thoughts and strengthen decision-making.
+        </p>
+                <br>
+                            <div class="main-button scroll-to-section text-center">
+                              <a href="{{ route('general-checkout', ['product' => 'mind-reset-program']) }}" style="color: black; font-size: larger; font-weight: 600;" >Sign Up $199 USD</a>
+                            </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Kayak with Us -->
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-4 " style="display:flex;flex:1;">
+    <div class="feature-item" style="display:flex;flex-direction:column;align-items:center;background-color:#F4F5F8;padding:40px 15px;width:100%;">
+      <a href="{{ route('life-reset-programs') }}">
+        <img src="{{ asset('programs/assets/images/mind3.webp') }}" alt="icon" class="img-fluid mb-3" style="max-width:100%;height:auto;">
+      </a>
+      <div class="right-content p-2" style="text-align:justify;max-width:90%;">
+        <a href="{{ route('life-reset-programs') }}">
+          <h4 style="font-weight:bold;text-align:center;margin-bottom:0.5rem;font-size: 35px;">Mindful Movement & Breathwork</h4>
+        </a>
+        <p style="margin:0 0 1rem 0;">
+Simple, effective routines to relieve stress, boost energy, and regulate your nervous system.
+        </p>
+
+
+      </div>
+                <br>
+                            <div class="main-button scroll-to-section text-center">
+                              <a href="{{ route('general-checkout', ['product' => 'mind-reset-program']) }}" style="color: black; font-size: larger; font-weight: 600;" >Sign Up $199 USD</a>
+                            </div>
+
+    </div>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+        
+
       </div>
     </section>
-    <!-- ***** What You Get End ***** -->
+    <!-- ***** What You Get End ***** -->    
 
-    <!-- ***** Features Item End ***** -->
+
 
     <!-- ***** Call to Action Start ***** -->
     <section class="section" id="call-to-action">
@@ -158,7 +202,7 @@
                         <h2>Your mind matters—<em>reset</em> it with purpose</h2>
                         <p>Start your journey toward clarity, calm, and conscious living with our Mind Reset Programs.</p>
                         <div class="main-button scroll-to-section">
-                            <a href="#our-classes">Start Your Mind Reset</a>
+                            <a href="{{ route('root') }}/general-checkout/mind-reset-program">Start Your Mind Reset</a>
                         </div>
                     </div>
                 </div>
@@ -296,7 +340,7 @@
     </section>
 
     <!-- ***** Trainers Starts ***** -->
-    <section class="section" id="trainers">
+    <section class="section" id="mrp">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 offset-lg-3">
@@ -305,15 +349,21 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-6">
+            <div class="row ">
+                <div class="col-lg-12 text-center">
                     <div class="trainer-item">
                         <div class="image-thumb">
-                            <a href="{{ route('fit-without-gym') }}"><img src="{{ asset('programs/assets/images/mindh.webp') }}" alt=""></a>
+                            <a href="{{ route('fit-without-gym') }}"><img src="{{ asset('programs/assets/images/mindh.webp') }}" alt="" class="img-fluid" ></a>
                         </div>
                         <div class="down-content">
-                            <h4>Mind.Reset.Program.</h4>
+                            <h2 style="font-weight: 600; margin-top: 20px;">Mind Reset Program.</h2>
                             <p class="p-2">Experience mental clarity and emotional stability with self-paced sessions, guided breathwork, and mindset rituals—all from home.</p>
+
+                <br>
+                            <div class="main-button scroll-to-section text-center">
+                              <a href="{{ route('general-checkout', ['product' => 'mind-reset-program']) }}" style="color: black; font-size: larger; font-weight: 600;" >Sign Up $199 USD</a>
+                            </div>
+
                             <ul class="social-icons d-none">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -323,42 +373,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="trainer-item d-none">
-                        <div class="image-thumb">
-                            <img src="assets/images/second-trainer.jpg" alt="">
-                        </div>
-                        <div class="down-content d-none">
-                            <span>Nutrition Coach</span>
-                            <h4>Carlos Ruiz</h4>
-                            <p>Carlos specializes in personalized nutrition plans that fuel performance and support sustainable habits</p>
-                            <ul class="social-icons">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="trainer-item d-none">
-                        <div class="image-thumb">
-                            <img src="{{ asset('fitwithoutgym/images/j2.webp') }}" alt="">
-                        </div>
-                        <div class="down-content d-none">
-                            <span>Mindfulness Coach</span>
-                            <h4>Maria Gomez</h4>
-                            <p>Maria guides mindfulness sessions and habit formation strategies to help you sustain lasting change</p>
-                            <ul class="social-icons">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+
+
             </div>
         </div>
     </section>
@@ -411,6 +427,41 @@
     </section>
     <!-- ***** Contact Us Area Ends ***** -->
     
+      <style>
+/* --- Corrige la superposición y hace que las cards sobresalgan --- */
+#features .row {
+  position: relative;
+  z-index: 1;
+}
+
+/* Cada card sobresale hacia arriba del fondo oscuro */
+.feature-item {
+  position: relative;
+  z-index: 2;
+  margin-top: -120px; /* la eleva */
+  transition: transform 0.3s ease;
+}
+
+/* Efecto sutil al pasar el mouse */
+.feature-item:hover {
+  transform: translateY(-10px);
+}
+
+/* Asegura que el fondo oscuro no tape las cards */
+#features {
+  overflow: visible;
+}
+
+/* En pantallas pequeñas, elimina la elevación */
+@media (max-width: 768px) {
+  .feature-item {
+    margin-top: 0;
+  }
+}
+</style>
+
+
+
     <!-- ***** Footer Start ***** -->
     <footer>
         <div class="container">

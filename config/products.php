@@ -6,7 +6,7 @@ return [
     'saturday-booty-camp' => [ 'name' => 'Saturday.Booty.Camp', 'price' => 29, 'desc' => ''],
     'sunrise-life-reset' => [ 'name' => 'Sunrise.Life.Reset', 'price' => 129, 'desc' => ''],
     'kayak-with-us' => [ 'name' => 'Kayak.With.Us', 'price' => 129, 'desc' => ''],
-    'fit-without-gym' => [ 'name' => 'Fit.Without.Gym', 'price' => 99, 'desc' => ''],
+    'fit-without-gym' => [ 'name' => 'Fit.Without.Gym', 'price' => 199, 'desc' => ''],
     'personal-fitness-training1' => [ 'name' => 'Personal-fitness-training1', 'price' => 129, 'desc' => ''],
     'personal-fitness-training4' => [ 'name' => 'Personal-fitness-training4', 'price' => 396, 'desc' => ''],
     'personal-fitness-training8' => [ 'name' => 'Personal-fitness-training8', 'price' => 792, 'desc' => ''],

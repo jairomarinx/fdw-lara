@@ -53,10 +53,11 @@
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <li class="scroll-to-section"><a href="{{ route('root')  }}">Home</a></li>
-                            <li class="scroll-to-section"><a href="{{ route('root') . "/services" }}">Services</a></li>
-                            <li class="scroll-to-section"><a href="{{ route('contact-us') }}">Contact Us</a></li> 
-                            <li class="main-button d-none"><a href="#">Join Now</a></li>
+                            <li><a href="{{ route('root') }}">Home</a></li>
+                            <li><a href="{{ route('root') . '/services' }}">Services</a></li>
+                            <li><a href="{{ route('root') . '/our-programs' }}">Programs</a></li>
+                            <li><a href="{{ route('root') . '/events' }}">Events</a></li>
+                            <li><a href="{{ route('contact-us') }}">Contact Us</a></li>
                         </ul>        
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -91,33 +92,96 @@
     </div>
     <!-- ***** Main Banner Area End ***** -->
 
-    <!-- ***** Features Item Start ***** -->
+
     <!-- ***** What You Get Start ***** -->
     <section class="section" id="features">
-      <div class="container">
+
+      <div class="container-fluid ">
         <div class="row">
           <div class="col-lg-6 offset-lg-3">
             <div class="section-heading">
-              <h2>What <em>You Get</em></h2>
-              <img src="assets/images/line-dec.png" alt="divider">
-              <p>Experience a total reset with our Fit Done Well programs. You’ll gain expert guidance, tailored plans, and the motivation you need to achieve lasting results</p>
+              <h2 style="font-size: 40px;">What Your<em> Body Deserves </em></h2>
+              <br>
+              <p>At Fit.Done.Well., our programs are designed to support your full transformation—physically, mentally, and emotionally. Whether you seek to reset your habits, strengthen your body, or deepen your mindfulness, we offer guided paths that meet you where you are and take you where you want to go.</p>
+
             </div>
           </div>
         </div>
-        <div class="row">
-          <!-- Feature 1 -->
-          <div class="col-lg-4">
-            <div class="feature-item">
-              <div class="left-icon">
-                <img src="{{ asset('t1/img/services/brad-corey.webp') }}" alt="icon" class="img-fluid">
-              </div>
-              <div class="right-content p-2">
-                <h4>Transformational Coaching</h4>
-                <p>One-on-one support from certified trainers who design every session around your goals, ensuring you stay motivated and on track</p>
-              </div>
-            </div>
-          </div>
-          <!-- Feature 2 -->
+        <br><br><br>
+
+<div class="row" style="background-color:#222429;padding-top:40px;display:flex;flex-wrap:wrap;align-items:stretch;">
+
+  <!-- Life Reset Retreats -->
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-4" style="display:flex;flex:1;">
+    <div class="feature-item" style="display:flex;flex-direction:column;align-items:center;background-color:#F4F5F8;padding:40px 15px;width:100%;">
+      <a href="{{ route('fit-reset-programs') }}">
+        <img src="{{ asset('t1/img/services/brad-corey.webp') }}" alt="icon" class="img-fluid mb-3" style="max-width:100%;height:auto;">
+      </a>
+      <div class="right-content p-2" style="text-align:justify;max-width:90%;">
+        <a href="{{ route('fit-reset-programs') }}">
+          <h4 style="font-weight:bold;text-align:center;margin-bottom:0.5rem; font-size: 35px;" >Transformational Coaching</h4>
+        </a>
+        <p style="margin:0 0 1rem 0;">
+          One-on-one support from certified trainers who design every session around your goals, ensuring you stay motivated and on track.
+        </p>
+
+        <br>
+                            <div class="main-button scroll-to-section text-center">
+                              <a href="{{ route('general-checkout', ['product' => 'fit-without-gym']) }}" style="color: black; font-size: larger; font-weight: 600;" >Sign Up $199 USD</a>
+                            </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Saturday Booty Camp -->
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-4" style="display:flex;flex:1;">
+    <div class="feature-item" style="display:flex;flex-direction:column;align-items:center;background-color:#F4F5F8;padding:40px 15px;width:100%;">
+      <a href="{{ route('mind-reset-programs') }}">
+        <img src="{{ asset('programs/assets/images/mind3.webp') }}" alt="icon" class="img-fluid mb-3" style="max-width:100%;height:auto;">
+      </a>
+      <div class="right-content p-2" style="text-align:justify;max-width:90%;">
+        <a href="{{ route('mind-reset-programs') }}">
+          <h4 style="font-weight:bold;text-align:center;margin-bottom:0.5rem;font-size: 35px;">Structured Workout Routines</h4>
+        </a>
+        <p style="margin:0 0 1rem 0;">
+Progressive monthly training programs—full body, upper, lower, and core workouts—designed to build strength, endurance, and flexibility.
+        </p>
+
+
+
+        <br>
+                            <div class="main-button scroll-to-section text-center">
+                              <a href="{{ route('general-checkout', ['product' => 'fit-without-gym']) }}" style="color: black; font-size: larger; font-weight: 600;" >Sign Up $199 USD</a>
+                            </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Kayak with Us -->
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-4 " style="display:flex;flex:1;">
+    <div class="feature-item" style="display:flex;flex-direction:column;align-items:center;background-color:#F4F5F8;padding:40px 15px;width:100%;">
+      <a href="{{ route('life-reset-programs') }}">
+        <img src="{{ asset('programs/assets/images/mi3.webp') }}" alt="icon" class="img-fluid mb-3" style="max-width:100%;height:auto;">
+      </a>
+      <div class="right-content p-2" style="text-align:justify;max-width:90%;">
+        <a href="{{ route('life-reset-programs') }}">
+          <h4 style="font-weight:bold;text-align:center;margin-bottom:0.5rem;font-size: 35px;">Community Support & Accountability</h4>
+        </a>
+        <p style="margin:0 0 1rem 0;">
+Access to our private Facebook group and weekly live check-ins so you stay accountable and celebrate wins with like-minded members.
+        </p>
+
+
+                <br>
+                            <div class="main-button scroll-to-section text-center">
+                              <a href="{{ route('general-checkout', ['product' => 'fit-without-gym']) }}" style="color: black; font-size: larger; font-weight: 600;" >Sign Up $199 USD</a>
+                            </div>
+
+      </div>
+    </div>
+  </div>
+
+</div>
 
 
 
@@ -125,41 +189,14 @@
 
 
 
+        
 
-          <!-- Feature 3 -->
-          <div class="col-lg-4">
-            <div class="feature-item">
-              <div class="left-icon">
-                <img src="{{ asset('t1/img/services/service-pillar2.webp') }}" alt="icon" class="img-fluid">
-              </div>
-              <div class="right-content p-2">
-                <h4>Structured Workout Routines</h4>
-                <p>Progressive monthly training programs—full body, upper, lower, and core workouts—designed to build strength, endurance, and flexibility</p>
-              </div>
-            </div>
-          </div>
-          <!-- Feature 4 -->
-          <div class="col-lg-4">
-            <div class="feature-item">
-              <div class="left-icon">
-                <img src="{{ asset('t1/img/services/corey-laly.webp') }}" alt="icon" class="img-fluid">
-              </div>
-              <div class="right-content p-2">
-                <h4>Community Support & Accountability</h4>
-                <p>Access to our private Facebook group and weekly live check-ins so you stay accountable and celebrate wins with like-minded members</p>
-              </div>
-            </div>
-          </div>
-          <!-- Feature 5 -->
-
-          <!-- Feature 6 -->
-
-        </div>
       </div>
     </section>
     <!-- ***** What You Get End ***** -->
 
-    <!-- ***** Features Item End ***** -->
+
+
 
     <!-- ***** Call to Action Start ***** -->
     <section class="section" id="call-to-action">
@@ -308,7 +345,7 @@
     </section>
 
     <!-- ***** Trainers Starts ***** -->
-    <section class="section" id="trainers">
+    <section class="section" id="trainers" style="background-color: #F4F5F8;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 offset-lg-3">
@@ -324,12 +361,14 @@
                             <a href="{{ route('fit-without-gym') }}"><img src="{{ asset('fitwithoutgym/images/j2.webp') }}" alt=""></a>
                         </div>
                         <div class="down-content text-center">
-                            <h4>Fit.Without.Gym.</h4>
+                           <br>
+                            <h2 style="font-weight: 600;">Fit Without Gym.</h2>
+                            <br>
                             <p class="p-2 text-justify">Imagine getting in shape, feeling energized, and looking amazing, all without ever stepping into a gym.
                               Fit.Without.Gym gives you over 12 guided workout videos, home-friendly routines, expert motivation and more. Start
                               your transformation from the comfort of your home — no machines, no excuses.</p>
                             <div class="main-button scroll-to-section">
-                              <a href="{{ route('general-checkout', ['product' => 'fit-without-gym']) }}">Reset Today</a>
+                              <a href="{{ route('general-checkout', ['product' => 'fit-without-gym']) }}" style="color: black; font-size: larger; font-weight: 600;" >Sign Up $199 USD</a>
                             </div>
                             <ul class="social-icons d-none">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -378,7 +417,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    <br><br><br><br>
+
+      </section>
     <!-- ***** Trainers Ends ***** -->
     
     <!-- ***** Contact Us Area Starts ***** -->
@@ -429,6 +470,43 @@
     <!-- ***** Contact Us Area Ends ***** -->
     
     <!-- ***** Footer Start ***** -->
+
+      <style>
+/* --- Corrige la superposición y hace que las cards sobresalgan --- */
+#features .row {
+  position: relative;
+  z-index: 1;
+}
+
+/* Cada card sobresale hacia arriba del fondo oscuro */
+.feature-item {
+  position: relative;
+  z-index: 2;
+  margin-top: -120px; /* la eleva */
+  transition: transform 0.3s ease;
+}
+
+/* Efecto sutil al pasar el mouse */
+.feature-item:hover {
+  transform: translateY(-10px);
+}
+
+/* Asegura que el fondo oscuro no tape las cards */
+#features {
+  overflow: visible;
+}
+
+/* En pantallas pequeñas, elimina la elevación */
+@media (max-width: 768px) {
+  .feature-item {
+    margin-top: 0;
+  }
+}
+</style>
+
+
+
+
     <footer>
         <div class="container">
             <div class="row">

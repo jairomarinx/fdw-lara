@@ -49,14 +49,15 @@
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
-                        <a href="{{ route('root') }}" class="logo">Fit.Done.<em>Well</em></a>
+                        <a href="{{ route('root') }}" class="logo">Fit<em>.Done.Well.</em></a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <li class="scroll-to-section"><a href="{{ route('root')  }}">Home</a></li>
-                            <li class="scroll-to-section"><a href="{{ route('root')."/services" }}">Services</a></li>
-                            <li class="scroll-to-section"><a href="{{ route('contact-us') }}">Contact Us</a></li> 
-                            <li class="main-button d-none"><a href="#">Join Now</a></li>
+                            <li><a href="{{ route('root') }}">Home</a></li>
+                            <li><a href="{{ route('root') . '/services' }}">Services</a></li>
+                            <li><a href="{{ route('root') . '/our-programs' }}">Programs</a></li>
+                            <li><a href="{{ route('root') . '/events' }}">Events</a></li>
+                            <li><a href="{{ route('contact-us') }}">Contact Us</a></li>
                         </ul>        
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -84,74 +85,119 @@
                 <h6>reconnect your spirit, reset your life</h6>
                 <h2>rise higher with <em>life reset programs</em></h2>
                 <div class="main-button scroll-to-section">
-                    <a href="#features">Explore Programs</a>
+                    <a href="#lrp">Explore Programs</a>
                 </div>
             </div>
         </div>
     </div>
     <!-- ***** Main Banner Area End ***** -->
 
-    <!-- ***** Features Item Start ***** -->
+
     <!-- ***** What You Get Start ***** -->
     <section class="section" id="features">
-      <div class="container">
+
+      <div class="container-fluid ">
         <div class="row">
           <div class="col-lg-6 offset-lg-3">
             <div class="section-heading">
-              <h2>What Your<em> Heart Deserves </em></h2>
-              <img src="assets/images/line-dec.png" alt="divider">
-              <p>At Fit.Done.Well., we believe that nurturing your spirit is essential for a meaningful life. Our Life Reset Programs are crafted to restore your inner peace, expand your emotional awareness, and help you live from the heart—with compassion, clarity, and presence.
+              <h2 style="font-size: 40px;">What Your<em> Life Deserves </em></h2>
+              <br>
+              <p>At Fit.Done.Well., our programs are designed to support your full transformation—physically, mentally, and emotionally. Whether you seek to reset your habits, strengthen your body, or deepen your mindfulness, we offer guided paths that meet you where you are and take you where you want to go.</p>
 
-</p>
             </div>
           </div>
         </div>
-        <div class="row">
-          <!-- Feature 1 -->
-          <div class="col-lg-4">
-            <div class="feature-item">
-              <div class="left-icon">
-                <img src="{{ asset('programs/assets/images/mi1.webp') }}" alt="icon" class="img-fluid">
-              </div>
-              <div class="right-content p-2">
-                <h4>Spiritual Alignment Coaching</h4>
-                <p>1:1 sessions that guide you to reconnect with your values, release inner tension, and live with intentional presence.</p>
-              </div>
-            </div>
-          </div>
-          <!-- Feature 2 -->
-          <div class="col-lg-4">
-            <div class="feature-item">
-              <div class="left-icon">
-                <img src="{{ asset('programs/assets/images/mi4.webp') }}" alt="icon" class="img-fluid">
-              </div>
-              <div class="right-content p-2">
-                <h4>Mindful Rituals & Meditation</h4>
-                <p>Daily practices to help you ground, reflect, and reset—cultivating stillness, gratitude, and emotional depth.</p>
-              </div>
-            </div>
-          </div>
-          <!-- Feature 3 -->
-          <div class="col-lg-4">
-            <div class="feature-item">
-              <div class="left-icon">
-                <img src="{{ asset('programs/assets/images/mi3.webp') }}" alt="icon" class="img-fluid">
-              </div>
-              <div class="right-content p-2">
-                <h4>Heart-Centered Movement</h4>
-                <p>Gentle flows and expressive movement sessions to liberate stored emotions and energize your soul.</p>
-              </div>
-            </div>
-          </div>
+        <br><br><br>
 
+<div class="row" style="background-color:#222429;padding-top:40px;display:flex;flex-wrap:wrap;align-items:stretch;">
 
+  <!-- Life Reset Retreats -->
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-4" style="display:flex;flex:1;">
+    <div class="feature-item" style="display:flex;flex-direction:column;align-items:center;background-color:#F4F5F8;padding:40px 15px;width:100%;">
+      <a href="{{ route('fit-reset-programs') }}">
+        <img src="{{ asset('programs/assets/images/mi1.webp') }}" alt="icon" class="img-fluid mb-3" style="max-width:100%;height:auto;">
+      </a>
+      <div class="right-content p-2" style="text-align:justify;max-width:90%;">
+        <a href="{{ route('fit-reset-programs') }}">
+          <h4 style="font-weight:bold;text-align:center;margin-bottom:0.5rem; font-size: 35px;" >Spiritual Alignment Coaching</h4>
+        </a>
+        <p style="margin:0 0 1rem 0;">
+          1:1 sessions that guide you to reconnect with your values, release inner tension, and live with intentional presence
+        </p>
 
+        <br>
+        <div class="main-button scroll-to-section text-center">
+          <a href="{{ route('general-checkout', ['product' => 'life-reset-program']) }}" style="color: black; font-size: larger; font-weight: 600;" >Sign Up $199 USD</a>
         </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Saturday Booty Camp -->
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-4" style="display:flex;flex:1;">
+    <div class="feature-item" style="display:flex;flex-direction:column;align-items:center;background-color:#F4F5F8;padding:40px 15px;width:100%;">
+      <a href="{{ route('mind-reset-programs') }}">
+        <img src="{{ asset('programs/assets/images/mind3.webp') }}" alt="icon" class="img-fluid mb-3" style="max-width:100%;height:auto;">
+      </a>
+      <div class="right-content p-2" style="text-align:justify;max-width:90%;">
+        <a href="{{ route('mind-reset-programs') }}">
+          <h4 style="font-weight:bold;text-align:center;margin-bottom:0.5rem;font-size: 35px;">Mindful Rituals & Meditation</h4>
+        </a>
+        <p style="margin:0 0 1rem 0;">
+Daily practices to help you ground, reflect, and reset—cultivating stillness, gratitude, and emotional depth.
+        </p>
+
+
+        <br>
+        <div class="main-button scroll-to-section text-center">
+          <a href="{{ route('general-checkout', ['product' => 'life-reset-program']) }}" style="color: black; font-size: larger; font-weight: 600;" >Sign Up $199 USD</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Kayak with Us -->
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-4 " style="display:flex;flex:1;">
+    <div class="feature-item" style="display:flex;flex-direction:column;align-items:center;background-color:#F4F5F8;padding:40px 15px;width:100%;">
+      <a href="{{ route('life-reset-programs') }}">
+        <img src="{{ asset('programs/assets/images/mi3.webp') }}" alt="icon" class="img-fluid mb-3" style="max-width:100%;height:auto;">
+      </a>
+      <div class="right-content p-2" style="text-align:justify;max-width:90%;">
+        <a href="{{ route('life-reset-programs') }}">
+          <h4 style="font-weight:bold;text-align:center;margin-bottom:0.5rem;font-size: 35px;">Heart-Centered Movement</h4>
+        </a>
+        <p style="margin:0 0 1rem 0;">
+Gentle flows and expressive movement sessions to liberate stored emotions and energize your soul.
+        </p>
+
+
+        <br>
+        <div class="main-button scroll-to-section text-center">
+          <a href="{{ route('general-checkout', ['product' => 'life-reset-program']) }}" style="color: black; font-size: larger; font-weight: 600;" >Sign Up $199 USD</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+        
+
       </div>
     </section>
     <!-- ***** What You Get End ***** -->
 
-    <!-- ***** Features Item End ***** -->
+
+
+
+
 
     <!-- ***** Call to Action Start ***** -->
     <section class="section" id="call-to-action">
@@ -162,7 +208,10 @@
                         <h2>Meet Your  <em>Life Guides</em>,  <em></em>!</h2>
                         <p>Explore healing from within through accessible rituals and restorative practices—designed to bring your body and spirit into harmony, no matter where you are.</p>
                         <div class="main-button scroll-to-section">
-                            <a href="#our-classes">Reset Today</a>
+                                   <br>
+        <div class="main-button scroll-to-section text-center">
+          <a href="{{ route('general-checkout', ['product' => 'life-reset-program']) }}" style="color: black; font-size: larger; font-weight: 600;" >Sign Up $199 USD</a>
+        </div>
                         </div>
                     </div>
                 </div>
@@ -300,7 +349,7 @@
     </section>
 
     <!-- ***** Trainers Starts ***** -->
-    <section class="section" id="trainers">
+    <section class="section" id="trainers" style="background-color: #F4F5F8;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 offset-lg-3">
@@ -310,60 +359,23 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-6">
-                    <div class="trainer-item">
+                <div class="col-lg-6 offset-lg-3 text-center">
+                    <div class="trainer-item text-center">
                         <div class="image-thumb">
                             <a href="{{ route('fit-without-gym') }}"><img src="{{ asset('programs/assets/images/mindh.webp') }}" alt=""></a>
                         </div>
-                        <div class="down-content">
-                            <h4>Life.reset.program.</h4>
-                            <p class="p-2">Life.Reset.Program. guides you through a deep inner transformation using mindful practices, guided meditation, and spiritual connection. Regain emotional balance, cultivate inner peace, and reconnect with your true purpose. Each session aligns your mind, body, and soul. It’s your path to living with intention, calm, and compassion.</p>
-                            <ul class="social-icons d-none">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="trainer-item d-none">
-                        <div class="image-thumb">
-                            <img src="assets/images/second-trainer.jpg" alt="">
-                        </div>
-                        <div class="down-content d-none">
-                            <span>Nutrition Coach</span>
-                            <h4>Carlos Ruiz</h4>
-                            <p>Carlos specializes in personalized nutrition plans that fuel performance and support sustainable habits</p>
-                            <ul class="social-icons">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="trainer-item d-none">
-                        <div class="image-thumb">
-                            <img src="{{ asset('fitwithoutgym/images/j2.webp') }}" alt="">
-                        </div>
-                        <div class="down-content d-none">
-                            <span>Mindfulness Coach</span>
-                            <h4>Maria Gomez</h4>
-                            <p>Maria guides mindfulness sessions and habit formation strategies to help you sustain lasting change</p>
-                            <ul class="social-icons">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                            </ul>
+                        <div class="down-content" id="lrp">
+                            <h2 style="font-weight: 800; margin-top: 20px;">Life Reset Program</h2>
+                            <p class="p-2 text-justify">Life.Reset.Program. guides you through a deep inner transformation using mindful practices, guided meditation, and spiritual connection. Regain emotional balance, cultivate inner peace, and reconnect with your true purpose. Each session aligns your mind, body, and soul. It’s your path to living with intention, calm, and compassion.</p>
+        <br>
+        <div class="main-button scroll-to-section text-center">
+          <a href="{{ route('general-checkout', ['product' => 'life-reset-program']) }}" style="color: black; font-size: larger; font-weight: 600;" >Sign Up $199 USD</a>
+        </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <br><br><br><br>
         </div>
     </section>
     <!-- ***** Trainers Ends ***** -->
@@ -414,7 +426,39 @@
         </div>
     </section>
     <!-- ***** Contact Us Area Ends ***** -->
-    
+          <style>
+/* --- Corrige la superposición y hace que las cards sobresalgan --- */
+#features .row {
+  position: relative;
+  z-index: 1;
+}
+
+/* Cada card sobresale hacia arriba del fondo oscuro */
+.feature-item {
+  position: relative;
+  z-index: 2;
+  margin-top: -120px; /* la eleva */
+  transition: transform 0.3s ease;
+}
+
+/* Efecto sutil al pasar el mouse */
+.feature-item:hover {
+  transform: translateY(-10px);
+}
+
+/* Asegura que el fondo oscuro no tape las cards */
+#features {
+  overflow: visible;
+}
+
+/* En pantallas pequeñas, elimina la elevación */
+@media (max-width: 768px) {
+  .feature-item {
+    margin-top: 0;
+  }
+}
+</style>
+
     <!-- ***** Footer Start ***** -->
     <footer>
         <div class="container">

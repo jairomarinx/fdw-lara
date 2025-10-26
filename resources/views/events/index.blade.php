@@ -158,10 +158,6 @@
 
 <div class="row" style="background-color:#222429;padding-top:40px;display:flex;flex-wrap:wrap;align-items:stretch;">
 
-
-
-
-
   <!-- Life Reset Retreats -->
   <div class="col-lg-4 col-md-6 col-sm-12 mb-4" style="display:flex;flex:1;">
     <div class="feature-item" style="display:flex;flex-direction:column;align-items:center;background-color:#F4F5F8;padding:40px 15px;width:100%;">

@@ -76,67 +76,150 @@
 
     <!-- ***** What You Get Start ***** -->
     <section class="section" id="features">
-      <div class="container">
+
+      <div class="container-fluid ">
         <div class="row">
           <div class="col-lg-6 offset-lg-3">
             <div class="section-heading">
               <h2>What Your<em> Heart Deserves </em></h2>
-              <br><br>
+              <br>
               <p>At Fit.Done.Well., our programs are designed to support your full transformation—physically, mentally, and emotionally. Whether you seek to reset your habits, strengthen your body, or deepen your mindfulness, we offer guided paths that meet you where you are and take you where you want to go.</p>
+
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="feature-item">
-              <div class="left-icon">
-                <img src="{{ asset('t1/img/services/brad-corey.webp') }}" alt="icon" class="img-fluid">
-              </div>
-              <div class="right-content p-2">
-                <h4>Fit.reset.programs.</h4>
-                <p>One-on-one support from certified trainers who design every session around your goals, ensuring you stay motivated and on track.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="feature-item">
-              <div class="left-icon">
-                <img src="{{ asset('programs/assets/images/mind3.webp') }}" alt="icon" class="img-fluid">
-              </div>
-              <div class="right-content p-2">
-                <h4>Mind.reset.programs.</h4>
-                <p>One-on-one sessions with mindset mentors to build resilience, focus, and emotional intelligence. Guided techniques and journaling prompts to help declutter thoughts and strengthen decision-making.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="feature-item">
-              <div class="left-icon">
-                <img src="{{ asset('programs/assets/images/mi3.webp') }}" alt="icon" class="img-fluid">
-              </div>
-              <div class="right-content p-2">
-                <h4>Life.reset.programs.</h4>
-                <p>Gentle routines to reconnect with your body, express emotions, and boost your vitality from the inside out.</p>
-              </div>
-            </div>
-          </div>
+        <br><br><br>
+
+<div class="row" style="background-color:#222429;padding-top:40px;display:flex;flex-wrap:wrap;align-items:stretch;">
+
+  <!-- Life Reset Retreats -->
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-4" style="display:flex;flex:1;">
+    <div class="feature-item" style="display:flex;flex-direction:column;align-items:center;background-color:#F4F5F8;padding:40px 15px;width:100%;">
+      <a href="{{ route('fit-reset-programs') }}">
+        <img src="{{ asset('t1/img/services/brad-corey.webp') }}" alt="icon" class="img-fluid mb-3" style="max-width:100%;height:auto;">
+      </a>
+      <div class="right-content p-2" style="text-align:justify;max-width:90%;">
+        <a href="{{ route('fit-reset-programs') }}">
+          <h4 style="font-weight:bold;text-align:center;margin-bottom:0.5rem; font-size: 35px;" >Fit reset programs</h4>
+        </a>
+        <p style="margin:0 0 1rem 0;">
+          One-on-one support from certified trainers who design every session around your goals, ensuring you stay motivated and on track.
+        </p>
+        <div style="text-align:center;margin-top:1rem;">
+
+          <a href="{{ route('fit-reset-programs') }}"
+             style="display:inline-block;background-color:transparent;color:#000;border:1px solid #000;padding:0.3rem 1.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">
+            LEARN MORE
+          </a>
         </div>
+        <div style="text-align:center;margin-top:1.5rem;">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Saturday Booty Camp -->
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-4" style="display:flex;flex:1;">
+    <div class="feature-item" style="display:flex;flex-direction:column;align-items:center;background-color:#F4F5F8;padding:40px 15px;width:100%;">
+      <a href="{{ route('mind-reset-programs') }}">
+        <img src="{{ asset('programs/assets/images/mind3.webp') }}" alt="icon" class="img-fluid mb-3" style="max-width:100%;height:auto;">
+      </a>
+      <div class="right-content p-2" style="text-align:justify;max-width:90%;">
+        <a href="{{ route('mind-reset-programs') }}">
+          <h4 style="font-weight:bold;text-align:center;margin-bottom:0.5rem;font-size: 35px;">Mind reset programs</h4>
+        </a>
+        <p style="margin:0 0 1rem 0;">
+One-on-one sessions with mindset mentors to build resilience, focus, and emotional intelligence. Guided techniques and journaling prompts to help declutter thoughts and strengthen decision making.
+        </p>
+        <div style="text-align:center;margin-top:1rem;">
+
+
+
+          <a href="{{ route('mind-reset-programs') }}"
+             style="display:inline-block;background-color:transparent;color:#000;border:1px solid #000;padding:0.3rem 1.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">
+            LEARN MORE
+          </a>
+        </div>
+
+
+
+        <div style="text-align:center;margin-top:1.5rem;">
+
+
+
+
+
+
+
+
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Kayak with Us -->
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-4 " style="display:flex;flex:1;">
+    <div class="feature-item" style="display:flex;flex-direction:column;align-items:center;background-color:#F4F5F8;padding:40px 15px;width:100%;">
+      <a href="{{ route('life-reset-programs') }}">
+        <img src="{{ asset('programs/assets/images/mi3.webp') }}" alt="icon" class="img-fluid mb-3" style="max-width:100%;height:auto;">
+      </a>
+      <div class="right-content p-2" style="text-align:justify;max-width:90%;">
+        <a href="{{ route('life-reset-programs') }}">
+          <h4 style="font-weight:bold;text-align:center;margin-bottom:0.5rem;font-size: 35px;">Life reset programs</h4>
+        </a>
+        <p style="margin:0 0 1rem 0;">
+Gentle routines to reconnect with your body, express emotions, and boost your vitality from the inside out.
+        </p>
+        <div style="text-align:center;margin-top:1rem;">
+
+
+
+
+          <a href="{{ route('life-reset-programs') }}"
+             style="display:inline-block;background-color:transparent;color:#000;border:1px solid #000;padding:0.3rem 1.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">
+            LEARN MORE
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+        
+
       </div>
     </section>
     <!-- ***** What You Get End ***** -->
+    
+    <div>
+      <div class="row">
+        <div class="col-12 text-center">
+          <h1 style="font-weight: 800;">Fit <span style="color: #FCD804;">Without </span> Gym</h1>
+        </div>
+      </div>
+    </div>
 
     <section class="section" id="features">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 offset-lg-3">
+          <div class="col-12 ">
             <div class="section-heading">
-              <h2>Fit<em> Without Gym </em></h2>
-              <img src="{{ asset('programs/assets/images/line-dec.png') }}" alt="divider">
-              <h1>No Gym. No Excuses. Just Results.</h1>
+              <h2></h2>
+              <h2 class="fs-1"></h2>
             </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row mt-4">
           <div class="col-lg-12">
             <a href="{{ route('fit-without-gym') }}">
             <div class="feature-item">
@@ -227,6 +310,39 @@ It is not just possible, it is simple, fun, and completely within your reach.</p
         </div>
     </section>
     <!-- ***** Contact Us Area Ends ***** -->
+
+      <style>
+/* --- Corrige la superposición y hace que las cards sobresalgan --- */
+#features .row {
+  position: relative;
+  z-index: 1;
+}
+
+/* Cada card sobresale hacia arriba del fondo oscuro */
+.feature-item {
+  position: relative;
+  z-index: 2;
+  margin-top: -120px; /* la eleva */
+  transition: transform 0.3s ease;
+}
+
+/* Efecto sutil al pasar el mouse */
+.feature-item:hover {
+  transform: translateY(-10px);
+}
+
+/* Asegura que el fondo oscuro no tape las cards */
+#features {
+  overflow: visible;
+}
+
+/* En pantallas pequeñas, elimina la elevación */
+@media (max-width: 768px) {
+  .feature-item {
+    margin-top: 0;
+  }
+}
+</style>
     
     <!-- ***** Footer Start ***** -->
     <footer>

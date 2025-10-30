@@ -96,7 +96,7 @@
   <div class="col-lg-4 col-md-6 col-sm-12 mb-4" style="display:flex;flex:1;">
     <div class="feature-item" style="display:flex;flex-direction:column;align-items:center;background-color:#F4F5F8;padding:40px 15px;width:100%;">
       <a href="{{ route('fit-reset-programs') }}">
-        <img src="{{ asset('t1/img/services/brad-corey.webp') }}" alt="icon" class="img-fluid mb-3" style="max-width:100%;height:auto;">
+        <img src="{{ asset('strong-bodies.webp') }}" alt="icon" class="img-fluid mb-3" style="max-width:100%;height:auto;">
       </a>
       <div class="right-content p-2" style="text-align:justify;max-width:90%;">
         <a href="{{ route('fit-reset-programs') }}">
@@ -123,7 +123,7 @@
   <div class="col-lg-4 col-md-6 col-sm-12 mb-4" style="display:flex;flex:1;">
     <div class="feature-item" style="display:flex;flex-direction:column;align-items:center;background-color:#F4F5F8;padding:40px 15px;width:100%;">
       <a href="{{ route('mind-reset-programs') }}">
-        <img src="{{ asset('programs/assets/images/mind3.webp') }}" alt="icon" class="img-fluid mb-3" style="max-width:100%;height:auto;">
+        <img src="{{ asset('programs/assets/images/mi3.webp') }}" alt="icon" class="img-fluid mb-3" style="max-width:100%;height:auto;">
       </a>
       <div class="right-content p-2" style="text-align:justify;max-width:90%;">
         <a href="{{ route('mind-reset-programs') }}">
@@ -163,7 +163,7 @@ One-on-one sessions with mindset mentors to build resilience, focus, and emotion
   <div class="col-lg-4 col-md-6 col-sm-12 mb-4 " style="display:flex;flex:1;">
     <div class="feature-item" style="display:flex;flex-direction:column;align-items:center;background-color:#F4F5F8;padding:40px 15px;width:100%;">
       <a href="{{ route('life-reset-programs') }}">
-        <img src="{{ asset('programs/assets/images/mi3.webp') }}" alt="icon" class="img-fluid mb-3" style="max-width:100%;height:auto;">
+        <img src="{{ asset('kind-hearts.webp') }}" alt="icon" class="img-fluid mb-3" style="max-width:100%;height:auto;">
       </a>
       <div class="right-content p-2" style="text-align:justify;max-width:90%;">
         <a href="{{ route('life-reset-programs') }}">

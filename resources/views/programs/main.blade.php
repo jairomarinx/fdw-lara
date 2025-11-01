@@ -116,7 +116,7 @@
         <div style="text-align:center;margin-top:1.5rem;">
           <a href="{{ url('general-checkout/fit-forever') }}"
              style="display:inline-block;background-color:#FFCB2A;color:#000;padding:0.6rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">
-            Our.Most.Popular.
+            Our Most Popular
           </a>
         </div>
 
@@ -151,7 +151,7 @@ Mind.Reset.Programs. are a complete mental wellness journey designed to clear st
         <div style="text-align:center;margin-top:1.5rem;">
           <a href="{{ url('general-checkout/well-for-real') }}"
              style="display:inline-block;background-color:#FFCB2A;color:#000;padding:0.6rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">
-            Our.Best.Seller.
+            Our Best Seller
           </a>
         </div>
 
@@ -187,7 +187,7 @@ Life Reset Programs are a complete transformation experience that unites physica
         <div style="text-align:center;margin-top:1.5rem;">
           <a href="{{ url('general-checkout/love-for-life') }}"
              style="display:inline-block;background-color:#FFCB2A;color:#000;padding:0.6rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">
-            Our.Most.Efective.
+            Our Most Efective.
           </a>
         </div>        
 
@@ -235,7 +235,8 @@ Life Reset Programs are a complete transformation experience that unites physica
                 <img src="{{ asset('fwg.jpg') }}" alt="icon" class="img-fluid">
               </div>
               <div class="right-content p-2">
-                <h4>Fit.Without.Gym.</h4>
+                <h2 style="color:black;">Fit.Without.Gym.</h2>
+                <br>
                 <p>Discover Fit.Without.Gym:
 Your New Way to Transform
 Your Body from Home
@@ -243,6 +244,12 @@ Imagine getting in shape, feeling energized, and looking amazing, all without ev
 
 It is not just possible, it is simple, fun, and completely within your reach.</p>
               </div>
+                      <div style="text-align:center;margin-top:1.5rem;">
+          <a href="{{ url('general-checkout/fit-without-gym') }}"
+             style="display:inline-block;background-color:#FFCB2A;color:#000;padding:0.6rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">
+            Sign Up 199 USD
+          </a>
+        </div>
             </div>
             </a>
           </div>

@@ -103,7 +103,7 @@
           <h4 style="font-weight:bold;text-align:center;margin-bottom:0.5rem; font-size: 35px;" >Fit reset programs</h4>
         </a>
         <p style="margin:0 0 1rem 0;">
-          One-on-one support from certified trainers who design every session around your goals, ensuring you stay motivated and on track.
+          Fit.Reset.Programs. are a complete transformation plan designed to help you rebuild your energy, strength, and balance from the inside out. Through a progressive structure of workouts, mindful practices, and sustainable nutrition, it guides you step by step toward lasting results. This program is not a quick fix but a full reset for your body and mind, helping you create real, long term change and a healthier lifestyle that lasts.
         </p>
         <div style="text-align:center;margin-top:1rem;">
 
@@ -135,7 +135,7 @@
           <h4 style="font-weight:bold;text-align:center;margin-bottom:0.5rem;font-size: 35px;">Mind reset programs</h4>
         </a>
         <p style="margin:0 0 1rem 0;">
-One-on-one sessions with mindset mentors to build resilience, focus, and emotional intelligence. Guided techniques and journaling prompts to help declutter thoughts and strengthen decision making.
+Mind.Reset.Programs. are a complete mental wellness journey designed to clear stress, renew focus, and restore inner peace. It combines mindfulness training, guided reflection, and emotional awareness to help you realign your thoughts and habits. This program is a full reset for your mind, guiding you toward clarity, calm, and lasting mental strength.
         </p>
         <div style="text-align:center;margin-top:1rem;">
 
@@ -171,7 +171,7 @@ One-on-one sessions with mindset mentors to build resilience, focus, and emotion
           <h4 style="font-weight:bold;text-align:center;margin-bottom:0.5rem;font-size: 35px;">Life reset programs</h4>
         </a>
         <p style="margin:0 0 1rem 0;">
-Gentle routines to reconnect with your body, express emotions, and boost your vitality from the inside out.
+Life Reset Programs are a complete transformation experience that unites physical fitness and mental wellness into one powerful journey. It combines the strength building and energy of Fit.Reset.Program. with the mindfulness and inner clarity of Mind.Reset.Program. Together, they create a path to total renewal, restoring your body, refreshing your mind, and realigning your life with purpose, balance, and vitality.
         </p>
         <div style="text-align:center;margin-top:1rem;">
 

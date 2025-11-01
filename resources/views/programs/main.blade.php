@@ -112,9 +112,14 @@
             LEARN MORE
           </a>
         </div>
-        <div style="text-align:center;margin-top:1.5rem;">
 
+        <div style="text-align:center;margin-top:1.5rem;">
+          <a href="{{ url('general-checkout/fit-forever') }}"
+             style="display:inline-block;background-color:#FFCB2A;color:#000;padding:0.6rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">
+            Our.Most.Popular.
+          </a>
         </div>
+
       </div>
     </div>
   </div>
@@ -143,18 +148,14 @@ One-on-one sessions with mindset mentors to build resilience, focus, and emotion
         </div>
 
 
-
         <div style="text-align:center;margin-top:1.5rem;">
-
-
-
-
-
-
-
-
-          
+          <a href="{{ url('general-checkout/well-for-real') }}"
+             style="display:inline-block;background-color:#FFCB2A;color:#000;padding:0.6rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">
+            Our.Best.Seller.
+          </a>
         </div>
+
+
       </div>
     </div>
   </div>
@@ -182,6 +183,13 @@ Gentle routines to reconnect with your body, express emotions, and boost your vi
             LEARN MORE
           </a>
         </div>
+
+        <div style="text-align:center;margin-top:1.5rem;">
+          <a href="{{ url('general-checkout/love-for-life') }}"
+             style="display:inline-block;background-color:#FFCB2A;color:#000;padding:0.6rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">
+            Our.Most.Efective.
+          </a>
+        </div>        
 
       </div>
     </div>

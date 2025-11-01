@@ -36,6 +36,9 @@ return [
     'mind-reset-program' => [ 'name' => 'Mind Reset Program', 'price' => 199, 'desc' => ''],
     'life-reset-program' => [ 'name' => 'Life Reset Program', 'price' => 199, 'desc' => ''],
 
+    'fit-forever' => [ 'name' => 'Fit Forever', 'price' => 499, 'desc' => 'Fit.Forever. is a full body fitness program built for lasting results. It blends strength, cardio, and functional mobility with personalized routines that adapt to your level. Unlike typical programs, it includes live weekly workouts, lifestyle tracking, and real time feedback, helping you stay consistent, motivated, and fit for life.'],
+    'well-for-real' => [ 'name' => 'Well For Real', 'price' => 499, 'desc' => 'Well.For.Real. is a pure wellness experience focused on restoring inner balance and mental clarity. It guides you through mindful routines, stress release practices, and conscious breathing to strengthen emotional well being. Through calm, presence, and self awareness, it helps you create a peaceful state of mind and a healthier inner life that feels real and sustainable.'],
+    'love-for-life' => [ 'name' => 'Love for Life', 'price' => 899, 'desc' => 'Love.For.Real. unites the best of fitness and wellness into one transformative program. It combines the strength and vitality of Fit.Forever. with the inner balance and calm of Well.For.Real., creating a complete path to feeling strong, centered, and alive. Through dynamic workouts, mindful practices, and real self connection, it helps you build a body you love and a life that feels true to you.'],
 
 
 

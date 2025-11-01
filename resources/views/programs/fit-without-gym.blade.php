@@ -462,7 +462,7 @@
       </div>
       <div class="text-center">
         <h2>
-          99 Usd
+          199 Usd
         </h2>
       </div>
       <div class="text-center">

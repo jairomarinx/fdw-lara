@@ -258,6 +258,48 @@ It is not just possible, it is simple, fun, and completely within your reach.</p
     </section>
 
 
+<section class="section py-5" id="features" style="background-color:#f2f2f2;">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <div class="section-heading">
+          <h2 class="fs-1 fw-bold text-dark" style="font-size: 50px;">Fit <span style="color: #FFCB2A;">4</span> Ever.</h2>
+          <p class="text-muted bold">A complete fitness experience that helps you build lasting strength, balance, and endurance.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-4 justify-content-center">
+      <div class="col-lg-8 text-center">
+        <a href="{{ route('fit-forever') }}">
+        <img src="{{ asset('laly-brad-escalera.jpg') }}" alt="Fit Forever Program"
+             class="img-fluid rounded shadow mb-4"
+             style="max-width:70%;border-radius:15px;"></a>
+
+        <div class="text-dark" style="text-align:justify;">
+          <p><strong>Build strength you can feel in daily life:</strong> Train with purpose and improve <span class="text-primary">functional strength</span> that enhances your everyday performance.</p>
+
+          <p><strong>Improve conditioning without burning out:</strong> Smart, <span class="text-primary">balanced training</span> keeps you energized and progressing, not exhausted.</p>
+
+          <p><strong>Move better with real mobility work:</strong> Focus on <span class="text-primary">control, balance,</span> and flexibility to stay agile and prevent injuries.</p>
+
+          <p><strong>Stay consistent with a simple rhythm:</strong> A clear weekly structure keeps <span class="text-primary">fitness</span> steady, sustainable, and part of your life.</p>
+        </div>
+
+        <div class="text-center mt-4">
+          <a href="{{ url('general-checkout/fit-forever') }}"
+             style="display:inline-block;background-color:#FFCB2A;color:#000;padding:0.8rem 3rem;border-radius:8px;text-decoration:none;font-weight:600;letter-spacing:0.5px;box-shadow:0 4px 10px rgba(0,0,0,0.1);">
+            Subscribe 499 USD/Month
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
     <!-- ***** Call to Action Start ***** -->
     <section class="section" id="call-to-action">
         <div class="container">

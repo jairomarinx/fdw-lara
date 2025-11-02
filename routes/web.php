@@ -40,6 +40,7 @@ Route::prefix('programs')->group(function () {
     Route::get('/mindfulness-morning-habits', [FitController::class, "mindfulness_morning_habits"])->name('mindfulness-morning-habits');
 
     Route::get('/mind-program', fn() => view('index1.programs'));
+    Route::get('/fit-forever', [FitController::class,"fit_forever"])->name('fit-forever');
 });
 
 // Events

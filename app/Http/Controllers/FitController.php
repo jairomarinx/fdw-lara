@@ -154,6 +154,11 @@ class FitController extends Controller
         return view('index1.services.intentional-make-over');
     }
 
+    public function fit_forever()
+    {
+        return view('index1.services.fit-forever');    
+    }
+
 
 
 }

@@ -139,7 +139,7 @@ Simple structure, real coaching, and a plan that fits your life.</h4>
 </div>
 
     <!-- About Start -->
-    <div class="container-fluid p-5" id="id_about">
+    <div class="container p-5" id="id_about">
         <div class="row gx-5">
             <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
                 <div class="position-relative h-100">

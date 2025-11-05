@@ -18,7 +18,6 @@
                     </button>
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto py-0">
-                            <a href="{{ url('/') }}" class="nav-item nav-link ">Home</a>
                             <a href="{{ url('/services') }}" class="nav-item nav-link">Services</a>
                             <a href="{{ url('/our-programs') }}" class="nav-item nav-link">Programs</a>
                             <a href="https://www.amazon.com/s?me=A3ICCKPR3TSRVY&ref=sf_seller_app_share_new" class="nav-item nav-link">Products</a>
@@ -29,9 +28,11 @@
                             <div class="nav-item dropdown">
                                 <a href="http://blog.fitdonewell.com" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Blog</a>
                                 <div class="dropdown-menu rounded-0 m-0">
-                                    <a href="http://blog.fitdonewell.com" class="dropdown-item">Strong Bodies - Blog</a>
-                                    <a href="http://blog.fitdonewell.com" class="dropdown-item">Open Minds - Blog</a>
-                                    <a href="http://blog.fitdonewell.com" class="dropdown-item">Kind Hearts - Blog</a>
+                                    <a href="https://blog.fitdonewell.com/category/strong-bodies/" class="dropdown-item">Strong Bodies - Blog</a>
+                                    <a href="https://blog.fitdonewell.com/category/open-minds/" class="dropdown-item">Open Minds - Blog</a>
+                                    <a href="https://blog.fitdonewell.com/category/kind-hearts/" class="dropdown-item">Kind Hearts - Blog</a>
+                                    <a href="http://aplshop.com/j/824054" class="dropdown-item">Supplements</a>
+
                                 </div>
                             </div>
                             <a href="{{ route('contact-us') }}" class="nav-item nav-link active">Contact</a>

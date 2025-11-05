@@ -31,9 +31,10 @@
                                     <a href="https://blog.fitdonewell.com/category/strong-bodies/" class="dropdown-item">Strong Bodies - Blog</a>
                                     <a href="https://blog.fitdonewell.com/category/open-minds/" class="dropdown-item">Open Minds - Blog</a>
                                     <a href="https://blog.fitdonewell.com/category/kind-hearts/" class="dropdown-item">Kind Hearts - Blog</a>
-                                    <a href="http://aplshop.com/j/824054" class="dropdown-item">Supplements</a>
 
                                 </div>
+                                <a href="http://aplshop.com/j/824054" class="dropdown-item">Supplements</a>
+
                             </div>
                             <a href="{{ route('contact-us') }}" class="nav-item nav-link active">Contact</a>
 

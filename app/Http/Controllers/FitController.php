@@ -89,7 +89,7 @@ class FitController extends Controller
 
     public function fit_reset_programs()
     {
-        return view('programs.fit-reset-programs');
+        return view('programs.fit-reset-programs2');
     }
 
     public function mind_reset_programs()

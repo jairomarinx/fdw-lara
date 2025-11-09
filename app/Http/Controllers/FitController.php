@@ -104,7 +104,8 @@ class FitController extends Controller
 
     public function events()
     {
-        return view('events.index');        
+        //return view('events.index');        
+        return view('index1.events2');        
     }
 
     public function website_launch_party()

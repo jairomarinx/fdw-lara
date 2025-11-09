@@ -285,7 +285,7 @@ h6,
 
 .horario-header
 {
-    background-color: #e0b046 !important;
+    background-color: #FCD804 !important;
     color: black;
     padding: 10px;
     
@@ -296,7 +296,7 @@ h6,
     background-color: #171819 !important;
     color: white;
     border-style: solid;
-    border-color: #e0b046;
+    border-color: #FCD804;
     padding: 10px;
     
 }
@@ -361,8 +361,8 @@ h6,
 }
 
 .btn-primary:hover {
-    background: #fef600 !important;
-    border-color: #FFD700 !important;
+    background: #FCD804 !important;
+    border-color: #FCD804 !important;
     color: black !important;
 }
 
@@ -373,7 +373,7 @@ h6,
 }
 
 .laly-a a:hover {
-    color: #ffe032 !important;
+    color: #FCD804 !important;
     font-weight: bold;
 }
 
@@ -541,4 +541,9 @@ h6,
         padding: 2rem 1.25rem !important;
     }
 }
+
+.yellow {color: #FCD804 !important; }
+
+.bg-yellow {background-color: #FCD804 !important; }
+
 

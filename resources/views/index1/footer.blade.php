@@ -40,7 +40,7 @@
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
-                <div class="d-flex flex-column align-items-center justify-content-center text-center h-100 bg-primary p-5">
+                <div class="d-flex flex-column align-items-center justify-content-center text-center h-100 bg-yellow p-5">
                     <h4 class="text-uppercase text-white mb-4">Free!</h4>
                     <h6 class="text-uppercase text-white">Subscribe to our</h6>
                     <p class="text-light"></p>

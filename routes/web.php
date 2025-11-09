@@ -67,7 +67,7 @@ Route::get('/checkout/cancel', fn() => 'Payment canceled.');
 
 Route::post('/zelle-checkout',[ZelleController::class,"zelle_checkout"])->name('zelle-checkout');
 
-Route::get('/our-programs', fn() => view('programs.main'));
+Route::get('/our-programs', fn() => view('programs.root-programs')); //'programs.main')
 
 Route::get('/general-checkout/{product}',[CheckoutController::class,'general_checkout'])->name('general-checkout');
 

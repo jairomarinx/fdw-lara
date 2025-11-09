@@ -269,7 +269,7 @@
 
     <!-- Seccion de Fotos Final   -->
     <div class="mb-5 mt-5 text-center" style="padding: 120px 0px;
-    background-image: url(bg-dark.png);
+    background-image: url({{ url('bg-dark.png') }});
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

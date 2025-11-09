@@ -99,7 +99,7 @@ class FitController extends Controller
 
     public function life_reset_programs()
     {
-        return view('programs.life-reset-programs');
+        return view('programs.life2');
     }
 
     public function events()

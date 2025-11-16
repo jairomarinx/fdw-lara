@@ -238,94 +238,22 @@
     </div>
     <!-- Seccion de Fotos Final   -->
 
-
     <div>
-      <div class="row" id="fwg1">
-        <div class="col-12 text-center">
-          <h1 style="font-weight: 800;">Fit <span style="color: #FCD804;">Without </span> Gym</h1>
+      <div class="row p-3">
+        <div class="col-12 text-center ">
+          <h1>Our best programs:</h1><br>
         </div>
       </div>
     </div>
 
-    <section class="section mb-5" id="features">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 ">
-            <div class="section-heading">
-              <h2></h2>
-              <h2 class="fs-1"></h2>
-            </div>
-          </div>
-        </div>
-        <div class="row mt-4">
-          <div class="col-lg-12">
-            <a href="{{ route('fit-without-gym') }}" class="">
-            <div class="feature-item">
-              <div class="left-icon">
-                <img src="{{ asset('fwg.jpg') }}" alt="icon" class="img-fluid">
-              </div>
-              <div class="right-content p-2">
-                <h2 style="color:black;">Fit.Without.Gym.</h2>
-                <br>
-                <p style="color:black;">Discover Fit.Without.Gym:
-Your New Way to Transform
-Your Body from Home
-Imagine getting in shape, feeling energized, and looking amazing, all without ever stepping into a gym!
+    @include('programs.cover-fit4ever')
 
-It is not just possible, it is simple, fun, and completely within your reach.</p>
-              </div>
-                      <div style="text-align:center;margin-top:1.5rem;">
-          <a href="{{ url('general-checkout/fit-without-gym') }}"
-             style="display:inline-block;background-color:#FFCB2A;color:#000;padding:0.6rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">
-            Sign Up 199 USD
-          </a>
-        </div>
-            </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
+    @include('programs.cover-fitwithoutgym')
 
 
-<section class="section py-5" id="features" style="background-color:#f2f2f2;">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <div class="section-heading">
-          <h2 class="fs-1 fw-bold text-dark" style="font-size: 50px;">Fit <span style="color: #FFCB2A;">4</span> Ever.</h2>
-          <p class="text-muted bold">A complete fitness experience that helps you build lasting strength, balance, and endurance.</p>
-        </div>
-      </div>
-    </div>
 
-    <div class="row mt-4 justify-content-center">
-      <div class="col-12 text-center">
-        <a href="{{ route('fit-forever') }}">
-        <img src="{{ asset('laly-brad-escalera.jpg') }}" alt="Fit Forever Program"
-             class="img-fluid rounded shadow mb-4"
-             style="max-width:70%;border-radius:15px;"></a>
 
-        <div class="text-dark" style="text-align:justify;">
-          <p><strong>Build strength you can feel in daily life:</strong> Train with purpose and improve <span class="text-primary">functional strength</span> that enhances your everyday performance.</p>
-
-          <p><strong>Improve conditioning without burning out:</strong> Smart, <span class="text-primary">balanced training</span> keeps you energized and progressing, not exhausted.</p>
-
-          <p><strong>Move better with real mobility work:</strong> Focus on <span class="text-primary">control, balance,</span> and flexibility to stay agile and prevent injuries.</p>
-
-          <p><strong>Stay consistent with a simple rhythm:</strong> A clear weekly structure keeps <span class="text-primary">fitness</span> steady, sustainable, and part of your life.</p>
-        </div>
-
-        <div class="text-center mt-4">
-          <a href="{{ url('general-checkout/fit-forever') }}"
-             style="display:inline-block;background-color:#FFCB2A;color:#000;padding:0.8rem 3rem;border-radius:8px;text-decoration:none;font-weight:600;letter-spacing:0.5px;box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-            Subscribe 499 USD/Month
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>    
+ 
 
 
 
@@ -345,7 +273,14 @@ It is not just possible, it is simple, fun, and completely within your reach.</p
 
     </div>
 
-  
+
+
+
+
+
+    
+    
+ 
 
 
 

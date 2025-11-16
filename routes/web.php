@@ -37,6 +37,8 @@ Route::prefix('programs')->group(function () {
     Route::get('/life-reset-programs', [FitController::class, "life_reset_programs"])->name('life-reset-programs');
 
     Route::get('/fit-without-gym', [FitController::class, "fit_without_gym"])->name('fit-without-gym');
+    Route::get('/fit-without-gym2', [FitController::class, "fit_without_gym2"])->name('fit-without-gym');
+
     Route::get('/mindfulness-morning-habits', [FitController::class, "mindfulness_morning_habits"])->name('mindfulness-morning-habits');
 
     Route::get('/mind-program', fn() => view('index1.programs'));

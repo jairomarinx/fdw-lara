@@ -42,7 +42,7 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-justify p-5 shadow">
-                    <img src="{{ asset('open-minds.webp') }}" class="img-fluid">
+                    <img src="{{ asset('frc3.webp') }}" class="img-fluid">
                     <h3 class="text-uppercase my-4 fs-1 text-center">Lasting <br> Strength</h3>
 
                     <a href="{{ route('fit-forever') }}" class="btn btn-warning d-block text-center mx-auto mt-4">Learn More Fit4Ever</a>
@@ -51,7 +51,7 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-justify p-5 shadow">
-                    <img src="{{ asset('kind-hearts.webp') }}" class="img-fluid" alt="">
+                    <img src="{{ asset('booty.webp') }}" class="img-fluid" alt="">
                     <h3 class="text-uppercase my-4 fs-1 text-center">Lifetime <br> Fitness</h3>
 
                     <a href="{{ route('fit-forever') }}" class="btn btn-warning d-block text-center mx-auto mt-4">Learn More Fit4Ever</a>

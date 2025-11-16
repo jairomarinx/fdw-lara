@@ -1,4 +1,4 @@
-<div style="background-color: #fffce3ff ;" class="p-4">
+<div style="background-color: #f5f5f5ff ;" class="p-4">
 <div class="mb-5 text-center" id="id_schedule">
         <h5 class="text-primary text-uppercase fs-3"><strong>Program</strong></h5>
         <h1 class="display-3 text-uppercase mb-0">FIT <span class="yellow">4</span> EVER</h1>

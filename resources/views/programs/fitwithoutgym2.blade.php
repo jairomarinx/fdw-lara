@@ -140,43 +140,43 @@ Your Body from Home</p>
         <div class="row g-5 gb-5">
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-justify p-5">
-                    <img src="{{ asset('programs/assets/images/mi1.webp') }}" alt="body" class="img-fluid">
-                    <h3 class="text-uppercase my-4 fs-1 text-center">Spiritual Alignment Coaching</h3>
+                    <img src="{{ asset('t1/img/services/corey-laly.webp') }}" alt="body" class="img-fluid">
+                    <h3 class="text-uppercase my-4 fs-1 text-center">Stronger From Home</h3>
 
-                    <span class="text-justify">1:1 sessions that guide you to reconnect with your values, release inner tension, and live with intentional presence.</span></span></p>
+                    <span class="text-justify">Discover how easy it is to build real strength without stepping into a gym. Our guided home friendly routines help you train smarter, feel energized, and see visible progress from the comfort of your own space. No equipment, no pressure, just results you can trust.</span></span></p>
                
                     
                     <div class="text-center mt-3 mb-1">
-                      <a href="{{ url('general-checkout/life-reset-program') }}" class="" style="display:inline-block;background-color:#FCD804;color:#000;padding:0.6rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">Sign Up $199 USD</a>
+                      <a href="{{ url('general-checkout/fit-without-gym') }}" class="" style="display:inline-block;background-color:#FCD804;color:#000;padding:0.6rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">Sign Up $199 USD</a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-justify p-5">
-                    <img src="{{ asset('programs/assets/images/mind3.webp') }}" class="img-fluid">
-                    <h3 class="text-uppercase my-4 fs-1 text-center">Mindful Rituals & Meditation</h3>
+                    <img src="{{ asset('frc3.webp') }}" class="img-fluid">
+                    <h3 class="text-uppercase my-4 fs-1 text-center">Your Space Your Transformation</h3>
 
-                    <span class="text-justify">Daily practices to help you ground, reflect, and reset—cultivating stillness, gratitude, and emotional depth.</span></span><br></p>
+                    <span class="text-justify">Your home becomes your personal fitness studio with simple routines designed for real people and real schedules. Fit Without Gym adapts to your pace and your environment, giving you the freedom to transform your body and energy on your terms.</span></span><br></p>
 
 
                     
                     <div class="text-center mt-3 mb-1">
-                      <a href="{{ url('general-checkout/life-reset-program') }}" class="" style="display:inline-block;background-color:#FCD804;color:#000;padding:0.6rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">Sign Up $199 USD</a>
+                      <a href="{{ url('general-checkout/fit-without-gym') }}" class="" style="display:inline-block;background-color:#FCD804;color:#000;padding:0.6rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">Sign Up $199 USD</a>
                     </div>
 
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-justify p-5">
-                    <img src="{{ asset('programs/assets/images/mi3.webp') }}" class="img-fluid" alt="">
-                    <h3 class="text-uppercase my-4 fs-1 text-center">Heart-Centered Movement</h3>
+                    <img src="{{ asset('booty.webp') }}" class="img-fluid" alt="">
+                    <h3 class="text-uppercase my-4 fs-1 text-center">Fitness Made Simple</h3>
 
-                    <span class="text-justify">Gentle flows and expressive movement sessions to liberate stored emotions and energize your soul. <br></span></span> </p>
+                    <span class="text-justify">Forget complicated workouts and confusing plans. Fit Without Gym gives you clear guided videos, easy home routines, and the motivation you need to stay consistent. Everything is simplified so you can focus on getting stronger, healthier, and more confident every day. <br></span></span> </p>
                     
 
 
                     <div class="text-center mt-3 mb-1">
-                      <a href="{{ url('general-checkout/life-reset-program') }}" class="" style="display:inline-block;background-color:#FCD804;color:#000;padding:0.6rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">Sign Up $199 USD</a>
+                      <a href="{{ url('general-checkout/fit-without-gym') }}" class="" style="display:inline-block;background-color:#FCD804;color:#000;padding:0.6rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">Sign Up $199 USD</a>
                     </div>
 
                 </div>
@@ -225,48 +225,7 @@ Your Body from Home</p>
     <!-- Seccion de Fotos Final   -->
 
 
-    <div>
-      <div class="row" id="fwg1">
-        <div class="col-12 text-center">
-          <h1 style="font-weight: 800;">Life <span style="color: #FCD804;">Reset </span> Program</h1>
-        </div>
-      </div>
-    </div>
 
-    <section class="section mb-5" id="features">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 ">
-            <div class="section-heading">
-              <h2></h2>
-              <h2 class="fs-1"></h2>
-            </div>
-          </div>
-        </div>
-        <div class="row mt-4">
-          <div class="col-lg-12">
-            <a href="{{ url('general-checkout/life-reset-program') }}" class="">
-            <div class="feature-item">
-              <div class="text-center">
-                <img src="{{ asset('programs/assets/images/mindh.webp') }}" alt="icon" class="img-fluid">
-              </div>
-              <div class="right-content p-2 text-center">
-                <h2 style="color:black;">Life <span class="yellow">Reset</span> Program.</h2>
-                <br>
-                <p style="color:black;">Life.Reset.Program. guides you through a deep inner transformation using mindful practices, guided meditation, and spiritual connection. Regain emotional balance, cultivate inner peace, and reconnect with your true purpose. Each session aligns your mind, body, and soul. It’s your path to living with intention, calm, and compassion.</p>
-              </div>
-                      <div style="text-align:center;margin-top:1.5rem;">
-          <a href="{{ url('general-checkout/life-reset-program') }}"
-             style="display:inline-block;background-color:#FFCB2A;color:#000;padding:0.6rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">
-            Sign Up 199 USD
-          </a>
-        </div>
-            </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
 
 
     <!-- Seccion de Fotos Final   -->

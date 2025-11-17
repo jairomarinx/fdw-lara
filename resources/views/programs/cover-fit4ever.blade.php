@@ -19,8 +19,13 @@
                     <div class="bg-dark d-flex align-items-center rounded-bottom p-4 text-center">
                         <div class="flex-shrink-0 text-center text-secondary border-end border-secondary pe-3 me-3">
                            <img src="{{ asset('logo-fdw.png') }}" alt="" class="img-fluid" style="max-width: clamp(40px, 10vw, 100px);">
-                        </div>                        
-                        <a class="h1 text-light text-uppercase" href="{{ route('fit-forever') }}">FIT <span class="yellow">4</span> EVER </h1></a>
+                        </div>
+                        <h4>
+                            <a class=" text-light " href="{{ route('fit-forever') }}">FIT<span class="yellow">4</span>EVER | BUILD YOUR BEST PHYSIQUE AND KEEP IT LONG
+                            TERM |SHAPE A STRONG BODY YOU CAN FEEL IN DAILY LIFE | TRAIN WITH PURPOSE
+                            </a>
+                        </h4>                        
+                        
                     </div>                    
                 </div>
                 </a>

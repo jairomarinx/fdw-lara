@@ -3,9 +3,7 @@
         <h5 class="text-primary text-uppercase fs-3"><strong>Program</strong></h5>
         <h1 class="display-3 text-uppercase mb-0">FIT <span class="yellow">WithOut</span> Gym</h1>
         <h5 class="text-gray fs-2"><span class="text-primary"> Zero Equipment • Body Power • Limitless Strength • </span> </h5>
-        <h4 class="text-body mb-4">Build strength and confidence with simple home based workouts that actually work.
-No equipment, no confusion, just a clear path to real results you can feel.</h4>
-
+        
     </div>    
 
 
@@ -21,7 +19,7 @@ No equipment, no confusion, just a clear path to real results you can feel.</h4>
                         <div class="flex-shrink-0 text-center text-secondary border-end border-secondary pe-3 me-3">
                            <img src="{{ asset('logo-fdw.png') }}" alt="" class="img-fluid" style="max-width: clamp(40px, 10vw, 100px);">
                         </div>                        
-                        <a class="h1 text-light" href="{{ route('fit-without-gym') }}">Fit <span class="yellow">WithOut</span> Gym </h1></a>
+                        <a class="h1 text-light text-uppercase" href="{{ route('fit-without-gym') }}">Fit <span class="yellow">WithOut</span> Gym </h1></a>
                     </div>                    
                 </div>
                 </a>

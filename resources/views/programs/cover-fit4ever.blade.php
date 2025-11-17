@@ -2,7 +2,7 @@
 <div class="mb-5 text-center" id="id_schedule">
         <h5 class="text-primary text-uppercase fs-3"><strong>Program</strong></h5>
         <h1 class="display-3 text-uppercase mb-0">FIT <span class="yellow">4</span> EVER</h1>
-        <h5 class="text-gray fs-2"><span class="text-primary"> Strong Forever • Lasting Strength • Lifetime Fitness • </span> </h5>
+        <h5 class="text-gray fs-2"> Strong Forever <span class="text-primary">• Lasting Strength •</span> Lifetime Fitness •  </h5>
         
 
     </div>    

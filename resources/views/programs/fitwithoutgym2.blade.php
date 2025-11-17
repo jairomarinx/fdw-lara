@@ -468,7 +468,7 @@ Your Body from Home</p>
               <a href="{{ url('/services') }}">
               <div class="blog-item">
                   <div class="position-relative overflow-hidden rounded-top">
-                      <img class="img-fluid" src="{{ asset('fitwithoutgym/images/j2.webp') }}" alt="">
+                      <img class="img-fluid" src="{{ asset('fitwithoutgym/images/j4.webp') }}" alt="">
                   </div>
                   <div class="bg-dark d-flex align-items-center rounded-bottom p-4">
                       <div class="flex-shrink-0 text-center text-secondary border-end border-secondary pe-3 me-3">
@@ -483,7 +483,7 @@ Your Body from Home</p>
               <a href="{{ url('/our-programs') }}">
               <div class="blog-item">
                   <div class="position-relative overflow-hidden rounded-top">
-                      <img class="img-fluid" src="{{ asset('fitwithoutgym/images/j1.webp') }}" alt="">
+                      <img class="img-fluid" src="{{ asset('fitwithoutgym/images/j4.webp') }}" alt="">
                   </div>
                   <div class="bg-dark d-flex align-items-center rounded-bottom p-4">
                       <div class="flex-shrink-0 text-center text-secondary border-end border-secondary pe-3 me-3">
@@ -542,7 +542,8 @@ Your Body from Home</p>
       <div class="row">
         <div class="col-12 text-center">
           <h2>Thursday</h2>
-          <h3>Lunch/Dinner Recipe &  Full Body Mat workout</h3>
+          <h3>Lunch/Dinner Recipe &  Full Body Mat workout<br>*Push-ups and planks can be performed with support on the knees instead of the toes for those who need an easier modification.
+</h3>
         </div>
       </div>
       <div class="row g-5 justify-content-center">          
@@ -584,7 +585,7 @@ Your Body from Home</p>
       <div class="row">
         <div class="col-12 text-center">
           <h2>Friday</h2>
-          <h3>Lunch/Dinner Recipe & Leg workout with band</h3>
+          <h3>*Exercises can be performed without the band or get yours to add resistance <a href="https://www.amazon.com/s?me=A3ICCKPR3TSRVY&ref=sf_seller_app_share_new">here</a> .</h3>
         </div>
       </div>
       <div class="row g-5 justify-content-center">          
@@ -653,7 +654,7 @@ Your Body from Home</p>
                   <div class="bg-dark d-flex align-items-center rounded-bottom p-4">
                       <div class="flex-shrink-0 text-center text-secondary border-end border-secondary pe-3 me-3">
                           <img src="{{ asset('logo-fdw.png') }}" alt="" class="img-fluid" style="max-width: clamp(40px, 10vw, 100px);">                        </div>
-                      <a class="h3 text-uppercase text-light" href="{{ url('/our-programs') }}">TODAY'S RECIPE <br><span class="text-primary h5">Eat Clean. Feel Amazing</span></h4></a>
+                      <a class="h3 text-uppercase text-light" href="{{ url('/our-programs') }}">TODAY'S RECIPE <br><span class="text-primary h5">Balanced Freedom. Smarter Choices.</span></h4></a>
                   </div>
               </div>
               </a>

@@ -483,7 +483,7 @@ Your Body from Home</p>
               <a href="{{ url('/our-programs') }}">
               <div class="blog-item">
                   <div class="position-relative overflow-hidden rounded-top">
-                      <img class="img-fluid" src="{{ asset('fitwithoutgym/images/j4.webp') }}" alt="">
+                      <img class="img-fluid" src="{{ asset('cp1.webp') }}" alt="">
                   </div>
                   <div class="bg-dark d-flex align-items-center rounded-bottom p-4">
                       <div class="flex-shrink-0 text-center text-secondary border-end border-secondary pe-3 me-3">
@@ -509,7 +509,7 @@ Your Body from Home</p>
               <a href="{{ url('/services') }}">
               <div class="blog-item">
                   <div class="position-relative overflow-hidden rounded-top">
-                      <img class="img-fluid" src="{{ asset('fitwithoutgym/images/j2.webp') }}" alt="">
+                      <img class="img-fluid" src="{{ asset('fitwithoutgym/images/j6.webp') }}" alt="">
                   </div>
                   <div class="bg-dark d-flex align-items-center rounded-bottom p-4">
                       <div class="flex-shrink-0 text-center text-secondary border-end border-secondary pe-3 me-3">
@@ -524,7 +524,7 @@ Your Body from Home</p>
               <a href="{{ url('/our-programs') }}">
               <div class="blog-item">
                   <div class="position-relative overflow-hidden rounded-top">
-                      <img class="img-fluid" src="{{ asset('fitwithoutgym/images/j1.webp') }}" alt="">
+                      <img class="img-fluid" src="{{ asset('fitwithoutgym/images/j5.webp') }}" alt="">
                   </div>
                   <div class="bg-dark d-flex align-items-center rounded-bottom p-4">
                       <div class="flex-shrink-0 text-center text-secondary border-end border-secondary pe-3 me-3">

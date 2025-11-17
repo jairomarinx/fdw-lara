@@ -420,7 +420,7 @@ Your Body from Home</p>
       <div class="row">
         <div class="col-12 text-center">
           <h2>Monday</h2>
-          <h3>Lunch/Dinner Recipe & Leg Workout with a chair</h3>
+          <h3 class="fs-6">Lunch/Dinner Recipe & Leg Workout with a chair</h3>
         </div>
       </div>
       <div class="row g-5 justify-content-center">          
@@ -460,7 +460,7 @@ Your Body from Home</p>
       <div class="row">
         <div class="col-12 text-center">
           <h2>Tuesday</h2>
-          <h3>Lunch/Dinner Recipe & Upper Body Workout with a chair</h3>
+          <h3 class="fs-6">Lunch/Dinner Recipe & Upper Body Workout with a chair</h3>
         </div>
       </div>
       <div class="row g-5 justify-content-center">          
@@ -501,7 +501,7 @@ Your Body from Home</p>
       <div class="row">
         <div class="col-12 text-center">
           <h2>Wednesday</h2>
-          <h3>Lunch/Dinner Recipe & Full Body Workout with a bottle of water</h3>
+          <h3 class="fs-6">Lunch/Dinner Recipe & Full Body Workout with a bottle of water</h3>
         </div>
       </div>
       <div class="row g-5 justify-content-center">          
@@ -542,7 +542,7 @@ Your Body from Home</p>
       <div class="row">
         <div class="col-12 text-center">
           <h2>Thursday</h2>
-          <h3>Lunch/Dinner Recipe &  Full Body Mat workout<br>*Push-ups and planks can be performed with support on the knees instead of the toes for those who need an easier modification.
+          <h3 class="fs-6">Lunch/Dinner Recipe &  Full Body Mat workout<br>*Push-ups and planks can be performed with support on the knees instead of the toes for those who need an easier modification.
 </h3>
         </div>
       </div>
@@ -585,7 +585,7 @@ Your Body from Home</p>
       <div class="row">
         <div class="col-12 text-center">
           <h2>Friday</h2>
-          <h3>*Exercises can be performed without the band or get yours to add resistance <a href="https://www.amazon.com/s?me=A3ICCKPR3TSRVY&ref=sf_seller_app_share_new">here</a> .</h3>
+          <h3 class="fs-6">*Exercises can be performed without the band or get yours to add resistance <a href="https://www.amazon.com/s?me=A3ICCKPR3TSRVY&ref=sf_seller_app_share_new">here</a> .</h3>
         </div>
       </div>
       <div class="row g-5 justify-content-center">          
@@ -626,7 +626,7 @@ Your Body from Home</p>
       <div class="row">
         <div class="col-12 text-center">
           <h2>Saturday & Sunday</h2>
-          <h3>Moderate freedom with balanced nutrition on the weekends and two optional extra routines to perform one day of the weekend.<Br>*Exercises can be performed with or without resistance.</h3>
+          <h3 class="fs-6">Moderate freedom with balanced nutrition on the weekends and two optional extra routines to perform one day of the weekend.<Br>*Exercises can be performed with or without resistance.</h3>
         </div>
       </div>
       <div class="row g-5 justify-content-center">          

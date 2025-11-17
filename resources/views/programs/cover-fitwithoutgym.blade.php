@@ -2,7 +2,7 @@
 <div class="container mb-5 text-center" id="id_schedule">
         <h5 class="text-primary text-uppercase fs-3"><strong>Program</strong></h5>
         <h1 class="display-3 text-uppercase mb-0">FIT <span class="yellow">WithOut</span> Gym</h1>
-        <h5 class="text-gray fs-2"><span class="text-primary"> Zero Equipment • Body Power • Limitless Strength • </span> </h5>
+        <h5 class="text-gray fs-2"> Zero Equipment <span class="text-primary">• Body Power </span>• Limitless Strength •  </h5>
         
     </div>    
 

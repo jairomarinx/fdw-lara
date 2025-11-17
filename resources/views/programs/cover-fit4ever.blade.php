@@ -1,6 +1,6 @@
 <div style="background-color: #f5f5f5ff ;" class="p-4">
 <div class="mb-5 text-center" id="id_schedule">
-        <h5 class="text-primary text-uppercase fs-3"><strong>Program</strong></h5>
+        <h5 class="text-primary text-uppercase fs-3" id="features"><strong>Program</strong></h5>
         <h1 class="display-3 text-uppercase mb-0">FIT <span class="yellow">4</span> EVER</h1>
         <h5 class="text-gray fs-2"> Strong Forever <span class="text-primary">• Lasting Strength •</span> Lifetime Fitness •  </h5>
         
@@ -12,7 +12,7 @@
         <div class="row g-5">
             <div class="col-lg-10 col-md-10 col-sm-12 col-xm-12 mx-auto">
                 <a href="{{ route('fit-forever') }}">
-                <div class="blog-item">
+                <div class="blog-item" >
                     <div class="position-relative overflow-hidden rounded-top">
                         <img class="img-fluid" src="{{ asset('fitforever-laly.jpeg') }}" alt="">
                     </div>

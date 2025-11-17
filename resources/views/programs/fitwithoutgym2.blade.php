@@ -410,138 +410,259 @@ Your Body from Home</p>
 <!-- Seccion de Fotos Inicio   -->
 <div class="container">
     <div class="mb-5 mt-5 text-center">
-        <h5 class="text-primary text-uppercase fs-3"><strong>Fit Without Gym</strong></h5>
+        <h5 class="text-primary text-uppercase fs-3"><strong>Fit Without Gym </strong></h5>
         <h1 class="display-3 text-uppercase mb-0">Our Content</h1>
     </div>
 </div>
 
-<div class="container p-5">
-    <div class="row g-5 mx-auto justify-content-center">
-
-        <!-- Item 1 -->
-        <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
-            <a href="{{ url('/services') }}" class="text-decoration-none">
-                <div class="blog-item" style="max-width: 350px;">
-                    <div class="position-relative overflow-hidden rounded-top">
-                        <img class="img-fluid" src="{{ asset('servicios.webp') }}" alt="">
-                    </div>
-                    <div class="bg-dark d-flex align-items-center rounded-bottom p-4">
-                        <div class="flex-shrink-0 text-center text-secondary border-end border-secondary pe-3 me-3">
-                            <img src="{{ asset('logo-fdw.png') }}" alt="" class="img-fluid"
-                                 style="max-width: clamp(40px, 10vw, 100px);">
-                        </div>
-                        <a class="h3 text-uppercase text-light m-0" href="{{ url('/services') }}">
-                            Our Services <br>
-                            <span class="text-primary h5">Start your journey</span>
-                        </a>
-                    </div>
-                </div>
-            </a>
+  <div class="container-fluid p-5">
+      <!-- Lunes Inicio   -->
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2>Monday</h2>
+          <h3>Lunch/Dinner Recipe & Leg Workout with a chair</h3>
         </div>
+      </div>
+      <div class="row g-5 justify-content-center">          
+          <div class="col-lg-4">
+              <a href="{{ url('/services') }}">
+              <div class="blog-item">
+                  <div class="position-relative overflow-hidden rounded-top">
+                      <img class="img-fluid" src="{{ asset('fitwithoutgym/images/j2.webp') }}" alt="">
+                  </div>
+                  <div class="bg-dark d-flex align-items-center rounded-bottom p-4">
+                      <div class="flex-shrink-0 text-center text-secondary border-end border-secondary pe-3 me-3">
+                          <img src="{{ asset('logo-fdw.png') }}" alt="" class="img-fluid" style="max-width: clamp(40px, 10vw, 100px);">
+                      </div>
+                      <a class="h3 text-uppercase text-light" href="{{ url('/services') }}">TODAY'S WORKOUT <br><span class="text-primary h5"> Stronger Legs Today</span></h4></a>
+                  </div>
+              </div>
+              </a>
+          </div>
+          <div class="col-lg-4">
+              <a href="{{ url('/our-programs') }}">
+              <div class="blog-item">
+                  <div class="position-relative overflow-hidden rounded-top">
+                      <img class="img-fluid" src="{{ asset('fitwithoutgym/images/j1.webp') }}" alt="">
+                  </div>
+                  <div class="bg-dark d-flex align-items-center rounded-bottom p-4">
+                      <div class="flex-shrink-0 text-center text-secondary border-end border-secondary pe-3 me-3">
+                          <img src="{{ asset('logo-fdw.png') }}" alt="" class="img-fluid" style="max-width: clamp(40px, 10vw, 100px);">                        </div>
+                      <a class="h3 text-uppercase text-light" href="{{ url('/our-programs') }}">TODAY'S RECIPE <br><span class="text-primary h5">Eat Clean. Feel Amazing</span></h4></a>
+                  </div>
+              </div>
+              </a>
+          </div>
+      </div>
+      <!-- Lunes Final   -->
 
-        <!-- Item 2 -->
-        <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
-            <a href="{{ url('/our-programs') }}" class="text-decoration-none">
-                <div class="blog-item" style="max-width: 350px;">
-                    <div class="position-relative overflow-hidden rounded-top">
-                        <img class="img-fluid" src="{{ asset('programs.webp') }}" alt="">
-                    </div>
-                    <div class="bg-dark d-flex align-items-center rounded-bottom p-4">
-                        <div class="flex-shrink-0 text-center text-secondary border-end border-secondary pe-3 me-3">
-                            <img src="{{ asset('logo-fdw.png') }}" alt="" class="img-fluid"
-                                 style="max-width: clamp(40px, 10vw, 100px);">
-                        </div>
-                        <a class="h3 text-uppercase text-light m-0" href="{{ url('/our-programs') }}">
-                            Our Programs <br>
-                            <span class="text-primary h5">Power Your Life</span>
-                        </a>
-                    </div>
-                </div>
-            </a>
+      <!-- Martes Inicio   -->
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2>Tuesday</h2>
+          <h3>Lunch/Dinner Recipe & Upper Body Workout with a chair</h3>
         </div>
+      </div>
+      <div class="row g-5 justify-content-center">          
+          <div class="col-lg-4">
+              <a href="{{ url('/services') }}">
+              <div class="blog-item">
+                  <div class="position-relative overflow-hidden rounded-top">
+                      <img class="img-fluid" src="{{ asset('fitwithoutgym/images/j2.webp') }}" alt="">
+                  </div>
+                  <div class="bg-dark d-flex align-items-center rounded-bottom p-4">
+                      <div class="flex-shrink-0 text-center text-secondary border-end border-secondary pe-3 me-3">
+                          <img src="{{ asset('logo-fdw.png') }}" alt="" class="img-fluid" style="max-width: clamp(40px, 10vw, 100px);">
+                      </div>
+                      <a class="h3 text-uppercase text-light" href="{{ url('/services') }}">TODAY'S WORKOUT <br><span class="text-primary h5"> Upper Body Strength With a Chair</span></h4></a>
+                  </div>
+              </div>
+              </a>
+          </div>
+          <div class="col-lg-4">
+              <a href="{{ url('/our-programs') }}">
+              <div class="blog-item">
+                  <div class="position-relative overflow-hidden rounded-top">
+                      <img class="img-fluid" src="{{ asset('fitwithoutgym/images/j1.webp') }}" alt="">
+                  </div>
+                  <div class="bg-dark d-flex align-items-center rounded-bottom p-4">
+                      <div class="flex-shrink-0 text-center text-secondary border-end border-secondary pe-3 me-3">
+                          <img src="{{ asset('logo-fdw.png') }}" alt="" class="img-fluid" style="max-width: clamp(40px, 10vw, 100px);">                        </div>
+                      <a class="h3 text-uppercase text-light" href="{{ url('/our-programs') }}">TODAY'S RECIPE <br><span class="text-primary h5">Eat Clean. Build Strength.</span></h4></a>
+                  </div>
+              </div>
+              </a>
+          </div>
+      </div>
+      <!-- Martes Final   -->
 
-    </div>
-</div>
 
-<!-- Our Content End  -->
-
-
-
-
-<!-- Our Content   -->
-    <div class="container-fluid p-5 d-none" id="id_schedule">
-        <div class="mb-5 text-center">
-            <h5 class="text-primary text-uppercase"></h5>
-            <h1 class="display-3 text-uppercase mb-0"></h1>
+      <!-- Miercoles Inicio   -->
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2>Wednesday</h2>
+          <h3>Lunch/Dinner Recipe & Full Body Workout with a bottle of water</h3>
         </div>
-        <div class="row g-5">
-            <div class="col-lg-4 col-md-6">
-                <div class="team-item position-relative">
-                    <div class="position-relative overflow-hidden rounded">
-                        <img class="img-fluid w-100" src="{{ asset('t1/img/brad-cook.webp') }}" alt="">
-                        <div class="team-overlay">
-                            <div class="d-flex align-items-center justify-content-start">
-                                <a class="btn btn-light btn-square rounded-circle mx-1" href="{{ url('/services') }}"><i class="fas fa-link"></i> </a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                        
-                    <div class="position-absolute start-0 bottom-0 w-100 rounded-bottom text-center p-4" style="background: rgba(34, 36, 41, .9);">
-                        <span><h1 class="text-white">Services</h1>  </span>
-                        <a href="{{ url('/services') }}" class="btn btn-primary  p-4" style="font-size: 18px; font-weight:800; color: #fff; border: none; ">Services</a>
-                    </div>
-                    
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="team-item position-relative">
-                    <div class="position-relative overflow-hidden rounded">
-                        <img class="img-fluid w-100" src="{{ asset('t1/img/brad-laly.webp') }}" alt="">
-                        <div class="team-overlay">
-                            <div class="d-flex align-items-center justify-content-start">
-                                <a class="btn btn-light btn-square rounded-circle mx-1" href="{{ route('fit-reset-programs') }}"><i class="fas fa-link"></i> </a>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="position-absolute start-0 bottom-0 w-100 rounded-bottom text-center p-4" style="background: rgba(34, 36, 41, .9);">
-                        <a href="{{ route('fit-reset-programs') }}" class="btn btn-primary p-4" style="font-size: 18px; font-weight:800; background: #39FF14; color: #fff; border: none; width: 250px;">Programs</a>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="team-item position-relative">
-                    <div class="position-relative overflow-hidden rounded">
-                        <img class="img-fluid w-100" src="{{ asset('t1/img/laly-band.webp') }}" alt="">
-                        <div class="team-overlay">
-                            <div class="d-flex align-items-center justify-content-start">
-                                <a class="btn btn-light btn-square rounded-circle mx-1" href="https://www.amazon.com/s?me=A3ICCKPR3TSRVY&ref=sf_seller_app_share_new"><i class="fas fa-link"></i> </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="position-absolute start-0 bottom-0 w-100 rounded-bottom text-center p-4" style="background: rgba(34, 36, 41, .9);">
-                        <a href="https://www.amazon.com/s?me=A3ICCKPR3TSRVY&ref=sf_seller_app_share_new" class="btn btn-primary p-4" style="font-size: 18px; font-weight:800; background: #39FF14; color: #fff; border: none; width: 250px;"  >Products</a>
-
-                    </div>
-                </div>
-            </div>
+      </div>
+      <div class="row g-5 justify-content-center">          
+          <div class="col-lg-4">
+              <a href="{{ url('/services') }}">
+              <div class="blog-item">
+                  <div class="position-relative overflow-hidden rounded-top">
+                      <img class="img-fluid" src="{{ asset('fitwithoutgym/images/j2.webp') }}" alt="">
+                  </div>
+                  <div class="bg-dark d-flex align-items-center rounded-bottom p-4">
+                      <div class="flex-shrink-0 text-center text-secondary border-end border-secondary pe-3 me-3">
+                          <img src="{{ asset('logo-fdw.png') }}" alt="" class="img-fluid" style="max-width: clamp(40px, 10vw, 100px);">
+                      </div>
+                      <a class="h3 text-uppercase text-light" href="{{ url('/services') }}">TODAY'S WORKOUT <br><span class="text-primary h5"> Full Body With a Water Bottle</span></h4></a>
+                  </div>
+              </div>
+              </a>
+          </div>
+          <div class="col-lg-4">
+              <a href="{{ url('/our-programs') }}">
+              <div class="blog-item">
+                  <div class="position-relative overflow-hidden rounded-top">
+                      <img class="img-fluid" src="{{ asset('fitwithoutgym/images/j1.webp') }}" alt="">
+                  </div>
+                  <div class="bg-dark d-flex align-items-center rounded-bottom p-4">
+                      <div class="flex-shrink-0 text-center text-secondary border-end border-secondary pe-3 me-3">
+                          <img src="{{ asset('logo-fdw.png') }}" alt="" class="img-fluid" style="max-width: clamp(40px, 10vw, 100px);">                        </div>
+                      <a class="h3 text-uppercase text-light" href="{{ url('/our-programs') }}">TODAY'S RECIPE <br><span class="text-primary h5">Fuel Your Body. Stay Lean.</span></h4></a>
+                  </div>
+              </div>
+              </a>
+          </div>
+      </div>
+      <!-- Miercoles Final   -->      
 
 
-
+      <!-- Jueves Inicio   -->
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2>Thursday</h2>
+          <h3>Lunch/Dinner Recipe &  Full Body Mat workout</h3>
         </div>
-    </div>
+      </div>
+      <div class="row g-5 justify-content-center">          
+          <div class="col-lg-4">
+              <a href="{{ url('/services') }}">
+              <div class="blog-item">
+                  <div class="position-relative overflow-hidden rounded-top">
+                      <img class="img-fluid" src="{{ asset('fitwithoutgym/images/j2.webp') }}" alt="">
+                  </div>
+                  <div class="bg-dark d-flex align-items-center rounded-bottom p-4">
+                      <div class="flex-shrink-0 text-center text-secondary border-end border-secondary pe-3 me-3">
+                          <img src="{{ asset('logo-fdw.png') }}" alt="" class="img-fluid" style="max-width: clamp(40px, 10vw, 100px);">
+                      </div>
+                      <a class="h3 text-uppercase text-light" href="{{ url('/services') }}">TODAY'S WORKOUT <br><span class="text-primary h5"> Modified push-ups and planks available</span></h4></a>
+                  </div>
+              </div>
+              </a>
+          </div>
+          <div class="col-lg-4">
+              <a href="{{ url('/our-programs') }}">
+              <div class="blog-item">
+                  <div class="position-relative overflow-hidden rounded-top">
+                      <img class="img-fluid" src="{{ asset('fitwithoutgym/images/j1.webp') }}" alt="">
+                  </div>
+                  <div class="bg-dark d-flex align-items-center rounded-bottom p-4">
+                      <div class="flex-shrink-0 text-center text-secondary border-end border-secondary pe-3 me-3">
+                          <img src="{{ asset('logo-fdw.png') }}" alt="" class="img-fluid" style="max-width: clamp(40px, 10vw, 100px);">                        </div>
+                      <a class="h3 text-uppercase text-light" href="{{ url('/our-programs') }}">TODAY'S RECIPE <br><span class="text-primary h5">Clean Eating for All-Day Energy</span></h4></a>
+                  </div>
+              </div>
+              </a>
+          </div>
+      </div>
+      <!-- Jueves Final   -->      
 
 
 
+      <!-- Viernes Inicio   -->
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2>Friday</h2>
+          <h3>Lunch/Dinner Recipe & Leg workout with band</h3>
+        </div>
+      </div>
+      <div class="row g-5 justify-content-center">          
+          <div class="col-lg-4">
+              <a href="{{ url('/services') }}">
+              <div class="blog-item">
+                  <div class="position-relative overflow-hidden rounded-top">
+                      <img class="img-fluid" src="{{ asset('fitwithoutgym/images/j2.webp') }}" alt="">
+                  </div>
+                  <div class="bg-dark d-flex align-items-center rounded-bottom p-4">
+                      <div class="flex-shrink-0 text-center text-secondary border-end border-secondary pe-3 me-3">
+                          <img src="{{ asset('logo-fdw.png') }}" alt="" class="img-fluid" style="max-width: clamp(40px, 10vw, 100px);">
+                      </div>
+                      <a class="h3 text-uppercase text-light" href="{{ url('/services') }}">TODAY'S WORKOUT <br><span class="text-primary h5"> Leg Day With Bands (or No Bands)</span></h4></a>
+                  </div>
+              </div>
+              </a>
+          </div>
+          <div class="col-lg-4">
+              <a href="{{ url('/our-programs') }}">
+              <div class="blog-item">
+                  <div class="position-relative overflow-hidden rounded-top">
+                      <img class="img-fluid" src="{{ asset('fitwithoutgym/images/j1.webp') }}" alt="">
+                  </div>
+                  <div class="bg-dark d-flex align-items-center rounded-bottom p-4">
+                      <div class="flex-shrink-0 text-center text-secondary border-end border-secondary pe-3 me-3">
+                          <img src="{{ asset('logo-fdw.png') }}" alt="" class="img-fluid" style="max-width: clamp(40px, 10vw, 100px);">                        </div>
+                      <a class="h3 text-uppercase text-light" href="{{ url('/our-programs') }}">TODAY'S RECIPE <br><span class="text-primary h5">Lean Eating to End the Week Strong</span></h4></a>
+                  </div>
+              </div>
+              </a>
+          </div>
+      </div>
+      <!-- Viernes Final   -->      
 
 
+      <!-- Sabado Inicio   -->
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2>Saturday & Sunday</h2>
+          <h3>Moderate freedom with balanced nutrition on the weekends and two optional extra routines to perform one day of the weekend.<Br>*Exercises can be performed with or without resistance.</h3>
+        </div>
+      </div>
+      <div class="row g-5 justify-content-center">          
+          <div class="col-lg-4">
+              <a href="{{ url('/services') }}">
+              <div class="blog-item">
+                  <div class="position-relative overflow-hidden rounded-top">
+                      <img class="img-fluid" src="{{ asset('fitwithoutgym/images/j2.webp') }}" alt="">
+                  </div>
+                  <div class="bg-dark d-flex align-items-center rounded-bottom p-4">
+                      <div class="flex-shrink-0 text-center text-secondary border-end border-secondary pe-3 me-3">
+                          <img src="{{ asset('logo-fdw.png') }}" alt="" class="img-fluid" style="max-width: clamp(40px, 10vw, 100px);">
+                      </div>
+                      <a class="h3 text-uppercase text-light" href="{{ url('/services') }}">OPTIONAL WEEKEND ROUTINE <br><span class="text-primary h5"> Move Light. Feel Better.</span></h4></a>
+                  </div>
+              </div>
+              </a>
+          </div>
+          <div class="col-lg-4">
+              <a href="{{ url('/our-programs') }}">
+              <div class="blog-item">
+                  <div class="position-relative overflow-hidden rounded-top">
+                      <img class="img-fluid" src="{{ asset('fitwithoutgym/images/j1.webp') }}" alt="">
+                  </div>
+                  <div class="bg-dark d-flex align-items-center rounded-bottom p-4">
+                      <div class="flex-shrink-0 text-center text-secondary border-end border-secondary pe-3 me-3">
+                          <img src="{{ asset('logo-fdw.png') }}" alt="" class="img-fluid" style="max-width: clamp(40px, 10vw, 100px);">                        </div>
+                      <a class="h3 text-uppercase text-light" href="{{ url('/our-programs') }}">TODAY'S RECIPE <br><span class="text-primary h5">Eat Clean. Feel Amazing</span></h4></a>
+                  </div>
+              </div>
+              </a>
+          </div>
+      </div>
+      <!-- Sabado Final   -->      
 
 
-
-
+  </div>
   
 
 

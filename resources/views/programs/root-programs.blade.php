@@ -126,7 +126,7 @@
     <div class="mb-5 mt-5 text-center">
         <h5 class="text-primary text-uppercase fs-3"><strong>What your</strong></h5>
         <h1 class="display-3 text-uppercase mb-0">Life Deserves</h1>
-        <h5 class="text-gray fs-2"><span class="text-primary"> Strong Bodies • Open Minds • Kind Hearts • </span> </h5>
+        <h5 class="text-gray fs-2"> Strong Bodies • <span class="text-primary"> Open Minds •</span> Kind Hearts •  </h5>
         <p class="text-body mb-4">At Fit.Done.Well., our programs are designed to support your full transformation—physically, mentally, and emotionally. Whether you seek to reset your habits, strengthen your body, or deepen your mindfulness, we offer guided paths that meet you where you are and take you where you want to go.</p>
 
     </div>

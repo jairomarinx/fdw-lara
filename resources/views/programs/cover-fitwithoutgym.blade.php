@@ -36,7 +36,7 @@
                     <img src="{{ asset('t1/img/services/corey-laly.webp') }}" alt="body" class="img-fluid">
                     <h3 class="text-uppercase my-4 fs-1 text-center">Strong <br> Forever</h3>
 
-                    <a href="{{ route('fit-without-gym') }}" class="btn btn-warning d-block text-center mx-auto mt-4">Learn More Fit Without Gym</a>
+                    <a href="{{ route('fit-without-gym') }}" class="btn btn-warning d-block text-center mx-auto mt-4 text-uppercase">Learn More<br> <strong>Fit Without Gym</strong></a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
@@ -44,7 +44,7 @@
                     <img src="{{ asset('strong-bodies.webp') }}" class="img-fluid">
                     <h3 class="text-uppercase my-4 fs-1 text-center">Lasting <br> Strength</h3>
 
-                    <a href="{{ route('fit-without-gym') }}" class="btn btn-warning d-block text-center mx-auto mt-4">Learn More Fit Without Gym</a>
+                    <a href="{{ route('fit-without-gym') }}" class="btn btn-warning d-block text-center mx-auto mt-4">Learn More<br> <strong>Fit Without Gym</strong></a>
 
                 </div>
             </div>
@@ -53,7 +53,7 @@
                     <img src="{{ asset('gr2.webp') }}" class="img-fluid" alt="">
                     <h3 class="text-uppercase my-4 fs-1 text-center">Lifetime <br> Fitness</h3>
 
-                    <a href="{{ route('fit-without-gym') }}" class="btn btn-warning d-block text-center mx-auto mt-4">Learn More Fit Without Gym</a>
+                    <a href="{{ route('fit-without-gym') }}" class="btn btn-warning d-block text-center mx-auto mt-4">Learn More<br> <strong>Fit Without Gym</strong></a>
 
                 </div>
             </div>

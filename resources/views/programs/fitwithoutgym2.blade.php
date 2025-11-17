@@ -158,7 +158,13 @@ You do not need equipment. You do not need experience. You only need the desire 
     </div>
     <!-- About End -->
 
-
+  <div class="row ">
+      <div class="col-12 text-center">
+          <a href="{{ url('general-checkout/fit-without-gym') }}" style="display:inline-block;background-color:#FFCB2A;color:#000;padding:1rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:800; font-size: 25px; letter-spacing:1px;">
+              Subscribe 199 USD
+          </a>
+      </div>
+  </div>
 
 <!-- Seccion de Fotos Inicio   -->
 <div class="container">
@@ -273,6 +279,15 @@ Your Body from Home</p>
 <!-- What You Get -->
 
 
+
+  <div class="row ">
+      <div class="col-12 text-center">
+          <a href="{{ url('general-checkout/fit-without-gym') }}" style="display:inline-block;background-color:#FFCB2A;color:#000;padding:1rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:800; font-size: 25px; letter-spacing:1px;">
+              Subscribe 199 USD
+          </a>
+      </div>
+  </div>
+
 <!-- Final Section – Why Fit Without Gym -->
 <div class="mb-5 mt-5 text-center d-flex flex-column justify-content-center"
     style="
@@ -283,6 +298,9 @@ Your Body from Home</p>
         background-size: cover;
     "
 >
+
+
+
 
     <!-- Title -->
     <h5 class="text-primary text-uppercase fs-3 mb-2"><strong>Why Choose</strong></h5>
@@ -402,7 +420,13 @@ Your Body from Home</p>
 <!-- End Program Recommendations Section -->
 
 
-
+  <div class="row mt-4">
+      <div class="col-12 text-center">
+          <a href="{{ url('general-checkout/fit-without-gym') }}" style="display:inline-block;background-color:#FFCB2A;color:#000;padding:1rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:800; font-size: 25px; letter-spacing:1px;">
+              Subscribe 199 USD
+          </a>
+      </div>
+  </div>
 
 
 <!-- Our Content Begin  -->
@@ -665,6 +689,14 @@ Your Body from Home</p>
 
   </div>
   
+
+  <div class="row ">
+      <div class="col-12 text-center">
+          <a href="{{ url('general-checkout/fit-without-gym') }}" style="display:inline-block;background-color:#FFCB2A;color:#000;padding:1rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:800; font-size: 25px; letter-spacing:1px;">
+              Subscribe 199 USD
+          </a>
+      </div>
+  </div>
 
 
 

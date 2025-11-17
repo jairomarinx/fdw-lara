@@ -158,7 +158,7 @@ You do not need equipment. You do not need experience. You only need the desire 
     </div>
     <!-- About End -->
 
-  <div class="row " id="#features">
+  <div class="row " id="features">
       <div class="col-12 text-center">
           <a href="{{ url('general-checkout/fit-without-gym') }}" style="display:inline-block;background-color:#FFCB2A;color:#000;padding:1rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:800; font-size: 25px; letter-spacing:1px;">
               Subscribe 199 USD

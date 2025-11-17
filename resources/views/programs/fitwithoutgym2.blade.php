@@ -551,7 +551,7 @@ Your Body from Home</p>
               <a href="{{ url('/services') }}">
               <div class="blog-item">
                   <div class="position-relative overflow-hidden rounded-top">
-                      <img class="img-fluid" src="{{ asset('fitwithoutgym/images/j2.webp') }}" alt="">
+                      <img class="img-fluid" src="{{ asset('fitwithoutgym/images/j8.webp') }}" alt="">
                   </div>
                   <div class="bg-dark d-flex align-items-center rounded-bottom p-4">
                       <div class="flex-shrink-0 text-center text-secondary border-end border-secondary pe-3 me-3">
@@ -566,7 +566,7 @@ Your Body from Home</p>
               <a href="{{ url('/our-programs') }}">
               <div class="blog-item">
                   <div class="position-relative overflow-hidden rounded-top">
-                      <img class="img-fluid" src="{{ asset('fitwithoutgym/images/j1.webp') }}" alt="">
+                      <img class="img-fluid" src="{{ asset('fitwithoutgym/images/j7.webp') }}" alt="">
                   </div>
                   <div class="bg-dark d-flex align-items-center rounded-bottom p-4">
                       <div class="flex-shrink-0 text-center text-secondary border-end border-secondary pe-3 me-3">
@@ -593,7 +593,7 @@ Your Body from Home</p>
               <a href="{{ url('/services') }}">
               <div class="blog-item">
                   <div class="position-relative overflow-hidden rounded-top">
-                      <img class="img-fluid" src="{{ asset('fitwithoutgym/images/j2.webp') }}" alt="">
+                      <img class="img-fluid" src="{{ asset('fitwithoutgym/images/j10.webp') }}" alt="">
                   </div>
                   <div class="bg-dark d-flex align-items-center rounded-bottom p-4">
                       <div class="flex-shrink-0 text-center text-secondary border-end border-secondary pe-3 me-3">
@@ -608,7 +608,7 @@ Your Body from Home</p>
               <a href="{{ url('/our-programs') }}">
               <div class="blog-item">
                   <div class="position-relative overflow-hidden rounded-top">
-                      <img class="img-fluid" src="{{ asset('fitwithoutgym/images/j1.webp') }}" alt="">
+                      <img class="img-fluid" src="{{ asset('fitwithoutgym/images/j9.webp') }}" alt="">
                   </div>
                   <div class="bg-dark d-flex align-items-center rounded-bottom p-4">
                       <div class="flex-shrink-0 text-center text-secondary border-end border-secondary pe-3 me-3">
@@ -634,7 +634,7 @@ Your Body from Home</p>
               <a href="{{ url('/services') }}">
               <div class="blog-item">
                   <div class="position-relative overflow-hidden rounded-top">
-                      <img class="img-fluid" src="{{ asset('fitwithoutgym/images/j2.webp') }}" alt="">
+                      <img class="img-fluid" src="{{ asset('g7.webp') }}" alt="">
                   </div>
                   <div class="bg-dark d-flex align-items-center rounded-bottom p-4">
                       <div class="flex-shrink-0 text-center text-secondary border-end border-secondary pe-3 me-3">
@@ -649,12 +649,12 @@ Your Body from Home</p>
               <a href="{{ url('/our-programs') }}">
               <div class="blog-item">
                   <div class="position-relative overflow-hidden rounded-top">
-                      <img class="img-fluid" src="{{ asset('fitwithoutgym/images/j1.webp') }}" alt="">
+                      <img class="img-fluid" src="{{ asset('g8.webp') }}" alt="">
                   </div>
                   <div class="bg-dark d-flex align-items-center rounded-bottom p-4">
                       <div class="flex-shrink-0 text-center text-secondary border-end border-secondary pe-3 me-3">
                           <img src="{{ asset('logo-fdw.png') }}" alt="" class="img-fluid" style="max-width: clamp(40px, 10vw, 100px);">                        </div>
-                      <a class="h3 text-uppercase text-light" href="{{ url('/our-programs') }}">TODAY'S RECIPE <br><span class="text-primary h5">Balanced Freedom. Smarter Choices.</span></h4></a>
+                      <a class="h3 text-uppercase text-light" href="{{ url('/our-programs') }}">Fat Burning Exercises <br><span class="text-primary h5"></span></h4></a>
                   </div>
               </div>
               </a>

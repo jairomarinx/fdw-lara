@@ -22,7 +22,7 @@
                         </div>
                         <h4>
                             <a class=" text-light " href="{{ route('fit-forever') }}"><span class="fs-1">FIT <span class="yellow">4</span> EVER</span> <br> 
-                                <span class="fs-5 text-lowercase"> BUILD YOUR BEST PHYSIQUE AND KEEP IT LONG
+                                <span class="fs-5 text-uppercase"> BUILD YOUR BEST PHYSIQUE AND KEEP IT LONG
                             TERM 🟡 SHAPE A STRONG BODY YOU CAN FEEL IN DAILY LIFE 🟡 TRAIN WITH PURPOSE</span>
                             </a>
                         </h4>                        

@@ -105,7 +105,7 @@
     <div class="video-overlay header-text">
       <div class="caption">
                 <h6>Strong at home</h6>
-                <h2>Fit<em>Without</em>Gym</h2>
+                <h2>Fit <em>Without</em> Gym</h2>
         <div class="main-button scroll-to-section">
           <a href="#features">See what's coming</a>
         </div>

@@ -14,7 +14,7 @@
                 <a href="{{ route('fit-forever') }}">
                 <div class="blog-item" >
                     <div class="position-relative overflow-hidden rounded-top">
-                        <img class="img-fluid" src="{{ asset('fitforever-laly.jpeg') }}" alt="">
+                        <img class="img-fluid" src="{{ asset('cover-fitforever.jpg') }}" alt="">
                     </div>
                     <div class="bg-dark d-flex align-items-center rounded-bottom p-4 text-center">
                         <div class="flex-shrink-0 text-center text-secondary border-end border-secondary pe-3 me-3">

@@ -77,4 +77,6 @@ Route::get('/new', function(){
     return view('index1.newtemplate');
 });
 
+Route::get('/admin/xdebug', function(){ phpinfo(); });
+
 

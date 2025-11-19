@@ -185,7 +185,7 @@
         </div>
         <div style="text-align:center;margin-top:1.5rem;">
           <a href="{{ url('general-checkout/life-reset-retreat5') }}"
-             style="display:inline-block;background-color:#FFCB2A;color:#000;padding:0.6rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">
+             style="display:inline-block;background-color:#FCD804;color:#000;padding:0.6rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">
             Sign Up
           </a>
         </div>
@@ -227,7 +227,7 @@
 
 
           <a href="{{ url('general-checkout/saturday-booty-camp') }}"
-             style="display:inline-block;background-color:#FFCB2A;color:#000;padding:0.6rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">
+             style="display:inline-block;background-color:#FCD804;color:#000;padding:0.6rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">
             Sign Up
           </a>
 
@@ -267,7 +267,7 @@
         </div>
         <div style="text-align:center;margin-top:1.5rem;">
           <a href="{{ url('general-checkout/kayak-with-us') }}"
-             style="display:inline-block;background-color:#FFCB2A;color:#000;padding:0.6rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">
+             style="display:inline-block;background-color:#FCD804;color:#000;padding:0.6rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">
             Sign Up
           </a>
         </div>

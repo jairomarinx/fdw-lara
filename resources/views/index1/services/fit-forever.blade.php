@@ -73,7 +73,7 @@
 Simple structure, real coaching, and a plan that fits your life.</h4>
                         <div style="text-align:center;margin-top:1.5rem;">
                         <a href="{{ url('general-checkout/fit-forever') }}"
-                            style="display:inline-block;background-color:#FFCB2A;color:#000;padding:0.6rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">
+                            style="display:inline-block;background-color:#FCD804;color:#000;padding:0.6rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">
                             Subscribe 499 USD/Month
                         </a>
                         </div> 
@@ -191,7 +191,7 @@ Simple structure, real coaching, and a plan that fits your life.</h4>
         </div>
                                 <div style="text-align:center;margin-top:1.5rem;">
                         <a href="{{ url('general-checkout/fit-forever') }}"
-                            style="display:inline-block;background-color:#FFCB2A;color:#000;padding:0.6rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;padding: 35px 50px;">
+                            style="display:inline-block;background-color:#FCD804;color:#000;padding:0.6rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;padding: 35px 50px;">
                             Subscribe 499 USD/Month
                         </a>
                         </div> 

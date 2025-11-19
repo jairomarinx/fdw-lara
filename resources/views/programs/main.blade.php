@@ -115,7 +115,7 @@
 
         <div style="text-align:center;margin-top:1.5rem;">
           <a href="{{ url('general-checkout/fit-forever') }}"
-             style="display:inline-block;background-color:#FFCB2A;color:#000;padding:0.6rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">
+             style="display:inline-block;background-color:#FCD804;color:#000;padding:0.6rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">
             Our Most Popular
           </a>
         </div>
@@ -150,7 +150,7 @@ Mind.Reset.Programs. are a complete mental wellness journey designed to clear st
 
         <div style="text-align:center;margin-top:1.5rem;">
           <a href="{{ url('general-checkout/well-for-real') }}"
-             style="display:inline-block;background-color:#FFCB2A;color:#000;padding:0.6rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">
+             style="display:inline-block;background-color:#FCD804;color:#000;padding:0.6rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">
             Our Best Seller
           </a>
         </div>
@@ -186,7 +186,7 @@ Life Reset Programs are a complete transformation experience that unites physica
 
         <div style="text-align:center;margin-top:1.5rem;">
           <a href="{{ url('general-checkout/love-for-life') }}"
-             style="display:inline-block;background-color:#FFCB2A;color:#000;padding:0.6rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">
+             style="display:inline-block;background-color:#FCD804;color:#000;padding:0.6rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">
             Our Most Efective.
           </a>
         </div>        
@@ -246,7 +246,7 @@ It is not just possible, it is simple, fun, and completely within your reach.</p
               </div>
                       <div style="text-align:center;margin-top:1.5rem;">
           <a href="{{ url('general-checkout/fit-without-gym') }}"
-             style="display:inline-block;background-color:#FFCB2A;color:#000;padding:0.6rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">
+             style="display:inline-block;background-color:#FCD804;color:#000;padding:0.6rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">
             Sign Up 199 USD
           </a>
         </div>
@@ -263,7 +263,7 @@ It is not just possible, it is simple, fun, and completely within your reach.</p
     <div class="row">
       <div class="col-12 text-center">
         <div class="section-heading">
-          <h2 class="fs-1 fw-bold text-dark" style="font-size: 50px;">Fit <span style="color: #FFCB2A;">4</span> Ever.</h2>
+          <h2 class="fs-1 fw-bold text-dark" style="font-size: 50px;">Fit <span style="color: #FCD804;">4</span> Ever.</h2>
           <p class="text-muted bold">A complete fitness experience that helps you build lasting strength, balance, and endurance.</p>
         </div>
       </div>
@@ -288,7 +288,7 @@ It is not just possible, it is simple, fun, and completely within your reach.</p
 
         <div class="text-center mt-4">
           <a href="{{ url('general-checkout/fit-forever') }}"
-             style="display:inline-block;background-color:#FFCB2A;color:#000;padding:0.8rem 3rem;border-radius:8px;text-decoration:none;font-weight:600;letter-spacing:0.5px;box-shadow:0 4px 10px rgba(0,0,0,0.1);">
+             style="display:inline-block;background-color:#FCD804;color:#000;padding:0.8rem 3rem;border-radius:8px;text-decoration:none;font-weight:600;letter-spacing:0.5px;box-shadow:0 4px 10px rgba(0,0,0,0.1);">
             Subscribe 499 USD/Month
           </a>
         </div>

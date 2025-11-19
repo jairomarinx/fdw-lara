@@ -22,8 +22,8 @@
                         </div>
                         <h4>
                             <a class=" text-light " href="{{ route('fit-forever') }}"><span class="fs-1">FIT <span class="yellow">4</span> EVER</span> <br> 
-                                <span class="fs-5 text-uppercase"> BUILD YOUR BEST PHYSIQUE AND KEEP IT LONG
-                            TERM 🟡 SHAPE A STRONG BODY YOU CAN FEEL IN DAILY LIFE 🟡 TRAIN WITH PURPOSE</span>
+                                <span class="fs-6 "> Build your best physique and keep it long
+term. Shape a strong body you can feel in daily life. Train with purpose</span>
                             </a>
                         </h4>                        
                         
@@ -70,7 +70,7 @@
 
         <div class="row ">
             <div class="col-12 text-center">
-                <a href="{{ url('general-checkout/fit-forever') }}" style="display:inline-block;background-color:#FFCB2A;color:#000;padding:1rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:800; font-size: 25px; letter-spacing:1px;">
+                <a href="{{ url('general-checkout/fit-forever') }}" style="display:inline-block;background-color:#FCD804;color:#000;padding:1rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:800; font-size: 25px; letter-spacing:1px;">
                     Sign Up 499 USD
                 </a>
             </div>

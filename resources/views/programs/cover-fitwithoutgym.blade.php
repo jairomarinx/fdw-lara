@@ -70,7 +70,7 @@ It is not just possible, it is simple, fun, and completely within your reach.</p
 
         <div class="row ">
             <div class="col-12 text-center">
-                <a href="{{ url('general-checkout/fit-without-gym') }}" style="display:inline-block;background-color:#FFCB2A;color:#000;padding:1rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:800; font-size: 25px; letter-spacing:1px;">
+                <a href="{{ url('general-checkout/fit-without-gym') }}" style="display:inline-block;background-color:#FCD804;color:#000;padding:1rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:800; font-size: 25px; letter-spacing:1px;">
                     Sign Up 199 USD
                 </a>
             </div>

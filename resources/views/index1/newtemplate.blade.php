@@ -255,7 +255,7 @@
               </div>
                       <div style="text-align:center;margin-top:1.5rem;">
           <a href="{{ url('general-checkout/life-reset-program') }}"
-             style="display:inline-block;background-color:#FFCB2A;color:#000;padding:0.6rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">
+             style="display:inline-block;background-color:#FCD804;color:#000;padding:0.6rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:600;letter-spacing:1px;">
             Sign Up 199 USD
           </a>
         </div>

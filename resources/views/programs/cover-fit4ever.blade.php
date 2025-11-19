@@ -43,7 +43,7 @@ term. Shape a strong body you can feel in daily life. Train with purpose</span>
                     <img src="{{ asset('strong-bodies.webp') }}" alt="body" class="img-fluid">
                     <h3 class="text-uppercase my-4 fs-1 text-center">Strong <br> Forever</h3>
 
-                    <a href="{{ route('fit-forever') }}" class="btn btn-warning d-block text-center mx-auto mt-4">Learn More<br> <strong>Fit4Ever</strong></a>
+                    <a href="{{ route('fit-forever') }}" class="btn btn-warning d-block text-center mx-auto mt-4 " style="background-color: #FCD804;">Learn More<br> <strong>Fit4Ever</strong></a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
@@ -51,7 +51,7 @@ term. Shape a strong body you can feel in daily life. Train with purpose</span>
                     <img src="{{ asset('frc3.webp') }}" class="img-fluid">
                     <h3 class="text-uppercase my-4 fs-1 text-center">Lasting <br> Strength</h3>
 
-                    <a href="{{ route('fit-forever') }}" class="btn btn-warning d-block text-center mx-auto mt-4">Learn More<br> <strong>Fit4Ever</strong></a>
+                    <a href="{{ route('fit-forever') }}" class="btn btn-warning d-block text-center mx-auto mt-4" style="background-color: #FCD804;">Learn More<br> <strong>Fit4Ever</strong></a>
 
                 </div>
             </div>
@@ -60,7 +60,7 @@ term. Shape a strong body you can feel in daily life. Train with purpose</span>
                     <img src="{{ asset('booty.webp') }}" class="img-fluid" alt="">
                     <h3 class="text-uppercase my-4 fs-1 text-center">Lifetime <br> Fitness</h3>
 
-                    <a href="{{ route('fit-forever') }}" class="btn btn-warning d-block text-center mx-auto mt-4">Learn More<br> <strong>Fit4Ever</strong></a>
+                    <a href="{{ route('fit-forever') }}" class="btn btn-warning d-block text-center mx-auto mt-4" style="background-color: #FCD804;">Learn More<br> <strong>Fit4Ever</strong></a>
 
                 </div>
             </div>

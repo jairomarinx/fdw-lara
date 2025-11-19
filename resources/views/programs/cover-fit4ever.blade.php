@@ -21,8 +21,9 @@
                            <img src="{{ asset('logo-fdw.png') }}" alt="" class="img-fluid" style="max-width: clamp(40px, 10vw, 100px);">
                         </div>
                         <h4>
-                            <a class=" text-light " href="{{ route('fit-forever') }}">FIT<span class="yellow">4</span>EVER | BUILD YOUR BEST PHYSIQUE AND KEEP IT LONG
-                            TERM |SHAPE A STRONG BODY YOU CAN FEEL IN DAILY LIFE | TRAIN WITH PURPOSE
+                            <a class=" text-light " href="{{ route('fit-forever') }}"><span class="fs-1">FIT <span class="yellow">4</span> EVER</span> <br> 
+                                <span class="fs-5 text-lowercase"> BUILD YOUR BEST PHYSIQUE AND KEEP IT LONG
+                            TERM 🟡 SHAPE A STRONG BODY YOU CAN FEEL IN DAILY LIFE 🟡 TRAIN WITH PURPOSE</span>
                             </a>
                         </h4>                        
                         

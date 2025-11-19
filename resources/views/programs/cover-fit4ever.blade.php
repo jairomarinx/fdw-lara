@@ -70,7 +70,7 @@
         <div class="row ">
             <div class="col-12 text-center">
                 <a href="{{ url('general-checkout/fit-forever') }}" style="display:inline-block;background-color:#FFCB2A;color:#000;padding:1rem 4.5rem;border-radius:6px;text-decoration:none;font-weight:800; font-size: 25px; letter-spacing:1px;">
-                    Subscribe 499 USD/Month
+                    Sign Up 499 USD
                 </a>
             </div>
         </div>

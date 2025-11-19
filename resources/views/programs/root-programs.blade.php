@@ -241,7 +241,7 @@
     <div>
       <div class="row p-3">
         <div class="col-12 text-center ">
-          <h1>Our best programs:</h1><br>
+          <h1 class="text-uppercase fs-1">Our <span class="yellow">best</span> programs:</h1><br>
         </div>
       </div>
     </div>

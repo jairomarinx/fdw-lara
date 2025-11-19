@@ -1,8 +1,8 @@
-<div style="background-color: #f5f5f5ff ;" class="p-4">
+<div style="background-color: #444852ff;" class="p-4">
 <div class="mb-5 text-center" id="id_schedule">
         <h5 class="text-primary text-uppercase fs-3" id="features"><strong>Program</strong></h5>
-        <h1 class="display-3 text-uppercase mb-0">FIT <span class="yellow">4</span> EVER</h1>
-        <h5 class="text-gray fs-2"> Strong Forever <span class="text-primary">• Lasting Strength •</span> Lifetime Fitness •  </h5>
+        <h1 class="display-3 text-uppercase mb-0 text-white">FIT <span class="yellow">4</span> EVER</h1>
+        <h5 class="text-gray fs-2 text-white"> Strong Forever <span class="text-primary">• Lasting Strength •</span> Lifetime Fitness •  </h5>
         
 
     </div>    

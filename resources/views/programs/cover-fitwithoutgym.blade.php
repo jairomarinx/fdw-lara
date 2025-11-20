@@ -14,7 +14,7 @@
                 <a href="{{ url('programs/fit-without-gym') }}">
                     <div class="blog-item">
                         <div class="position-relative overflow-hidden rounded-top">
-                            <img class="img-fluid" src="{{ asset('cover-fitwithoutgym.jpg') }}" alt="">
+                            <img class="img-fluid" src="{{ asset('1.jpg') }}" alt="">
                         </div>
                         <div class="bg-dark rounded-bottom p-4 d-flex align-items-center" style="position: relative;">
 

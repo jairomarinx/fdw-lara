@@ -11,7 +11,7 @@
                 <a href="{{ route('well-forreal') }}">
                     <div class="blog-item">
                         <div class="position-relative overflow-hidden rounded-top">
-                            <img class="img-fluid" src="{{ asset('cover-wellforreal.jpeg') }}" alt="">
+                            <img class="img-fluid" src="{{ asset('2.jpeg') }}" alt="">
                         </div>
 
                         <div class="bg-dark rounded-bottom p-4 d-flex align-items-center" style="position: relative;">

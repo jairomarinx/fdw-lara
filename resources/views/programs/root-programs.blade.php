@@ -139,7 +139,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-justify p-5">
                     <img src="{{ asset('strong-bodies.webp') }}" alt="body" class="img-fluid">
-                    <h3 class="text-uppercase my-4 fs-1 text-center">Fit reset programs</h3>
+                    <h3 class="text-uppercase my-4 fs-3 text-center">Fit reset programs</h3>
 
                     <span class="text-justify">Fit.Reset.Programs. are a complete transformation plan designed to help you rebuild your energy, strength, and balance from the inside out. Through a progressive structure of workouts, mindful practices, and sustainable nutrition, it guides you step by step toward lasting results. This program is not a quick fix but a full reset for your body and mind, helping you create real, long term change and a healthier lifestyle that lasts.</span></span></p>
 
@@ -158,7 +158,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-justify p-5">
                     <img src="{{ asset('programs/assets/images/mi3.webp') }}" class="img-fluid">
-                    <h3 class="text-uppercase my-4 fs-1 text-center">Mind reset programs</h3>
+                    <h3 class="text-uppercase my-4 fs-3 text-center">Mind reset programs</h3>
 
                     <span class="text-justify">Mind.Reset.Programs. are a complete mental wellness journey designed to clear stress, renew focus, and restore inner peace. It combines mindfulness training, guided reflection, and emotional awareness to help you realign your thoughts and habits. This program is a full reset for your mind, guiding you toward clarity, calm, and lasting mental strength.</span></span><br></p>
 
@@ -178,7 +178,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-justify p-5">
                     <img src="{{ asset('kind-hearts.webp') }}" class="img-fluid" alt="">
-                    <h3 class="text-uppercase my-4 fs-1 text-center">Life reset programs</h3>
+                    <h3 class="text-uppercase my-4 fs-3 text-center">Life reset programs</h3>
 
                     <span class="text-justify">Life Reset Programs are a complete transformation experience that unites physical fitness and mental wellness into one powerful journey. It combines the strength building and energy of Fit.Reset.Program. with the mindfulness and inner clarity of Mind.Reset.Program. Together, they create a path to total renewal, restoring your body, refreshing your mind, and realigning your life with purpose, balance, and vitality.<br></span></span> </p>
                     

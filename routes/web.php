@@ -43,6 +43,8 @@ Route::prefix('programs')->group(function () {
 
     Route::get('/mind-program', fn() => view('index1.programs'));
     Route::get('/fit-forever', [FitController::class,"fit_forever"])->name('fit-forever');
+
+    Route::get('/well-forreal',[FitController::class,"well_forereal"])->name('well-forreal');
 });
 
 // Events

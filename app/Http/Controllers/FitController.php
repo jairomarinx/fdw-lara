@@ -165,6 +165,11 @@ class FitController extends Controller
         return view('index1.services.fit-forever');    
     }
 
+    public function well_forereal()
+    {
+        return view('programs.wellforreal');
+    }
+
 
 
 }

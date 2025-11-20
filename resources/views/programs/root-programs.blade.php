@@ -248,6 +248,8 @@
 
     @include('programs.cover-fit4ever')
 
+    @include('programs.cover-wellforreal')
+
     @include('programs.cover-fitwithoutgym')
 
 

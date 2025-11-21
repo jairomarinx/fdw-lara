@@ -46,7 +46,7 @@
                 font-size:14px;
                 letter-spacing:0px;
             }
-       ">
+       " class="hide-on-mobile">
         Sign Up 499 USD
     </a>
 </div>

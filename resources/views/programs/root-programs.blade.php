@@ -250,6 +250,8 @@
 
     @include('programs.cover-wellforreal')
 
+    @include('programs.cover-loveforlife')
+
     @include('programs.cover-fitwithoutgym')
 
 

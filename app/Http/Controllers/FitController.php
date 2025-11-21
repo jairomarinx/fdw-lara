@@ -170,6 +170,11 @@ class FitController extends Controller
         return view('programs.wellforreal');
     }
 
+    public function love_forlife()
+    {
+        return view('programs.loveforlife');
+    }
+
 
 
 }

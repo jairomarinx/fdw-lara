@@ -104,7 +104,7 @@
     <div class="video-overlay header-text">
       <div class="caption">
           <h6>Wellness and Strength Together</h6>
-          <h2>Love <em>For</em> Life</h2>
+          <h2>Love <em>4</em> Life</h2>
           <div class="main-button scroll-to-section">
               <a href="#features">See what's coming</a>
           </div>

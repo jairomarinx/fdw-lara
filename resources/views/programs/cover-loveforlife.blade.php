@@ -15,7 +15,7 @@
                     <img class="img-fluid" src="{{ asset('cover-loveforlife.jpeg') }}" alt="">
                 </div>
 
-<div class="bg-dark rounded-bottom p-4 d-flex align-items-center" style="position: relative;">
+<div class="bg-dark rounded-bottom p-4 d-flex align-items-center hide-on-mobile" style="position: relative;">
 
     <div style="flex:0;">
         <img src="{{ asset('logo-fdw.png') }}"

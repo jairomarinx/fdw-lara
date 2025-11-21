@@ -40,7 +40,7 @@
         </div>
 
         <div class="row mt-3">
-            <div class="col-10 mx-auto">
+            <div class="col-12 mx-auto">
 
                 <div class="container-fluid programe position-relative px-5 mt-5" style="margin-bottom: 30px;">
                     <div class="row g-5 ">

@@ -1,7 +1,7 @@
 <div style="background-color: #444852ff;" class="p-4">
 <div class="mb-5 text-center" id="id_schedule">
         <h5 class="text-primary text-uppercase fs-3" id="features"><strong>Program</strong></h5>
-        <h1 class="display-3 text-uppercase mb-0 text-white">LOVE <span class="yellow">4</span> REAL</h1>
+        <h1 class="display-3 text-uppercase mb-0 text-white">LOVE <span class="yellow">4</span> LIFE</h1>
         <h5 class="text-gray fs-2 text-white"> Real Wellness <span class="text-primary">• Real Strength •</span> Real Transformation •  </h5>
 </div>    
 
@@ -12,7 +12,7 @@
             <a href="{{ route('fit-forever') }}">
             <div class="blog-item">
                 <div class="position-relative overflow-hidden rounded-top">
-                    <img class="img-fluid" src="{{ asset('cover1.jpeg') }}" alt="">
+                    <img class="img-fluid" src="{{ asset('cover-loveforlife.jpeg') }}" alt="">
                 </div>
 
 <div class="bg-dark rounded-bottom p-4 d-flex align-items-center" style="position: relative;">
@@ -48,7 +48,7 @@
                 <img src="{{ asset('strong-bodies.webp') }}" alt="body" class="img-fluid">
                 <h3 class="text-uppercase my-4 fs-5 text-center">Body Evolution</h3>
 
-                <a href="{{ route('fit-forever') }}" class="btn btn-warning d-block text-center mx-auto mt-4" style="background-color: #FCD804;">Learn More<br> <strong>Love4Real</strong></a>
+                <a href="{{ route('fit-forever') }}" class="btn btn-warning d-block text-center mx-auto mt-4" style="background-color: #FCD804;">Learn More<br> <strong>Love4Life</strong></a>
             </div>
         </div>
         <div class="col-lg-4 col-md-6">
@@ -56,7 +56,7 @@
                 <img src="{{ asset('frc3.webp') }}" class="img-fluid">
                 <h3 class="text-uppercase my-4 fs-5 text-center">Mind Balance</h3>
 
-                <a href="{{ route('fit-forever') }}" class="btn btn-warning d-block text-center mx-auto mt-4" style="background-color: #FCD804;">Learn More<br> <strong>Love4Real</strong></a>
+                <a href="{{ route('fit-forever') }}" class="btn btn-warning d-block text-center mx-auto mt-4" style="background-color: #FCD804;">Learn More<br> <strong>Love4Life</strong></a>
 
             </div>
         </div>
@@ -65,7 +65,7 @@
                 <img src="{{ asset('booty.webp') }}" class="img-fluid" alt="">
                 <h3 class="text-uppercase my-4 fs-5 text-center">Total Wellness</h3>
 
-                <a href="{{ route('fit-forever') }}" class="btn btn-warning d-block text-center mx-auto mt-4" style="background-color: #FCD804;">Learn More<br> <strong>Love4Real</strong></a>
+                <a href="{{ route('fit-forever') }}" class="btn btn-warning d-block text-center mx-auto mt-4" style="background-color: #FCD804;">Learn More<br> <strong>Love4Life</strong></a>
 
             </div>
         </div>

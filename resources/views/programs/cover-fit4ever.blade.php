@@ -16,7 +16,7 @@
                     <div class="position-relative overflow-hidden rounded-top">
                         <img class="img-fluid" src="{{ asset('cover1.jpeg') }}" alt="">
                     </div>
-<div class="bg-dark rounded-bottom p-4 d-flex align-items-center" style="position: relative;">
+<div class="bg-dark rounded-bottom p-4 d-flex align-items-center hide-on-mobile" style="position: relative;">
 
     <!-- Logo a la izquierda -->
     <div style="flex:0;">

@@ -29,10 +29,28 @@
     <!-- Botón centrado absoluto -->
 <div style="position:absolute; left:50%; transform:translateX(-50%);">
     <a href="{{ url('general-checkout/fit-forever') }}"
-       style="background-color:#FCD804;color:#000;padding:20px 50px;border-radius:6px;text-decoration:none;font-weight:800;font-size:25px;letter-spacing:1px; display:inline-block;">
+       style="
+            background-color:#FCD804;
+            color:#000;
+            padding:20px 50px;
+            border-radius:6px;
+            text-decoration:none;
+            font-weight:800;
+            font-size:25px;
+            letter-spacing:1px;
+            display:inline-block;
+
+            /* === Responsive === */
+            @media(max-width: 480px) {
+                padding:10px 20px;
+                font-size:14px;
+                letter-spacing:0px;
+            }
+       ">
         Sign Up 499 USD
     </a>
 </div>
+
 
 
 </div>

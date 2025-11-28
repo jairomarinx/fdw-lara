@@ -16,6 +16,7 @@
 
     </div>
 
+    @include('blackfriday')
 
     <!-- Programe Start -->
     <div class="container-fluid programe position-relative px-5 mt-5" style="margin-bottom: 135px;">
@@ -125,7 +126,7 @@ You’ll walk away ready to put your wellness first, without apology.</span><br>
   <a href="{{ route('general-checkout',['product' => 'fit-reset-consultation' ]) }}"
      class="btn fw-bold"
      style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.2rem 3rem; border-radius: 2rem;">
-    Book Now for $129
+    Book Now for <span class="text-decoration-line-through">$129</span> Black Friday $99 
   </a>
 </div>
 </div>

@@ -6,6 +6,9 @@
 
 @include('index1.carousel')
 @include('index1.gray-social')
+
+@include('blackfriday')
+
 @include('index1.about')
 @include('index1.pillars')
 @include('index1.services-programs-products')

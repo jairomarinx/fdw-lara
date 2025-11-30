@@ -14,6 +14,9 @@
 @include('index1.services-programs-products')
 @include('index1.events')
 @include('index1.schedule')
+
+@include('calendar')
+
 @include('index1.estadisticas')
 @include('index1.testimonials')
 

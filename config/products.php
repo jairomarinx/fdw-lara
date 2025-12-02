@@ -1,6 +1,6 @@
 `<?php
 return [
-    'fit-reset-consultation' => [ 'name' => 'Fit.Reset.Consultation', 'price' => 99, 'desc' => 'BLACK FRIDAY!🎉🔥 Limited time Black Friday promotional price. '],
+    'fit-reset-consultation' => [ 'name' => 'Fit.Reset.Consultation', 'price' => 129, 'desc' => ' '],
     'life-reset-consultation' => [ 'name' => 'Life.Reset.Consultation', 'price' => 129, 'desc' => ''],
     'nutrition-reset-consultation' => [ 'name' => 'Nutrition.Reset.Consultation', 'price' => 129, 'desc' => ''],
     'saturday-booty-camp' => [ 'name' => 'Saturday.Booty.Camp', 'price' => 29, 'desc' => ''],

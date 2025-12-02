@@ -16,7 +16,6 @@
 
     </div>
 
-    @include('blackfriday')
 
     <!-- Programe Start -->
     <div class="container-fluid programe position-relative px-5 mt-5" style="margin-bottom: 135px;">

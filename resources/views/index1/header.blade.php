@@ -39,6 +39,18 @@
 
                             <a href="{{ route('contact-us') }}" class="nav-item nav-link active">Contact</a>
 
+                            <div class="nav-item dropdown">
+                                <a href="http://blog.fitdonewell.com" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Clients</a>
+                                <div class="dropdown-menu rounded-0 m-0">
+                                    @auth
+                                        <a href="{{ url('/dashboard') }}" class="dropdown-item">Dashboard</a>
+                                    @else
+                                        <a href="{{ route('login') }}" class="dropdown-item"> Login</a>
+                                        <a href="{{ route('register') }}" class="dropdown-item">Register</a>
+
+                                    @endauth                                    
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </nav>

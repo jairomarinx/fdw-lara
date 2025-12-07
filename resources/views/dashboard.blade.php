@@ -178,36 +178,42 @@
 
             <div class="sidebar-label">My Life Transformation</div>
             <ul class="list-unstyled components">
-                <li><a href="#"><i class="fas fa-dumbbell"></i> Hypertrophy 101</a></li>
-                <li><a href="#"><i class="fas fa-carrot"></i> Keto Plan</a></li>
-                <li><a href="#"><i class="fas fa-running"></i> Marathon Prep</a></li>
-                
-                <div class="collapse" id="libraryCollapse">
-                    <li><a href="#"><i class="fas fa-spa"></i> Yoga Basics</a></li>
-                    <li><a href="#"><i class="fas fa-heartbeat"></i> Cardio Blast</a></li>
-                </div>
-
-                <li>
-                    <a href="#libraryCollapse" data-bs-toggle="collapse" class="show-more-btn" role="button" onclick="toggleText(this)">
-                        <i class="fas fa-chevron-down"></i> <span class="btn-text">Show more...</span>
-                    </a>
-                </li>
+                <li><a href="#"><i class="fas fa-dumbbell"></i>Fit Without Gym </a></li>
             </ul>
 
-            <div class="sidebar-label">Marketplace</div>
+            <div class="sidebar-label">Unlock Your Next Level</div>
             <ul class="list-unstyled components">
-                <li><a href="#"><i class="fas fa-medal"></i> Elite Coaching</a></li>
-                <li><a href="#"><i class="fas fa-box-open"></i> Supplement Box</a></li>
-                <li><a href="#"><i class="fas fa-tshirt"></i> FDW Gear</a></li>
-                
-                <div class="collapse" id="marketCollapse">
-                    <li><a href="#"><i class="fas fa-video"></i> Video Analysis</a></li>
-                    <li><a href="#"><i class="fas fa-book"></i> E-Books</a></li>
+                @php
+                    $products = config('products');
+                    $count = 0;
+                @endphp
+
+                @foreach ($products as $product)
+                    @if ($count < 3)
+                        <li><a href="#">{{ $product['name'] }}</a></li>    
+                    @endif 
+                    @php 
+                        $count++;
+                    @endphp    
+                @endforeach
+
+                {{-- Collapse para los demás --}}
+                <div class="collapse" id="productsCollapse">
+                    @php $count = 0; @endphp
+                    @foreach ($products as $key => $product)
+                        @if ($count >= 3)
+                            <li><a href="{{ url('/general-checkout/'.$key) }}">{{ $product['name'] }}</a></li>
+                        @endif
+                        @php $count++; @endphp
+                    @endforeach
                 </div>
 
+                {{-- Botón Show more / Show less --}}
                 <li>
-                    <a href="#marketCollapse" data-bs-toggle="collapse" class="show-more-btn" role="button" onclick="toggleText(this)">
-                        <i class="fas fa-chevron-down"></i> <span class="btn-text">Show more...</span>
+                    <a href="#productsCollapse" data-bs-toggle="collapse" class="show-more-btn" role="button"
+                    onclick="toggleProductsText(this)">
+                        <i class="fas fa-chevron-down"></i>
+                        <span class="btn-text">Show more...</span>
                     </a>
                 </li>
             </ul>

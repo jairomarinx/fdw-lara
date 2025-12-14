@@ -15,6 +15,11 @@ if (!isset($product))
     $product = "Donation";
 }
 
+if (!isset($desc))
+{
+    $desc = '';
+}
+
 
 ?>
 <!DOCTYPE html>
@@ -55,7 +60,7 @@ if (!isset($product))
             <input type="hidden" name="amount" value="{{ $amount / 100 }}">
             <input type="hidden" name="product" value="{{ $product }}" readonly class="w-full border bg-gray-100 rounded-lg border-gray-300 text-gray-500 text-sm p-2.5">            
             <input type="hidden" name="product_name" value="{{ $productName }}" readonly class="w-full border bg-gray-100 rounded-lg border-gray-300 text-gray-500 text-sm p-2.5">            
-
+            <input type="hidden" name="desc" value="{{ $desc }}">
 
             <input type="text" name="name_complete" class="hp-field" autocomplete="off">
             <!-- campo nombre (full width) -->

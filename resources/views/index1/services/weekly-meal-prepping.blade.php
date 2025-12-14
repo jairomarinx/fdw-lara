@@ -79,4 +79,6 @@ This is how smart eating becomes second nature.
 
     </div>
 
+    @include('meal-selector')
+
 @endsection

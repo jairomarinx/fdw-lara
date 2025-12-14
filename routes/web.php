@@ -116,3 +116,11 @@ Route::get('/new', function(){
 
 Route::get('/admin/xdebug', function(){ phpinfo(); });
 
+Route::get('/meals', function () {
+    return view('meal-selector');
+})->name('meal-selector');
+
+Route::post('/meals/checkout', [CheckoutController::class, 'mealCheckout'])
+    ->name('meal-checkout');
+
+

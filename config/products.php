@@ -38,40 +38,40 @@ return [
 
     'grocery-reset-tour' => ['name' => 'Grocery-Reset-Tour', 'price' => 199, 'desc' => '', 'meal' => 1],
     'nutrition-reset-consultation' => ['name' => 'Nutrition.Reset.Consultation', 'price' => 129, 'desc' => '', 'meal' => 1],
-    'weekly-meal-prepping5' => ['name' => 'weekly.meal.prepping5', 'price' => 70, 'desc' => '', 'meal' => 1],
-    'weekly-meal-prepping10' => ['name' => 'weekly.meal.prepping10', 'price' => 120, 'desc' => '', 'meal' => 1],
+    'weekly-meal-prepping5' => ['name' => 'Weekly.meal.prepping (5 count)', 'price' => 70, 'desc' => '', 'meal' => 1],
+    'weekly-meal-prepping10' => ['name' => 'Weekly.meal.prepping (10 count)', 'price' => 120, 'desc' => '', 'meal' => 1],
 
     'weekly-meal-prepping-monthly' => 
         [
-            'name' => 'Weekly Meal Prepping Monthly Subscription',
+            'name' => 'Monthly.Meal.Prepping. 4 week subscription (10 count/week)',
             'price' => 435,
             'desc' => '10 meals per week. Monthly subscription.',
             'meal' => 1
         ],
 
         'meal-protein-plus' => [
-            'name' => 'Protein Plus Add On',
+            'name' => 'Protein Plus Add On (+3oz)',
             'price' => 3,
             'desc' => 'Extra 3 oz of protein per meal',
             'meal' => 1
         ],
 
         'meal-protein-waffles-5' => [
-            'name' => '5 Protein Waffles',
+            'name' => 'Protein Waffles (5 count)',
             'price' => 10,
             'desc' => '',
             'meal' => 1
         ],
 
         'meal-protein-waffles-10' => [
-            'name' => '10 Protein Waffles',
+            'name' => 'Protein Waffles (10 count)',
             'price' => 20,
             'desc' => '',
             'meal' => 1
         ],
 
         'meal-protein-balls-4' => [
-            'name' => '4 Pack Protein Balls',
+            'name' => 'Protein Balls (4 count)',
             'price' => 5,
             'desc' => '',
             'meal' => 1

@@ -78,4 +78,7 @@ Confidence, peace, and clarity—one grocery trip at a time.
       </a>
     </div>
 
+    @include('meal-selector')
+
+
 @endsection

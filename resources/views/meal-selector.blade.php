@@ -72,7 +72,7 @@
                     <textarea name="comments"
                               class="form-control"
                               rows="3"
-                              placeholder="Meal choices, waffle flavors, allergies, etc"></textarea>
+                              placeholder="Meal Choice, Quantity, and/or Protein Plus Choices, Waffle Flavor (ie. Carrot Cake:CC/Original Honey-Nut:OHN)"></textarea>
                 </div>
 
                 <!-- Total -->

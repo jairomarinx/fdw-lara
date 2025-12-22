@@ -79,4 +79,7 @@ You leave with clarity, peace, and a plan that respects your body.
       </a>
     </div>
 
+    @include('meal-selector')
+
+
 @endsection

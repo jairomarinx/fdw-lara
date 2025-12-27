@@ -36,7 +36,7 @@
 
                             </div>
                             <a href="http://aplshop.com/j/824054" class="nav-item nav-link">Supplements</a>
-                            <a href="{{ route('meal') }}" class="nav-item nav-link">Meals</a>
+                            <a href="{{ route('weekly-meal-prepping') }}" class="nav-item nav-link">Meals</a>
 
 
                             <a href="{{ route('contact-us') }}" class="nav-item nav-link active">Contact</a>

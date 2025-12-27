@@ -40,7 +40,7 @@ return [
     'love-for-life' => ['name' => 'Love for Life', 'price' => 899, 'desc' => 'Love.For.Real. unites the best of fitness and wellness into one transformative program. It combines the strength and vitality of Fit.Forever. with the inner balance and calm of Well.For.Real., creating a complete path to feeling strong, centered, and alive. Through dynamic workouts, mindful practices, and real self connection, it helps you build a body you love and a life that feels true to you.', 'meal' => 0],
 
     'grocery-reset-tour' => [
-        'name' => 'Grocery.Reset.Tour.',
+        'name' => 'Grocery Reset Tour.',
         'price' => 199,
         'desc' => '',
         'meal' => 1,
@@ -56,7 +56,7 @@ return [
     ],
 
     'weekly-meal-prepping5' => [
-        'name' => 'Weekly.meal.prepping (5 count)',
+        'name' => 'Weekly Meal Prepping (5 count)',
         'price' => 70,
         'desc' => '',
         'meal' => 1,
@@ -64,7 +64,7 @@ return [
     ],
 
     'weekly-meal-prepping10' => [
-        'name' => 'Weekly.meal.prepping (10 count)',
+        'name' => 'Weekly Meal Prepping (10 count)',
         'price' => 120,
         'desc' => '',
         'meal' => 1,
@@ -72,7 +72,7 @@ return [
     ],
 
     'weekly-meal-prepping-monthly' => [
-        'name' => 'Monthly.Meal.Prepping. 4 week subscription (10 count/week)',
+        'name' => 'Monthly Meal Prepping. 4 week subscription (10 count/week)',
         'price' => 435,
         'desc' => '10 meals per week. Monthly subscription.',
         'meal' => 1,

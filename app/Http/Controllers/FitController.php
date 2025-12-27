@@ -175,6 +175,11 @@ class FitController extends Controller
         return view('programs.loveforlife');
     }
 
+    public function meal()
+    {
+        return view("meal");
+    }
+
 
 
 }

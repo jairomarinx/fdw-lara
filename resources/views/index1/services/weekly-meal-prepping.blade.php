@@ -70,10 +70,10 @@ This is how smart eating becomes second nature.
       <p class="fs-4 mb-5 text-dark">        
         <span class="fw-semibold">Prepped fresh. Packed with purpose. Ready when you are.</span>
       </p>
-      <a href="{{ url('/general-checkout/weekly-meal-prepping5') }}" class="btn fw-bold" style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.4rem 4rem; border-radius: 2rem;">
+      <a href="{{ url('/general-checkout/weekly-meal-prepping5') }}" class="btn fw-bold d-none" style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.4rem 4rem; border-radius: 2rem;">
         5 Meals 70 Usd
       </a>
-      <a href="{{ url('/general-checkout/weekly-meal-prepping10') }}" class="btn fw-bold" style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.4rem 4rem; border-radius: 2rem;">
+      <a href="{{ url('/general-checkout/weekly-meal-prepping10') }}" class="btn fw-bold d-none" style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.4rem 4rem; border-radius: 2rem;">
         10 Meals 120 Usd
       </a>
 

@@ -73,7 +73,7 @@ Confidence, peace, and clarity—one grocery trip at a time.
         One-on-one supermarket tour to help you shop smarter, eat better, and feel amazing<br>
         <span class="fw-semibold">Only 10 sessions offered each week</span>
       </p>
-      <a href="{{ url('/general-checkout/grocery-reset-tour') }}" class="btn fw-bold" style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.4rem 4rem; border-radius: 2rem;">
+      <a href="{{ url('/general-checkout/grocery-reset-tour') }}" class="btn fw-bold d-none" style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.4rem 4rem; border-radius: 2rem;">
         Book Now for $199
       </a>
     </div>

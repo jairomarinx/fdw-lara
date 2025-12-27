@@ -113,20 +113,38 @@ Every movement counts, and we make sure it's done right.</span><br><br></p>
     <a href="{{ url('/general-checkout/personal-fitness-training1') }}"
        class="btn fw-bold"
        style="background-color: #28a745; color: white; font-size: 1.3rem; padding: 1.2rem 3rem; border-radius: 2rem;">
-      1 Session — $129
+      1 Session<br>$129 usd
     </a>
 
     <a href="{{ url('/general-checkout/personal-fitness-training4') }}"
        class="btn fw-bold"
        style="background-color: #198754; color: white; font-size: 1.3rem; padding: 1.2rem 3rem; border-radius: 2rem;">
-      4 Sessions — $396
+      4 Sessions<br>$516 usd
     </a>
 
     <a href="{{ url('/general-checkout/personal-fitness-training8') }}"
        class="btn fw-bold"
        style="background-color: #157347; color: white; font-size: 1.3rem; padding: 1.2rem 3rem; border-radius: 2rem;">
-      8 Sessions — $792
+      8 Sessions<br>$792 usd
     </a>
+
+    <a href="{{ url('/general-checkout/personal-fitness-training12') }}"
+       class="btn fw-bold"
+       style="background-color: #157347; color: white; font-size: 1.3rem; padding: 1.2rem 3rem; border-radius: 2rem;">
+      12 Sessions<br>$900 usd
+    </a>
+
+    <a href="{{ url('/general-checkout/personal-fitness-training1230') }}"
+       class="btn fw-bold"
+       style="background-color: #157347; color: white; font-size: 1.3rem; padding: 1.2rem 3rem; border-radius: 2rem;">
+      12 Sessions 30 mins<br>$585 usd
+    </a>
+
+
+
+
+
+
   </div>
 </div>
 

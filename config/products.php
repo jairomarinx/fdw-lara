@@ -3,16 +3,19 @@
 return [
     'fit-reset-consultation' => ['name' => 'Fit.Reset.Consultation', 'price' => 129, 'desc' => ' ', 'meal' => 0],
     'life-reset-consultation' => ['name' => 'Life.Reset.Consultation', 'price' => 129, 'desc' => '', 'meal' => 0],
-    
+
     'saturday-booty-camp' => ['name' => 'Saturday.Booty.Camp', 'price' => 29, 'desc' => '', 'meal' => 0],
     'sunrise-life-reset' => ['name' => 'Sunrise.Life.Reset', 'price' => 129, 'desc' => '', 'meal' => 0],
     'kayak-with-us' => ['name' => 'Kayak.With.Us', 'price' => 129, 'desc' => '', 'meal' => 0],
     'fit-without-gym' => ['name' => 'Fit.Without.Gym', 'price' => 199, 'desc' => '', 'meal' => 0],
-    'personal-fitness-training1' => ['name' => 'Personal-fitness-training1', 'price' => 129, 'desc' => '', 'meal' => 0],
-    'personal-fitness-training4' => ['name' => 'Personal-fitness-training4', 'price' => 396, 'desc' => '', 'meal' => 0],
-    'personal-fitness-training8' => ['name' => 'Personal-fitness-training8', 'price' => 792, 'desc' => '', 'meal' => 0],
+    'personal-fitness-training1' => ['name' => 'Personal fitness training 1 Session', 'price' => 129, 'desc' => '', 'meal' => 0],
+    'personal-fitness-training4' => ['name' => 'Personal fitness training 4 Sessions', 'price' => 516, 'desc' => '', 'meal' => 0],
+    'personal-fitness-training8' => ['name' => 'Personal fitness training 8 Sessions', 'price' => 792, 'desc' => '', 'meal' => 0],
+    'personal-fitness-training12' => ['name' => 'Personal fitness training 12 Sessions', 'price' => 900, 'desc' => '', 'meal' => 0],
+    'personal-fitness-training1230' => ['name' => 'Personal fitness training 12 Sessions 30 mins', 'price' => 585, 'desc' => '', 'meal' => 0],
+
     'group-fitness-training' => ['name' => 'Group-fitness-training', 'price' => 507, 'desc' => '', 'meal' => 0],
-    
+
 
     'life-reset-retreat1' => ['name' => 'Life Reset Retreat1', 'price' => 490, 'desc' => '', 'meal' => 0],
     'life-reset-retreat2' => ['name' => 'life-reset-retreat2', 'price' => 1200, 'desc' => '', 'meal' => 0],
@@ -36,46 +39,78 @@ return [
     'well-for-real' => ['name' => 'Well For Real', 'price' => 499, 'desc' => 'Well.For.Real. is a pure wellness experience focused on restoring inner balance and mental clarity. It guides you through mindful routines, stress release practices, and conscious breathing to strengthen emotional well being. Through calm, presence, and self awareness, it helps you create a peaceful state of mind and a healthier inner life that feels real and sustainable.', 'meal' => 0],
     'love-for-life' => ['name' => 'Love for Life', 'price' => 899, 'desc' => 'Love.For.Real. unites the best of fitness and wellness into one transformative program. It combines the strength and vitality of Fit.Forever. with the inner balance and calm of Well.For.Real., creating a complete path to feeling strong, centered, and alive. Through dynamic workouts, mindful practices, and real self connection, it helps you build a body you love and a life that feels true to you.', 'meal' => 0],
 
-    'grocery-reset-tour' => ['name' => 'Grocery-Reset-Tour', 'price' => 199, 'desc' => '', 'meal' => 1],
-    'nutrition-reset-consultation' => ['name' => 'Nutrition.Reset.Consultation', 'price' => 129, 'desc' => '', 'meal' => 1],
-    'weekly-meal-prepping5' => ['name' => 'Weekly.meal.prepping (5 count)', 'price' => 70, 'desc' => '', 'meal' => 1],
-    'weekly-meal-prepping10' => ['name' => 'Weekly.meal.prepping (10 count)', 'price' => 120, 'desc' => '', 'meal' => 1],
+    'grocery-reset-tour' => [
+        'name' => 'Grocery.Reset.Tour.',
+        'price' => 199,
+        'desc' => '',
+        'meal' => 1,
+        'route' => 'grocery-reset-tour'
+    ],
 
-    'weekly-meal-prepping-monthly' => 
-        [
-            'name' => 'Monthly.Meal.Prepping. 4 week subscription (10 count/week)',
-            'price' => 435,
-            'desc' => '10 meals per week. Monthly subscription.',
-            'meal' => 1
-        ],
+    'nutrition-reset-consultation' => [
+        'name' => 'Nutrition.Reset.Consultation',
+        'price' => 129,
+        'desc' => '',
+        'meal' => 1,
+        'route' => 'nutrition-reset-consultation'
+    ],
 
-        'meal-protein-plus' => [
-            'name' => 'Protein Plus Add On (+3oz)',
-            'price' => 3,
-            'desc' => 'Extra 3 oz of protein per meal',
-            'meal' => 1
-        ],
+    'weekly-meal-prepping5' => [
+        'name' => 'Weekly.meal.prepping (5 count)',
+        'price' => 70,
+        'desc' => '',
+        'meal' => 1,
+        'route' => 'weekly-meal-prepping'
+    ],
 
-        'meal-protein-waffles-5' => [
-            'name' => 'Protein Waffles (5 count)',
-            'price' => 10,
-            'desc' => '',
-            'meal' => 1
-        ],
+    'weekly-meal-prepping10' => [
+        'name' => 'Weekly.meal.prepping (10 count)',
+        'price' => 120,
+        'desc' => '',
+        'meal' => 1,
+        'route' => 'weekly-meal-prepping'
+    ],
 
-        'meal-protein-waffles-10' => [
-            'name' => 'Protein Waffles (10 count)',
-            'price' => 20,
-            'desc' => '',
-            'meal' => 1
-        ],
+    'weekly-meal-prepping-monthly' => [
+        'name' => 'Monthly.Meal.Prepping. 4 week subscription (10 count/week)',
+        'price' => 435,
+        'desc' => '10 meals per week. Monthly subscription.',
+        'meal' => 1,
+        'route' => 'weekly-meal-prepping'
+    ],
 
-        'meal-protein-balls-4' => [
-            'name' => 'Protein Balls (4 count)',
-            'price' => 5,
-            'desc' => '',
-            'meal' => 1
-        ],
+    'meal-protein-plus' => [
+        'name' => 'Protein Plus Add On (+3oz)',
+        'price' => 3,
+        'desc' => 'Extra 3 oz of protein per meal',
+        'meal' => 1,
+        'route' => null
+    ],
+
+    'meal-protein-waffles-5' => [
+        'name' => 'Protein Waffles (5 count)',
+        'price' => 10,
+        'desc' => '',
+        'meal' => 1,
+        'route' => null
+    ],
+
+    'meal-protein-waffles-10' => [
+        'name' => 'Protein Waffles (10 count)',
+        'price' => 20,
+        'desc' => '',
+        'meal' => 1,
+        'route' => null
+    ],
+
+    'meal-protein-balls-4' => [
+        'name' => 'Protein Balls (4 count)',
+        'price' => 5,
+        'desc' => '',
+        'meal' => 1,
+        'route' => null
+    ],
+
 
 
 ];

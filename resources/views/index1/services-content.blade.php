@@ -33,8 +33,12 @@
                 <div class="text-center mt-3">
                     <a href="{{ route('personal-fitness-training') }}" class="btn btn-outline-dark mb-2">Learn More</a>
                     <a href="{{ route('general-checkout', ['product' => 'personal-fitness-training1']) }}" class="btn btn-warning d-block mt-2">1 Session $129.00</a>
-                    <a href="{{ route('general-checkout', ['product' => 'personal-fitness-training4']) }}" class="btn btn-warning d-block mt-2">4 Sessions $396.00</a>
+                    <a href="{{ route('general-checkout', ['product' => 'personal-fitness-training4']) }}" class="btn btn-warning d-block mt-2">4 Sessions $516.00</a>
                     <a href="{{ route('general-checkout', ['product' => 'personal-fitness-training8']) }}" class="btn btn-warning d-block mt-2">8 Sessions $792.00</a>
+                    <a href="{{ route('general-checkout', ['product' => 'personal-fitness-training12']) }}" class="btn btn-warning d-block mt-2">12 Sessions $900.00</a>
+                    <a href="{{ route('general-checkout', ['product' => 'personal-fitness-training1230']) }}" class="btn btn-warning d-block mt-2">12 Sessions 30mins $792.00</a>
+
+
                 </div>
             </div>
         </div>

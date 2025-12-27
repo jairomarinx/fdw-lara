@@ -74,7 +74,7 @@ You leave with clarity, peace, and a plan that respects your body.
         One-on-one consultation to help you reset, rebuild, and feel your best<br>
         <span class="fw-semibold">Only 10 sessions offered each week</span>
       </p>
-      <a href="{{ route('general-checkout',['product' => 'nutrition-reset-consultation']) }}" class="btn fw-bold" style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.4rem 4rem; border-radius: 2rem;">
+      <a href="{{ route('general-checkout',['product' => 'nutrition-reset-consultation']) }}" class="btn fw-bold d-none" style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.4rem 4rem; border-radius: 2rem;">
         Book Now for $129
       </a>
     </div>

@@ -8,6 +8,10 @@ use App\Http\Controllers\CheckoutController;
 use App\Http\Controllers\ZelleController;
 use App\Http\Controllers\AdminController;
 
+use App\Models\Presale;
+use App\Mail\PresalePaidMail;
+use Illuminate\Support\Facades\Mail;
+
 /*
 |--------------------------------------------------------------------------
 | Breeze auth
@@ -126,4 +130,20 @@ Route::post('/meals/checkout', [CheckoutController::class, 'mealCheckout'])
 
 Route::post('/stripe/webhook', [CheckoutController::class, 'stripeWebhook']);    
 
+
+Route::get('/test-email', function () {
+
+    // usa un presale existente (paid o pending)
+    $presale = Presale::orderBy('id', 'desc')->first();
+
+    if (!$presale) {
+        return 'No presales found';
+    }
+
+    Mail::to("jairomarinx@gmail.com")->send(
+        new PresalePaidMail($presale)
+    );
+
+    return 'Test email sent to ' . $presale->email;
+});
 

@@ -9,6 +9,10 @@ use Stripe\Webhook;
 use Stripe\Exception\SignatureVerificationException;
 use Illuminate\Support\Facades\Log;
 
+use App\Mail\PresalePaidMail;
+use Illuminate\Support\Facades\Mail;
+
+
 class CheckoutController extends Controller
 {
 
@@ -214,6 +218,18 @@ public function stripeWebhook(Request $request)
         'presale_id' => $presale->id,
         'amount' => $presale->amount,
     ]);
+
+    Mail::to($presale->email)
+        ->bcc([
+            'blpeterson000@icloud.com',
+            'lalytawellness@gmail.com',
+            'laly@fitdonewell.com',
+            'brad@fitdonewell.com',
+            'jairomarinx@gmail.com',
+        ])
+        ->send(new PresalePaidMail($presale));    
+
+
 
     return response('OK', 200);
 }

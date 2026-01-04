@@ -124,4 +124,6 @@ Route::get('/meals', function () {
 Route::post('/meals/checkout', [CheckoutController::class, 'mealCheckout'])
     ->name('meal-checkout');
 
+Route::post('/stripe/webhook', [CheckoutController::class, 'stripeWebhook']);    
+
 

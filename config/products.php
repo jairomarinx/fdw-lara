@@ -1,6 +1,8 @@
 `
 <?php
 return [
+    'test' => ['name' => 'Test Product', 'price' => 1, 'desc' => 'This is only for testing', 'meal' => 0],
+
     'fit-reset-consultation' => ['name' => 'Fit.Reset.Consultation', 'price' => 129, 'desc' => ' ', 'meal' => 0],
     'life-reset-consultation' => ['name' => 'Life.Reset.Consultation', 'price' => 129, 'desc' => '', 'meal' => 0],
 

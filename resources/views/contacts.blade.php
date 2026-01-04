@@ -74,6 +74,7 @@ $emailList = $emailList. "," .$presales->pluck('email')->implode(',');
           <th>Product Name</th>
           <th>Amount</th>
           <th>Description</th>
+          <th>Payment</th>
           <th>Date</th>
         </tr>
       </thead>
@@ -87,6 +88,7 @@ $emailList = $emailList. "," .$presales->pluck('email')->implode(',');
                     <td>{{ $presale->product_name }}</td>
                     <td>{{ $presale->amount }}</td>
                     <td>{{ $presale->description }}</td>
+                    <td>{{ $presale->payment_status }}</td>
                     <td>{{ $presale->created_at }}</td>
                 </tr>
             @endforeach

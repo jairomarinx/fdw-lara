@@ -115,6 +115,9 @@ Route::get('/our-programs', fn() => view('programs.root-programs')); //'programs
 
 Route::get('/general-checkout/{product}',[CheckoutController::class,'general_checkout'])->name('general-checkout');
 
+Route::get('/checkout/meal-prep-monthly', [CheckoutController::class, 'mealPrepMonthly']); //subscription
+
+
 Route::get('/new', function(){
     return view('index1.newtemplate');
 });
@@ -146,4 +149,6 @@ Route::get('/test-email', function () {
 
     return 'Test email sent to ' . $presale->email;
 });
+
+
 

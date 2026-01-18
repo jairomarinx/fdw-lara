@@ -235,5 +235,30 @@ public function stripeWebhook(Request $request)
 }
 
 
+public function mealPrepMonthly()
+{
+    $session = \Stripe\Checkout\Session::create([
+        'mode' => 'subscription',
+        'line_items' => [
+            [
+                'price' => 'price_1Sqyk4K6HXM7yt99HLensuX7',
+                'quantity' => 1,
+            ],
+        ],
+        'success_url' => url('/checkout/success'),
+        'cancel_url' => url('/checkout/cancel'),
+        'metadata' => [
+            'product' => 'Meal Prep Monthly',
+        ],
+    ]);
+
+    return redirect($session->url);
+}
+
+
+
+
+
+
 
 }

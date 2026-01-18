@@ -237,13 +237,26 @@ public function stripeWebhook(Request $request)
 
 public function mealPrepMonthly()
 {
+    // Usamos env() directo para evitar problemas de caché
     \Stripe\Stripe::setApiKey(env('STRIPE_SECRET'));
 
-    dd([
-        'env' => env('STRIPE_SECRET'),
-        'stripe_runtime_key' => \Stripe\Stripe::getApiKey(),
-        'price_check' => \Stripe\Price::retrieve('price_1Sqyk4K6HXM7yt99HLensuX7'),
+    $session = \Stripe\Checkout\Session::create([
+        'mode' => 'subscription',
+        'line_items' => [
+            [
+                // ID Corregido (Con la 'E' mayúscula)
+                'price' => 'price_1Sqyk4K6HXM7yt99HLEnsuX7', 
+                'quantity' => 1,
+            ],
+        ],
+        'success_url' => url('/checkout/success'),
+        'cancel_url' => url('/checkout/cancel'),
+        'metadata' => [
+            'product' => 'Meal Prep Monthly',
+        ],
     ]);
+
+    return redirect($session->url);
 }
 
 

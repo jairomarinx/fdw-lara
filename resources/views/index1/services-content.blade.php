@@ -126,7 +126,6 @@
     </div>
 </div>
 <div class="container">
-    @include('meal-selector')
 </div>
 
 <div style="height: 50px; background-color: #222429;"></div>

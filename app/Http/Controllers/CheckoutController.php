@@ -237,10 +237,14 @@ public function stripeWebhook(Request $request)
 
 public function mealPrepMonthly()
 {
+    // Reemplazado config() por env() para consistencia con tu método pay()
+    Stripe::setApiKey(env('STRIPE_SECRET'));
+
     $session = \Stripe\Checkout\Session::create([
         'mode' => 'subscription',
         'line_items' => [
             [
+                // Asegúrate que este ID de precio exista en tu dashboard de Stripe y sea recurrente
                 'price' => 'price_1Sqyk4K6HXM7yt99HLensuX7',
                 'quantity' => 1,
             ],
@@ -254,6 +258,7 @@ public function mealPrepMonthly()
 
     return redirect($session->url);
 }
+
 
 
 

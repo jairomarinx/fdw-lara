@@ -150,5 +150,26 @@ Route::get('/test-email', function () {
     return 'Test email sent to ' . $presale->email;
 });
 
+Route::get('/debug-stripe', function () {
+    // Usamos env directamente para saltarnos la cache de config
+    \Stripe\Stripe::setApiKey(env('STRIPE_SECRET'));
+
+    try {
+        $account = \Stripe\Account::retrieve();
+        $price = \Stripe\Price::retrieve('price_1Sqyk4K6HXM7yt99HLensuX7');
+        
+        return [
+            'Conectado a la cuenta' => $account->business_profile->name . " (" . $account->id . ")",
+            'Estado del Precio' => 'Encontrado correctamente',
+            'ID del Precio' => $price->id
+        ];
+    } catch (\Exception $e) {
+        return [
+            'Error' => $e->getMessage(),
+            'Clave usada (ultimos 4)' => '...' . substr(env('STRIPE_SECRET'), -4),
+            'Consejo' => 'Verifica que esta terminación coincida con la llave secreta en el Dashboard donde ves el precio.'
+        ];
+    }
+});
 
 

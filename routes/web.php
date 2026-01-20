@@ -125,8 +125,8 @@ Route::get('/new', function(){
 Route::get('/admin/xdebug', function(){ phpinfo(); });
 
 Route::get('/meals', function () {
-    return view('meal-selector');
-})->name('meal-selector');
+    return view('meal');
+})->name('meal');
 
 Route::post('/meals/checkout', [CheckoutController::class, 'mealCheckout'])
     ->name('meal-checkout');

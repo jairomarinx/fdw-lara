@@ -552,3 +552,15 @@ h6,
         display: none !important;
     }
 }
+
+.btn-yellow {
+    background-color: #FFD400;
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 14px 28px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+}

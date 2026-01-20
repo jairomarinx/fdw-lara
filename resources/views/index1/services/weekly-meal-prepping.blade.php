@@ -10,6 +10,14 @@
         'h2_subtitle' => 'Plan Smart. Eat Better. Live Easier'
     ])
 
+    <div class="container">
+        <div class="row" style="margin-top: 80px;">
+            <div class="col-12 text-center">
+                <a href="{{ route('meal') }}" class="btn-yellow" style="padding: 30px 100px;  ">Buy Now!</a>
+            </div>
+        </div>
+    </div>
+
     <div class="mb-5 text-center mt-5">
         <h1 class="display-3 text-uppercase mb-0">Weekly Meal Prepping</h1>
         <h4 class="text-body mb-4">Fresh, ready-to-eat meals designed to support your goals</h4>
@@ -79,8 +87,10 @@ This is how smart eating becomes second nature.
 
     </div>
 
-    @include('meal-selector')
 @include('partials.meal-prep-subscribe-button')
+
+@include('meal-selector')
+
 
 
 @endsection

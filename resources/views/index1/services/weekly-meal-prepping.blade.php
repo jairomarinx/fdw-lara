@@ -87,9 +87,6 @@ This is how smart eating becomes second nature.
 
     </div>
 
-@include('partials.meal-prep-subscribe-button')
-
-@include('meal-selector')
 
 
 

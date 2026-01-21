@@ -13,7 +13,7 @@
     <div class="container">
         <div class="row" style="margin-top: 80px;">
             <div class="col-12 text-center">
-                <a href="{{ route('meal') }}" class="btn-yellow" style="padding: 30px 100px;  ">Buy Now!</a>
+                <a href="{{ route('meal') }}" class="btn-yellow" style="padding: 30px 100px; font-size:30px;  ">Buy Now!</a>
             </div>
         </div>
     </div>
@@ -69,6 +69,14 @@ Spend less time planning and more time thriving.
 This is how smart eating becomes second nature.
                     </span>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row" style="margin-top: 80px;">
+            <div class="col-12 text-center">
+                <a href="{{ route('meal') }}" class="btn-yellow" style="padding: 30px 100px; font-size:30px;  ">Buy Now!</a>
             </div>
         </div>
     </div>

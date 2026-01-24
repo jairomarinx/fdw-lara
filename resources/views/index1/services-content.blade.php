@@ -116,9 +116,9 @@
                     Our meal preps indulge your palate while helping you get in shape.
                 </p>
                 <div class="text-center mt-3">
-                    <a href="{{ route('weekly-meal-prepping') }}" class="btn btn-outline-dark mb-2">Learn More</a>
-                    <a href="{{ route('general-checkout', ['product' => 'weekly-meal-prepping5']) }}" class="btn btn-warning d-block mt-2">5 Meals $70.00</a>
-                    <a href="{{ route('general-checkout', ['product' => 'weekly-meal-prepping10']) }}" class="btn btn-warning d-block mt-2">10 Meals $120.00</a>
+                    <a href="{{ route('meal','weekly-meal-prepping') }}" class="btn btn-outline-dark mb-2">Learn More</a>
+                    <a href="{{ route('meal','weekly-meal-prepping5') }}" class="btn btn-warning d-block mt-2">5 Meals $70.00</a>
+                    <a href="{{ route('meal','weekly-meal-prepping10') }}" class="btn btn-warning d-block mt-2">10 Meals $120.00</a>
                 </div>
             </div>
         </div>

@@ -175,7 +175,7 @@ class FitController extends Controller
         return view('programs.loveforlife');
     }
 
-    public function meal()
+    public function meal(Request $request)
     {
         return view("meal");
     }

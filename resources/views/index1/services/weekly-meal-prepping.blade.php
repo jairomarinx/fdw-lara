@@ -22,8 +22,8 @@
         <h1 class="display-3 text-uppercase mb-0">Weekly Meal Prepping</h1>
         <h4 class="text-body mb-4">Fresh, ready-to-eat meals designed to support your goals</h4>
 
-        <h5 class="text-gray fs-1"><span class="text-primary"> WHAT YOU GET</span></h5>
-        <h6 class="text-gray fs-3">(Healthy food. Zero stress.)</h6>
+        <h5 class="text-gray fs-1"><span class="text-primary"> New MENU WEDNESDAYS</span></h5>
+        <h6 class="text-gray fs-3"> Visit: IG <a href="https://www.instagram.com/targetdfitness/>" style="color:black; text-decoration: underline;"> @targetfitness</a>  </h6>
     </div>
 
     <div class="container-fluid programe position-relative px-5 mt-5" style="margin-bottom: 135px;">

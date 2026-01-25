@@ -111,7 +111,6 @@
             </div>
         </div>
     </form>
-    <span style="color: gray; font-size: 8px; text-align: justify;">Subscription purchase will be applied to your Apple or Google Play account at the end of the trail or on the confirmation. Unless cancelled within 24-hours before the end of the current period, subscriptions automatically renew at the end of each billing period. You can manage your subscription at any time through your account settings. After purchase, refunds will not be provided for any unused portion of the term. You agree to our Privacy Policy and Terms and Conditions by downloading and subscribing to Plan Over Mood. For more information, see our Terms of Use and Privacy Policy.</span>
 
 </div>
 

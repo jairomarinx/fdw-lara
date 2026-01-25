@@ -11,7 +11,7 @@
 
     <div class="row mb-4">
         <div class="col">
-            <h1 class="fw-bold " style="color: red; ">CUSTOMIZE MEAL PREPPING</h1>
+            <h1 class="fw-bold yellow" style="color: red; ">CUSTOMIZE MEAL PREPPING</h1>
         </div>
     </div>
 
@@ -19,11 +19,11 @@
         <div class="col-md-8">
             <p><strong>STEP 1:</strong> Select Weekly/Monthly Meal Options <span class="text-muted">(Deadline: Saturday 12:00pm)</span></p>
             <p><strong>STEP 2:</strong> Choose any Add-ons</p>
-            <p><strong>STEP 3:</strong> <span style="color: red;">Choose from Weekly Wednesday's Meal Menu selection (IG:
+            <p><strong>STEP 3:</strong> <span style="">Choose from Weekly Wednesday's Meal Menu selection (IG:
                 <a href="https://instagram.com/targetdfitness" target="_blank">@targetdfitness</a>)</span> 
             </p>
-            <p><strong>STEP 4:</strong> <span style="color: red;">Comment: Quantity of each Meal Selection at Checkout</span> </p>
-            <p><strong>STEP 5:</strong> Continue to Checkout <span style="color: red;">(Checkout between Wed-Sat for following Monday meals)</span>  </p>
+            <p><strong>STEP 4:</strong> <span style="">Comment: Quantity of each Meal Selection at Checkout</span> </p>
+            <p><strong>STEP 5:</strong> Continue to Checkout <span style="">(Checkout between Wed-Sat for following Monday meals)</span>  </p>
             <p><strong>STEP 6:</strong> Pick-up Monday after 10:00am (Scottsdale Location) / Delivery will be contacted</p>
         </div>
     </div>
@@ -123,28 +123,31 @@
         </h3>
 
         <p style="color:#cfd3d7; margin:0 0 8px 0;">
-            Pick-up: Maximum Fitness Gym, 8551 E. Anderson Dr. Suite 101, Scottsdale, AZ 85255
-        </p>
-
-        <p style="margin:0 0 8px 0;">
-            <span style="color:#cfd3d7;">Menu:</span>
-            <a href="https://instagram.com/targetdfitness"
-               target="_blank"
-               style="color:#00bfff; text-decoration:none; font-weight:600;">
-                IG @targetdfitness
-            </a>
-        </p>
-
-        <p style="margin:0;">
-            <a href="mailto:brad@fitdonewell.com"
-               style="color:#00bfff; text-decoration:none; display:block;">
+            Scottsdale Location: Maximum Fitness Gym, 8551 E. Anderson Dr. Suite 101, Scottsdale, AZ 85255 <a href="mailto:brad@fitdonewell.com"
+               style="color:#FCD804; text-decoration:none;">
                 brad@fitdonewell.com
             </a>
             <a href="mailto:laly@fitdonewell.com"
-               style="color:#00bfff; text-decoration:none; display:block;">
+               style="color:#FCD804; text-decoration:none; display:block;">
                 laly@fitdonewell.com
             </a>
         </p>
+
+        <h3 style="color:#ffffff; font-weight:800; margin-bottom:15px;">
+            POLICY
+        </h3>
+        <p style="color:#cfd3d7; margin:0 0 8px 0;">
+            Payments will be EFT on the date of Subscription purchase<br>
+24 hour Cancellation Notice for all scheduled session(s), to avoid<br>
+Any missed session(s), can be made-up, will expire at end of each month, to ensure accountability<br>
+30 day Cancellation Policy for Subscriptions via email request <a href="mailto:brad@fitdonewell.com"
+               style="color:#FCD804; text-decoration:none;">
+                brad@fitdonewell.com
+            </a>
+        </p>
+ 
+
+
     </div>
 </div>
 

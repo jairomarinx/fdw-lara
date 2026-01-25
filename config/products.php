@@ -74,7 +74,7 @@ return [
     ],
 
     'weekly-meal-prepping-monthly' => [
-        'name' => 'Monthly Meal Prepping. 4 week subscription (10 meals/week)',
+        'name' => 'Monthly Meal Prepping. 4 week subscription (10 meals/week)*',
         'price' => 435,
         'desc' => '10 meals per week. Monthly subscription.',
         'meal' => 1,

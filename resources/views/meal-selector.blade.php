@@ -1,7 +1,11 @@
+
 @php
     $products = collect(config('products'))
         ->filter(fn($p) => $p['meal'] === 1);
+    
+    if (!isset($mealProduct)) $mealProduct = null; 
 @endphp
+
 
 <div class="container py-5">
 
@@ -62,7 +66,7 @@
                                        name="items[{{ $key }}]"
                                        id="qty-{{ $key }}"
                                        data-price="{{ $product['price'] }}"
-                                       value="0"
+                                       value="{{ ($mealProduct ?? null) === $key ? 1 : 0 }}"
                                        min="0"
                                        class="form-control text-center"
                                        style="width:70px">
@@ -176,4 +180,6 @@ function changeQty(key, delta) {
 document.querySelectorAll('input[data-price]').forEach(input => {
     input.addEventListener('input', recalcTotals);
 });
+
+document.addEventListener('DOMContentLoaded', recalcTotals);//recalcula al iniciar
 </script>

@@ -85,7 +85,7 @@
                 </p>
                 <div class="text-center mt-3">
                     <a href="{{ route('nutrition-reset-consultation') }}" class="btn btn-outline-dark mb-2">Learn More</a>
-                    <a href="{{ route('general-checkout', ['product' => 'nutrition-reset-consultation']) }}" class="btn btn-warning d-block mt-2">Pay $129.00</a>
+                    <a href="{{ route('meal',  'nutrition-reset-consultation') }}" class="btn btn-warning d-block mt-2">Pay $129.00</a>
                 </div>
             </div>
         </div>
@@ -101,7 +101,7 @@
                 </p>
                 <div class="text-center mt-3">
                     <a href="{{ route('grocery-reset-tour') }}" class="btn btn-outline-dark mb-2">Learn More</a>
-                    <a href="{{ route('general-checkout', ['product' => 'grocery-reset-tour']) }}" class="btn btn-warning d-block mt-2">Pay $199.00</a>
+                    <a href="{{ route('meal',  'grocery-reset-tour') }}" class="btn btn-warning d-block mt-2">Pay $199.00</a>
                 </div>
             </div>
         </div>
@@ -116,7 +116,7 @@
                     Our meal preps indulge your palate while helping you get in shape.
                 </p>
                 <div class="text-center mt-3">
-                    <a href="{{ route('meal','weekly-meal-prepping') }}" class="btn btn-outline-dark mb-2">Learn More</a>
+                    <a href="{{ route('weekly-meal-prepping') }}" class="btn btn-outline-dark mb-2">Learn More</a>
                     <a href="{{ route('meal','weekly-meal-prepping5') }}" class="btn btn-warning d-block mt-2">5 Meals $70.00</a>
                     <a href="{{ route('meal','weekly-meal-prepping10') }}" class="btn btn-warning d-block mt-2">10 Meals $120.00</a>
                 </div>

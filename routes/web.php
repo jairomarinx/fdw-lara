@@ -65,7 +65,7 @@ Route::prefix('services')->group(function () {
     Route::get('/saturday-booty-camp', [FitController::class, "saturday_booty_camp"])->name('saturday-booty-camp');
     Route::get('/kayak-with-us', [FitController::class, "kayak_with_us"])->name('kayak-with-us');
     Route::get('/intentional-make-over',[FitController::class,"intentional_make_over"])->name('intentional-make-over');
-    Route::get('/meal', [FitController::class, "meal"])->name("meal");
+    Route::get('/meal', [FitController::class, "meal"])->name("services-meal");
 });
 
 // Programs (agrupado y consolidado)
@@ -117,6 +117,7 @@ Route::get('/general-checkout/{product}',[CheckoutController::class,'general_che
 
 Route::get('/checkout/meal-prep-monthly', [CheckoutController::class, 'mealPrepMonthly']); //subscription
 
+Route::get('/meal/{product?}', [FitController::class, "dropdown_meal"] )->name('meal');
 
 Route::get('/new', function(){
     return view('index1.newtemplate');
@@ -124,9 +125,7 @@ Route::get('/new', function(){
 
 Route::get('/admin/xdebug', function(){ phpinfo(); });
 
-Route::get('/meals', function () {
-    return view('meal');
-})->name('meal');
+
 
 Route::post('/meals/checkout', [CheckoutController::class, 'mealCheckout'])
     ->name('meal-checkout');

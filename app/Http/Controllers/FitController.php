@@ -180,6 +180,12 @@ class FitController extends Controller
         return view("meal");
     }
 
+    public function dropdown_meal(Request $request, $product = null)
+    {
+        return view('meal')
+                    ->with('mealProduct', $product);
+    }
+
 
 
 }

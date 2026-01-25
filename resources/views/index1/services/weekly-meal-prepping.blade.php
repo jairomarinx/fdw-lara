@@ -13,7 +13,7 @@
     <div class="container">
         <div class="row" style="margin-top: 80px;">
             <div class="col-12 text-center">
-                <a href="{{ route('meal') }}" class="btn-yellow" style="padding: 30px 100px; font-size:30px;  ">Buy Now!</a>
+                <a href="{{ route('meal', 'weekly-meal-prepping5') }}" class="btn-yellow" style="padding: 30px 100px; font-size:30px;  ">Buy Now!</a>
             </div>
         </div>
     </div>
@@ -76,7 +76,7 @@ This is how smart eating becomes second nature.
     <div class="container">
         <div class="row" style="margin-top: 80px;">
             <div class="col-12 text-center">
-                <a href="{{ route('meal') }}" class="btn-yellow" style="padding: 30px 100px; font-size:30px;  ">Buy Now!</a>
+                <a href="{{ route('meal','weekly-meal-prepping5') }}" class="btn-yellow" style="padding: 30px 100px; font-size:30px;  ">Buy Now!</a>
             </div>
         </div>
     </div>
@@ -86,10 +86,10 @@ This is how smart eating becomes second nature.
       <p class="fs-4 mb-5 text-dark">        
         <span class="fw-semibold">Prepped fresh. Packed with purpose. Ready when you are.</span>
       </p>
-      <a href="{{ url('/general-checkout/weekly-meal-prepping5') }}" class="btn fw-bold d-none" style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.4rem 4rem; border-radius: 2rem;">
+      <a href="{{ route('meal','weekly-meal-prepping5') }}" class="btn fw-bold " style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.4rem 4rem; border-radius: 2rem;">
         5 Meals 70 Usd
       </a>
-      <a href="{{ url('/general-checkout/weekly-meal-prepping10') }}" class="btn fw-bold d-none" style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.4rem 4rem; border-radius: 2rem;">
+      <a href="{{ route('meal','weekly-meal-prepping10') }}" class="btn fw-bold " style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.4rem 4rem; border-radius: 2rem;">
         10 Meals 120 Usd
       </a>
 

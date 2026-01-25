@@ -58,7 +58,7 @@ return [
     ],
 
     'weekly-meal-prepping5' => [
-        'name' => 'Weekly Meal Prepping (5 count)',
+        'name' => 'Weekly Meal Prepping (5 meals)',
         'price' => 70,
         'desc' => '',
         'meal' => 1,
@@ -66,7 +66,7 @@ return [
     ],
 
     'weekly-meal-prepping10' => [
-        'name' => 'Weekly Meal Prepping (10 count)',
+        'name' => 'Weekly Meal Prepping (10 meals)',
         'price' => 120,
         'desc' => '',
         'meal' => 1,
@@ -74,7 +74,7 @@ return [
     ],
 
     'weekly-meal-prepping-monthly' => [
-        'name' => 'Monthly Meal Prepping. 4 week subscription (10 count/week)',
+        'name' => 'Monthly Meal Prepping. 4 week subscription (10 meals/week)',
         'price' => 435,
         'desc' => '10 meals per week. Monthly subscription.',
         'meal' => 1,

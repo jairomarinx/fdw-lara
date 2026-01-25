@@ -11,7 +11,7 @@
 
     <div class="row mb-4">
         <div class="col">
-            <h1 class="fw-bold">Customize Meal Prepping</h1>
+            <h1 class="fw-bold " style="color: red; ">CUSTOMIZE MEAL PREPPING</h1>
         </div>
     </div>
 
@@ -19,11 +19,11 @@
         <div class="col-md-8">
             <p><strong>STEP 1:</strong> Select Weekly/Monthly Meal Options <span class="text-muted">(Deadline: Saturday 12:00pm)</span></p>
             <p><strong>STEP 2:</strong> Choose any Add-ons</p>
-            <p><strong>STEP 3:</strong> Choose from Weekly Wednesday's Meal Menu selection (IG:
-                <a href="https://instagram.com/targetdfitness" target="_blank">@targetdfitness</a>)
+            <p><strong>STEP 3:</strong> <span style="color: red;">Choose from Weekly Wednesday's Meal Menu selection (IG:
+                <a href="https://instagram.com/targetdfitness" target="_blank">@targetdfitness</a>)</span> 
             </p>
-            <p><strong>STEP 4:</strong> Comment: Quantity of each Meal Selection at Checkout</p>
-            <p><strong>STEP 5:</strong> Continue to Checkout</p>
+            <p><strong>STEP 4:</strong> <span style="color: red;">Comment: Quantity of each Meal Selection at Checkout</span> </p>
+            <p><strong>STEP 5:</strong> Continue to Checkout <span style="color: red;">(Checkout between Wed-Sat for following Monday meals)</span>  </p>
             <p><strong>STEP 6:</strong> Pick-up Monday after 10:00am (Scottsdale Location) / Delivery will be contacted</p>
         </div>
     </div>
@@ -111,6 +111,7 @@
             </div>
         </div>
     </form>
+    <span style="color: gray; font-size: 8px; text-align: justify;">Subscription purchase will be applied to your Apple or Google Play account at the end of the trail or on the confirmation. Unless cancelled within 24-hours before the end of the current period, subscriptions automatically renew at the end of each billing period. You can manage your subscription at any time through your account settings. After purchase, refunds will not be provided for any unused portion of the term. You agree to our Privacy Policy and Terms and Conditions by downloading and subscribing to Plan Over Mood. For more information, see our Terms of Use and Privacy Policy.</span>
 
 </div>
 

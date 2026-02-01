@@ -122,7 +122,7 @@ You’ll walk away ready to put your wellness first, without apology.</span><br>
     Book your 1:1 Fitness Consultation for only <strong class="text-primary">$129</strong><br>
     <span class="fw-semibold">Only 10 spots available per week</span>
   </p>
-  <a href="{{ route('general-checkout',['product' => 'fit-reset-consultation' ]) }}"
+  <a href="{{ route('fit','fit-reset-consultation' ) }}"
      class="btn fw-bold"
      style="background-color: #28a745; color: white; font-size: 1.5rem; padding: 1.2rem 3rem; border-radius: 2rem;">
     Book Now for only $129 USD  

@@ -155,8 +155,36 @@ class CheckoutController extends Controller
             ->with('amount', $total * 100)
             ->with('productName', 'Meal Prep Order')
             ->with('desc', implode(', ', $summary) . ($comments ? " | Notes: $comments" : ''))
-            ->with('product', 'meal-prep-bundle');
+            ->with('product', 'fit-customized-bundle');
     }
+
+    public function fitCheckout(Request $request)
+    {
+        $items = $request->input('items', []);
+        $comments = trim($request->input('comments', ''));
+
+        $products = config('products');
+        $total = 0;
+        $summary = [];
+
+        foreach ($items as $key => $qty) {
+            if ($qty > 0 && isset($products[$key])) {
+                $price = $products[$key]['price'];
+                $total += $price * $qty;
+                $summary[] = "{$qty} x {$products[$key]['name']}";
+            }
+        }
+
+        if ($total <= 0) {
+            return back()->withErrors('Please select at least one item.');
+        }
+
+        return view('checkout')
+            ->with('amount', $total * 100)
+            ->with('productName', 'Fit Customized Order')
+            ->with('desc', implode(', ', $summary) . ($comments ? " | Notes: $comments" : ''))
+            ->with('product', 'meal-prep-bundle');
+    }    
 
 public function stripeWebhook(Request $request)
 {

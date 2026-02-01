@@ -118,6 +118,7 @@ Route::get('/general-checkout/{product}',[CheckoutController::class,'general_che
 Route::get('/checkout/meal-prep-monthly', [CheckoutController::class, 'mealPrepMonthly']); //subscription
 
 Route::get('/meal/{product?}', [FitController::class, "dropdown_meal"] )->name('meal');
+Route::get('/fit/{product?}', [FitController::class, "dropdown_fit"] )->name('fit');
 
 Route::get('/new', function(){
     return view('index1.newtemplate');
@@ -129,6 +130,9 @@ Route::get('/admin/xdebug', function(){ phpinfo(); });
 
 Route::post('/meals/checkout', [CheckoutController::class, 'mealCheckout'])
     ->name('meal-checkout');
+
+Route::post('/fit/checkout', [CheckoutController::class, 'fitCheckout'])
+    ->name('fit-checkout');    
 
 Route::post('/stripe/webhook', [CheckoutController::class, 'stripeWebhook']);    
 

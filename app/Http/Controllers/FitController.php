@@ -186,6 +186,13 @@ class FitController extends Controller
                     ->with('mealProduct', $product);
     }
 
+    public function dropdown_fit(Request $request,  $product = null)
+    {
+        return view('fitdropdown')
+                    ->with('fitProduct', $product);
+        ;
+    }
+
 
 
 }

@@ -121,6 +121,52 @@ return [
         , 'fit' => 0
     ],
 
+    'fit-subscription-starter' => [
+        'name' => 'Consistency Starter Subscription',
+        'price' => 199,
+        'desc' => 'Monthly personalized training programming with weekly check ins and an initial fitness reset consultation. Designed to build structure and consistency without live sessions.',
+        'meal' => 0,
+        'fit' => 1,
+        'fit-subscription' => 1
+    ],
+
+    'fit-subscription-group' => [
+        'name' => 'Group Training Membership',
+        'price' => 507,
+        'desc' => 'Unlimited group fitness sessions per month with professional coaching, accountability, and community driven motivation.',
+        'meal' => 0,
+        'fit' => 1,
+        'fit-subscription' => 1
+    ],
+
+    'fit-subscription-1x-week' => [
+        'name' => 'Personal Training Subscription 1x per Week',
+        'price' => 429,
+        'desc' => 'One on one personal training session each week. Ideal balance between guidance, flexibility, and long term consistency.',
+        'meal' => 0,
+        'fit' => 1,
+        'fit-subscription' => 1
+    ],
+
+    'fit-subscription-2x-week' => [
+        'name' => 'Personal Training Subscription 2x per Week',
+        'price' => 858,
+        'desc' => 'Two weekly one on one training sessions designed to accelerate progress and reinforce long lasting habits.',
+        'meal' => 0,
+        'fit' => 1,
+        'fit-subscription' => 1
+    ],
+
+    'fit-subscription-3x-week' => [
+        'name' => 'High Commitment Personal Training Subscription',
+        'price' => 1287,
+        'desc' => 'Three weekly one on one sessions for clients fully committed to transformation, performance, and accountability.',
+        'meal' => 0,
+        'fit' => 1,
+        'fit-subscription' => 1
+    ],
+
+
 
 
 ];

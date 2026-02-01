@@ -145,45 +145,23 @@
     MOCK DATA (REMOVE WHEN INTEGRATING WITH CONTROLLER) 
 --}}
 @php
-$plans = [
-    (object)[
-        'id' => 'starter',
-        'name' => 'Consistency Starter',
-        'price' => 199,
-        'period' => 'mo',
-        'features' => 'Personalized monthly training programming, weekly check ins, and an initial fitness reset consultation. Ideal if you want structure without live sessions.'
-    ],
-    (object)[
-        'id' => 'group',
-        'name' => 'Group Training Membership',
-        'price' => 507,
-        'period' => 'mo',
-        'features' => 'Unlimited group fitness sessions each month with coaching supervision, accountability, and community driven motivation.'
-    ],
-    (object)[
-        'id' => 'one_day',
-        'name' => 'Personal Training Once a Week',
-        'price' => 429,
-        'period' => 'mo',
-        'features' => 'One on one personal training session per week. Perfect balance between guidance, consistency, and flexibility.'
-    ],
-    (object)[
-        'id' => 'two_day',
-        'name' => 'Personal Training Twice a Week',
-        'price' => 858,
-        'period' => 'mo',
-        'features' => 'Two weekly one on one training sessions designed to accelerate progress and reinforce long term habits.',
-        'best_value' => true
-    ],
-    (object)[
-        'id' => 'three_day',
-        'name' => 'High Commitment Training',
-        'price' => 1287,
-        'period' => 'mo',
-        'features' => 'Three weekly one on one sessions for clients fully committed to transformation, performance, and accountability.'
-    ]
-];
+
+
+@php
+$plans = collect(config('products'))
+    ->filter(fn($p) => isset($p['fit-subscription']) && $p['fit-subscription'] === 1)
+    ->map(function ($p, $key) {
+        return (object)[
+            'id' => $key,
+            'name' => $p['name'],
+            'price' => $p['price'],
+            'period' => 'mo',
+            'features' => $p['desc'] ?? '',
+        ];
+    })
+    ->values();
 @endphp
+
 
 
 <style>

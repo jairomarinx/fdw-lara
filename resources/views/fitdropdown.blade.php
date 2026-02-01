@@ -147,7 +147,6 @@
 @php
 
 
-@php
 $plans = collect(config('products'))
     ->filter(fn($p) => isset($p['fit-subscription']) && $p['fit-subscription'] === 1)
     ->map(function ($p, $key) {

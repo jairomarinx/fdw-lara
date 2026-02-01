@@ -140,6 +140,274 @@
 
 </div>
 
+
+{{-- 
+    MOCK DATA (REMOVE WHEN INTEGRATING WITH CONTROLLER) 
+--}}
+@php
+$plans = [
+    (object)[
+        'id' => 'starter',
+        'name' => 'Consistency Starter',
+        'price' => 199,
+        'period' => 'mo',
+        'features' => 'Personalized monthly training programming, weekly check ins, and an initial fitness reset consultation. Ideal if you want structure without live sessions.'
+    ],
+    (object)[
+        'id' => 'group',
+        'name' => 'Group Training Membership',
+        'price' => 507,
+        'period' => 'mo',
+        'features' => 'Unlimited group fitness sessions each month with coaching supervision, accountability, and community driven motivation.'
+    ],
+    (object)[
+        'id' => 'one_day',
+        'name' => 'Personal Training Once a Week',
+        'price' => 429,
+        'period' => 'mo',
+        'features' => 'One on one personal training session per week. Perfect balance between guidance, consistency, and flexibility.'
+    ],
+    (object)[
+        'id' => 'two_day',
+        'name' => 'Personal Training Twice a Week',
+        'price' => 858,
+        'period' => 'mo',
+        'features' => 'Two weekly one on one training sessions designed to accelerate progress and reinforce long term habits.',
+        'best_value' => true
+    ],
+    (object)[
+        'id' => 'three_day',
+        'name' => 'High Commitment Training',
+        'price' => 1287,
+        'period' => 'mo',
+        'features' => 'Three weekly one on one sessions for clients fully committed to transformation, performance, and accountability.'
+    ]
+];
+@endphp
+
+
+<style>
+    :root {
+        --brand-dark: #222429;
+        --brand-yellow: #FCD804;
+    }
+
+    .subscription-section {
+        background-color: var(--brand-dark);
+        color: white;
+        padding: 80px 0;
+        border-top: 4px solid var(--brand-yellow);
+    }
+
+    .highlight-text {
+        color: var(--brand-yellow);
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .benefit-item i {
+        color: var(--brand-yellow);
+        font-size: 1.6rem;
+        margin-bottom: 10px;
+    }
+
+    .plan-selector-input {
+        display: none;
+    }
+
+    .plan-card {
+        border: 2px solid #444;
+        background: rgba(255,255,255,0.05);
+        border-radius: 12px;
+        padding: 24px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        height: 100%;
+    }
+
+    .plan-card:hover {
+        border-color: rgba(252,216,4,0.6);
+        background: rgba(255,255,255,0.08);
+    }
+
+    .plan-selector-input:checked + .plan-card {
+        border-color: var(--brand-yellow);
+        background: rgba(252,216,4,0.12);
+        box-shadow: 0 0 18px rgba(252,216,4,0.25);
+    }
+
+    .plan-selector-input:checked + .plan-card::after {
+        content: '✓';
+        position: absolute;
+        top: 12px;
+        right: 16px;
+        color: var(--brand-yellow);
+        font-weight: 900;
+        font-size: 1.3rem;
+    }
+
+    .badge-best-value {
+        position: absolute;
+        top: -12px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: var(--brand-yellow);
+        color: var(--brand-dark);
+        font-size: 0.75rem;
+        font-weight: 800;
+        padding: 4px 14px;
+        border-radius: 20px;
+        text-transform: uppercase;
+    }
+
+    .btn-subscribe {
+        background-color: var(--brand-yellow);
+        color: var(--brand-dark);
+        font-weight: 900;
+        font-size: 1.25rem;
+        padding: 16px 44px;
+        border-radius: 50px;
+        border: none;
+        box-shadow: 0 4px 16px rgba(252,216,4,0.45);
+    }
+
+    .btn-subscribe:hover {
+        background-color: #e3c204;
+        color: var(--brand-dark);
+        transform: scale(1.04);
+    }
+
+    .trust-text {
+        font-size: 0.85rem;
+        color: #aaa;
+        margin-top: 15px;
+    }
+</style>
+
+<section class="subscription-section">
+    <div class="container">
+
+        {{-- Header --}}
+        <div class="row justify-content-center text-center mb-5">
+            <div class="col-lg-9">
+                <h2 class="display-5 fw-bold mb-3 yellow highlight-text">
+                    Are you really committed to your health?
+                    <br>
+                    <span class="highlight-text">This is where commitment begins</span>
+                </h2>
+
+                <p class="lead text-white-50 mb-4">
+                    One time sessions help.  
+                    Monthly commitment changes everything.
+                </p>
+
+                <p class="text-white-50">
+                    Subscriptions remove friction, build habits, and keep you accountable.
+                </p>
+
+                {{-- Benefits --}}
+                <div class="row mt-5 g-4">
+                    <div class="col-md-4 benefit-item">
+                        <i class="bi bi-arrow-repeat"></i>
+                        <h6 class="fw-bold text-white">Less friction</h6>
+                        <p class="small text-white-50">
+                            No repeated decisions. No restarting every week.
+                        </p>
+                    </div>
+                    <div class="col-md-4 benefit-item">
+                        <i class="bi bi-person-check"></i>
+                        <h6 class="fw-bold text-white">More accountability</h6>
+                        <p class="small text-white-50">
+                            Someone tracks your progress, not just your sessions.
+                        </p>
+                    </div>
+                    <div class="col-md-4 benefit-item">
+                        <i class="bi bi-graph-up-arrow"></i>
+                        <h6 class="fw-bold text-white">Better results</h6>
+                        <p class="small text-white-50">
+                            Progress happens when training becomes a habit.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {{-- Plans --}}
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <form action="" method="POST">
+                    @csrf
+
+                    <div class="row g-4 mb-5 justify-content-center">
+                        @foreach($plans as $plan)
+                        <div class="col-md-4">
+                            <label class="w-100 h-100 position-relative">
+                                <input
+                                    type="radio"
+                                    name="subscription_plan"
+                                    value="{{ $plan->id }}"
+                                    class="plan-selector-input"
+                                    {{ isset($plan->best_value) ? 'checked' : '' }}
+                                >
+
+                                <div class="plan-card text-center">
+                                    @if(isset($plan->best_value))
+                                        <span class="badge-best-value">Best Value</span>
+                                    @endif
+
+                                    <h4 class="fw-bold text-white mb-2">
+                                        {{ $plan->name }}
+                                    </h4>
+
+                                    <h2 class="highlight-text mb-0">
+                                        ${{ $plan->price }}
+                                        <small class="fs-6 text-white">/{{ $plan->period }}</small>
+                                    </h2>
+
+                                    <hr class="border-secondary my-3">
+
+                                    <p class="small text-white-50 mb-0">
+                                        {{ $plan->features }}
+                                    </p>
+                                </div>
+                            </label>
+                        </div>
+                        @endforeach
+                    </div>
+
+                    {{-- CTA --}}
+                    <div class="text-center">
+                        <h5 class="fw-bold text-white mb-3">
+                            This is not a payment. It is a decision.
+                        </h5>
+
+                        <p class="text-white-50 mb-4">
+                            Your coach will contact you within 24 hours to personalize your plan.
+                        </p>
+
+                        <button type="submit" class="btn btn-subscribe">
+                            Yes, I am ready to commit <i class="bi bi-arrow-right-short"></i>
+                        </button>
+
+                        <div class="trust-text d-flex justify-content-center align-items-center gap-3 mt-3">
+                            <span><i class="bi bi-lock-fill"></i> Secure Payment</span>
+                            <span>|</span>
+                            <span><i class="bi bi-calendar-check"></i> Cancel Anytime</span>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
 <div style="background:#1f2328; padding:30px 20px; border-bottom:2px solid #f5c400;">
     <div class="container">
 

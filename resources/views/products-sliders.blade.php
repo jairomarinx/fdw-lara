@@ -32,7 +32,7 @@
                 'id' => 'black-onyx',
                 'name' => 'Onyx Black',
                 'note' => 'Pair (2 Discs), Dual-sided',
-                'price_sale' => 14.00,
+                'price_sale' => 8.00,
                 'price_regular' => 29.00,
                 'badge' => 'Best Seller',
             ],
@@ -40,7 +40,7 @@
                 'id' => 'pink-neon',
                 'name' => 'Neon Pink',
                 'note' => 'Pair (2 Discs), Dual-sided',
-                'price_sale' => 14.00,
+                'price_sale' => 8.00,
                 'price_regular' => 29.00,
                 'badge' => 'Limited Edition',
             ],
@@ -327,12 +327,12 @@
                             </div>
 
                             <div class="fdw-cta">
-                                <button type="submit" name="intent" value="add_to_cart" class="btn btn-lg w-50 fdw-btn-secondary">
+                                <button type="submit" name="intent" value="add_to_cart" class="btn btn-lg w-50 fdw-btn-secondary d-none">
                                     Add to Cart
                                 </button>
-                                <button type="submit" name="intent" value="buy_now" class="btn btn-lg w-50 fdw-btn-primary">
+                                <a type="submit" name="intent" value="buy_now" class="btn btn-lg w-50 fdw-btn-primary" href="{{ url('/general-checkout/sliders') }}">
                                     Buy Now
-                                </button>
+                                </a>
                             </div>
 
                             <div class="fdw-trust">

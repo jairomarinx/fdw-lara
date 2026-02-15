@@ -40,7 +40,6 @@
                                 <div class="dropdown-menu rounded-0 m-0">
                                     <a href="{{ url('/products/booty') }}" class="dropdown-item">Booty Bands</a>
                                     <a href="{{ url('/products/sliders') }}" class="dropdown-item">Exercise Sliders</a>
-                                    <a href="https://blog.fitdonewell.com/category/kind-hearts/" class="dropdown-item">Kind Hearts - Blog</a>
                                 </div>
                             </div>
 

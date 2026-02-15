@@ -179,4 +179,7 @@ Route::get('/products/booty', function(){
     return view('product-bands');
 });
 
+Route::get('/products/sliders', function(){
+    return view('products-sliders');
+});
 

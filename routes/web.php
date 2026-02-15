@@ -175,4 +175,8 @@ Route::get('/debug-stripe', function () {
     }
 });
 
+Route::get('/products/booty', function(){
+    return view('product-bands');
+});
+
 

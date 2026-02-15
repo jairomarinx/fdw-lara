@@ -35,6 +35,15 @@
                                 </div>
 
                             </div>
+                            <div class="nav-item dropdown">
+                                <a href="http://blog.fitdonewell.com" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Our Shop</a>
+                                <div class="dropdown-menu rounded-0 m-0">
+                                    <a href="{{ url('/products/booty') }}" class="dropdown-item">Booty Bands</a>
+                                    <a href="https://blog.fitdonewell.com/category/open-minds/" class="dropdown-item">Open Minds - Blog</a>
+                                    <a href="https://blog.fitdonewell.com/category/kind-hearts/" class="dropdown-item">Kind Hearts - Blog</a>
+                                </div>
+                            </div>
+
                             <a href="http://aplshop.com/j/824054" class="nav-item nav-link">Supplements</a>
                             <a href="{{ route('weekly-meal-prepping') }}" class="nav-item nav-link">Meals</a>
 

@@ -201,7 +201,7 @@
 
                     <div class="d-grid gap-2 mb-4">
                         <a class="btn btn-buy-now text-uppercase" href="{{ url('/general-checkout/booty-bands') }}">Buy Now! <i class="bi bi-arrow-right ms-2"></i></a>
-                        <button class="btn btn-cart text-uppercase">Add to Cart</button>
+                        <button class="btn btn-cart text-uppercase d-none">Add to Cart</button>
                     </div>
 
                     <div class="border-top pt-4">
@@ -878,10 +878,10 @@
                 <div class="fdw-card mt-3 fdw-fadein" data-fade>
                     <h2 class="fdw-section-title mb-3">Customer photos</h2>
                     <div class="fdw-ugc">
-                        <img src="{{ asset('t1/img/shop/booty-bands/ugc-01.jpg') }}" alt="Customer photo 1" loading="lazy" decoding="async">
-                        <img src="{{ asset('t1/img/shop/booty-bands/ugc-02.jpg') }}" alt="Customer photo 2" loading="lazy" decoding="async">
-                        <img src="{{ asset('t1/img/shop/booty-bands/ugc-03.jpg') }}" alt="Customer photo 3" loading="lazy" decoding="async">
-                        <img src="{{ asset('t1/img/shop/booty-bands/ugc-04.jpg') }}" alt="Customer photo 4" loading="lazy" decoding="async">
+                        <img src="{{ asset('booty.webp') }}" alt="Customer photo 1" loading="lazy" decoding="async">
+                        <img src="{{ asset('booty3.webp') }}" alt="Customer photo 2" loading="lazy" decoding="async">
+                        <img src="{{ asset('booty2.webp') }}" alt="Customer photo 3" loading="lazy" decoding="async">
+                        <img src="{{ asset('booty1.webp') }}" alt="Customer photo 4" loading="lazy" decoding="async">
                     </div>
                     <div class="fdw-micro mt-2">Tag us to get featured.</div>
                 </div>

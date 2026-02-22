@@ -191,3 +191,8 @@ Route::get('/products/ankle', function(){
     return view('ankle');
 });
 
+Route::get('/shop', function(){
+    return view('shop');
+});
+
+

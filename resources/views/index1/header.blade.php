@@ -38,6 +38,8 @@
                             <div class="nav-item dropdown">
                                 <a href="http://blog.fitdonewell.com" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Our Shop</a>
                                 <div class="dropdown-menu rounded-0 m-0">
+                                    <a href="{{ url('/shop') }}" class="dropdown-item">All Products</a>
+
                                     <a href="{{ url('/products/booty') }}" class="dropdown-item">Booty Bands</a>
                                     <a href="{{ url('/products/sliders') }}" class="dropdown-item">Exercise Sliders</a>
                                     <a href="{{ url('/products/wrist-wraps') }}" class="dropdown-item">Wrist Wraps</a>

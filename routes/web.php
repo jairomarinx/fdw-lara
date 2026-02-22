@@ -183,3 +183,11 @@ Route::get('/products/sliders', function(){
     return view('products-sliders');
 });
 
+Route::get('/products/wrist-wraps', function(){
+    return view('wrist-wraps');
+});
+
+Route::get('/products/ankle', function(){
+    return view('ankle');
+});
+

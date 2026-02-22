@@ -40,6 +40,9 @@
                                 <div class="dropdown-menu rounded-0 m-0">
                                     <a href="{{ url('/products/booty') }}" class="dropdown-item">Booty Bands</a>
                                     <a href="{{ url('/products/sliders') }}" class="dropdown-item">Exercise Sliders</a>
+                                    <a href="{{ url('/products/wrist-wraps') }}" class="dropdown-item">Wrist Wraps</a>
+                                    <a href="{{ url('/products/ankle') }}" class="dropdown-item">Ankle Straps</a>
+
                                 </div>
                             </div>
 

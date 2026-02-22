@@ -26,10 +26,10 @@ return [
     'life-reset-coaching4' => ['name' => 'Life Reset Coaching 4', 'price' => 749, 'desc' => '', 'meal' => 0, 'fit' => 0],
     'life-reset-coaching8' => ['name' => 'Life Reset Coaching 8', 'price' => 1490, 'desc' => '', 'meal' => 0, 'fit' => 0],
 
-    'wrist-straps' => ['name' => 'WRIST STRAPS', 'price' => 10, 'desc' => 'Lifting Wrist Straps for Weightlifting, Bodybuilding, Powerlifting, Strength Training.', 'meal' => 0, 'fit' => 0],
-    'sliders' => ['name' => 'EXERCISE SLIDERS', 'price' => 8, 'desc' => 'Exercise Sliders for Working Out, Fitness Disc for Women and Men, 2 pack', 'meal' => 0, 'fit' => 0],
-    'booty-bands' => ['name' => 'BOOTY BANDS', 'price' => 15, 'desc' => 'Booty exercise bands for women and men, glute, hip and thigh resistance bands with carrying bag', 'meal' => 0, 'fit' => 0],
-    'ankle-straps' => ['name' => 'ANKLE STRAPS', 'price' => 19, 'desc' => 'Ankle straps for cable machine kickbacks, glute workouts, lower body exercises.', 'meal' => 0, 'fit' => 0],
+    'wrist-straps' => ['name' => 'WRIST STRAPS', 'price' => 9.99, 'desc' => 'Lifting Wrist Straps for Weightlifting, Bodybuilding, Powerlifting, Strength Training.', 'meal' => 0, 'fit' => 0],
+    'sliders' => ['name' => 'EXERCISE SLIDERS', 'price' => 8.99, 'desc' => 'Exercise Sliders for Working Out, Fitness Disc for Women and Men, 2 pack', 'meal' => 0, 'fit' => 0],
+    'booty-bands' => ['name' => 'BOOTY BANDS', 'price' => 15.99, 'desc' => 'Booty exercise bands for women and men, glute, hip and thigh resistance bands with carrying bag', 'meal' => 0, 'fit' => 0],
+    'ankle-straps' => ['name' => 'ANKLE STRAPS', 'price' => 18.99, 'desc' => 'Ankle straps for cable machine kickbacks, glute workouts, lower body exercises.', 'meal' => 0, 'fit' => 0],
 
     'intentional-make-over' => ['name' => 'INTENTIONAL MAKE OVER (Evaluation)', 'price' => 129, 'desc' => 'Redesign your home, office, or online presence with purpose. Our Intentional Makeover service helps you refresh rooms, kitchens, or even your Instagram, aligning beauty, function, and energy to reflect your best self. Evaluation for 129 USD.', 'meal' => 0, 'fit' => 0],
 

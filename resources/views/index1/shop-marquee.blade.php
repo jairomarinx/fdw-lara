@@ -96,7 +96,7 @@
     
 </div>
 
-    <div class="container-fluid px-0 mt-3 mb-3 amazon-shop">
+    <div class="container-fluid px-0 mt-3 mb-3 amazon-shop d-none">
         <div class="mb-5 text-center">
             <h5 class="text-primary text-uppercase fs-2 "><strong>Our Shop in Amazon</strong> </h5>
             <div class="row">

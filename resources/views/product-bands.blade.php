@@ -430,18 +430,12 @@
 <div class="fdw-product-wrap">
     <div class="container py-4 py-lg-5">
 
-        <nav aria-label="breadcrumb" class="fdw-breadcrumb mb-3">
-            <ol class="breadcrumb mb-0">
-                <li class="breadcrumb-item"><a href="{{ url('/') }}">Home</a></li>
-                <li class="breadcrumb-item"><a href="{{ url('/services') }}">Shop</a></li>
-                <li class="breadcrumb-item active" aria-current="page">{{ $p['name'] }}</li>
-            </ol>
-        </nav>
+
 
         <div class="row g-4 g-lg-5">
 
             <div class="col-lg-7">
-                <div class="fdw-gallery fdw-fadein" data-fade>
+                <div class="fdw-gallery fdw-fadein d-none" data-fade>
                     <div class="fdw-main-img">
                         <img id="fdwMainImg"
                              src="{{ $p['images'][0] }}"
@@ -610,12 +604,12 @@
                             </div>
 
                             <div class="fdw-cta">
-                                <button type="submit" name="intent" value="add_to_cart" class="btn btn-lg w-50 fdw-btn-secondary">
+                                <button type="submit" name="intent" value="add_to_cart" class="btn btn-lg w-50 fdw-btn-secondary d-none">
                                     Add to Cart
                                 </button>
-                                <button type="submit" name="intent" value="buy_now" class="btn btn-lg w-50 fdw-btn-primary">
+                                <a type="submit" name="intent" value="buy_now" class="btn btn-lg w-50 fdw-btn-primary" href="{{ url('/general-checkout/booty-bands') }}">
                                     Buy Now
-                                </button>
+                                </a>
                             </div>
 
                             <div class="fdw-trust">

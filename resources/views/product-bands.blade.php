@@ -23,6 +23,8 @@
         'delivery_days_max' => 6,
         'images' => [
             'https://fitdonewell.com/main_booty.jpg',
+            'https://fitdonewell.com/shp-b1.jpg',
+
             'https://fitdonewell.com/booty.webp', // placeholders para demo, usa asset() en prod
             'https://fitdonewell.com/booty3.webp',
             'https://fitdonewell.com/booty2.webp',

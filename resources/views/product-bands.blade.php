@@ -24,6 +24,7 @@
         'images' => [
             'https://fitdonewell.com/main_booty.jpg',
             'https://fitdonewell.com/shop-b1.jpg',
+            'https://fitdonewell.com/shop-b2.jpg',
 
             'https://fitdonewell.com/booty.webp', // placeholders para demo, usa asset() en prod
             'https://fitdonewell.com/booty3.webp',

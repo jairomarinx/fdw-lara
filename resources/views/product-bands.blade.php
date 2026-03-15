@@ -1,19 +1,18 @@
 @extends('index1.app')
 
-@section('title', 'Elite Booty Bands Pro Set | Fit.Done.Well.')
+@section('title', 'Fabric Booty Exercise Bands | Fit.Done.Well.')
 
 @section('index1.content')
 
 @php
-    // Conservamos tu estructura de datos intacta
     $p = [
         'key' => 'booty-bands-pro-set',
         'brand' => 'Fit.Done.Well.',
-        'name' => 'Booty Bands Pro Set',
-        'tagline' => 'Build a stronger booty with better form, better tension, and zero excuses.',
+        'name' => 'Booty Exercise Bands',
+        'tagline' => 'Won\'t pinch, won\'t slip, won\'t quit — 3 resistance levels built to go wherever you train.',
         'currency' => 'USD',
         'rating' => 4.9,
-        'reviews_count' => 312,
+        'reviews_count' => 261,
         'stock_left' => 18,
         'sku' => 'FDW-BBP-SET',
         'price_regular' => 79.00,
@@ -28,40 +27,64 @@
             'https://fitdonewell.com/shop-b3.jpg',
             'https://fitdonewell.com/shop-b4.jpg',
             'https://fitdonewell.com/shop-b5.jpg',
-
-
-            'https://fitdonewell.com/booty.webp', // placeholders para demo, usa asset() en prod
+            'https://fitdonewell.com/booty.webp',
             'https://fitdonewell.com/booty3.webp',
             'https://fitdonewell.com/booty2.webp',
             'https://fitdonewell.com/booty1.webp',
         ],
-        'variant_label' => 'Intensity Set',
+        'variant_label' => 'Color Set',
         'variants' => [
-            ['id' => 'pro', 'name' => 'Pro Set', 'note' => '3 bands, progressive tension', 'price_sale' => 15.00, 'price_regular' => 79.00, 'badge' => 'Most popular'],
+            [
+                'id' => 'teal-grey-purple',
+                'name' => 'Teal / Grey / Purple',
+                'note' => '3 bands, Light · Medium · Heavy',
+                'price_sale' => 15.00,
+                'price_regular' => 79.00,
+                'badge' => 'Most popular',
+            ],
+            [
+                'id' => 'lt-grey-dark-grey-black',
+                'name' => 'Lt Grey / Dark Grey / Black',
+                'note' => '3 bands, Light · Medium · Heavy',
+                'price_sale' => 15.00,
+                'price_regular' => 79.00,
+                'badge' => null,
+            ],
         ],
         'highlights' => [
-            ['icon' => 'bi-lightning-charge', 'title' => 'Better glute activation', 'text' => 'Target glutes and hips with stable tension that keeps your knees tracking clean.'],
-            ['icon' => 'bi-shield-check', 'title' => 'No roll, no pinch', 'text' => 'Wide fabric blend grips gently, stays flat, and feels premium on skin.'],
-            ['icon' => 'bi-award', 'title' => 'Gym grade durability', 'text' => 'Reinforced seams built for heavy sessions, week after week.'],
-            ['icon' => 'bi-phone', 'title' => 'Guided workouts included', 'text' => 'Scan the card for quick routines that fit any schedule.'],
+            ['icon' => 'bi-lightning-charge', 'title' => 'Won\'t pinch bare legs', 'text' => 'Use over clothes or directly on skin — the polyester fabric stays comfortable the entire session, no painful pinching.'],
+            ['icon' => 'bi-shield-check', 'title' => 'Non-slip, non-roll design', 'text' => 'The perfect blend of fabric and inner rubber grip keeps bands locked in place so you stay focused on the movement.'],
+            ['icon' => 'bi-bag-check', 'title' => 'Carry bag included', 'text' => 'Take them anywhere. A drawstring carry bag is included so you\'re never without your bands at the gym or on the road.'],
+            ['icon' => 'bi-bar-chart-steps', 'title' => '3 resistance levels', 'text' => 'From absolute beginner to experienced athlete — start light and progress to medium or heavy as you get stronger.'],
         ],
         'specs' => [
-            ['label' => 'Band count', 'value' => '3 bands in Pro Set'],
-            ['label' => 'Tension levels', 'value' => 'Light, Medium, Heavy'],
-            ['label' => 'Material', 'value' => 'Premium fabric blend with latex inner grip'],
-            ['label' => 'Warranty', 'value' => '30 day money back guarantee'],
+            ['label' => 'Band count', 'value' => '3 bands per set'],
+            ['label' => 'Resistance levels', 'value' => 'Light (20–35 lb) · Medium (30–50 lb) · Heavy (45–70 lb)'],
+            ['label' => 'Dimensions', 'value' => '15" L × 3.25" W'],
+            ['label' => 'Material', 'value' => 'Polyester fabric with inner rubber grip layer'],
+            ['label' => 'Colors available', 'value' => 'Teal/Grey/Purple · Lt Grey/Dark Grey/Black'],
+            ['label' => 'Included', 'value' => 'Drawstring carry bag'],
+            ['label' => 'Use', 'value' => 'Glutes, hips, thighs, warmups, activation, finishers, yoga, pilates'],
+            ['label' => 'Warranty', 'value' => '30-day manufacturer\'s warranty'],
         ],
         'comparison' => [
-            ['feature' => 'No roll design', 'fdw' => 'Yes', 'generic' => 'Often rolls'],
-            ['feature' => 'Stable knee tracking', 'fdw' => 'Yes', 'generic' => 'Inconsistent'],
-            ['feature' => 'Comfort on skin', 'fdw' => 'Soft fabric', 'generic' => 'Can pinch'],
+            ['feature' => 'Won\'t pinch bare skin', 'fdw' => 'Yes — polyester fabric', 'generic' => 'Elastic digs in'],
+            ['feature' => 'Non-slip inner grip', 'fdw' => 'Rubber grip layer', 'generic' => 'Often slides down'],
+            ['feature' => 'Non-roll design', 'fdw' => 'Yes', 'generic' => 'Often rolls'],
+            ['feature' => '3 resistance levels', 'fdw' => '20–35 / 30–50 / 45–70 lb', 'generic' => 'Inconsistent tension'],
+            ['feature' => 'Carry bag included', 'fdw' => 'Included', 'generic' => 'Not included'],
         ],
         'faq' => [
-            ['q' => 'Are these good for beginners?', 'a' => 'Yes. Start with light tension, focus on control, and progress week by week.'],
-            ['q' => 'How do I wash them?', 'a' => 'Hand wash with mild soap, air dry flat.'],
+            ['q' => 'Are these good for beginners?', 'a' => 'Yes. Start with the Light band (20–35 lb), focus on clean form, and move up to Medium or Heavy as you build strength. The 3-level progression is designed for a smooth learning curve.'],
+            ['q' => 'Can I use them directly on bare skin?', 'a' => 'Absolutely. The polyester fabric is designed to be worn over clothes or directly on bare legs without the painful pinching you get with elastic bands.'],
+            ['q' => 'Will they slip during my workout?', 'a' => 'No. Each band has an inner rubber grip layer that holds the band in place as you move. No readjusting mid-set.'],
+            ['q' => 'Do they work for home workouts?', 'a' => 'Yes. These are perfect for at-home glute sessions, warmups, yoga, pilates, and quick finishers with minimal space. The carry bag makes them easy to take anywhere.'],
+            ['q' => 'What exercises can I use them for?', 'a' => 'Squats, hip thrusts, kickbacks, lateral walks, glute bridges, leg extensions, strength training, yoga, and pilates — any movement targeting glutes, hips, and thighs.'],
+            ['q' => 'How do I wash them?', 'a' => 'Hand wash with mild soap and air dry flat. Avoid machine heat and harsh chemicals to preserve elasticity and the rubber grip.'],
+            ['q' => 'What if I don\'t like them?', 'a' => 'You\'re covered by our 30-day manufacturer\'s warranty. Simple, no drama.'],
         ],
     ];
-    $defaultVariant = collect($p['variants'])->firstWhere('id', 'pro') ?? $p['variants'][0];
+    $defaultVariant = collect($p['variants'])->firstWhere('id', 'teal-grey-purple') ?? $p['variants'][0];
 @endphp
 
 <style>
@@ -191,10 +214,10 @@
                         <p class="fw-bold text-uppercase small mb-3">Select Your {{ $p['variant_label'] }}</p>
                         <div class="d-flex flex-column gap-2">
                             @foreach($p['variants'] as $v)
-                            <div class="fdw-variant-pill {{ $v['id'] == 'pro' ? 'active' : '' }}" 
+                            <div class="fdw-variant-pill {{ $v['id'] == $defaultVariant['id'] ? 'active' : '' }}" 
                                  onclick="updateVariant(this, '{{ $v['price_sale'] }}', '{{ $v['price_regular'] }}')"
                                  data-id="{{ $v['id'] }}">
-                                @if(isset($v['badge'])) <span class="badge">{{ $v['badge'] }}</span> @endif
+                                @if(isset($v['badge']) && $v['badge']) <span class="badge">{{ $v['badge'] }}</span> @endif
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div>
                                         <div class="fw-bold">{{ $v['name'] }}</div>
@@ -244,7 +267,7 @@
                             </h2>
                             <div id="collapse1" class="accordion-collapse collapse show">
                                 <div class="accordion-body px-0 text-muted">
-                                    Most bands fail because they move. This set stays locked so your glutes stay activated. Perfect for home or travel.
+                                    Most bands fail because they move. Fit.Done.Well. Booty Exercise Bands use a polyester fabric with an inner rubber grip layer that keeps them locked in place — no slipping, no rolling, no readjusting. Perfect for home, gym, or travel.
                                 </div>
                             </div>
                         </div>
@@ -304,11 +327,11 @@
     $p = [
         'key' => 'booty-bands-pro-set',
         'brand' => 'Fit.Done.Well.',
-        'name' => 'Booty Bands Pro Set',
-        'tagline' => 'Build a stronger booty with better form, better tension, and zero excuses.',
+        'name' => 'Booty Exercise Bands',
+        'tagline' => 'Won\'t pinch, won\'t slip, won\'t quit — 3 resistance levels built to go wherever you train.',
         'currency' => 'USD',
         'rating' => 4.9,
-        'reviews_count' => 312,
+        'reviews_count' => 261,
         'stock_left' => 18,
         'sku' => 'FDW-BBP-SET',
         'price_regular' => 79.00,
@@ -322,51 +345,60 @@
             asset('t1/img/shop/booty-bands/booty-bands-03.jpg'),
             asset('t1/img/shop/booty-bands/booty-bands-04.jpg'),
         ],
-        'variant_label' => 'Set',
+        'variant_label' => 'Color Set',
         'variants' => [
-
             [
-                'id' => 'pro',
-                'name' => 'Pro Set',
-                'note' => '3 bands, progressive tension, best value',
+                'id' => 'teal-grey-purple',
+                'name' => 'Teal / Grey / Purple',
+                'note' => '3 bands, Light · Medium · Heavy',
                 'price_sale' => 15.00,
                 'price_regular' => 79.00,
                 'badge' => 'Most popular',
             ],
-
+            [
+                'id' => 'lt-grey-dark-grey-black',
+                'name' => 'Lt Grey / Dark Grey / Black',
+                'note' => '3 bands, Light · Medium · Heavy',
+                'price_sale' => 15.00,
+                'price_regular' => 79.00,
+                'badge' => null,
+            ],
         ],
         'highlights' => [
-            ['icon' => 'bi-lightning-charge', 'title' => 'Better glute activation', 'text' => 'Target glutes and hips with stable tension that keeps your knees tracking clean.'],
-            ['icon' => 'bi-shield-check', 'title' => 'No roll, no pinch', 'text' => 'Wide fabric blend grips gently, stays flat, and feels premium on skin.'],
-            ['icon' => 'bi-award', 'title' => 'Gym grade durability', 'text' => 'Reinforced seams built for heavy sessions, week after week.'],
-            ['icon' => 'bi-phone', 'title' => 'Guided workouts included', 'text' => 'Scan the card for quick routines that fit any schedule.'],
+            ['icon' => 'bi-lightning-charge', 'title' => 'Won\'t pinch bare legs', 'text' => 'Use over clothes or directly on skin — the polyester fabric stays comfortable the entire session, no painful pinching.'],
+            ['icon' => 'bi-shield-check', 'title' => 'Non-slip, non-roll design', 'text' => 'The perfect blend of fabric and inner rubber grip keeps bands locked in place so you stay focused on the movement.'],
+            ['icon' => 'bi-bag-check', 'title' => 'Carry bag included', 'text' => 'Take them anywhere. A drawstring carry bag is included so you\'re never without your bands at the gym or on the road.'],
+            ['icon' => 'bi-bar-chart-steps', 'title' => '3 resistance levels', 'text' => 'From absolute beginner to experienced athlete — start light and progress to medium or heavy as you get stronger.'],
         ],
         'specs' => [
-            ['label' => 'Band count', 'value' => '3 bands in Pro Set'],
-            ['label' => 'Tension levels', 'value' => 'Light, Medium, Heavy'],
-            ['label' => 'Width', 'value' => '3.2 inches'],
-            ['label' => 'Circumference', 'value' => '35 inches'],
-            ['label' => 'Material', 'value' => 'Premium fabric blend with latex inner grip'],
-            ['label' => 'Use', 'value' => 'Glutes, hips, legs, warmups, activation, finishers'],
-            ['label' => 'Warranty', 'value' => '30 day money back guarantee'],
+            ['label' => 'Band count', 'value' => '3 bands per set'],
+            ['label' => 'Resistance levels', 'value' => 'Light (20–35 lb) · Medium (30–50 lb) · Heavy (45–70 lb)'],
+            ['label' => 'Dimensions', 'value' => '15" L × 3.25" W'],
+            ['label' => 'Material', 'value' => 'Polyester fabric with inner rubber grip layer'],
+            ['label' => 'Colors available', 'value' => 'Teal/Grey/Purple · Lt Grey/Dark Grey/Black'],
+            ['label' => 'Included', 'value' => 'Drawstring carry bag'],
+            ['label' => 'Use', 'value' => 'Glutes, hips, thighs, warmups, activation, finishers, yoga, pilates'],
+            ['label' => 'Warranty', 'value' => '30-day manufacturer\'s warranty'],
         ],
         'comparison' => [
-            ['feature' => 'No roll design', 'fdw' => 'Yes', 'generic' => 'Often rolls'],
-            ['feature' => 'Stable knee tracking', 'fdw' => 'Yes', 'generic' => 'Inconsistent'],
-            ['feature' => 'Comfort on skin', 'fdw' => 'Soft fabric', 'generic' => 'Can pinch'],
-            ['feature' => 'Durability', 'fdw' => 'Reinforced seams', 'generic' => 'Frays faster'],
-            ['feature' => 'Guided routines', 'fdw' => 'Included', 'generic' => 'Not included'],
+            ['feature' => 'Won\'t pinch bare skin', 'fdw' => 'Yes — polyester fabric', 'generic' => 'Elastic digs in'],
+            ['feature' => 'Non-slip inner grip', 'fdw' => 'Rubber grip layer', 'generic' => 'Often slides down'],
+            ['feature' => 'Non-roll design', 'fdw' => 'Yes', 'generic' => 'Often rolls'],
+            ['feature' => '3 resistance levels', 'fdw' => '20–35 / 30–50 / 45–70 lb', 'generic' => 'Inconsistent tension'],
+            ['feature' => 'Carry bag included', 'fdw' => 'Included', 'generic' => 'Not included'],
         ],
         'faq' => [
-            ['q' => 'Are these good for beginners?', 'a' => 'Yes. Start with light tension, focus on control, and progress week by week. The sets are built for a clean learning curve.'],
-            ['q' => 'Do they work for home workouts?', 'a' => 'Absolutely. These are perfect for at home glute sessions, warmups, and quick finishers with minimal space.'],
-            ['q' => 'Will they fit me?', 'a' => 'They fit most body types. If you are between sizes, we recommend Pro Set for the widest range of progress.'],
-            ['q' => 'How do I wash them?', 'a' => 'Hand wash with mild soap, air dry flat. Avoid machine heat to preserve elasticity.'],
-            ['q' => 'What if I do not like them?', 'a' => 'You are covered by our 30 day money back guarantee. Simple and no drama.'],
+            ['q' => 'Are these good for beginners?', 'a' => 'Yes. Start with the Light band (20–35 lb), focus on clean form, and move up to Medium or Heavy as you build strength. The 3-level progression is designed for a smooth learning curve.'],
+            ['q' => 'Can I use them directly on bare skin?', 'a' => 'Absolutely. The polyester fabric is designed to be worn over clothes or directly on bare legs without the painful pinching you get with elastic bands.'],
+            ['q' => 'Will they slip during my workout?', 'a' => 'No. Each band has an inner rubber grip layer that holds the band in place as you move. No readjusting mid-set.'],
+            ['q' => 'Do they work for home workouts?', 'a' => 'Yes. These are perfect for at-home glute sessions, warmups, yoga, pilates, and quick finishers with minimal space. The carry bag makes them easy to take anywhere.'],
+            ['q' => 'What exercises can I use them for?', 'a' => 'Squats, hip thrusts, kickbacks, lateral walks, glute bridges, leg extensions, strength training, yoga, and pilates — any movement targeting glutes, hips, and thighs.'],
+            ['q' => 'How do I wash them?', 'a' => 'Hand wash with mild soap and air dry flat. Avoid machine heat and harsh chemicals to preserve elasticity and the rubber grip.'],
+            ['q' => 'What if I don\'t like them?', 'a' => 'You\'re covered by our 30-day manufacturer\'s warranty. Simple, no drama.'],
         ],
     ];
 
-    $defaultVariant = collect($p['variants'])->firstWhere('id', 'pro') ?? $p['variants'][0];
+    $defaultVariant = collect($p['variants'])->firstWhere('id', 'teal-grey-purple') ?? $p['variants'][0];
 @endphp
 
 <style>
@@ -437,8 +469,6 @@
 <div class="fdw-product-wrap">
     <div class="container py-4 py-lg-5">
 
-
-
         <div class="row g-4 g-lg-5">
 
             <div class="col-lg-7">
@@ -495,13 +525,14 @@
 
                     <div class="fdw-card">
                         <p class="mb-3" style="color:#6c757d;">
-                            Most bands fail for one reason: they move when you need them most. This set was designed to stay put, keep tension consistent, and make your reps feel cleaner. That means better glute activation, stronger hips, and better results with less guesswork.
+                            Most bands fail for one reason: they move when you need them most. Fit.Done.Well. Booty Exercise Bands use a high-quality polyester fabric with an inner rubber grip layer that keeps them locked in place — no slipping, no rolling, no mid-set readjusting. That means better glute activation, stronger hips, and results you can actually feel.
                         </p>
                         <ul class="mb-0" style="color:#6c757d;">
-                            <li>Wide fabric design helps stop rolling and pinching</li>
-                            <li>Progressive tension makes it easy to scale workouts</li>
-                            <li>Perfect for warmups, glute finishers, and travel sessions</li>
-                            <li>Includes quick routines you can follow in minutes</li>
+                            <li>Polyester fabric — won't pinch bare skin, comfortable all session</li>
+                            <li>Inner rubber grip layer stops slipping and rolling</li>
+                            <li>3 progressive resistance levels: Light (20–35 lb), Medium (30–50 lb), Heavy (45–70 lb)</li>
+                            <li>Drawstring carry bag included — perfect for gym, travel, or home</li>
+                            <li>Works for strength training, yoga, pilates, warmups, and finishers</li>
                         </ul>
                     </div>
                 </div>
@@ -568,7 +599,9 @@
                                                 <div>
                                                     <div class="fw-bold d-flex align-items-center gap-2">
                                                         <span>{{ $v['name'] }}</span>
-                                                        <span class="badge">{{ $v['badge'] }}</span>
+                                                        @if(isset($v['badge']) && $v['badge'])
+                                                            <span class="badge">{{ $v['badge'] }}</span>
+                                                        @endif
                                                     </div>
                                                     <div class="fdw-micro">{{ $v['note'] }}</div>
                                                 </div>
@@ -703,10 +736,10 @@
                             <div id="fdwAcc1" class="accordion-collapse collapse show" aria-labelledby="fdwAcc1H" data-bs-parent="#fdwAcc">
                                 <div class="accordion-body">
                                     <p class="mb-2">
-                                        Booty Bands Pro Set is built for one job: make lower body training feel locked in. No rolling, no distracting pinches, no inconsistent tension. Just clean resistance that helps you focus on the muscle, the movement, and the result.
+                                        Fit.Done.Well. Booty Exercise Bands include 3 resistance strength bands made with high-quality polyester fabric. The inner side of each band has a rubber grip layer to keep them locked in place during every rep — no slipping, no rolling, no distracting pinches.
                                     </p>
                                     <p class="mb-0">
-                                        Whether you are training at home, in the gym, or on the road, this set adds instant intensity to squats, hip thrusts, kickbacks, lateral walks, and glute bridges.
+                                        Whether you're training at home, at the gym, or on the road, these bands add instant intensity to squats, hip thrusts, kickbacks, lateral walks, glute bridges, yoga, and pilates. The included drawstring carry bag means you're always ready to train.
                                     </p>
                                 </div>
                             </div>
@@ -744,7 +777,7 @@
                             </h3>
                             <div id="fdwAcc3" class="accordion-collapse collapse" aria-labelledby="fdwAcc3H" data-bs-parent="#fdwAcc">
                                 <div class="accordion-body">
-                                    Premium fabric blend designed for comfort, with an inner grip layer to keep tension stable. Reinforced seams for long term durability.
+                                    High-quality polyester fabric with an inner rubber grip layer to prevent slipping and rolling. The fabric won't pinch bare skin, making it comfortable whether worn over clothes or directly on your legs. Designed for long-term durability through regular training.
                                 </div>
                             </div>
                         </div>
@@ -757,7 +790,7 @@
                             </h3>
                             <div id="fdwAcc4" class="accordion-collapse collapse" aria-labelledby="fdwAcc4H" data-bs-parent="#fdwAcc">
                                 <div class="accordion-body">
-                                    One size fits most. If you are new to bands, start with light tension and prioritize control. If you want maximum challenge, choose Elite Set.
+                                    Each band measures 15" L × 3.25" W and fits most body types. If you're new to resistance bands, start with Light (20–35 lb) and focus on form. Experienced athletes can work straight into Medium (30–50 lb) or Heavy (45–70 lb).
                                 </div>
                             </div>
                         </div>
@@ -770,7 +803,7 @@
                             </h3>
                             <div id="fdwAcc5" class="accordion-collapse collapse" aria-labelledby="fdwAcc5H" data-bs-parent="#fdwAcc">
                                 <div class="accordion-body">
-                                    Hand wash with mild soap. Air dry flat. Avoid machine heat and harsh chemicals to preserve elasticity.
+                                    Hand wash with mild soap. Air dry flat. Avoid machine heat and harsh chemicals to preserve elasticity and the inner rubber grip layer.
                                 </div>
                             </div>
                         </div>
@@ -849,7 +882,7 @@
                                     <span class="fdw-verified"><i class="bi bi-check2"></i> Verified</span>
                                 </div>
                                 <div class="fw-bold mb-1">Finally bands that stay put</div>
-                                <div class="fdw-micro mb-2">Bought Pro Set. Zero rolling. My warmups feel sharper and my hip thrusts feel cleaner.</div>
+                                <div class="fdw-micro mb-2">Zero rolling, zero pinching. My warmups feel sharper and my hip thrusts actually hit the glute now.</div>
                                 <div class="text-muted" style="font-size:12px;">Maya, Phoenix</div>
                             </div>
                         </div>
@@ -863,7 +896,7 @@
                                     <span class="fdw-verified"><i class="bi bi-check2"></i> Verified</span>
                                 </div>
                                 <div class="fw-bold mb-1">Perfect for travel workouts</div>
-                                <div class="fdw-micro mb-2">I throw them in my bag and never skip glutes anymore. Elite is spicy.</div>
+                                <div class="fdw-micro mb-2">The carry bag is a game changer. I throw them in my bag and never skip glutes anymore.</div>
                                 <div class="text-muted" style="font-size:12px;">Jordan, Medellin</div>
                             </div>
                         </div>
@@ -986,7 +1019,7 @@
     'brand' => ['@type' => 'Brand', 'name' => $p['brand']],
     'sku' => $p['sku'],
     'image' => $p['images'],
-    'description' => 'Premium no roll fabric resistance bands set designed for glute activation, hip stability, and lower body training.',
+    'description' => 'Fit.Done.Well. fabric booty exercise bands — 3 resistance levels (Light 20-35lb, Medium 30-50lb, Heavy 45-70lb), polyester fabric with inner rubber grip, won\'t pinch bare skin, non-slip, non-roll. Includes drawstring carry bag.',
     'offers' => [
         '@type' => 'Offer',
         'priceCurrency' => $p['currency'],
@@ -1117,32 +1150,30 @@
 })();
 </script>
 
-
-
-
-
 <script>
     // Gallery Zoom Logic
     const frame = document.getElementById('zoomFrame');
     const img = document.getElementById('mainView');
 
-    frame.addEventListener('mousemove', (e) => {
-        const { left, top, width, height } = frame.getBoundingClientRect();
-        const x = ((e.clientX - left) / width) * 100;
-        const y = ((e.clientY - top) / height) * 100;
-        img.style.transformOrigin = `${x}% ${y}%`;
-        img.style.transform = 'scale(1.8)';
-    });
+    if (frame && img) {
+        frame.addEventListener('mousemove', (e) => {
+            const { left, top, width, height } = frame.getBoundingClientRect();
+            const x = ((e.clientX - left) / width) * 100;
+            const y = ((e.clientY - top) / height) * 100;
+            img.style.transformOrigin = `${x}% ${y}%`;
+            img.style.transform = 'scale(1.8)';
+        });
 
-    frame.addEventListener('mouseleave', () => {
-        img.style.transform = 'scale(1)';
-    });
+        frame.addEventListener('mouseleave', () => {
+            img.style.transform = 'scale(1)';
+        });
+    }
 
     // Interaction Functions
     function changeView(el, src) {
         document.querySelectorAll('.fdw-thumb').forEach(t => t.classList.remove('active'));
         el.classList.add('active');
-        img.src = src;
+        if (img) img.src = src;
     }
 
     function updateVariant(el, sale, regular) {

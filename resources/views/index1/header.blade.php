@@ -20,7 +20,7 @@
                         <div class="navbar-nav mr-auto py-0">
                             <a href="{{ url('/services') }}" class="nav-item nav-link">Services</a>
                             <a href="{{ url('/our-programs') }}" class="nav-item nav-link">Programs</a>
-                            <a href="https://www.amazon.com/s?me=A3ICCKPR3TSRVY&ref=sf_seller_app_share_new" class="nav-item nav-link">Products</a>
+                            <a href="https://www.amazon.com/s?me=A3ICCKPR3TSRVY&ref=sf_seller_app_share_new" class="nav-item nav-link d-none">Products</a>
                             <a href="{{ route('main-events') }}" class="nav-item nav-link">Events</a>
                             <a href="{{ url('/#real_schedule') }}" class="nav-item nav-link">Consultations</a>
 

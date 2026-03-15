@@ -1,6 +1,6 @@
 @extends('index1.app')
 
-@section('title', 'Elite Core Sliders Pro Pair | Fit.Done.Well.')
+@section('title', 'Exercise Sliders for Working Out | Fit.Done.Well.')
 
 @section('index1.content')
 
@@ -8,74 +8,70 @@
     $p = [
         'key' => 'core-sliders-pro',
         'brand' => 'Fit.Done.Well.',
-        'name' => 'Elite Core Sliders',
-        'tagline' => 'Engage your core, protect your joints, and transform your floor into a total body gym.',
+        'name' => 'Exercise Sliders',
+        'tagline' => 'Dual-sided fitness discs for carpet and hard floors — engage your core, strengthen your full body, train anywhere.',
         'currency' => 'USD',
-        'rating' => 4.9,
-        'reviews_count' => 428,
+        'rating' => 5.0,
+        'reviews_count' => 137,
         'stock_left' => 24,
         'sku' => 'FDW-SLIDE-01',
         'free_shipping_from' => 50.00,
         'delivery_days_min' => 3,
         'delivery_days_max' => 5,
         'images' => [
-            asset('slider1.jpg'), // Asegúrate de tener estas imágenes
+            asset('slider1.jpg'),
             asset('slider2.jpg'),
             asset('slider3.jpg'),
             asset('slider4.jpg'),
             asset('slider5.jpg'),
-
         ],
         'variant_label' => 'Color',
         'variants' => [
             [
-                'id' => 'black-onyx',
-                'name' => 'Onyx Black',
+                'id' => 'black',
+                'name' => 'Black',
                 'note' => 'Pair (2 Discs), Dual-sided',
                 'price_sale' => 8.00,
                 'price_regular' => 29.00,
                 'badge' => 'Best Seller',
             ],
-            [
-                'id' => 'pink-neon',
-                'name' => 'Neon Pink',
-                'note' => 'Pair (2 Discs), Dual-sided',
-                'price_sale' => 8.00,
-                'price_regular' => 29.00,
-                'badge' => 'Limited Edition',
-            ],
         ],
         'highlights' => [
-            ['icon' => 'bi-layers', 'title' => 'Dual-Sided Tech', 'text' => 'Smooth side for carpets, fabric foam side for hard floors. Works everywhere.'],
-            ['icon' => 'bi-activity', 'title' => 'Zero Impact', 'text' => 'Gliding movements protect your joints while keeping muscles under constant tension.'],
-            ['icon' => 'bi-bullseye', 'title' => 'Deep Core Burn', 'text' => 'Instability forces your entire core to engage to maintain balance during every rep.'],
-            ['icon' => 'bi-briefcase', 'title' => 'Travel Ready', 'text' => 'Lightweight and compact. Your gym fits in your carry-on bag.'],
+            ['icon' => 'bi-layers', 'title' => 'Dual-Sided Design', 'text' => 'Reversible for carpet and hard floors — one side for rugs and carpet, flip it for hardwood, tile, or laminate.'],
+            ['icon' => 'bi-activity', 'title' => 'Full Body Training', 'text' => 'Target core muscles with lunges, squats, and upper-body movements. Works every major muscle group.'],
+            ['icon' => 'bi-bullseye', 'title' => 'Engage & Strengthen Core', 'text' => 'Gliding movements force your core and stabilizers to work constantly throughout every rep.'],
+            ['icon' => 'bi-briefcase', 'title' => 'Light & Portable', 'text' => 'Compact 7" discs weigh just 7.4 oz. Take them to the gym, a class, or anywhere you train.'],
         ],
         'specs' => [
             ['label' => 'Included', 'value' => 'Pair of 2 Sliders'],
-            ['label' => 'Diameter', 'value' => '7 inches (17.8 cm)'],
-            ['label' => 'Material', 'value' => 'ABS Polymer (Side A) / High Density EVA Foam (Side B)'],
-            ['label' => 'Surface Use', 'value' => 'Hardwood, Tile, Laminate, Carpet, Rugs'],
-            ['label' => 'Weight', 'value' => 'Ultra-light (0.4 lbs per pair)'],
-            ['label' => 'Warranty', 'value' => 'Lifetime durability guarantee'],
+            ['label' => 'Dimensions', 'value' => '7" L × 7" H × 0.98" W'],
+            ['label' => 'Weight', 'value' => '7.4 Ounces (per pair)'],
+            ['label' => 'Material', 'value' => 'ABS Plastic / EVA Foam'],
+            ['label' => 'Color', 'value' => 'Black'],
+            ['label' => 'Surface use', 'value' => 'Carpet & hard floors (hardwood, tile, laminate)'],
+            ['label' => 'Style', 'value' => 'Abdominal / Full Body Trainer'],
+            ['label' => 'Max weight recommendation', 'value' => '500 Pounds'],
+            ['label' => 'Warranty', 'value' => '30-day money back guarantee'],
         ],
         'comparison' => [
-            ['feature' => 'Dual-Sided Surface', 'fdw' => 'Yes (2-in-1)', 'generic' => 'Often single side'],
-            ['feature' => 'Floor Protection', 'fdw' => 'High Density Foam', 'generic' => 'Thin foam scratches'],
-            ['feature' => 'Glide Smoothness', 'fdw' => 'Polished ABS', 'generic' => 'Sticks / Jerky'],
-            ['feature' => 'Durability', 'fdw' => 'Shatter-proof', 'generic' => 'Cracks under weight'],
-            ['feature' => 'Core Guide', 'fdw' => 'Included', 'generic' => 'Not included'],
+            ['feature' => 'Dual-sided surface', 'fdw' => 'Yes — carpet & hard floors', 'generic' => 'Often single side only'],
+            ['feature' => 'Floor protection', 'fdw' => 'EVA Foam side', 'generic' => 'Thin foam scratches'],
+            ['feature' => 'Glide smoothness', 'fdw' => 'ABS Plastic side', 'generic' => 'Sticks or jerky'],
+            ['feature' => 'Weight capacity', 'fdw' => 'Up to 500 lbs', 'generic' => 'Often unspecified'],
+            ['feature' => 'Portability', 'fdw' => '7.4 oz, compact 7"', 'generic' => 'Heavier, bulkier'],
         ],
         'faq' => [
-            ['q' => 'Do these work on carpet?', 'a' => 'Yes! Use the smooth plastic side for carpets and rugs. It glides effortlessly.'],
-            ['q' => 'Will they scratch my hardwood floors?', 'a' => 'No. Use the soft fabric/foam side on hard surfaces (wood, tile, laminate). It polishes as you slide.'],
-            ['q' => 'Are they good for beginners?', 'a' => 'Yes. You control the range of motion. Start with small movements and extend as your core gets stronger.'],
-            ['q' => 'What exercises can I do?', 'a' => 'Mountain climbers, knee tucks, lunges, pikes, lateral slides, and arm circles. Endless variety.'],
+            ['q' => 'Do these work on carpet?', 'a' => 'Yes. Use the ABS plastic side on carpets and rugs for effortless gliding.'],
+            ['q' => 'Will they scratch my hardwood floors?', 'a' => 'No. Use the EVA foam side on hard surfaces like wood, tile, and laminate. It moves smoothly without scratching.'],
+            ['q' => 'Are they good for beginners?', 'a' => 'Yes. You control the range of motion completely. Start with small movements and extend further as your core gets stronger.'],
+            ['q' => 'What exercises can I do with them?', 'a' => 'Mountain climbers, knee tucks, lunges, pikes, lateral slides, squats, and upper-body movements. Any exercise that benefits from a gliding surface.'],
+            ['q' => 'How heavy a person can use them?', 'a' => 'The sliders are rated for up to 500 pounds, making them suitable for virtually any user.'],
+            ['q' => 'How do I clean them?', 'a' => 'Wipe clean with a damp cloth. Check the foam side regularly for debris to maintain floor protection. Do not submerge in water.'],
             ['q' => 'Can I return them?', 'a' => 'Yes, we offer a 30-day money-back guarantee if you are not satisfied.'],
         ],
     ];
 
-    $defaultVariant = collect($p['variants'])->firstWhere('id', 'black-onyx') ?? $p['variants'][0];
+    $defaultVariant = collect($p['variants'])->firstWhere('id', 'black') ?? $p['variants'][0];
 @endphp
 
 <style>
@@ -211,13 +207,14 @@
 
                     <div class="fdw-card">
                         <p class="mb-3" style="color:#6c757d;">
-                            Traditional workouts rely on impact. Elite Core Sliders rely on instability. By creating a frictionless surface, you are forced to engage your core, hips, and stabilizers throughout the entire range of motion. It’s smarter training that protects your joints while sculpting your body.
+                            Fit.Done.Well. Exercise Sliders work to engage and strengthen your core and proprioception. They are dual-sided for use on both carpet and hard floors — ideal for home workouts or the gym. The gliding motion targets key muscles with a variety of exercises including lunges, squats, and upper-body movements.
                         </p>
                         <ul class="mb-0" style="color:#6c757d;">
-                            <li>Dual-sided design works on any surface (carpet or hardwood)</li>
-                            <li>Low-impact movement is perfect for injury recovery or joint health</li>
-                            <li>Instant intensity for pikes, mountain climbers, and lunges</li>
-                            <li>Includes access to our digital "Slider Shred" routines</li>
+                            <li>ABS plastic side glides on carpet and rugs without catching</li>
+                            <li>EVA foam side protects hardwood, tile, and laminate floors</li>
+                            <li>Compact 7" discs at just 7.4 oz — fits in any bag</li>
+                            <li>Rated for up to 500 lbs — suitable for all body types</li>
+                            <li>Sold as a pair — one for each foot or hand</li>
                         </ul>
                     </div>
                 </div>
@@ -284,7 +281,9 @@
                                                 <div>
                                                     <div class="fw-bold d-flex align-items-center gap-2">
                                                         <span>{{ $v['name'] }}</span>
-                                                        <span class="badge">{{ $v['badge'] }}</span>
+                                                        @if(isset($v['badge']) && $v['badge'])
+                                                            <span class="badge">{{ $v['badge'] }}</span>
+                                                        @endif
                                                     </div>
                                                     <div class="fdw-micro">{{ $v['note'] }}</div>
                                                 </div>
@@ -419,10 +418,10 @@
                             <div id="fdwAcc1" class="accordion-collapse collapse show" aria-labelledby="fdwAcc1H" data-bs-parent="#fdwAcc">
                                 <div class="accordion-body">
                                     <p class="mb-2">
-                                        The Elite Core Sliders are your secret weapon for a stronger, more defined core. By destabilizing your contact with the floor, these discs force your abdominal muscles to engage constantly to maintain balance.
+                                        Fit.Done.Well. Exercise Sliders are dual-sided fitness discs that work to engage and strengthen your core and proprioception. They are reversible for use on both carpet and hard floors, making them ideal for home exercise or the gym.
                                     </p>
                                     <p class="mb-0">
-                                        Use the smooth ABS side on carpets and rugs, or flip them over to the high-density foam side for hardwood, tile, and laminate floors. Perfect for mountain climbers, knee tucks, pikes, and smooth sliding lunges.
+                                        These gliding discs target key muscles with a variety of exercises — lunges, squats, mountain climbers, knee tucks, and upper-body movements. At just 7.4 oz, they are light and portable enough to take anywhere you train.
                                     </p>
                                 </div>
                             </div>
@@ -460,7 +459,7 @@
                             </h3>
                             <div id="fdwAcc3" class="accordion-collapse collapse" aria-labelledby="fdwAcc3H" data-bs-parent="#fdwAcc">
                                 <div class="accordion-body">
-                                    Dual-mold construction: Impact-resistant ABS polymer for low-friction gliding on carpets, bonded to high-density EVA foam for scratch-free movement on hard surfaces.
+                                    ABS plastic on one side for smooth gliding on carpet and rugs. EVA foam on the other side for protected movement on hardwood, tile, and laminate floors. Both materials are durable and built to withstand daily exercise.
                                 </div>
                             </div>
                         </div>
@@ -473,7 +472,7 @@
                             </h3>
                             <div id="fdwAcc4" class="accordion-collapse collapse" aria-labelledby="fdwAcc4H" data-bs-parent="#fdwAcc">
                                 <div class="accordion-body">
-                                    Standard 7-inch diameter fits hands and feet of all sizes comfortably. Compact and stackable for easy travel.
+                                    Each disc measures 7" × 7" and fits hands and feet of all sizes comfortably. Compact and stackable for easy storage and travel. Rated for up to 500 lbs.
                                 </div>
                             </div>
                         </div>
@@ -486,7 +485,7 @@
                             </h3>
                             <div id="fdwAcc5" class="accordion-collapse collapse" aria-labelledby="fdwAcc5H" data-bs-parent="#fdwAcc">
                                 <div class="accordion-body">
-                                    Wipe clean with a damp cloth. Check the foam side regularly for debris to ensure floor protection. Do not submerge in water.
+                                    Wipe clean with a damp cloth after each use. Check the foam side regularly for debris to ensure floor protection. Do not submerge in water.
                                 </div>
                             </div>
                         </div>
@@ -537,10 +536,10 @@
 
                     @php
                         $breakdown = [
-                            ['stars' => 5, 'pct' => 88],
-                            ['stars' => 4, 'pct' => 10],
+                            ['stars' => 5, 'pct' => 92],
+                            ['stars' => 4, 'pct' => 7],
                             ['stars' => 3, 'pct' => 1],
-                            ['stars' => 2, 'pct' => 1],
+                            ['stars' => 2, 'pct' => 0],
                             ['stars' => 1, 'pct' => 0],
                         ];
                     @endphp
@@ -702,7 +701,7 @@
     'brand' => ['@type' => 'Brand', 'name' => $p['brand']],
     'sku' => $p['sku'],
     'image' => $p['images'],
-    'description' => $p['tagline'],
+    'description' => 'Fit.Done.Well. Exercise Sliders — dual-sided fitness discs (ABS plastic + EVA foam) for carpet and hard floors. 2-pack, 7" diameter, 7.4 oz, rated to 500 lbs. Engages core, hips, and full body.',
     'offers' => [
         '@type' => 'Offer',
         'priceCurrency' => $p['currency'],
@@ -722,7 +721,6 @@
 (function () {
     const mainImg = document.getElementById('fdwMainImg');
     const thumbs = document.querySelectorAll('.fdw-thumb');
-    const variantsWrap = document.getElementById('fdwVariants');
     const variantInput = document.getElementById('fdwVariantInput');
     const amountInput = document.getElementById('fdwAmountInput');
 

@@ -19,6 +19,16 @@
         'delivery_days_min' => 3,
         'delivery_days_max' => 5,
         'images' => [
+            asset('pslider1.jpg'),
+            asset('pslider2.jpg'),
+            asset('pslider3.jpg'),
+            asset('pslider4.jpg'),
+            asset('pslider5.jpg'),
+
+
+
+
+
             asset('slider1.jpg'),
             asset('slider2.jpg'),
             asset('slider3.jpg'),

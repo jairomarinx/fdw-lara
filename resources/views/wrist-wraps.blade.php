@@ -19,6 +19,15 @@
         'delivery_days_min' => 3,
         'delivery_days_max' => 5,
         'images' => [
+
+            asset('pw1.jpg'),
+            asset('pw2.jpg'),
+            asset('pw3.jpg'),
+            asset('pw4.jpg'),
+            asset('pw5.jpg'),
+            asset('pw6.jpg'),
+            asset('pw7.jpg'),
+            
             asset('rwrist1.jpg'),
             asset('rwrist2.jpg'),
             asset('rwrist3.jpg'),

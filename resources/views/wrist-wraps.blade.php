@@ -1,6 +1,6 @@
 @extends('index1.app')
 
-@section('title', 'Elite Core Sliders Pro Pair | Fit.Done.Well.')
+@section('title', 'Lifting Wrist Straps for Weightlifting | Fit.Done.Well.')
 
 @section('index1.content')
 
@@ -8,11 +8,11 @@
     $p = [
         'key' => 'wrist-wraps-pro',
         'brand' => 'Fit.Done.Well.',
-        'name' => 'Wrist Wraps',
-        'tagline' => 'Lift heavier. Press stronger. Protect your wrists without sacrificing power.',
+        'name' => 'Lifting Wrist Straps',
+        'tagline' => 'Professional-length cotton straps with neoprene padding — built for deadlifts, rows, and heavy pulls.',
         'currency' => 'USD',
-        'rating' => 4.9,
-        'reviews_count' => 612,
+        'rating' => 5.0,
+        'reviews_count' => 83,
         'stock_left' => 31,
         'sku' => 'FDW-WRAP-01',
         'free_shipping_from' => 50.00,
@@ -28,9 +28,9 @@
         'variant_label' => 'Color',
         'variants' => [
             [
-                'id' => 'black-stealth',
-                'name' => 'Stealth Black',
-                'note' => 'Pair (2 Wraps), Heavy Duty Support',
+                'id' => 'black',
+                'name' => 'Black',
+                'note' => 'Pair (2 Straps) — Left & Right',
                 'price_sale' => 10.00,
                 'price_regular' => 39.00,
                 'badge' => 'Best Seller',
@@ -38,68 +38,73 @@
         ],
         'highlights' => [
             [
+                'icon' => 'bi-rulers',
+                'title' => 'Professional 23" Length',
+                'text' => 'Long enough for 2 to 3 wraps around the barbell — more wraps means a more secure, adaptable grip for any lift.'
+            ],
+            [
                 'icon' => 'bi-shield-check',
-                'title' => 'Maximum Wrist Stability',
-                'text' => 'Reinforced compression design reduces excessive wrist extension during heavy lifts.'
+                'title' => 'Neoprene Padded Support',
+                'text' => 'Premium non-slip neoprene padding protects your wrist while keeping the strap locked in place during heavy sets.'
             ],
             [
-                'icon' => 'bi-lightning-charge',
-                'title' => 'Lift Heavier Instantly',
-                'text' => 'More joint support means more confidence under the bar for bench press, overhead press, and squats.'
-            ],
-            [
-                'icon' => 'bi-award',
-                'title' => 'Competition Ready',
-                'text' => 'Ideal for powerlifting, bodybuilding, CrossFit, and strength training sessions.'
+                'icon' => 'bi-people',
+                'title' => 'Universal Fit',
+                'text' => 'One size fits both women and men. 100% cotton construction is comfortable against skin for long training sessions.'
             ],
             [
                 'icon' => 'bi-infinity',
-                'title' => 'Built To Last',
-                'text' => 'Premium elastic blend with industrial stitching that resists fraying and stretching out.'
+                'title' => 'Machine Washable',
+                'text' => 'Toss them in the wash after training. Avoid wringing and tumble drying to preserve the cotton and stitching.'
             ],
         ],
         'specs' => [
-            ['label' => 'Included', 'value' => 'Pair of 2 Wrist Wraps'],
-            ['label' => 'Length', 'value' => '18 inches (45 cm)'],
-            ['label' => 'Width', 'value' => '3 inches (7.5 cm)'],
-            ['label' => 'Material', 'value' => 'Premium Elastic Blend with Reinforced Stitching'],
-            ['label' => 'Closure', 'value' => 'Heavy Duty Hook and Loop Velcro'],
-            ['label' => 'Thumb Loop', 'value' => 'Integrated Stabilizing Loop'],
-            ['label' => 'Use', 'value' => 'Bench Press, Shoulder Press, Dips, Push Ups, Heavy Lifting'],
-            ['label' => 'Warranty', 'value' => 'Lifetime durability guarantee'],
+            ['label' => 'Included', 'value' => '1 Pair — Left & Right strap'],
+            ['label' => 'Dimensions', 'value' => '23.25" L × 1.5" W'],
+            ['label' => 'Material', 'value' => '100% Cotton with non-slip neoprene padded wrist support'],
+            ['label' => 'Color', 'value' => 'Black'],
+            ['label' => 'Size', 'value' => 'Universal — fits women and men'],
+            ['label' => 'Barbell wraps', 'value' => '2 to 3 wraps around the barbell'],
+            ['label' => 'Use', 'value' => 'Weightlifting, Bodybuilding, Powerlifting, Strength Training, Deadlifts'],
+            ['label' => 'Care', 'value' => 'Machine washable — do not wring or tumble dry'],
+            ['label' => 'Warranty', 'value' => '30-day money back guarantee'],
         ],
         'comparison' => [
-            ['feature' => 'Elastic Density', 'fdw' => 'High compression support', 'generic' => 'Soft, loses tension'],
-            ['feature' => 'Stitching Quality', 'fdw' => 'Reinforced industrial grade', 'generic' => 'Basic stitching'],
-            ['feature' => 'Velcro Strength', 'fdw' => 'Heavy duty grip', 'generic' => 'Weak closure'],
-            ['feature' => 'Durability', 'fdw' => 'Designed for heavy cycles', 'generic' => 'Stretches out quickly'],
-            ['feature' => 'Thumb Loop', 'fdw' => 'Integrated and durable', 'generic' => 'Thin and fragile'],
+            ['feature' => 'Strap length', 'fdw' => '23" professional length', 'generic' => 'Often shorter (16–18")'],
+            ['feature' => 'Wrist padding', 'fdw' => 'Non-slip neoprene', 'generic' => 'No padding or thin foam'],
+            ['feature' => 'Material', 'fdw' => '100% cotton — soft & durable', 'generic' => 'Synthetic blends'],
+            ['feature' => 'Barbell wraps', 'fdw' => '2–3 wraps for secure grip', 'generic' => 'Often only 1 wrap'],
+            ['feature' => 'Care', 'fdw' => 'Machine washable', 'generic' => 'Hand wash only'],
         ],
         'faq' => [
             [
-                'q' => 'Who should use wrist wraps?',
-                'a' => 'Anyone lifting moderate to heavy weights who wants better wrist stability and injury prevention.'
+                'q' => 'What lifts are these designed for?',
+                'a' => 'Deadlifts, barbell rows, pull-ups, shrugs, Romanian deadlifts, and any heavy pulling or grip-intensive movement. Also great for weightlifting, bodybuilding, powerlifting, and strength training.'
             ],
             [
-                'q' => 'Are these too stiff for beginners?',
-                'a' => 'No. You control the tightness. Start moderate and increase compression as weights go up.'
+                'q' => 'How do I wrap them around the barbell?',
+                'a' => 'Loop the strap through itself around your wrist, then wrap the tail 2 to 3 times around the barbell. At 23 inches, there is enough length for a secure hold on any bar diameter.'
             ],
             [
-                'q' => 'Can I use them for CrossFit workouts?',
-                'a' => 'Yes. Perfect for presses, handstand push ups, and high volume strength training.'
+                'q' => 'Will they fit my wrists?',
+                'a' => 'Yes. These are universal size and fit both women and men comfortably. The 1.5" width sits flat on the wrist without bunching.'
             ],
             [
-                'q' => 'How tight should I wrap them?',
-                'a' => 'Tight enough to stabilize, but not restrict circulation. You should feel supported, not numb.'
+                'q' => 'Are they comfortable for long sessions?',
+                'a' => 'Yes. The 100% cotton material is soft against skin, and the non-slip neoprene padding adds cushioning without bulk. Many lifters keep them on through entire pulling workouts.'
+            ],
+            [
+                'q' => 'How do I wash them?',
+                'a' => 'Machine washable. Routinely inspect for any wear or damage — discontinue use if damage is found. Do not wring them out and do not tumble dry to preserve the cotton and length.'
             ],
             [
                 'q' => 'Do you offer returns?',
-                'a' => 'Yes. We offer a 30 day money back guarantee if you are not satisfied.'
+                'a' => 'Yes. We offer a 30-day money back guarantee if you are not satisfied.'
             ],
         ],
     ];
 
-    $defaultVariant = collect($p['variants'])->firstWhere('id', 'black-stealth') ?? $p['variants'][0];
+    $defaultVariant = collect($p['variants'])->firstWhere('id', 'black') ?? $p['variants'][0];
 @endphp
 
 <style>
@@ -235,13 +240,14 @@
 
                     <div class="fdw-card">
                         <p class="mb-3" style="color:#6c757d;">
-                            Traditional workouts rely on impact. Elite Core Sliders rely on instability. By creating a frictionless surface, you are forced to engage your core, hips, and stabilizers throughout the entire range of motion. It’s smarter training that protects your joints while sculpting your body.
+                            Fit.Done.Well. Lifting Wrist Straps are built for versatility and durability. At a professional length of 23 inches, they allow for two to three wraps around the barbell — giving you an adaptable and secure grip on any pulling or pushing movement.
                         </p>
                         <ul class="mb-0" style="color:#6c757d;">
-                            <li>Dual-sided design works on any surface (carpet or hardwood)</li>
-                            <li>Low-impact movement is perfect for injury recovery or joint health</li>
-                            <li>Instant intensity for pikes, mountain climbers, and lunges</li>
-                            <li>Includes access to our digital "Slider Shred" routines</li>
+                            <li>100% cotton — soft on skin and built to last through heavy cycles</li>
+                            <li>Non-slip neoprene padded wrist support for optimal comfort</li>
+                            <li>Universal size fits both women and men</li>
+                            <li>23" length allows 2–3 wraps for a secure hold on any barbell</li>
+                            <li>Machine washable — easy to keep clean between sessions</li>
                         </ul>
                     </div>
                 </div>
@@ -308,7 +314,9 @@
                                                 <div>
                                                     <div class="fw-bold d-flex align-items-center gap-2">
                                                         <span>{{ $v['name'] }}</span>
-                                                        <span class="badge">{{ $v['badge'] }}</span>
+                                                        @if(isset($v['badge']) && $v['badge'])
+                                                            <span class="badge">{{ $v['badge'] }}</span>
+                                                        @endif
                                                     </div>
                                                     <div class="fdw-micro">{{ $v['note'] }}</div>
                                                 </div>
@@ -395,23 +403,23 @@
                         <div class="d-flex align-items-start justify-content-between flex-wrap gap-2">
                             <div>
                                 <div class="fw-bold mb-1">Bundle and save</div>
-                                <div class="fdw-micro">Frequently bought together for faster results.</div>
+                                <div class="fdw-micro">Frequently bought together for stronger sessions.</div>
                             </div>
                             <span class="fdw-pill"><i class="bi bi-piggy-bank"></i> Smart add ons</span>
                         </div>
 
                         <div class="mt-3">
                             <div class="d-flex align-items-center justify-content-between">
-                                <div class="fw-bold">Ab Shredder Digital Guide</div>
+                                <div class="fw-bold">Deadlift Form Guide</div>
                                 <div class="fw-bold">$9.00</div>
                             </div>
-                            <div class="fdw-micro mb-2">10-minute core routines designed for sliders.</div>
+                            <div class="fdw-micro mb-2">Step-by-step cues for safer, heavier pulls.</div>
 
                             <div class="d-flex align-items-center justify-content-between">
-                                <div class="fw-bold">High Density Knee Pad</div>
-                                <div class="fw-bold">$12.00</div>
+                                <div class="fw-bold">Booty Exercise Bands</div>
+                                <div class="fw-bold">$15.00</div>
                             </div>
-                            <div class="fdw-micro mb-3">Protect your knees during sliding lunges.</div>
+                            <div class="fdw-micro mb-3">Add lower body activation to your pull days.</div>
 
                             <button type="button" class="btn w-100 fdw-btn-secondary" id="fdwBundleBtn">
                                 Add bundle
@@ -443,10 +451,10 @@
                             <div id="fdwAcc1" class="accordion-collapse collapse show" aria-labelledby="fdwAcc1H" data-bs-parent="#fdwAcc">
                                 <div class="accordion-body">
                                     <p class="mb-2">
-                                        The Elite Core Sliders are your secret weapon for a stronger, more defined core. By destabilizing your contact with the floor, these discs force your abdominal muscles to engage constantly to maintain balance.
+                                        Fit.Done.Well. Lifting Wrist Straps are designed for weightlifting, bodybuilding, powerlifting, strength training, and deadlifts. At a professional length of 23 inches, these straps allow for two to three wraps around the barbell — offering adaptability and a secure grip for any lift.
                                     </p>
                                     <p class="mb-0">
-                                        Use the smooth ABS side on carpets and rugs, or flip them over to the high-density foam side for hardwood, tile, and laminate floors. Perfect for mountain climbers, knee tucks, pikes, and smooth sliding lunges.
+                                        Each pair includes a Left and Right strap made from 100% cotton with a premium non-slip neoprene padded wrist support for optimal comfort. Universal size fits both women and men, and they are machine washable for easy maintenance.
                                     </p>
                                 </div>
                             </div>
@@ -484,7 +492,7 @@
                             </h3>
                             <div id="fdwAcc3" class="accordion-collapse collapse" aria-labelledby="fdwAcc3H" data-bs-parent="#fdwAcc">
                                 <div class="accordion-body">
-                                    Dual-mold construction: Impact-resistant ABS polymer for low-friction gliding on carpets, bonded to high-density EVA foam for scratch-free movement on hard surfaces.
+                                    100% cotton strap body — soft against skin and durable through repeated heavy use. The wrist section features a premium non-slip neoprene pad that cushions the joint and keeps the strap from shifting during lifts.
                                 </div>
                             </div>
                         </div>
@@ -497,7 +505,7 @@
                             </h3>
                             <div id="fdwAcc4" class="accordion-collapse collapse" aria-labelledby="fdwAcc4H" data-bs-parent="#fdwAcc">
                                 <div class="accordion-body">
-                                    Standard 7-inch diameter fits hands and feet of all sizes comfortably. Compact and stackable for easy travel.
+                                    Universal size — 23.25" L × 1.5" W. Fits both women and men. The 1.5" width sits flat against the wrist without bunching, and the 23" length gives enough material for 2 to 3 wraps around any standard barbell.
                                 </div>
                             </div>
                         </div>
@@ -510,7 +518,7 @@
                             </h3>
                             <div id="fdwAcc5" class="accordion-collapse collapse" aria-labelledby="fdwAcc5H" data-bs-parent="#fdwAcc">
                                 <div class="accordion-body">
-                                    Wipe clean with a damp cloth. Check the foam side regularly for debris to ensure floor protection. Do not submerge in water.
+                                    Machine washable. Routinely inspect for any wear or damage and discontinue use if damage is found. Do not wring out and do not tumble dry — lay flat to air dry to preserve the cotton length and integrity.
                                 </div>
                             </div>
                         </div>
@@ -526,7 +534,7 @@
                                 <tr>
                                     <th>Feature</th>
                                     <th>{{ $p['brand'] }}</th>
-                                    <th>Generic Sliders</th>
+                                    <th>Generic Straps</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -561,10 +569,10 @@
 
                     @php
                         $breakdown = [
-                            ['stars' => 5, 'pct' => 88],
-                            ['stars' => 4, 'pct' => 10],
+                            ['stars' => 5, 'pct' => 94],
+                            ['stars' => 4, 'pct' => 5],
                             ['stars' => 3, 'pct' => 1],
-                            ['stars' => 2, 'pct' => 1],
+                            ['stars' => 2, 'pct' => 0],
                             ['stars' => 1, 'pct' => 0],
                         ];
                     @endphp
@@ -588,9 +596,9 @@
                                     </div>
                                     <span class="fdw-verified"><i class="bi bi-check2"></i> Verified</span>
                                 </div>
-                                <div class="fw-bold mb-1">My core is on fire</div>
-                                <div class="fdw-micro mb-2">I use these for pikes and mountain climbers. They glide perfectly on my living room rug.</div>
-                                <div class="text-muted" style="font-size:12px;">Sarah, Austin</div>
+                                <div class="fw-bold mb-1">Finally hit a new deadlift PR</div>
+                                <div class="fdw-micro mb-2">The length is great — I get a full 3 wraps and my grip doesn't give out before my back does. Cotton feels way better than nylon.</div>
+                                <div class="text-muted" style="font-size:12px;">Marcus, Chicago</div>
                             </div>
                         </div>
 
@@ -602,9 +610,9 @@
                                     </div>
                                     <span class="fdw-verified"><i class="bi bi-check2"></i> Verified</span>
                                 </div>
-                                <div class="fw-bold mb-1">Safe for my wood floors</div>
-                                <div class="fdw-micro mb-2">Was worried about scratching, but the foam side is super soft. Great addition to home gym.</div>
-                                <div class="text-muted" style="font-size:12px;">Mike, Seattle</div>
+                                <div class="fw-bold mb-1">Comfortable even after an hour</div>
+                                <div class="fdw-micro mb-2">The neoprene pad makes a big difference. Zero wrist irritation even on long pull days. Easy to wash too.</div>
+                                <div class="text-muted" style="font-size:12px;">Priya, Toronto</div>
                             </div>
                         </div>
                     </div>
@@ -726,7 +734,7 @@
     'brand' => ['@type' => 'Brand', 'name' => $p['brand']],
     'sku' => $p['sku'],
     'image' => $p['images'],
-    'description' => $p['tagline'],
+    'description' => 'Fit.Done.Well. Lifting Wrist Straps — 100% cotton, 23.25" length, non-slip neoprene padded support, universal size, machine washable. 1 pair (Left & Right). For weightlifting, bodybuilding, powerlifting, and deadlifts.',
     'offers' => [
         '@type' => 'Offer',
         'priceCurrency' => $p['currency'],
@@ -746,7 +754,6 @@
 (function () {
     const mainImg = document.getElementById('fdwMainImg');
     const thumbs = document.querySelectorAll('.fdw-thumb');
-    const variantsWrap = document.getElementById('fdwVariants');
     const variantInput = document.getElementById('fdwVariantInput');
     const amountInput = document.getElementById('fdwAmountInput');
 

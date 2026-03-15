@@ -1,6 +1,6 @@
 @extends('index1.app')
 
-@section('title', 'Elite Core Sliders Pro Pair | Fit.Done.Well.')
+@section('title', 'Ankle Straps for Cable Machine | Fit.Done.Well.')
 
 @section('index1.content')
 
@@ -8,11 +8,11 @@
     $p = [
         'key' => 'ankle-straps',
         'brand' => 'Fit.Done.Well.',
-        'name' => 'Pro Glute Ankle Straps',
-        'tagline' => 'Turn any cable machine into a glute builder. More comfort, more control, better activation.',
+        'name' => 'Ankle Straps',
+        'tagline' => 'Target glutes, thighs, hamstrings, and calves with precision — adjustable leg straps built for cable machines.',
         'currency' => 'USD',
-        'rating' => 4.9,
-        'reviews_count' => 538,
+        'rating' => 4.8,
+        'reviews_count' => 324,
         'stock_left' => 27,
         'sku' => 'FDW-ANKLE-01',
         'free_shipping_from' => 50.00,
@@ -22,96 +22,93 @@
             asset('ankle1.jpg'),
             asset('ankle2.jpg'),
             asset('ankle3.jpg'),
-            asset('ankle4.jpg'),           
+            asset('ankle4.jpg'),
         ],
         'variant_label' => 'Color',
         'variants' => [
             [
-                'id' => 'black-stealth',
-                'name' => 'Stealth Black',
-                'note' => 'Pair (2 Straps), Padded Neoprene, D Ring Attachment',
+                'id' => 'black',
+                'name' => 'Black',
+                'note' => 'Pair (2 Straps) — Neoprene Padding, 2 Steel D Rings',
                 'price_sale' => 12.00,
                 'price_regular' => 35.00,
                 'badge' => 'Best Seller',
-            ],
-            [
-                'id' => 'pink-energy',
-                'name' => 'Energy Pink',
-                'note' => 'Pair (2 Straps), Padded Neoprene, D Ring Attachment',
-                'price_sale' => 12.00,
-                'price_regular' => 35.00,
-                'badge' => 'Limited Edition',
             ],
         ],
         'highlights' => [
             [
                 'icon' => 'bi-bullseye',
-                'title' => 'Better Glute Activation',
-                'text' => 'Stable ankle anchoring keeps your leg path clean so your glutes do the work, not your joints.'
+                'title' => 'Precise Lower Body Activation',
+                'text' => 'Target glutes, thighs, hamstrings, and calves to strengthen, tone, and sculpt your lower body with each movement.'
             ],
             [
-                'icon' => 'bi-heart-pulse',
-                'title' => 'Comfort That Lets You Go Heavy',
-                'text' => 'Thick neoprene padding reduces pressure points, even on high volume sets.' // 5.5 to 7mm common
+                'icon' => 'bi-lightning-charge',
+                'title' => 'Easy On, Easy Off',
+                'text' => 'Sold in pairs — clip in and out fast during your workout without switching gear between sides.'
             ],
             [
                 'icon' => 'bi-link-45deg',
-                'title' => 'Cable Ready D Ring',
-                'text' => 'Strong metal D ring connects fast to any low pulley for kickbacks, abductions, curls, and more.'
+                'title' => 'Dual Steel D Rings',
+                'text' => 'Two thicker steel D rings on each strap deliver maximum resistance load capability for heavy cable work.'
             ],
             [
                 'icon' => 'bi-shield-check',
-                'title' => 'No Slip, No Distractions',
-                'text' => 'Heavy duty velcro grip stays locked so you can focus on form and intensity.'
+                'title' => 'Soft Inside, Strong Outside',
+                'text' => 'Ultra-soft cotton interior with durable premium nylon exterior — comfort without sacrificing strength or longevity.'
             ],
         ],
         'specs' => [
             ['label' => 'Included', 'value' => 'Pair of 2 Ankle Straps'],
-            ['label' => 'Length', 'value' => '18 inches (45 cm) approx'], // common in retail
-            ['label' => 'Width', 'value' => '2.2 to 3 inches (5.5 to 7.5 cm)'],
-            ['label' => 'Padding', 'value' => 'Thick neoprene cushioning (comfort focused)'],
-            ['label' => 'Material', 'value' => 'Neoprene + Heavy Duty Webbing + Reinforced Stitching'],
-            ['label' => 'Closure', 'value' => 'Heavy Duty Hook and Loop Velcro'],
-            ['label' => 'Attachment', 'value' => 'Metal D ring for cable machines'],
-            ['label' => 'Use', 'value' => 'Glute kickbacks, hip abduction, leg curls, extensions, inner thigh work'],
-            ['label' => 'Warranty', 'value' => 'Lifetime durability guarantee'],
+            ['label' => 'Dimensions', 'value' => '16" L × 3.93" W'],
+            ['label' => 'Weight', 'value' => '0.13 kg (per pair)'],
+            ['label' => 'Material', 'value' => 'Nylon exterior with ultra-soft cotton interior lining'],
+            ['label' => 'Padding', 'value' => 'Neoprene padding for ankle comfort'],
+            ['label' => 'Attachment', 'value' => '2 thicker steel D rings per strap'],
+            ['label' => 'Closure', 'value' => 'Adjustable — clips in and out easily'],
+            ['label' => 'Style', 'value' => 'Modern'],
+            ['label' => 'Use', 'value' => 'Cable machines, glute kickbacks, leg extensions, curls, glute workouts, lower body exercises'],
+            ['label' => 'Warranty', 'value' => '30-day money back guarantee'],
         ],
         'comparison' => [
-            ['feature' => 'Padding Comfort', 'fdw' => 'Thick neoprene feel', 'generic' => 'Thin, digs in'],
-            ['feature' => 'Velcro Hold', 'fdw' => 'Heavy duty grip', 'generic' => 'Loosens mid set'],
-            ['feature' => 'D Ring Strength', 'fdw' => 'Reinforced metal', 'generic' => 'Light duty ring'],
-            ['feature' => 'Stitching', 'fdw' => 'Reinforced seams', 'generic' => 'Frays quickly'],
-            ['feature' => 'Fit Range', 'fdw' => 'Adjustable, secure wrap', 'generic' => 'Awkward fit'],
+            ['feature' => 'D ring count', 'fdw' => '2 thicker steel D rings', 'generic' => 'Single light-duty ring'],
+            ['feature' => 'Interior comfort', 'fdw' => 'Ultra-soft cotton lining', 'generic' => 'Rough synthetic material'],
+            ['feature' => 'Exterior durability', 'fdw' => 'Premium nylon', 'generic' => 'Thin fabric frays quickly'],
+            ['feature' => 'Neoprene padding', 'fdw' => 'Yes — ankle protection', 'generic' => 'Minimal or none'],
+            ['feature' => 'Sold as pair', 'fdw' => 'Yes — train both sides', 'generic' => 'Often sold single'],
         ],
         'faq' => [
             [
                 'q' => 'Do these work with any cable machine?',
-                'a' => 'Yes. Clip the D ring to a low pulley carabiner and you are ready for kickbacks and more.'
+                'a' => 'Yes. The steel D rings clip to a low pulley carabiner on any cable machine — resistance trainers and other cable setups are compatible too.'
             ],
             [
                 'q' => 'Are they sold as a pair?',
-                'a' => 'Yes. You get 2 straps so you can train both sides without switching gear.'
+                'a' => 'Yes. You receive 2 straps so you can train both sides without stopping to switch gear between sets.'
             ],
             [
-                'q' => 'Will they fit my ankle size?',
-                'a' => 'They are fully adjustable. Wrap snug for stability, but never so tight that it restricts circulation.'
+                'q' => 'What exercises can I do?',
+                'a' => 'Glute kickbacks, hip abductions, leg extensions, hamstring curls, inner thigh work, and weighted lower body training. Any movement targeting glutes, thighs, hamstrings, or calves on a cable machine.'
             ],
             [
-                'q' => 'What exercises are best?',
-                'a' => 'Cable kickbacks, standing abductions, hamstring curls, leg extensions, and glute med work.'
+                'q' => 'Why are there 2 D rings on each strap?',
+                'a' => 'Two thicker steel D rings give you maximum resistance load capability and prevent twisting during heavy sets, keeping the attachment point stable throughout the movement.'
+            ],
+            [
+                'q' => 'Will they fit my ankle?',
+                'a' => 'Yes. They are fully adjustable and fit a wide range of ankle sizes. The neoprene padding cushions the ankle regardless of tightness.'
             ],
             [
                 'q' => 'How do I clean them?',
-                'a' => 'Wipe with a damp cloth after training and air dry. Avoid machine washing to protect the velcro.'
+                'a' => 'Wipe with a damp cloth after training and air dry. Avoid machine washing to protect the velcro closure and neoprene padding.'
             ],
             [
                 'q' => 'Can I return them?',
-                'a' => 'Yes, we offer a 30 day money back guarantee if you are not satisfied.'
+                'a' => 'Yes, we offer a 30-day money back guarantee if you are not satisfied.'
             ],
         ],
     ];
 
-    $defaultVariant = collect($p['variants'])->firstWhere('id', 'black-stealth') ?? $p['variants'][0];
+    $defaultVariant = collect($p['variants'])->firstWhere('id', 'black') ?? $p['variants'][0];
 @endphp
 
 <style>
@@ -247,13 +244,14 @@
 
                     <div class="fdw-card">
                         <p class="mb-3" style="color:#6c757d;">
-                            Traditional workouts rely on impact. Elite Core Sliders rely on instability. By creating a frictionless surface, you are forced to engage your core, hips, and stabilizers throughout the entire range of motion. It’s smarter training that protects your joints while sculpting your body.
+                            Fit.Done.Well. Ankle Straps are designed for precise lower body activation on cable machines and resistance trainers. Each strap combines an ultra-soft cotton interior for comfort with a durable premium nylon exterior for long-term strength — so you can go heavy without discomfort or wear.
                         </p>
                         <ul class="mb-0" style="color:#6c757d;">
-                            <li>Dual-sided design works on any surface (carpet or hardwood)</li>
-                            <li>Low-impact movement is perfect for injury recovery or joint health</li>
-                            <li>Instant intensity for pikes, mountain climbers, and lunges</li>
-                            <li>Includes access to our digital "Slider Shred" routines</li>
+                            <li>Two thicker steel D rings per strap for maximum load capability</li>
+                            <li>Neoprene padding cushions the ankle on every rep</li>
+                            <li>Sold as a pair — train both legs without switching straps</li>
+                            <li>Adjustable fit — clips in and out fast between exercises</li>
+                            <li>Compatible with cable machines, resistance trainers, and weighted setups</li>
                         </ul>
                     </div>
                 </div>
@@ -320,7 +318,9 @@
                                                 <div>
                                                     <div class="fw-bold d-flex align-items-center gap-2">
                                                         <span>{{ $v['name'] }}</span>
-                                                        <span class="badge">{{ $v['badge'] }}</span>
+                                                        @if(isset($v['badge']) && $v['badge'])
+                                                            <span class="badge">{{ $v['badge'] }}</span>
+                                                        @endif
                                                     </div>
                                                     <div class="fdw-micro">{{ $v['note'] }}</div>
                                                 </div>
@@ -343,22 +343,11 @@
                             <div class="row g-2 align-items-end mb-3 d-none">
                                 <div class="col-4">
                                     <label class="form-label fw-bold" for="fdwQty">Qty</label>
-                                    <input type="number"
-                                           min="1"
-                                           value="1"
-                                           class="form-control"
-                                           id="fdwQty"
-                                           name="quantity"
-                                           aria-label="Quantity">
+                                    <input type="number" min="1" value="1" class="form-control" id="fdwQty" name="quantity" aria-label="Quantity">
                                 </div>
                                 <div class="col-8">
                                     <label class="form-label fw-bold" for="fdwEmail">Email</label>
-                                    <input type="email"
-                                           class="form-control"
-                                           id="fdwEmail"
-                                           name="email"
-                                           placeholder="you@example.com"
-                                           aria-label="Email for receipt">
+                                    <input type="email" class="form-control" id="fdwEmail" name="email" placeholder="you@example.com" aria-label="Email for receipt">
                                 </div>
                             </div>
 
@@ -366,7 +355,7 @@
                                 <button type="submit" name="intent" value="add_to_cart" class="btn btn-lg w-50 fdw-btn-secondary d-none">
                                     Add to Cart
                                 </button>
-                                <a type="submit" name="intent" value="buy_now" class="btn btn-lg w-50 fdw-btn-primary" href="{{ url('/general-checkout/wrist-straps') }}">
+                                <a type="submit" name="intent" value="buy_now" class="btn btn-lg w-50 fdw-btn-primary" href="{{ url('/general-checkout/ankle-straps') }}">
                                     Buy Now
                                 </a>
                             </div>
@@ -414,16 +403,16 @@
 
                         <div class="mt-3">
                             <div class="d-flex align-items-center justify-content-between">
-                                <div class="fw-bold">Ab Shredder Digital Guide</div>
-                                <div class="fw-bold">$9.00</div>
+                                <div class="fw-bold">Booty Exercise Bands</div>
+                                <div class="fw-bold">$15.00</div>
                             </div>
-                            <div class="fdw-micro mb-2">10-minute core routines designed for sliders.</div>
+                            <div class="fdw-micro mb-2">Add resistance band work to your cable glute days.</div>
 
                             <div class="d-flex align-items-center justify-content-between">
-                                <div class="fw-bold">High Density Knee Pad</div>
-                                <div class="fw-bold">$12.00</div>
+                                <div class="fw-bold">Glute Activation Guide</div>
+                                <div class="fw-bold">$9.00</div>
                             </div>
-                            <div class="fdw-micro mb-3">Protect your knees during sliding lunges.</div>
+                            <div class="fdw-micro mb-3">Routines built around cable and band training.</div>
 
                             <button type="button" class="btn w-100 fdw-btn-secondary" id="fdwBundleBtn">
                                 Add bundle
@@ -455,10 +444,10 @@
                             <div id="fdwAcc1" class="accordion-collapse collapse show" aria-labelledby="fdwAcc1H" data-bs-parent="#fdwAcc">
                                 <div class="accordion-body">
                                     <p class="mb-2">
-                                        The Elite Core Sliders are your secret weapon for a stronger, more defined core. By destabilizing your contact with the floor, these discs force your abdominal muscles to engage constantly to maintain balance.
+                                        Fit.Done.Well. Ankle Straps are designed for cable machine kickbacks, glute workouts, and lower body exercises. They come in a pair with adjustable leg straps and neoprene padding for comfortable, high-intensity training.
                                     </p>
                                     <p class="mb-0">
-                                        Use the smooth ABS side on carpets and rugs, or flip them over to the high-density foam side for hardwood, tile, and laminate floors. Perfect for mountain climbers, knee tucks, pikes, and smooth sliding lunges.
+                                        Each strap features two thicker steel D rings for maximum resistance load capability and an ultra-soft cotton interior that prevents irritation during long sessions. The premium nylon exterior is built to withstand repeated use on cable machines, resistance trainers, and weighted exercises.
                                     </p>
                                 </div>
                             </div>
@@ -496,7 +485,7 @@
                             </h3>
                             <div id="fdwAcc3" class="accordion-collapse collapse" aria-labelledby="fdwAcc3H" data-bs-parent="#fdwAcc">
                                 <div class="accordion-body">
-                                    Dual-mold construction: Impact-resistant ABS polymer for low-friction gliding on carpets, bonded to high-density EVA foam for scratch-free movement on hard surfaces.
+                                    Premium nylon exterior for durability and long-term strength, with an ultra-soft cotton interior lining for comfort against the skin. Neoprene padding on the ankle contact area prevents pressure and irritation during heavy sets. Two thicker steel D rings per strap for maximum resistance load capability.
                                 </div>
                             </div>
                         </div>
@@ -509,7 +498,7 @@
                             </h3>
                             <div id="fdwAcc4" class="accordion-collapse collapse" aria-labelledby="fdwAcc4H" data-bs-parent="#fdwAcc">
                                 <div class="accordion-body">
-                                    Standard 7-inch diameter fits hands and feet of all sizes comfortably. Compact and stackable for easy travel.
+                                    Each strap measures 16" L × 3.93" W and is fully adjustable to fit a wide range of ankle sizes. The adjustable closure clips in and out easily, making it quick to switch between exercises mid-workout.
                                 </div>
                             </div>
                         </div>
@@ -522,7 +511,7 @@
                             </h3>
                             <div id="fdwAcc5" class="accordion-collapse collapse" aria-labelledby="fdwAcc5H" data-bs-parent="#fdwAcc">
                                 <div class="accordion-body">
-                                    Wipe clean with a damp cloth. Check the foam side regularly for debris to ensure floor protection. Do not submerge in water.
+                                    Wipe clean with a damp cloth after training and air dry. Avoid machine washing to protect the velcro closure and neoprene padding integrity.
                                 </div>
                             </div>
                         </div>
@@ -538,7 +527,7 @@
                                 <tr>
                                     <th>Feature</th>
                                     <th>{{ $p['brand'] }}</th>
-                                    <th>Generic Sliders</th>
+                                    <th>Generic Straps</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -573,9 +562,9 @@
 
                     @php
                         $breakdown = [
-                            ['stars' => 5, 'pct' => 88],
-                            ['stars' => 4, 'pct' => 10],
-                            ['stars' => 3, 'pct' => 1],
+                            ['stars' => 5, 'pct' => 84],
+                            ['stars' => 4, 'pct' => 12],
+                            ['stars' => 3, 'pct' => 3],
                             ['stars' => 2, 'pct' => 1],
                             ['stars' => 1, 'pct' => 0],
                         ];
@@ -600,9 +589,9 @@
                                     </div>
                                     <span class="fdw-verified"><i class="bi bi-check2"></i> Verified</span>
                                 </div>
-                                <div class="fw-bold mb-1">My core is on fire</div>
-                                <div class="fdw-micro mb-2">I use these for pikes and mountain climbers. They glide perfectly on my living room rug.</div>
-                                <div class="text-muted" style="font-size:12px;">Sarah, Austin</div>
+                                <div class="fw-bold mb-1">Cable kickbacks feel different now</div>
+                                <div class="fdw-micro mb-2">The D rings stay put and the padding is thick enough that I don't feel the strap at all. My glutes are actually working.</div>
+                                <div class="text-muted" style="font-size:12px;">Camila, Miami</div>
                             </div>
                         </div>
 
@@ -614,9 +603,9 @@
                                     </div>
                                     <span class="fdw-verified"><i class="bi bi-check2"></i> Verified</span>
                                 </div>
-                                <div class="fw-bold mb-1">Safe for my wood floors</div>
-                                <div class="fdw-micro mb-2">Was worried about scratching, but the foam side is super soft. Great addition to home gym.</div>
-                                <div class="text-muted" style="font-size:12px;">Mike, Seattle</div>
+                                <div class="fw-bold mb-1">Built to handle heavy weight</div>
+                                <div class="fdw-micro mb-2">I was worried about the rings bending on heavy leg curls but they held up completely. Great quality for the price.</div>
+                                <div class="text-muted" style="font-size:12px;">Derek, Atlanta</div>
                             </div>
                         </div>
                     </div>
@@ -632,10 +621,10 @@
                 <div class="fdw-card mt-3 fdw-fadein" data-fade>
                     <h2 class="fdw-section-title mb-3">Customer photos</h2>
                     <div class="fdw-ugc">
-                        <img src="{{ asset('wrist1.jpg') }}" alt="Customer photo 1" loading="lazy" decoding="async">
-                        <img src="{{ asset('wrist2.jpg') }}" alt="Customer photo 2" loading="lazy" decoding="async">
-                        <img src="{{ asset('wrist3.jpg') }}" alt="Customer photo 3" loading="lazy" decoding="async">
-                        <img src="{{ asset('wrist4.jpg') }}" alt="Customer photo 4" loading="lazy" decoding="async">
+                        <img src="{{ asset('ankle1.jpg') }}" alt="Customer photo 1" loading="lazy" decoding="async">
+                        <img src="{{ asset('ankle2.jpg') }}" alt="Customer photo 2" loading="lazy" decoding="async">
+                        <img src="{{ asset('ankle3.jpg') }}" alt="Customer photo 3" loading="lazy" decoding="async">
+                        <img src="{{ asset('ankle4.jpg') }}" alt="Customer photo 4" loading="lazy" decoding="async">
                     </div>
                     <div class="fdw-micro mt-2">Tag us to get featured.</div>
                 </div>
@@ -738,7 +727,7 @@
     'brand' => ['@type' => 'Brand', 'name' => $p['brand']],
     'sku' => $p['sku'],
     'image' => $p['images'],
-    'description' => $p['tagline'],
+    'description' => 'Fit.Done.Well. Ankle Straps — pair of 2, nylon with ultra-soft cotton interior, neoprene padding, 2 thicker steel D rings, 16" L × 3.93" W, adjustable. For cable machine kickbacks, glute workouts, and lower body exercises.',
     'offers' => [
         '@type' => 'Offer',
         'priceCurrency' => $p['currency'],
@@ -758,7 +747,6 @@
 (function () {
     const mainImg = document.getElementById('fdwMainImg');
     const thumbs = document.querySelectorAll('.fdw-thumb');
-    const variantsWrap = document.getElementById('fdwVariants');
     const variantInput = document.getElementById('fdwVariantInput');
     const amountInput = document.getElementById('fdwAmountInput');
 

@@ -2,20 +2,20 @@
 return [
     'test' => ['name' => 'Test Product', 'price' => 1, 'desc' => 'This is only for testing', 'meal' => 0, 'fit' => 0],
 
-    'fit-reset-consultation' => ['name' => 'Fit.Reset.Consultation', 'price' => 129, 'desc' => ' ', 'meal' => 0, 'fit' => 1],
+    'fit-reset-consultation' => ['name' => 'Fit.Reset.Consultation', 'price' => 129, 'desc' => ' ', 'meal' => 0, 'fit' => 1, 'fit_order' => 1],
     'life-reset-consultation' => ['name' => 'Life.Reset.Consultation', 'price' => 129, 'desc' => '', 'meal' => 0, 'fit' => 0],
 
     'saturday-booty-camp' => ['name' => 'Saturday.Booty.Camp', 'price' => 29, 'desc' => '', 'meal' => 0, 'fit' => 0],
     'sunrise-life-reset' => ['name' => 'Sunrise.Life.Reset', 'price' => 129, 'desc' => '', 'meal' => 0, 'fit' => 0],
     'kayak-with-us' => ['name' => 'Kayak.With.Us', 'price' => 129, 'desc' => '', 'meal' => 0, 'fit' => 0],
     'fit-without-gym' => ['name' => 'Fit.Without.Gym', 'price' => 199, 'desc' => '', 'meal' => 0, 'fit' => 0],
-    'personal-fitness-training1' => ['name' => 'Personal fitness training 1 Session', 'price' => 129, 'desc' => '', 'meal' => 0, 'fit' => 1],
-    'personal-fitness-training4' => ['name' => 'Personal fitness training 4 Sessions', 'price' => 516, 'desc' => '', 'meal' => 0, 'fit' => 1],
-    'personal-fitness-training8' => ['name' => 'Personal fitness training 8 Sessions', 'price' => 792, 'desc' => '', 'meal' => 0, 'fit' => 1],
-    'personal-fitness-training12' => ['name' => 'Personal fitness training 12 Sessions', 'price' => 900, 'desc' => '', 'meal' => 0, 'fit' => 1],
-    'personal-fitness-training1230' => ['name' => 'Personal fitness training 12 Sessions 30 mins', 'price' => 585, 'desc' => '', 'meal' => 0, 'fit' => 1],
+    'personal-fitness-training1' => ['name' => 'Personal fitness training 1 Session', 'price' => 129, 'desc' => '', 'meal' => 0, 'fit' => 0],
+    'personal-fitness-training4' => ['name' => 'Personal fitness training 4 Sessions', 'price' => 516, 'desc' => '', 'meal' => 0, 'fit' => 0],
+    'personal-fitness-training8' => ['name' => 'Personal fitness training 8 Sessions', 'price' => 792, 'desc' => '', 'meal' => 0, 'fit' => 0],
+    'personal-fitness-training12' => ['name' => 'Personal fitness training 12 Sessions', 'price' => 900, 'desc' => '', 'meal' => 0, 'fit' => 0],
+    'personal-fitness-training1230' => ['name' => 'Personal fitness training 12 Sessions 30 mins', 'price' => 585, 'desc' => '', 'meal' => 0, 'fit' => 0],
 
-    'group-fitness-training' => ['name' => 'Group-fitness-training', 'price' => 507, 'desc' => '', 'meal' => 0, 'fit' => 1],
+    'group-fitness-training' => ['name' => 'Group-fitness-training', 'price' => 507, 'desc' => '', 'meal' => 0, 'fit' => 0],
 
 
     'life-reset-retreat1' => ['name' => 'Life Reset Retreat1', 'price' => 490, 'desc' => '', 'meal' => 0, 'fit' => 0],
@@ -56,6 +56,8 @@ return [
         'meal' => 1,
         'route' => 'nutrition-reset-consultation'
         , 'fit' => 1
+        , 'fit_order' => 2
+        ,
     ],
 
     'weekly-meal-prepping5' => [
@@ -126,7 +128,7 @@ return [
         'price' => 199,
         'desc' => 'Monthly personalized training programming with weekly check ins and an initial fitness reset consultation. Designed to build structure and consistency without live sessions.',
         'meal' => 0,
-        'fit' => 1,
+        'fit' => 0,
         'fit-subscription' => 1
     ],
 
@@ -135,7 +137,7 @@ return [
         'price' => 507,
         'desc' => 'Unlimited group fitness sessions per month with professional coaching, accountability, and community driven motivation.',
         'meal' => 0,
-        'fit' => 1,
+        'fit' => 0,
         'fit-subscription' => 1
     ],
 
@@ -144,7 +146,7 @@ return [
         'price' => 429,
         'desc' => 'One on one personal training session each week. Ideal balance between guidance, flexibility, and long term consistency.',
         'meal' => 0,
-        'fit' => 1,
+        'fit' => 0,
         'fit-subscription' => 1
     ],
 
@@ -153,7 +155,7 @@ return [
         'price' => 858,
         'desc' => 'Two weekly one on one training sessions designed to accelerate progress and reinforce long lasting habits.',
         'meal' => 0,
-        'fit' => 1,
+        'fit' => 0,
         'fit-subscription' => 1
     ],
 
@@ -162,11 +164,107 @@ return [
         'price' => 1287,
         'desc' => 'Three weekly one on one sessions for clients fully committed to transformation, performance, and accountability.',
         'meal' => 0,
-        'fit' => 1,
+        'fit' => 0,
         'fit-subscription' => 1
     ],
 
+// === NUEVOS PRODUCTOS FIT (tabla principal) ===
 
+    'personal-training-session-60' => [
+        'name' => '1:1 Personal Training Session (60min)',
+        'price' => 129,
+        'desc' => '',
+        'meal' => 0,
+        'fit' => 1,
+        'fit_order' => 3,
+    ],
+
+    'fit-sub-1x-week' => [
+        'name' => '(1x/week) 1:1 Monthly Subscription Sessions ($99)*',
+        'price' => 429,
+        'desc' => 'One on one personal training session each week. Ideal balance between guidance, flexibility, and long term consistency.',
+        'meal' => 0,
+        'fit' => 1,
+        'fit_order' => 4,
+    ],
+
+    'fit-sub-2x-week' => [
+        'name' => '(2x/week) 1:1 Monthly Subscription Sessions ($99)*',
+        'price' => 858,
+        'desc' => 'Two weekly one on one training sessions designed to accelerate progress and reinforce long lasting habits.',
+        'meal' => 0,
+        'fit' => 1,
+        'fit_order' => 5,
+    ],
+
+    'fit-sub-3x-week' => [
+        'name' => '(3x/week) 1:1 Monthly Subscription Sessions ($99)*',
+        'price' => 1287,
+        'desc' => 'Three weekly one on one sessions for clients fully committed to transformation, performance, and accountability.',
+        'meal' => 0,
+        'fit' => 1,
+        'fit_order' => 6,
+    ],
+
+    'fit-group-training-sub' => [
+        'name' => 'Group Fitness Training (Subscription)*',
+        'price' => 507,
+        'desc' => 'Unlimited group fitness sessions per month with professional coaching, accountability, and community driven motivation.',
+        'meal' => 0,
+        'fit' => 1,
+        'fit_order' => 7,
+    ],
+
+    'fit-diy-monthly' => [
+        'name' => 'DIY Monthly Training Programming (Subscription)*',
+        'price' => 199,
+        'desc' => 'Initial Fit.Reset.Consultation. Monthly InBody Body Comp./Metrics. Monthly Customized Exercise Programming. Weekly Check-ins.',
+        'meal' => 0,
+        'fit' => 1,
+        'fit_order' => 8,
+    ],
+
+    // === ALUMNI SUBSCRIPTIONS ===
+
+    'alumni-subscription-a' => [
+        'name' => 'Subscription Level A',
+        'price' => 565,
+        'desc' => '',
+        'meal' => 0,
+        'fit' => 0,
+        'fit_alumni' => 1,
+        'fit_order' => 1,
+    ],
+
+    'alumni-subscription-b' => [
+        'name' => 'Subscription Level B',
+        'price' => 650,
+        'desc' => '',
+        'meal' => 0,
+        'fit' => 0,
+        'fit_alumni' => 1,
+        'fit_order' => 2,
+    ],
+
+    'alumni-subscription-c' => [
+        'name' => 'Subscription Level C',
+        'price' => 780,
+        'desc' => '',
+        'meal' => 0,
+        'fit' => 0,
+        'fit_alumni' => 1,
+        'fit_order' => 3,
+    ],
+
+    'alumni-subscription-d' => [
+        'name' => 'Subscription Level D',
+        'price' => 1170,
+        'desc' => '',
+        'meal' => 0,
+        'fit' => 0,
+        'fit_alumni' => 1,
+        'fit_order' => 4,
+    ],
 
 
 ];

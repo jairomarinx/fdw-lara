@@ -30,9 +30,10 @@
 <body>
 @include('index1.header')
 @php
-    $products = collect(config('products'))
-        ->filter(fn($p) => $p['fit'] === 1);
-    
+$products = collect(config('products'))
+    ->filter(fn($p) => ($p['fit'] ?? 0) === 1)
+    ->sortBy('fit_order');
+        
     if (!isset($fitProduct)) $fitProduct = null;  
 @endphp
 

@@ -12,7 +12,7 @@
             'price' => 10,
             'old_price' => 25,
             'desc' => 'Lift with intention. Support your grip. Train without fear of losing the bar.',
-            'image' => asset('rwrist1.jpg'),
+            'image' => asset('pw1.jpg'),
             'badge' => 'STRENGTH'
         ],
         'sliders' => [
@@ -21,7 +21,7 @@
             'price' => 8,
             'old_price' => 20,
             'desc' => 'Controlled instability that builds real core strength without punishing your joints.',
-            'image' => asset('slider1.jpg'),
+            'image' => asset('pslider1.jpg'),
             'badge' => 'CONTROL'
         ],
         'booty-bands' => [
@@ -30,7 +30,7 @@
             'price' => 15,
             'old_price' => 30,
             'desc' => 'Activate glutes properly. Feel every rep. No slipping. No distractions.',
-            'image' => asset('booty2.webp'),
+            'image' => asset('main_booty.jpg'),
             'badge' => 'ACTIVATE'
         ],
         'ankle-straps' => [
@@ -39,7 +39,7 @@
             'price' => 19,
             'old_price' => 35,
             'desc' => 'Cable precision for glute and lower body work. Comfort meets performance.',
-            'image' => asset('ankle1.jpg'),
+            'image' => asset('pa1.jpg'),
             'badge' => 'PRECISION'
         ],
     ];
@@ -206,9 +206,14 @@
                     <span class="fdw-price-now">${{ $item['price'] }}</span>
                 </div>
 
-                <a href="{{ url($item['slug']) }}" class="fdw-btn-view">
+                <a href="{{ url($item['slug']) }}" class="fdw-btn-view" style="background-color: white; border-color: #000; border-style: solid;">
                     Learn More
                 </a>
+
+                <a href="{{ url('general-checkout/'.$key) }}" class="fdw-btn-view mt-3" >
+                    Buy Now!
+                </a>
+
             </div>
 
         </div>

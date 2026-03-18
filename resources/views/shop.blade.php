@@ -207,7 +207,7 @@
                 </div>
 
                 <a href="{{ url($item['slug']) }}" class="fdw-btn-view">
-                    Explore Product
+                    Learn More
                 </a>
             </div>
 

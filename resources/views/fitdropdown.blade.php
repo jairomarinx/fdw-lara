@@ -33,7 +33,7 @@
 $products = collect(config('products'))
     ->filter(fn($p) => ($p['fit'] ?? 0) === 1)
     ->sortBy('fit_order');
-        
+
     if (!isset($fitProduct)) $fitProduct = null;  
 @endphp
 
@@ -115,12 +115,57 @@ $products = collect(config('products'))
                     </div>
                 @endforeach
 
+{{-- Alumni Subscriptions --}}
+@php
+    $alumniProducts = collect(config('products'))
+        ->filter(fn($p) => ($p['fit_alumni'] ?? 0) === 1)
+        ->sortBy('fit_order');
+@endphp
+
+@if($alumniProducts->isNotEmpty())
+    <div class="row fw-bold border-bottom py-2 mt-3">
+        <div class="col-md-12">
+            <span style="text-transform: uppercase; letter-spacing: 1px; font-size: 30px; "><span class="fw-bold yellow">Alumni Subscriptions</span></span>
+        </div>
+    </div>
+
+    @foreach($alumniProducts as $key => $product)
+        <div class="row align-items-center border-bottom py-3">
+            <div class="col-md-5">
+                <div class="fw-semibold">{{ $product['name'] }}</div>
+            </div>
+            <div class="col-md-3 text-center">
+                <div class="d-inline-flex align-items-center gap-2">
+                    <button type="button" class="btn btn-outline-secondary btn-sm"
+                            onclick="changeQty('{{ $key }}', -1)">−</button>
+                    <input type="number"
+                           name="items[{{ $key }}]"
+                           id="qty-{{ $key }}"
+                           data-price="{{ $product['price'] }}"
+                           value="0" min="0"
+                           class="form-control text-center"
+                           style="width:70px">
+                    <button type="button" class="btn btn-outline-secondary btn-sm"
+                            onclick="changeQty('{{ $key }}', 1)">+</button>
+                </div>
+            </div>
+            <div class="col-md-2 text-end text-muted">
+                ${{ number_format($product['price'], 2) }}
+            </div>
+            <div class="col-md-2 text-end fw-semibold text-success"
+                 id="subtotal-{{ $key }}">
+                $0.00
+            </div>
+        </div>
+    @endforeach
+@endif                
+
                 <div class="mt-4">
                     <label class="form-label fw-semibold">Location preferences or notes, Days/times, Past Pertinent History, Questions</label>
                     <textarea name="comments"
                               class="form-control"
                               rows="3"
-                              placeholder="Location Choice, notes)"></textarea>
+                              placeholder="Location/FaceTime, Days/Times, Past Pertinent History, Questions?"></textarea>
                 </div>
 
                 <div class="d-flex justify-content-between align-items-center mt-4 pt-3 border-top">

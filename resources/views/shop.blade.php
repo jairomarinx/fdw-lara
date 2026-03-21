@@ -9,7 +9,7 @@
         'wrist-straps' => [
             'slug' => '/products/wrist-wraps',
             'name' => 'WRIST STRAPS',
-            'price' => 10,
+            'price' => 9.99,
             'old_price' => 25,
             'desc' => 'Lift with intention. Support your grip. Train without fear of losing the bar.',
             'image' => asset('pw1.jpg'),
@@ -18,7 +18,7 @@
         'sliders' => [
             'slug' => '/products/sliders',
             'name' => 'CORE SLIDERS',
-            'price' => 8,
+            'price' => 8.99,
             'old_price' => 20,
             'desc' => 'Controlled instability that builds real core strength without punishing your joints.',
             'image' => asset('pslider1.jpg'),
@@ -27,7 +27,7 @@
         'booty-bands' => [
             'slug' => '/products/booty',
             'name' => 'BOOTY BANDS',
-            'price' => 15,
+            'price' => 15.99,
             'old_price' => 30,
             'desc' => 'Activate glutes properly. Feel every rep. No slipping. No distractions.',
             'image' => asset('main_booty.jpg'),
@@ -36,7 +36,7 @@
         'ankle-straps' => [
             'slug' => '/products/ankle',
             'name' => 'ANKLE STRAPS',
-            'price' => 19,
+            'price' => 18.99,
             'old_price' => 35,
             'desc' => 'Cable precision for glute and lower body work. Comfort meets performance.',
             'image' => asset('pa1.jpg'),
@@ -203,7 +203,7 @@
 
                 <div class="mb-4">
                     <span class="fdw-price-old">${{ $item['old_price'] }}</span>
-                    <span class="fdw-price-now">${{ $item['price'] }}</span>
+                    <span class="fdw-price-now">${{ $item['price'] }} USD</span>
                 </div>
 
                 <a href="{{ url($item['slug']) }}" class="fdw-btn-view" style="background-color: white; border-color: #000; border-style: solid;">

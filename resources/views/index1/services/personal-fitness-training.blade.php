@@ -38,7 +38,7 @@ We adjust pace, intensity, and exercises to fit your real life.
 This is personal training that actually feels personal.
 No distractions. No comparison. Just progress.</span>
                     
-                    <a href="{{ route('general-checkout',['product' => 'personal-fitness-training1']) }}" class="btn btn-warning d-block text-center mx-auto mt-4">1 Session 129 USD</a>
+                    <a href="{{ url('fit/personal-fitness-training1') }}" class="btn btn-warning d-block text-center mx-auto mt-4">1 Session 129 USD</a>
 
                 </div>
             </div>

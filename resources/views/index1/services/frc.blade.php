@@ -32,7 +32,7 @@ We evaluate your current habits, fitness level, and barriers, and craft a realis
 No fluff. No one size fits all. Just a blueprint tailored to help you thrive.
 Start strong with structure that supports your long-term success.</span>
 
-                    <a href="{{ route('general-checkout',['product' => 'fit-reset-consultation' ]) }}"
+                    <a href="{{ url('fit/fit-reset-consultation') }}"
                         class="btn btn-warning d-block text-center mx-auto mt-4">Book your consultation!</a>
                 </div>
             </div>
@@ -48,7 +48,7 @@ We break down your reset into manageable actions that build momentum.
 Every step is designed to spark motivation, discipline, and daily wins.
 You’ll leave with a clear sense of direction and a plan you’ll actually follow.</span><br><br></p>
 
-                    <a href="{{ route('general-checkout',['product' => 'fit-reset-consultation' ]) }}"
+                    <a href="{{ url('fit/fit-reset-consultation') }}"
                         class="btn btn-warning d-block text-center mx-auto mt-4">Book your consultation!</a>
 
                 </div>
@@ -65,7 +65,7 @@ We help you reframe old habits, release guilt, and embrace self-respect.
 Expect honest conversation, mindset tools, and support to stay on track.<br>
 You’ll walk away ready to put your wellness first, without apology.</span><br><br> 
 
-                    <a href="{{ route('general-checkout',['product' => 'fit-reset-consultation' ]) }}"
+                    <a href="{{ url('fit/fit-reset-consultation') }}"
                         class="btn btn-warning d-block text-center mx-auto mt-4">Book your consultation!</a>
 
                 </div>

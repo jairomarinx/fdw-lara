@@ -33,7 +33,7 @@
                 <div class="text-center mt-3">
                     <a href="{{ route('personal-fitness-training') }}" class="btn btn-outline-dark mb-2">Learn More</a>
 
-                    <a href="{{ route('fit' ) }}" class="btn btn-warning d-block mt-2 ">Buy Now!</a>
+                    <a href="{{ url('fit/personal-training-session-60' ) }}" class="btn btn-warning d-block mt-2 ">1:1 Personal Training Session (60min)<br>129 USD</a>
 
                     <a href="{{ route('general-checkout', ['product' => 'personal-fitness-training1']) }}" class="btn btn-warning d-block mt-2 d-none">1 Session $129.00</a>
                     <a href="{{ route('general-checkout', ['product' => 'personal-fitness-training4']) }}" class="btn btn-warning d-block mt-2 d-none">4 Sessions $516.00</a>
@@ -60,7 +60,7 @@
                 </p>
                 <div class="text-center mt-3">
                     <a href="{{ route('group-fitness-training') }}" class="btn btn-outline-dark mb-2">Learn More</a>
-                    <a href="{{ route('fit', 'group-fitness-training') }}" class="btn btn-warning d-block mt-2">1 Month $507.00</a>
+                    <a href="{{ url('fit/fit-group-training-sub') }}" class="btn btn-warning d-block mt-2">Group Fitness Training (Subscription)*<br>507 USD</a>
                 </div>
             </div>
         </div>

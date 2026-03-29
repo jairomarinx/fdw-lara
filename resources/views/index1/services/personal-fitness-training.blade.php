@@ -110,35 +110,31 @@ Every movement counts, and we make sure it's done right.</span><br><br></p>
   </p>
 
   <div class="d-flex flex-column flex-md-row justify-content-center gap-4">
-    <a href="{{ url('/general-checkout/personal-fitness-training1') }}"
+    <a href="{{ url('/fit/personal-training-session-60') }}"
        class="btn fw-bold"
        style="background-color: #28a745; color: white; font-size: 1.3rem; padding: 1.2rem 3rem; border-radius: 2rem;">
-      1 Session<br>$129 usd
+      1:1 Personal Training Session (60min)<br>129 USD
     </a>
 
-    <a href="{{ url('/general-checkout/personal-fitness-training4') }}"
+    <a href="{{ url('/fit/fit-sub-1x-week') }}"
        class="btn fw-bold"
        style="background-color: #198754; color: white; font-size: 1.3rem; padding: 1.2rem 3rem; border-radius: 2rem;">
-      4 Sessions<br>$516 usd
+      (1x/week) 1:1 Monthly Subscription Sessions ($99)<br>429 USD
     </a>
 
-    <a href="{{ url('/general-checkout/personal-fitness-training8') }}"
+    <a href="{{ url('/fit/fit-sub-2x-week') }}"
        class="btn fw-bold"
        style="background-color: #157347; color: white; font-size: 1.3rem; padding: 1.2rem 3rem; border-radius: 2rem;">
-      8 Sessions<br>$792 usd
+      (2x/week) 1:1 Monthly Subscription Sessions ($99)<br>858 USD
     </a>
 
-    <a href="{{ url('/general-checkout/personal-fitness-training12') }}"
+    <a href="{{ url('/fit/fit-sub-3x-week') }}"
        class="btn fw-bold"
        style="background-color: #157347; color: white; font-size: 1.3rem; padding: 1.2rem 3rem; border-radius: 2rem;">
-      12 Sessions<br>$900 usd
+      (3x/week) 1:1 Monthly Subscription Sessions ($99)<br>1287 USD
     </a>
 
-    <a href="{{ url('/general-checkout/personal-fitness-training1230') }}"
-       class="btn fw-bold"
-       style="background-color: #157347; color: white; font-size: 1.3rem; padding: 1.2rem 3rem; border-radius: 2rem;">
-      12 Sessions 30 mins<br>$585 usd
-    </a>
+
 
 
 

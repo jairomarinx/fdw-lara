@@ -30,7 +30,7 @@
                 </a>
             </div>
             <div class="col-lg-4">
-                <a href="https://www.amazon.com/s?me=A3ICCKPR3TSRVY&ref=sf_seller_app_share_new">
+                <a href="{{ url('/shop') }}">
                 <div class="blog-item">
                     <div class="position-relative overflow-hidden rounded-top">
                         <img class="img-fluid" src="{{ asset('products.webp') }}" alt="">
@@ -38,7 +38,7 @@
                     <div class="bg-dark d-flex align-items-center rounded-bottom p-4">
                         <div class="flex-shrink-0 text-center text-secondary border-end border-secondary pe-3 me-3">
                             <img src="{{ asset('logo-fdw.png') }}" alt="" class="img-fluid" style="max-width: clamp(40px, 10vw, 100px);">                        </div>
-                        <a class="h3 text-uppercase text-light" href="https://www.amazon.com/s?me=A3ICCKPR3TSRVY&ref=sf_seller_app_share_new">Our Products <br><span class="text-primary h5">Stronger Every Day</span></h4></a>
+                        <a class="h3 text-uppercase text-light" href="{{ url('/shop') }}">Our Products <br><span class="text-primary h5">Stronger Every Day</span></h4></a>
                     </div>
                 </div>
                 </a>
@@ -98,12 +98,12 @@
                         <img class="img-fluid w-100" src="{{ asset('t1/img/laly-band.webp') }}" alt="">
                         <div class="team-overlay">
                             <div class="d-flex align-items-center justify-content-start">
-                                <a class="btn btn-light btn-square rounded-circle mx-1" href="https://www.amazon.com/s?me=A3ICCKPR3TSRVY&ref=sf_seller_app_share_new"><i class="fas fa-link"></i> </a>
+                                <a class="btn btn-light btn-square rounded-circle mx-1" href="{{ url('/shop') }}"><i class="fas fa-link"></i> </a>
                             </div>
                         </div>
                     </div>
                     <div class="position-absolute start-0 bottom-0 w-100 rounded-bottom text-center p-4" style="background: rgba(34, 36, 41, .9);">
-                        <a href="https://www.amazon.com/s?me=A3ICCKPR3TSRVY&ref=sf_seller_app_share_new" class="btn btn-primary p-4" style="font-size: 18px; font-weight:800; background: #39FF14; color: #fff; border: none; width: 250px;"  >Products</a>
+                        <a href="{{ url('/shop') }}" class="btn btn-primary p-4" style="font-size: 18px; font-weight:800; background: #39FF14; color: #fff; border: none; width: 250px;"  >Products</a>
 
                     </div>
                 </div>

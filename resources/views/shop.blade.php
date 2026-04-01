@@ -218,7 +218,7 @@
                     Buy Now!
                 </a>
 
-                <a href="{{ url('general-checkout/'.$key) }}" class="fdw-btn-view mt-3" style="background-color: greenyellow;">
+                <a href="{{ url('general-checkout/'.$key) }}" class="fdw-btn-view mt-3" style="background-color: #06BD00;">
                     {{ $item['cop'] }} COP
                 </a>
 

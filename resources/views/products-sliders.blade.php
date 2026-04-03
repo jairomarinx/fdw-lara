@@ -41,7 +41,7 @@
                 'id' => 'black',
                 'name' => 'Black',
                 'note' => 'Pair (2 Discs), Dual-sided',
-                'price_sale' => 8.00,
+                'price_sale' => 8.99,
                 'price_regular' => 29.00,
                 'badge' => 'Best Seller',
             ],

@@ -637,10 +637,10 @@
                 <div class="fdw-card mt-3 fdw-fadein" data-fade>
                     <h2 class="fdw-section-title mb-3">Customer photos</h2>
                     <div class="fdw-ugc">
-                        <img src="{{ asset('wrist1.jpg') }}" alt="Customer photo 1" loading="lazy" decoding="async">
-                        <img src="{{ asset('wrist2.jpg') }}" alt="Customer photo 2" loading="lazy" decoding="async">
-                        <img src="{{ asset('wrist3.jpg') }}" alt="Customer photo 3" loading="lazy" decoding="async">
-                        <img src="{{ asset('wrist4.jpg') }}" alt="Customer photo 4" loading="lazy" decoding="async">
+                        <img src="{{ asset('rwrist1.jpg') }}" alt="Customer photo 1" loading="lazy" decoding="async">
+                        <img src="{{ asset('rwrist2.jpg') }}" alt="Customer photo 2" loading="lazy" decoding="async">
+                        <img src="{{ asset('rwrist3.jpg') }}" alt="Customer photo 3" loading="lazy" decoding="async">
+                        <img src="{{ asset('rwrist4.jpg') }}" alt="Customer photo 4" loading="lazy" decoding="async">
                     </div>
                     <div class="fdw-micro mt-2">Tag us to get featured.</div>
                 </div>

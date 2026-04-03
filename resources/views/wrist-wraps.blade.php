@@ -40,7 +40,7 @@
                 'id' => 'black',
                 'name' => 'Black',
                 'note' => 'Pair (2 Straps) — Left & Right',
-                'price_sale' => 10.00,
+                'price_sale' => 9.99,
                 'price_regular' => 39.00,
                 'badge' => 'Best Seller',
             ],

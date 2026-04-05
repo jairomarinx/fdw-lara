@@ -31,28 +31,28 @@
 
     // Reordenes Individuales
     $reorders = [
-        'booty-bands' => [
+        'bands-and-bag' => [
             'name' => 'BANDS + BAG',
             'price' => 9.99,
             'cop' => '40.000',
             'image' => asset('main_booty.jpg'),
             'badge' => 'REORDER'
         ],
-        'sliders' => [
+        'wholesale-sliders' => [
             'name' => 'CORE SLIDERS',
             'price' => 3.99,
             'cop' => '15.000',
             'image' => asset('pslider1.jpg'),
             'badge' => 'REORDER'
         ],
-        'ankle-straps' => [
+        'wholesale-ankle-straps' => [
             'name' => 'ANKLE STRAPS',
             'price' => 7.99,
             'cop' => '30.000',
             'image' => asset('pa1.jpg'),
             'badge' => 'REORDER'
         ],
-        'wrist-straps' => [
+        'wholesale-wrist-straps' => [
             'name' => 'WRIST STRAPS',
             'price' => 4.99,
             'cop' => '20.000',

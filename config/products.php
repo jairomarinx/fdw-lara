@@ -288,8 +288,44 @@ return [
         'fit_order' => 4,
     ],
 
+    'bands-and-bag' => [
+        'name' => 'BANDS + BAG',
+        'price' => 9.99,
+        'desc' => 'Bands and Bag',
+        'meal' => 0,
+        'fit' => 0,
+        'fit_alumni' => 0,
+        'fit_order' => 4,
+    ],    
 
+    'wholesale-sliders' => [
+        'name' => 'WHOLESALE CORE SLIDERS',
+        'price' => 3.99,
+        'desc' => 'Core sliders',
+        'meal' => 0,
+        'fit' => 0,
+        'fit_alumni' => 0,
+        'fit_order' => 4,
+    ],    
 
+    'wholesale-ankle-straps' => [
+        'name' => 'WHOLESALE ANKLE STRAPS',
+        'price' => 7.99,
+        'desc' => 'Core sliders',
+        'meal' => 0,
+        'fit' => 0,
+        'fit_alumni' => 0,
+        'fit_order' => 4,
+    ],      
 
+    'wholesale-wrist-straps' => [
+        'name' => 'WHOLESALE WRIST STRAPS',
+        'price' => 4.99,
+        'desc' => 'Core sliders',
+        'meal' => 0,
+        'fit' => 0,
+        'fit_alumni' => 0,
+        'fit_order' => 4,
+    ],          
 
 ];

@@ -3,7 +3,7 @@
         <div class="row gx-0">
             <div class="col-lg-3 bg-dark d-none d-lg-block">
                 <a href="{{ route('root') }}" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
-                    <h1 class="m-0  fit-font">Fit.Done.Well.</h1>
+                    <h1 class="m-0  fit-font">{{ t('Fit.Done.Well.') }}</h1>
                 </a>
             </div>
             <div class="col-lg-9">
@@ -19,51 +19,50 @@
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto py-0">
                             <a href="{{ url('/services') }}" class="nav-item nav-link">{{ t('Services') }}</a>
-                            <a href="{{ url('/our-programs') }}" class="nav-item nav-link">Programs</a>
-                            <a href="https://www.amazon.com/s?me=A3ICCKPR3TSRVY&ref=sf_seller_app_share_new" class="nav-item nav-link d-none">Products</a>
-                            <a href="{{ route('main-events') }}" class="nav-item nav-link">Events</a>
-                            <a href="{{ url('/#real_schedule') }}" class="nav-item nav-link">Consultations</a>
+                            <a href="{{ url('/our-programs') }}" class="nav-item nav-link">{{ t('programs') }}</a>
+                            <a href="{{ route('main-events') }}" class="nav-item nav-link">{{ t('Events') }}</a>
+                            <a href="{{ url('/#real_schedule') }}" class="nav-item nav-link">{{ t('Consultations') }}</a>
 
 
                             <div class="nav-item dropdown">
                                 <a href="http://blog.fitdonewell.com" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Blog</a>
                                 <div class="dropdown-menu rounded-0 m-0">
-                                    <a href="https://blog.fitdonewell.com/category/strong-bodies/" class="dropdown-item">Strong Bodies - Blog</a>
-                                    <a href="https://blog.fitdonewell.com/category/open-minds/" class="dropdown-item">Open Minds - Blog</a>
-                                    <a href="https://blog.fitdonewell.com/category/kind-hearts/" class="dropdown-item">Kind Hearts - Blog</a>
+                                    <a href="https://blog.fitdonewell.com/category/strong-bodies/" class="dropdown-item">{{ t('Strong Bodies - Blog') }}</a>
+                                    <a href="https://blog.fitdonewell.com/category/open-minds/" class="dropdown-item">{{ t('Open Minds - Blog') }}</a>
+                                    <a href="https://blog.fitdonewell.com/category/kind-hearts/" class="dropdown-item">{{ t('Kind Hearts - Blog') }}</a>
 
                                 </div>
 
                             </div>
                             <div class="nav-item dropdown">
-                                <a href="http://blog.fitdonewell.com" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Our Shop</a>
+                                <a href="http://blog.fitdonewell.com" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">{{ t('Our Shop') }}</a>
                                 <div class="dropdown-menu rounded-0 m-0">
-                                    <a href="{{ url('/shop') }}" class="dropdown-item">All Products</a>
+                                    <a href="{{ url('/shop') }}" class="dropdown-item">{{ t('All Products') }}</a>
 
-                                    <a href="{{ url('/products/booty') }}" class="dropdown-item">Booty Bands</a>
-                                    <a href="{{ url('/products/sliders') }}" class="dropdown-item">Exercise Sliders</a>
-                                    <a href="{{ url('/products/wrist-wraps') }}" class="dropdown-item">Wrist Wraps</a>
-                                    <a href="{{ url('/products/ankle') }}" class="dropdown-item">Ankle Straps</a>
-                                    <a href="{{ url('/wholesale') }}" class="dropdown-item">wholesale</a>
+                                    <a href="{{ url('/products/booty') }}" class="dropdown-item">{{ t('Booty Bands') }}</a>
+                                    <a href="{{ url('/products/sliders') }}" class="dropdown-item">{{ t('Exercise Sliders') }}</a>
+                                    <a href="{{ url('/products/wrist-wraps') }}" class="dropdown-item">{{ t('Wrist Wraps') }}</a>
+                                    <a href="{{ url('/products/ankle') }}" class="dropdown-item">{{ t('Ankle Straps') }}</a>
+                                    <a href="{{ url('/wholesale') }}" class="dropdown-item">{{ t('wholesale') }}</a>
 
 
                                 </div>
                             </div>
 
-                            <a href="http://aplshop.com/j/824054" class="nav-item nav-link">Supplements</a>
-                            <a href="{{ route('weekly-meal-prepping') }}" class="nav-item nav-link">Meals</a>
+                            <a href="http://aplshop.com/j/824054" class="nav-item nav-link">{{ t('Supplements') }}</a>
+                            <a href="{{ route('weekly-meal-prepping') }}" class="nav-item nav-link">{{ t('Meals') }}</a>
 
 
-                            <a href="{{ route('contact-us') }}" class="nav-item nav-link active">Contact</a>
+                            <a href="{{ route('contact-us') }}" class="nav-item nav-link active">{{ t('Contact') }}</a>
 
                             <div class="nav-item dropdown">
-                                <a href="http://blog.fitdonewell.com" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Clients</a>
+                                <a href="http://blog.fitdonewell.com" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">{{ t('Clients') }}</a>
                                 <div class="dropdown-menu rounded-0 m-0">
                                     @auth
-                                        <a href="{{ url('/dashboard') }}" class="dropdown-item">Dashboard</a>
+                                        <a href="{{ url('/dashboard') }}" class="dropdown-item">{{ t('Dashboard') }}</a>
                                     @else
-                                        <a href="{{ route('login') }}" class="dropdown-item"> Login</a>
-                                        <a href="{{ route('register') }}" class="dropdown-item">Register</a>
+                                        <a href="{{ route('login') }}" class="dropdown-item"> {{ t('Login') }}</a>
+                                        <a href="{{ route('register') }}" class="dropdown-item">{{ t('Register') }}</a>
 
                                     @endauth                                    
                                     <hr class="dropdown-divider"></a>

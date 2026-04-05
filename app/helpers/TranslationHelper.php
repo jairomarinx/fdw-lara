@@ -3,17 +3,15 @@
 if (!function_exists('t')) {
     function t(string $key): string
     {
+        $normalizedKey = mb_strtolower(trim($key));
 
         // ── Modo colector ──────────────────────────────────────────
         $collector = storage_path('app/lang_collector.php');
-
-        // Cargar las keys ya registradas
         $collected = file_exists($collector) ? include $collector : [];
 
-        // Si la key no está, agregarla y reescribir el archivo
-        if (!array_key_exists($key, $collected)) {
-            $collected[$key] = $key;
-
+        if (!array_key_exists($normalizedKey, $collected)) {
+            $collected[$normalizedKey] = $key; // valor original para referencia
+            
             $export = "<?php\nreturn [\n";
             foreach ($collected as $k => $v) {
                 $k = addslashes($k);
@@ -40,6 +38,7 @@ if (!function_exists('t')) {
 
         $translations = include $langFile;
 
-        return $translations[$key] ?? $key;
+        // Buscar con key normalizada
+        return $translations[$normalizedKey] ?? $key;
     }
 }

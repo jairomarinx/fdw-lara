@@ -266,5 +266,30 @@ return [
         'fit_order' => 4,
     ],
 
+    //wholesale 
+
+    'retail-starter' => [
+        'name' => 'RETAIL STARTER KIT',
+        'price' => 375,
+        'desc' => 'Complete inventory to start selling. Includes Bands, Sliders, Ankle & Wrist Straps.',
+        'meal' => 0,
+        'fit' => 0,
+        'fit_alumni' => 0,
+        'fit_order' => 4,
+    ],
+
+    'gym-starter' => [
+        'name' => 'GYM STARTER KIT',
+        'price' => 187.50,
+        'desc' => 'Perfect for small studios or gym boutiques looking to equip their community.',
+        'meal' => 0,
+        'fit' => 0,
+        'fit_alumni' => 0,
+        'fit_order' => 4,
+    ],
+
+
+
+
 
 ];

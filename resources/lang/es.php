@@ -1,0 +1,21 @@
+<?php
+return [
+    'Services'         => 'Servicios',
+    'Programs'         => 'Programas',
+    'Events'           => 'Eventos',
+    'Consultations'    => 'Consultas',
+    'Blog'             => 'Blog',
+    'Our Shop'         => 'Nuestra Tienda',
+    'Supplements'      => 'Suplementos',
+    'Meals'            => 'Comidas',
+    'Contact'          => 'Contacto',
+    'Clients'          => 'Clientes',
+    'Login'            => 'Iniciar sesión',
+    'Register'         => 'Registrarse',
+    'Dashboard'        => 'Panel',
+    'All Products'     => 'Todos los productos',
+    'Booty Bands'      => 'Bandas de Glúteos',
+    'Exercise Sliders' => 'Discos Deslizantes',
+    'Wrist Wraps'      => 'Muñequeras',
+    'Ankle Straps'     => 'Correas de Tobillo',
+];

@@ -195,4 +195,11 @@ Route::get('/shop', function(){
     return view('shop');
 });
 
+Route::get('/set-lang/{lang}', function ($lang) {
+    $allowed = ['en', 'es'];
+    if (!in_array($lang, $allowed)) $lang = 'en';
 
+    return redirect()->back()->withCookie(
+        cookie()->forever('lang', $lang)
+    );
+})->name('set.lang');

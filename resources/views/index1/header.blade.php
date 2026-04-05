@@ -18,7 +18,7 @@
                     </button>
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto py-0">
-                            <a href="{{ url('/services') }}" class="nav-item nav-link">Services</a>
+                            <a href="{{ url('/services') }}" class="nav-item nav-link">{{ t('Services') }}</a>
                             <a href="{{ url('/our-programs') }}" class="nav-item nav-link">Programs</a>
                             <a href="https://www.amazon.com/s?me=A3ICCKPR3TSRVY&ref=sf_seller_app_share_new" class="nav-item nav-link d-none">Products</a>
                             <a href="{{ route('main-events') }}" class="nav-item nav-link">Events</a>
@@ -64,6 +64,19 @@
                                         <a href="{{ route('register') }}" class="dropdown-item">Register</a>
 
                                     @endauth                                    
+                                    <hr class="dropdown-divider"></a>
+                                    @php $currentLang = request()->cookie('lang', 'en'); @endphp
+
+                                    @if($currentLang === 'en')
+                                        <a href="{{ route('set.lang', 'es') }}" class="dropdown-item">
+                                            🌐 Español
+                                        </a>
+                                    @else
+                                        <a href="{{ route('set.lang', 'en') }}" class="dropdown-item">
+                                            🌐 English
+                                        </a>
+                                    @endif                                   
+
                                 </div>
                             </div>
                         </div>

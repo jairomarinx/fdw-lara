@@ -18,8 +18,9 @@
         <h4 class="text-body mb-4">Train Smarter. Get Stronger. Stay Consistent.
         </h4>
 
-        <h5 class="text-gray fs-1"><span class="text-primary"> WHAT YOU GET</span> </h5>
-        <h6 class="text-gray fs-3">(Face Time or Scottsdale Facility)</h6>
+        <h5 class="text-gray fs-1 d-none"><span class="text-primary"> WHAT YOU GET</span> </h5>
+        <a href="{{ url('/fit') }}" class="mt-4 btn btn-warning d-block text-center mx-auto mt-4 fs-2" style="width: 400px; padding: 20px 80px; "> Buy Now! </a>
+        <h6 class="text-gray fs-3 d-none">(Face Time or Scottsdale Facility)</h6>
 
     </div>
 
@@ -97,6 +98,7 @@ Every movement counts, and we make sure it's done right.</span><br><br></p>
 
 
 
+        <a href="{{ url('/fit') }}" class="mt-4 btn btn-warning d-block text-center mx-auto mt-4 fs-2" style="width: 400px; padding: 20px 80px; "> Buy Now! </a>
 
 
 @include('index1.testimonials')

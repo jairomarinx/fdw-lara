@@ -195,6 +195,10 @@ Route::get('/shop', function(){
     return view('shop');
 });
 
+Route::get('/wholesale', function(){
+    return view('wholesale');
+});
+
 Route::get('/set-lang/{lang}', function ($lang) {
     $allowed = ['en', 'es'];
     if (!in_array($lang, $allowed)) $lang = 'en';

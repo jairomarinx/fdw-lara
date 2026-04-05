@@ -37,7 +37,7 @@
                 'id' => 'black',
                 'name' => 'Black',
                 'note' => 'Pair (2 Straps) — Neoprene Padding, 2 Steel D Rings',
-                'price_sale' => 12.00,
+                'price_sale' => 18.99,
                 'price_regular' => 35.00,
                 'badge' => 'Best Seller',
             ],
